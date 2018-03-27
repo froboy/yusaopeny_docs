@@ -21,3 +21,29 @@ You have to create local copy of your site locally to be able to proceed with th
 For that
  - Make a backup of your production database and copy it to your local machine
  - Make a copy of your production site codebase and copy it to your local machine
+
+...
+
+### Detect version of your OpenY
+
+...
+
+### Run command with next version
+
+...
+
+### Update the site
+
+...
+
+### Check for regressions
+
+...
+
+### Backup current state of the updated site
+
+...
+
+### Proceed with an update to next version until succeeded
+
+...
