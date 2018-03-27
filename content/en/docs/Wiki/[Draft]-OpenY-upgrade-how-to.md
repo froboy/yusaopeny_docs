@@ -72,7 +72,7 @@ You almost 100% proved updated were executed correctly.
 
 ...
 
-6. ### Proceed with an update to next version until succeeded
+6. ### Proceed with an update to next version until succeeded (Start from item 1)
 
 ...
 
