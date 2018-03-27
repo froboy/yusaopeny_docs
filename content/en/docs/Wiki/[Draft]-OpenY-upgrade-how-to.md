@@ -34,7 +34,20 @@ For that
 
 ### Update the site
 
-...
+Go to docroot folder of your codebase and run
+```sh
+drush updatedb
+drush entup
+```
+
+Ensure commands above finished with no error messages. Best way to check it - run them one more time. If next run shows 
+```sh
+$ drush updatedb
+No database updates required                                                                                    [success]
+$ drush entup
+No entity schema updates required                                                                               [success]
+```
+You almost 100% proved updated were executed correctly.
 
 ### Check for regressions
 
