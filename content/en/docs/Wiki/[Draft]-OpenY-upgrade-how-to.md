@@ -24,12 +24,12 @@ For that
 
 ...
 
-### Detect version of your OpenY
+1. ### Detect version of your OpenY
 
 Starting from OpenY 1.11 release you should see a version of OpenY in your site reports dashboard.
 For previous versions the best way to check your version is to analyze creation date of index.php pr README.txt file in the docroot folder of your site and compare it to the release date from https://github.com/ymcatwincities/openy/releases . Your OpenY version should be the one which is older than creation date of the files.
 
-### Run command with next never version
+2. ### Run command with next never version
 
 In a same folder where is your ```docroot``` folder run
 
@@ -47,7 +47,7 @@ composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowes
 
 ```
 
-### Update the site
+3. ### Update the site
 
 Go to docroot folder of your codebase and run
 ```sh
@@ -64,14 +64,16 @@ No entity schema updates required                                               
 ```
 You almost 100% proved updated were executed correctly.
 
-### Check for regressions
+4. ### Check for regressions
 
 ...
 
-### Backup current state of the updated site
+5. ### Backup current state of the updated site
 
 ...
 
-### Proceed with an update to next version until succeeded
+6. ### Proceed with an update to next version until succeeded
 
 ...
+
+
