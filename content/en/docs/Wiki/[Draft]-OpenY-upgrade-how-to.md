@@ -38,7 +38,7 @@ mv composer.json composer.json.bak || true
 wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/composer.json
 cd docroot/profiles/contrib/openy/
 rm -f yparse*
-wget http://CHANGE_ME/yparse.sh
+wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/yparse.sh
 drush cr
 sh yparse.sh | xargs drush en -y
 cd ../../../../
