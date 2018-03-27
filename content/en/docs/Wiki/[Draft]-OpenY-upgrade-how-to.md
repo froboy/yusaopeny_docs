@@ -1,6 +1,6 @@
 Hi, dear OpenY community
 
-This document aims to cover need of upgrade OpenY from older versions to recent ones.
+This document aims to cover the need of upgrade OpenY from older versions to recent ones.
 
 We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.
 
@@ -26,11 +26,26 @@ For that
 
 ### Detect version of your OpenY
 
-...
+Starting from OpenY 1.11 release you should see a version of OpenY in your site reports dashboard.
+For previous versions the best way to check your version is to analyze creation date of index.php pr README.txt file in the docroot folder of your site and compare it to the release date from https://github.com/ymcatwincities/openy/releases . Your OpenY version should be the one which is older than creation date of the files.
 
-### Run command with next version
+### Run command with next never version
 
-...
+In a same folder where is your ```docroot``` folder run
+
+```sh
+mv composer.json composer.json.bak || true
+wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/composer.json
+cd docroot/profiles/contrib/openy/
+rm -f yparse*
+wget http://CHANGE_ME/yparse.sh
+drush cr
+sh yparse.sh | xargs drush en -y
+cd ../../../../
+composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
+
+```
 
 ### Update the site
 
