@@ -32,3 +32,11 @@ cd docroot
 drush updatedb -y
 drush entup -y
 ```
+
+### Update production environment
+
+In case if above steps succeeded you need to deploy yuor codebase and database to production.
+1. Backup production site (database, assets, codebase)
+2. Copy new codebase over old (remove old one prior copying)
+3. Import upgraded database over old one (drop and import)
+4. Clear site cache
