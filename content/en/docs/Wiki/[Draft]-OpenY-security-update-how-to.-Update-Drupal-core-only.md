@@ -10,7 +10,7 @@ Upgrade Drupal core to latest 8.3.x version
 
 Upgrade Drupal core to latest 8.4.x version
 
-
+### All commands below should be run in non-production environment!!!
 
 ### How to upgrade Drupal core without updating OpenY
 
