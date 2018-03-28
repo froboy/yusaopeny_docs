@@ -6,9 +6,19 @@ Drupal core version is 8.2.x there, so you have to upgrade to at least 8.1.1 Ope
 
 Upgrade Drupal core to latest 8.3.9 version
 
+```sh
+composer require drupal/core:8.3.9 --no-update
+composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
+```
+
 ### OpenY versions 8.1.7-8.1.9
 
 Upgrade Drupal core to latest 8.4.6 version
+
+```sh
+composer require drupal/core:8.4.6 --no-update
+composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
+```
 
 ### All commands below should be run in non-production environment!!!
 
@@ -25,6 +35,8 @@ To get your Drupal core code updated follow the steps below:
 composer require drupal/core:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
 ```
+
+
 To get your database updated to latest Drupal core follow the steps below:
 
 ```sh
