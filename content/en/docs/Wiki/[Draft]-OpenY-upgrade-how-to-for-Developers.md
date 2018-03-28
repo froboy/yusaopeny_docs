@@ -26,7 +26,7 @@ For that
 
 1. ### Detect version of your OpenY
 
-Starting from OpenY 1.11 release you should see a version of OpenY in your site reports dashboard.
+Starting from OpenY 1.10 release you should see a version of OpenY in your site reports dashboard.
 For previous versions the best way to check your version is to analyze creation date of index.php pr README.txt file in the docroot folder of your site and compare it to the release date from https://github.com/ymcatwincities/openy/releases . Your OpenY version should be the one which is older than creation date of the files.
 
 2. ### Run command with next never version
