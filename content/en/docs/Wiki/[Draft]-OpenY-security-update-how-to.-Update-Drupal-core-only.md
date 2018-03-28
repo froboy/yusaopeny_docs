@@ -5,7 +5,7 @@ So consider to apply patch and plan OpenY upgrade later.
 
 ### How to apply patch
 
-### Patching OpenY releases 8.0.108.1.0 (Drupal core 8.2.x)
+### Patching OpenY releases 8.0.1 - 8.1.0 (Drupal core 8.2.x)
 
 For patching your very old OpenY release it is highly recommended to upgrade OpenY to latest version or at least to one of the 8.1.1-8.1.6 (Drupal core 8.3.x) with Drupal core upgrade to 8.3.9 https://www.drupal.org/project/drupal/releases/8.3.9 . In case if it is not possible right now, follow steps below:
 * Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo - you should:
