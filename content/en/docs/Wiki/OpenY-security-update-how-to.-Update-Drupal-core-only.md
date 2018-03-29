@@ -112,3 +112,44 @@ TIP: In case if you are using git repository for your site run
 git add docroot/core/lib/Drupal/Core/DrupalKernel.php docroot/core/lib/Drupal/Core/Security && git commit -m "Patching OpenY core" && git push
 ```
 to store your patched core into your own repository. 
+
+==========================
+
+### How to patch your Digitalocean OpenY install
+
+In case if you have followed tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo you should have your OPenY installed on you DigitalOcean server(droplet) in a predictable for current document folder. That's why we prepared a short how to patch your OpenY site in a most simple way if you are not a Tech Guru, but just a user
+1. Log in as an admin user to your site admin UI by visiting ```/user/login``` URI page.
+2. Go to ```/admin/reports/status``` after login and search for Drupal Version string. It should be something like 8.2.x, 8.3.x or 8.4.x (x - some number too, like 8.4.2, for example). Based on your finding follow the steps below to your version
+3. Login to your ВigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY ![image](https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png)
+4. You should see a popup window with a black screen where console asks you for the login. Use ```root``` user and a password generated for you upon droplet creation.
+5. After login to a console run the command below, respectively to the version of your Drupal core.
+
+### One line script to patch 8.2.x Drupal core for OpenY
+
+Type manually exact line
+
+```sh
+bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh)
+```
+and hit Enter.
+You should see ```OpenY was patched``` message. 
+
+### One line script to patch 8.3.x Drupal core for OpenY
+
+Type manually exact line
+
+```sh
+bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.3.x.sh)
+```
+and hit Enter.
+You should see ```OpenY was patched``` message. 
+
+### One line script to patch 8.4.x Drupal core for OpenY
+
+Type manually exact line
+
+```sh
+bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh)
+```
+and hit Enter.
+You should see ```OpenY was patched``` message. 
