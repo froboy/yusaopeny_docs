@@ -55,6 +55,13 @@ drush updatedb
 drush entup
 ```
 
+Sometimes, when ```updatedb``` fails, it is important to get stable version of some modules we found causing problems
+```sh
+drush dl -y plugin-8.x-2.5 contribute-8.x-1.0-beta7 scheduler-8.x-1.0 views_block_filter_block datalayer simple_menu_icons rabbit_hole metatag simple_sitemap
+drush en -y plugin contribute scheduler views_block_filter_block datalayer simple_menu_icons rabbit_hole metatag simple_sitemap || true
+```
+
+
 Ensure commands above finished with no error messages. Best way to check it - run them one more time. If next run shows 
 ```sh
 $ drush updatedb
