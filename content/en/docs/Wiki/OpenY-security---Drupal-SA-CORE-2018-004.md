@@ -9,11 +9,22 @@ So consider to apply patch and plan OpenY upgrade later.
 
 For patching your OpenY release, follow steps below:
 * Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo - you should:
+if your site is located in /var/www/html
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
+
 wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/SA-CORE-2018-004.patch
 ```
+
+if your site is located in /var/www/openy
+```sh
+ssh -l root YOUR_SERVER_DOMAIN_NAME
+cd /var/www/openy
+
+wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/SA-CORE-2018-004.patch
+```
+
 Now you are ready to patch your site. But before patching - make a backup of the file which is about to be patched
 ```sh
 sudo cp docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php /var/backups/RequestSanitizer.php
