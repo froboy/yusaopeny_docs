@@ -1,6 +1,6 @@
 ## Open Y Release Guidelines
 
-![OpenY Releases](https://s8.postimg.cc/5vjl8pe7p/releases.png)
+![OpenY Releases](https://s8.postimg.cc/vgvt8dlxx/releases.png)
 
 ### Major releases (Quarterly)
 
