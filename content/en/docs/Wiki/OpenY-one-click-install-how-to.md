@@ -14,7 +14,7 @@ bash < <(curl -Ls http://bit.ly/initopeny)
 ```
 Open http://127.0.0.1/core/install.php to proceed with OpenY installation.
 ```
-5. Open the link from the above message with your browser and proceed with OpenY installation.
+5. Open the link from the above message(from your console, not from this document) with your browser and proceed with OpenY installation.
 
 Enjoy.
 
