@@ -4,6 +4,9 @@
 
 1. Create Ubuntu 16.04 LTS x64 droplet in area close to your location
 ![image](https://user-images.githubusercontent.com/563412/44273919-6ffd8c80-a249-11e8-958b-3d7fbee6108d.png)
+
+Use 2Gb droplet or more powerful if you need. Do not use 1Gb option - OpenY will fail on it.
+
 2. Login to the SSH console of the droplet
 3. Follow the comment from https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/openyonclickinstall.sh
 Basically - run a command under root
