@@ -11,8 +11,11 @@ Basically - run a command under root
 bash < <(curl -Ls http://bit.ly/initopeny)
 ```
 4. In the end you should see a message similar to
+```
 Open http://127.0.0.1/core/install.php to proceed with OpenY installation.
-
+```
 5. Open the link from the above message with your browser and proceed with OpenY installation.
 
 Enjoy.
+
+If you found any issues - please post a message to issue queue https://github.com/ymcatwincities/openy/issues
