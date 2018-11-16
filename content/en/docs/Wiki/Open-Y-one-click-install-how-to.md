@@ -1,11 +1,11 @@
-### Welcome to OpenY wiki
+### Welcome to Open Y wiki
 
-### Installing OpenY on DigitalOcean droplet
+### Installing Open Y on DigitalOcean droplet
 
 1. Create Ubuntu 16.04 LTS x64 droplet in area close to your location
 ![image](https://user-images.githubusercontent.com/563412/44273919-6ffd8c80-a249-11e8-958b-3d7fbee6108d.png)
 
-Use 2Gb droplet or more powerful if you need. Do not use 1Gb option - OpenY will fail on it.
+Use 2Gb droplet or more powerful if you need. Do not use 1Gb option - Open Y will fail on it.
 
 2. Login to the SSH console of the droplet
 3. Follow the comment from https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/openyonclickinstall.sh
@@ -19,7 +19,7 @@ The command above will run approximately 10 minutes.
 ```
 Open http://127.0.0.1/core/install.php to proceed with OpenY installation.
 ```
-5. Open the link from the above message(from your console, not from this document) with your browser and proceed with OpenY installation.
+5. Open the link from the above message(from your console, not from this document) with your browser and proceed with Open Y installation.
 
 Enjoy.
 
