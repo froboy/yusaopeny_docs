@@ -22,4 +22,9 @@ Open http://127.0.0.1/core/install.php to proceed with OpenY installation.
 
 Enjoy.
 
+In order to install the latest beta release of Open Y 2.0 change the command on step 3:
+```sh
+curl -Ls http://bit.ly/initopeny | bash -s beta
+```
+
 If you found any issues - please post a message to issue queue https://github.com/ymcatwincities/openy/issues
