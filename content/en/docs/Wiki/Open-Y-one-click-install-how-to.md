@@ -11,10 +11,9 @@ Use 2Gb droplet or more powerful if you need. Do not use 1Gb option - Open Y wil
 3. Follow the comment from https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/openyonclickinstall.sh
 Basically - run a command under root
 ```sh
-bash < <(curl -Ls http://bit.ly/initopeny)
+curl -Ls http://bit.ly/initopeny | bash -s
 ```
 The command above will run approximately 10 minutes.
-
 4. In the end you should see a message similar to
 ```
 Open http://127.0.0.1/core/install.php to proceed with OpenY installation.
