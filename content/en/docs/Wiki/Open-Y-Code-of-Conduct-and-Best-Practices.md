@@ -1,5 +1,5 @@
 Open Y distribution relies on technologies, based on. 
-Our community grew up from other communities like Drupal CMF community ( https://drupal.org ), Drupal Ukrainian Community ( http://drupal.ua )
+Our community grew up from other communities like Drupal CMF community ( https://drupal.org ), Drupal Ukrainian Community ( http://drupal.ua ) and a few others.
 
 # Bylaws
 
