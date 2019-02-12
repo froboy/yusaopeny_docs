@@ -18,8 +18,7 @@ Open Y package system introduces a new level of abstraction shifting from Drupal
 
 The approach provides a convenient and easy way of managing Open Y features.
 
-Open Y system module provides a page where enabled and available packages are listed and can be installed/uninstalled. See `/admin/openy/extend` page.
-
+Open Y system module provides a page where the enabled and available packages are listed and can be installed/uninstalled. See Open Y Extend page (at `/admin/openy/extend`).
 
 
 ### Open Y Installation types
@@ -76,9 +75,9 @@ Each installation type has a machine name which is a key of the top-level items.
  - **packages** (required) - a list of Open Y packages that are associated with the installation type. The packages are listed when a website is installed via web-interface 
  - **hidden** (optional) - dictates if the installation type must be hidden when a website is installed via web interface
 
-If an Open Y site is installed using web-interface there is a step where the installation type can be selected (pic)
+If an Open Y site is installed using web-interface there is a step where the installation type can be selected.
 
-If an Open Y site is installed using drush then the installation type can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
+If an Open Y site is installed using Drush then the installation type can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
 ```
   drush site-install openy \
      --db-url="mysql://user:pass@host:3306/db" \
@@ -88,7 +87,7 @@ If an Open Y site is installed using drush then the installation type can be spe
 
 
 ### openy.packages.yml
-Packages are defined in `openy.packages.yml`. This file is placed in the root of the profiles, it's automatically detected and used by Open Y installation process.
+Packages are defined in `openy.packages.yml`. The file is placed in the root of the profile, it's automatically detected and used by Open Y installation process.
 
 File structure
 ```
@@ -123,13 +122,11 @@ Each package has a machine name which is a key of the top-level items.
 #### Properties of packages:
  - **name** (required) - defines a human-friendly name of the package.
  - **description** (required) - a short description for the package features. It's supposed to show up on the Open Y Extend page.
- - **help** (required) - an HTML markup with the help message that appears on the installation via web-interface when the package name is clicked.
+ - **help** (required) - an HTML markup for the installation via web-interface. It contains a help message that pops up when the package name is clicked (`Select installation type` step).
  - **modules** (required) - a list of Drupal modules that are associated with the package. When the package is installed/uninstalled the associated modules are installed/uninstalled respectively. When a website is installed via web-interface all the available packages are listed there but split into two groups - the ones that are to be installed (associated with the selected package) and all the rest.
 
-_Provide images that show properties in action_
-
 ### openy.theme.yml
-The file defines which of Open Y themes are available when a website is installed.
+The file defines which of Open Y themes are available for installation when a website is being installed.
 
 If an Open Y site is installed using Drush then the theme can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
 ```
