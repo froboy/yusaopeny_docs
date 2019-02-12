@@ -2,7 +2,7 @@ There are plenty of [YAML](http://en.wikipedia.org/wiki/YAML) configuration file
 
 ## Basic .yml files
 The following ones are very common and can be found in many Drupal modules:
-* openy.info.yml ([documentation](https://www.drupal.org/docs/8/creating-custom-modules/let-drupal-8-know-about-your-module-with-an-infoyml-file)) - defines Open Y as a profile, defines its name and dependecies
+* openy.info.yml ([documentation](https://www.drupal.org/docs/8/creating-custom-modules/let-drupal-8-know-about-your-module-with-an-infoyml-file)) - defines Open Y as a profile, defines its name and dependencies
 * openy.libraries.yml ([documentation](https://www.drupal.org/docs/8/creating-custom-modules/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-module)) - defines global Open Y drupal asset libraries
 * openy.permissions.yml - defines global Open Y permissions
 * openy.services.yml ([documentation](https://www.drupal.org/docs/8/api/services-and-dependency-injection/structure-of-a-service-file)) - if you are introducing a service that is needed by all (or majority of) Open Y modules add it here and store the service class file at `openy/src` directory
@@ -25,7 +25,7 @@ Open Y system module provides a page where enabled and available packages are li
 ### Open Y Installation types
 When an Open Y site is installed there is also another abstraction level - an installation type. This thing groups packages.
 
-So the hierarchy is following:
+So the hierarchy is the following:
 * installation type
   * package
     * module
@@ -121,14 +121,12 @@ camps:
 Each package has a machine name which is a key of the top-level items.
 
 #### Properties of packages:
- - **name** (required) - defines a human friendly name of the package.
- - **description** (required) - a short explanation of the package features. It's shown on the Open Y dashboard.
- - **help** (required) - an HTML markup with the help message that appears on the installation via web-interface when the help icon is hovered.
- - **modules** (required) - a list of Drupal modules that are associated with the package. When the package is installed/uninstalled the associated modules are installed/uninstalled respectively.
+ - **name** (required) - defines a human-friendly name of the package.
+ - **description** (required) - a short description for the package features. It shows up on the Open Y dashboard.
+ - **help** (required) - an HTML markup with the help message that appears on the installation via web-interface when the package name is clicked.
+ - **modules** (required) - a list of Drupal modules that are associated with the package. When the package is installed/uninstalled the associated modules are installed/uninstalled respectively. When a website is installed via web-interface all the available packages are listed there but split into two groups - the ones that are to be installed (associated with the selected package) and all the rest.
 
 _Provide images that show properties in action_
-
-/admin/openy/extend
 
 ### openy.theme.yml
 The file defines which of Open Y themes are available when a website is installed.
