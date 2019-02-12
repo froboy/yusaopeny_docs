@@ -122,7 +122,7 @@ Each package has a machine name which is a key of the top-level items.
 
 #### Properties of packages:
  - **name** (required) - defines a human-friendly name of the package.
- - **description** (required) - a short description for the package features. It shows up on the Open Y dashboard.
+ - **description** (required) - a short description for the package features. It's supposed to show up on the Open Y Extend page.
  - **help** (required) - an HTML markup with the help message that appears on the installation via web-interface when the package name is clicked.
  - **modules** (required) - a list of Drupal modules that are associated with the package. When the package is installed/uninstalled the associated modules are installed/uninstalled respectively. When a website is installed via web-interface all the available packages are listed there but split into two groups - the ones that are to be installed (associated with the selected package) and all the rest.
 
