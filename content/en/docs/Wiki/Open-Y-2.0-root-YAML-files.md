@@ -78,7 +78,11 @@ Each installation type has a machine name which is a key of the top-level items.
 
 If an Open Y site is installed using web-interface there is a step where the installation type can be selected (pic)
 
-If an Open Y site is installed using drush then the installation type can be specified by an optional argument for the `drush site-install` command (ref, examples)
+If an Open Y site is installed using drush then the installation type can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
+```
+  drush site-install openy --db-url="mysql://user:pass@host:3306/db" --root=/docroot openy_configure_profile.preset=extended
+```
+
 
 ### openy.packages.yml
 Packages are defined in `openy.packages.yml`. This file is placed in the root of the profiles, it's automatically detected and used by Open Y installation process.
@@ -124,4 +128,9 @@ _Provide images that show properties in action_
 /admin/openy/extend
 
 ### openy.theme.yml
-The files defines which of Open Y themes are available when a website is installed.
+The file defines which of Open Y themes are available when a website is installed.
+
+If an Open Y site is installed using Drush then the theme can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
+```
+  drush site-install openy --db-url="mysql://user:pass@host:3306/db" --root=/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
+```
