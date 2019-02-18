@@ -1,6 +1,8 @@
 Hi, dear OpenY community
 
-This document aims to cover the need of upgrade OpenY from older versions to recent ones.
+This document aims to cover the need of upgrade OpenY from older versions to recent ones. 
+
+**Keep in mind it was never tested against OpenY 2.0. We'll work on update soon.**
 
 We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.
 
