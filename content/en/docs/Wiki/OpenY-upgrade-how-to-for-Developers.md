@@ -99,7 +99,7 @@ Review and revert or apply updated version of the configs after upgrade.
 ### Proceed with an update to next version until succeeded (Start from item 1)
 
 
-Upgrade to old, Open Y 1.x version
+Upgrade to old, Open Y 1.x version ( tested on upgrading 8.0.2 to 8.1.1.14 )
 =====
 
 We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.
