@@ -84,6 +84,10 @@ No entity schema updates required                                               
 ```
 You almost 100% proved updated were executed correctly.
 
+### Visit OpenY upgrade tool dashboard 
+Review and revert or apply updated version of the configs after upgrade. 
+![image](https://user-images.githubusercontent.com/563412/55151418-e3a83600-5156-11e9-8f0e-b22045ffd35c.png)
+
 ### Check for regressions
 
 ...
