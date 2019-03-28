@@ -86,7 +86,7 @@ You almost 100% proved updated were executed correctly.
 
 ### Visit OpenY upgrade tool dashboard 
 Review and revert or apply updated version of the configs after upgrade. 
-![image](https://user-images.githubusercontent.com/563412/55151418-e3a83600-5156-11e9-8f0e-b22045ffd35c.png)
+![image](https://user-images.githubusercontent.com/563412/55151463-01759b00-5157-11e9-878e-dc744698a021.png)
 
 ### Check for regressions
 
@@ -97,6 +97,7 @@ Review and revert or apply updated version of the configs after upgrade.
 ...
 
 ### Proceed with an update to next version until succeeded (Start from item 1)
+
 
 Upgrade to old, Open Y 1.x version
 =====
