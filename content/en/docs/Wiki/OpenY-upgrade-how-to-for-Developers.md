@@ -23,7 +23,7 @@ For that
  - Make a backup of your production database and copy it to your local machine
  - Make a copy of your production site codebase and copy it to your local machine
 
-### Run command with next never version ( replace NEW_VERSION_HERE with the version you are upgrading to, e.g 8.2.0.5 )
+### Run command with next never version ( replace NEW_VERSION_HERE with the version you are upgrading to, e.g 8.2.0.7 )
 
 In a same folder where is your ```docroot``` folder run
 
@@ -38,8 +38,11 @@ sh yparse.sh | xargs drush en -y
 cd ../../../../
 composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
-
 ```
+The script above *replaces* you `composer.json` file, so it's only applicable to the websites that has no modification of the file.
+
+If your composer.json file is modified, merge the changes manually. Essentially, the `repositories` section of the file is updated.
+
 
 ### Enable OpenY introduced modules in case if you are updating from very old version or if they are disabled intentionally.
 
@@ -49,6 +52,27 @@ drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_
 ```
 You'll be able to disable them in the end once all updates executed successfully
 
+### Verify if the Media Entity to Media in Core migration is possible
+
+Go to `docroot` directory of your codebase and execute:
+```sh
+drush mecu
+```
+
+If the output looks like the following lines, you are good to proceed with database updates.
+```
+✓ SUCCESS: All upgrade requirements are met and                      [ok]
+you can proceed with the DB updates.
+Drupal core is the correct version (>= 8.6.0). [8.6.10 detected]     [ok]
+The contributed "Media" module is not installed.                     [ok]
+All provider plugins and modules depending on media_entity are       [ok]
+up-to-date.
+Site uses EXIF handling and the "Media Entity Image EXIF" module is  [ok]
+available.
+```
+
+Follow the instructions of the output messages if they contain warnings or errors.
+Take a look at the [detailed guide](https://www.drupal.org/node/2863992) if you have and troubles.
 
 ### Update the site
 
