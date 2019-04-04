@@ -39,9 +39,9 @@ cd ../../../../
 composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
 ```
-The script above *replaces* you `composer.json` file, so it's only applicable to the websites that has no modification of the file.
+The script above *replaces* your `composer.json` file, so it's only applicable to the websites that have the file unmodified.
 
-If your composer.json file is modified, merge the changes manually. Essentially, the `repositories` section of the file is updated.
+If your `composer.json` file is modified, merge the changes manually. Essentially, the `repositories` section of the file is updated.
 
 
 ### Enable OpenY introduced modules in case if you are updating from very old version or if they are disabled intentionally.
