@@ -3,7 +3,7 @@
 1. OpenY Drupal Profile Distribution https://github.com/ymcatwincities/openy
 1. OpenY Project for initiating OpenY instance - https://github.com/ymcatwincities/openy-project
 1. Continuous Integration/DevOps for rebuilding/installing OpenY - https://github.com/ymcatwincities/openy-cibox-build
-1. CIBox development environment ( Virtualbox, Docker, Vagrant )
+1. CIBox development environment ( Virtualbox, Docker, Vagrant ) https://github.com/ymcatwincities/openy-cibox-vm
 1. Docksal development environment - https://github.com/ymcatwincities/openy-docksal ( Docker, Virtualbox )
 
 ### Release Management
