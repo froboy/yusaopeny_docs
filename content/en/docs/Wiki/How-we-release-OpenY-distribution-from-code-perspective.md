@@ -16,6 +16,7 @@ When tagging a new release of OpenY we used to be doing steps below
 * Create Changelog release notes as a draft and include Contributors as well as major issues fixed/introduced
 * Send for review to core team ( Craig Paulnock, Paige Kiecker ), get approval.
 * Change OpenY version to next with -dev suffix for developers in https://github.com/ymcatwincities/openy/blob/8.x-2.x/openy.info.yml#L5
+* Refresh OpenY private mirror on openy.cibox.tools CI server
 * Check one click install is working https://github.com/ymcatwincities/openy-project/blob/8.2.x/scripts/openyonclickinstall.sh on a fresh DigitalOcean instance 10$ ( 1CPU 2Gb RAM ) . Ensure version of OpenY proper one in site info.
 * Publish announcement in #developers OpenY Slack channel
 * Publish anouncement in #general OpenY Slack channel
