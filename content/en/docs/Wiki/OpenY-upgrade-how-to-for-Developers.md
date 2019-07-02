@@ -22,6 +22,7 @@ You have to create local copy of your site locally to be able to proceed with th
 For that
  - Make a backup of your production database and copy it to your local machine
  - Make a copy of your production site codebase and copy it to your local machine
+ - **Ensure you have no manually removed Drupal modules in your database without uninstallation step being executed!** In this case you'll need to return module back and uninstall it via Drupal Extend UI or Drush before running next steps to upgrade OpenY
 
 ### Run command with next never version ( replace NEW_VERSION_HERE with the version you are upgrading to, e.g 8.2.0.7 )
 
