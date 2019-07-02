@@ -12,7 +12,7 @@ Ensure you have working computer or virtual machine with
  - MySQL 5.5+(5.7 preffered because of the performance improvements)
  - Apache 2.4(or Nginx + php-fpm in case if you are fine with htaccess issues down the road)
  - PHP 5.6-7.1 (7.2 could be an issue with some contrib modules)
- - Drush 8.x latest version ( not older than 8.1.16 ). **No support for Drush 9.x yet**
+ - Drush 8.1.17 version. **No support for Drush 9.x yet**
 
 OpenY team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/ymcatwincities/openy-cibox-vm). Feel free to use it to get working virtual environment.
 Your own OpenY instance should have Virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
