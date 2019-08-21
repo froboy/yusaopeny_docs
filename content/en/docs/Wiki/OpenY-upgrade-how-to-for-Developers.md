@@ -52,7 +52,7 @@ If your `composer.json` file is modified, merge the changes manually. Essentiall
 cd docroot
 drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_wrapper openy_loc_branch 
 ```
-Sometimes it is important to get latest[openy_upgrade_tool](https://github.com/ymcatwincities/openy/tree/8.x-2.x/modules/custom/openy_upgrade_tool) from repository even if you are updating from 1.x
+Sometimes it is important to get latest [openy_upgrade_tool](https://github.com/ymcatwincities/openy/tree/8.x-2.x/modules/custom/openy_upgrade_tool) from repository even if you are updating from 1.x
 You'll be able to disable them in the end once all updates executed successfully
 
 ### Verify if the Media Entity to Media in Core migration is possible
