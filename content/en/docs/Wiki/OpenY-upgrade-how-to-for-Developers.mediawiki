@@ -1,3 +1,5 @@
+__TOC__
+
 Hi, dear OpenY community
 
 This document aims to cover the need of upgrade OpenY from older versions to recent ones. 
