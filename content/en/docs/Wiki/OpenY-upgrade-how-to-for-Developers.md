@@ -150,4 +150,6 @@ Review and revert or apply updated version of the configs after upgrade.
 
 ### Proceed with an update to next version until succeeded (Start from item 1)
 
+DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x before going OpenY 2.0 upgrade
+See https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version
 
