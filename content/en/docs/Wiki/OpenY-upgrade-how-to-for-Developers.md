@@ -116,6 +116,7 @@ Sometimes, you could face with error like:
 
 In this case, please, ensure that module, connected with this config is enabled.
 To make it happen, please execute this command: 
+
 `drush ev “Drupal::service(‘module_installer’)->install([‘module_with_problem’]);”`
 
 ### Visit OpenY upgrade tool dashboard 
