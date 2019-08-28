@@ -111,6 +111,12 @@ No entity schema updates required                                               
 ```
 You almost 100% proved updated were executed correctly.
 
+Sometimes, you could face with error like: 
+> openy.terms_and_conditions.schema depends on the Open Y module that will not be installed after import.
+Please, ensure that module, connected with this config is enabled.
+To make it happen, please execute this command: 
+`drush ev “Drupal::service(‘module_installer’)->install([‘module_with_problem’]);”`
+
 ### Visit OpenY upgrade tool dashboard 
 Review and revert or apply updated version of the configs after upgrade. 
 ![image](https://user-images.githubusercontent.com/563412/55151463-01759b00-5157-11e9-878e-dc744698a021.png)
