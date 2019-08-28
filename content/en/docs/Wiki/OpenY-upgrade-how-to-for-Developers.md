@@ -113,7 +113,8 @@ You almost 100% proved updated were executed correctly.
 
 Sometimes, you could face with error like: 
 > openy.terms_and_conditions.schema depends on the Open Y module that will not be installed after import.
-Please, ensure that module, connected with this config is enabled.
+
+In this case, please, ensure that module, connected with this config is enabled.
 To make it happen, please execute this command: 
 `drush ev “Drupal::service(‘module_installer’)->install([‘module_with_problem’]);”`
 
