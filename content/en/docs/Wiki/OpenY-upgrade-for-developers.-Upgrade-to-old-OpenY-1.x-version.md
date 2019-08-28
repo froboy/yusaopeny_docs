@@ -59,6 +59,7 @@ Sometimes, when ```updatedb``` fails, it is important to get stable version of s
 ```sh
 drush dl -y plugin-8.x-2.5 contribute-8.x-1.0-beta7 scheduler-8.x-1.0 views_block_filter_block datalayer simple_menu_icons rabbit_hole metatag simple_sitemap-8.x-2.9 easy_breadcrumb-8.x-1.6
 drush en -y plugin contribute scheduler views_block_filter_block datalayer simple_menu_icons rabbit_hole metatag simple_sitemap || true
+drush ev "Drupal::service('module_installer')->install(['content_moderation','openy']);"
 ```
 
 
