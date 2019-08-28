@@ -1,3 +1,6 @@
+DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x before going OpenY 2.0 upgrade
+See https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version
+
 **Table of Contents**
 
 - [Prepare dedicated environment for upgrade testing](#prepare-dedicated-environment-for-upgrade-testing)
