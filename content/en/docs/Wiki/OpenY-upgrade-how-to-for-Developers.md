@@ -1,3 +1,17 @@
+**Table of Contents**
+
+- [Prepare dedicated environment for upgrade testing](#prepare-dedicated-environment-for-upgrade-testing)
+- [Obtain local copy of your production site](#obtain-local-copy-of-your-production-site)
+- [Run command with next never version ( replace NEW_VERSION_HERE with the version you are upgrading to, e.g 8.2.0.7 )](#run-command-with-next-never-version-replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207)
+- [Enable OpenY introduced modules in case if you are updating from very old version or if they are disabled intentionally.](#enable-openy-introduced-modules-in-case-if-you-are-updating-from-very-old-version-or-if-they-are-disabled-intentionally)
+- [Verify if the Media Entity to Media in Core migration is possible](#verify-if-the-media-entity-to-media-in-core-migration-is-possible)
+- [Update the site](#update-the-site)
+- [Visit OpenY upgrade tool dashboard](#visit-openy-upgrade-tool-dashboard)
+- [Check for regressions](#check-for-regressions)
+- [Backup current state of the updated site](#backup-current-state-of-the-updated-site)
+- [Proceed with an update to next version until succeeded (Start from item 1)](#proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1)
+- [Prepare dedicated environment for upgrade testing](#prepare-dedicated-environment-for-upgrade-testing)
+- [Obtain local copy of your production site](#obtain-local-copy-of-your-production-site)
 
 
 Hi, dear OpenY community
