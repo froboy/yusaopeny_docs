@@ -10,8 +10,6 @@
 - [Check for regressions](#check-for-regressions)
 - [Backup current state of the updated site](#backup-current-state-of-the-updated-site)
 - [Proceed with an update to next version until succeeded (Start from item 1)](#proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1)
-- [Prepare dedicated environment for upgrade testing](#prepare-dedicated-environment-for-upgrade-testing)
-- [Obtain local copy of your production site](#obtain-local-copy-of-your-production-site)
 
 
 Hi, dear OpenY community
