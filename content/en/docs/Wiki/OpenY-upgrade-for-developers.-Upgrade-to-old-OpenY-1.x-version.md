@@ -43,7 +43,7 @@ drush cr
 sh yparse.sh | xargs drush en -y
 cd ../../../../
 composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
-composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
+composer update --prefer-dist --with-dependencies --prefer-stable --update-with-all-dependencies --no-suggest
 
 ```
 
