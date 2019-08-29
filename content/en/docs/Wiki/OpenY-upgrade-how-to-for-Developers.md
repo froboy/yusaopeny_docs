@@ -56,7 +56,7 @@ drush cr
 sh yparse.sh | xargs drush en -y
 cd ../../../../
 composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
-composer update --prefer-dist --with-dependencies --prefer-stable --prefer-lowest --no-suggest
+composer update --prefer-dist --with-dependencies --prefer-stable --update-with-all-dependencies --no-suggest
 ```
 The script above *replaces* your `composer.json` file, so it's only applicable to the websites that have the file unmodified.
 
