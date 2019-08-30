@@ -22,6 +22,8 @@ Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
     with Xdebug v2.7.2, Copyright (c) 2002-2019, by Derick Rethans
 vagrant@vagrant:/var/www/docroot$ drush --version
  Drush Version   :  8.2.3 
+vagrant@vagrant:/var/www/docroot$ composer --version
+Composer version 1.7.2 2018-08-16 16:57:12
 ```
 
 # Step by step update
