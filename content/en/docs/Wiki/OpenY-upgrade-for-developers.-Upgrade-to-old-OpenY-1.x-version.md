@@ -2,6 +2,8 @@
 Upgrade to old, Open Y 1.x version ( tested on upgrading 8.0.2 to 8.1.1.14 )
 =====
 
+See [upgrade from 8.1.3 to 8.2.2.1](https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
+
 We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.
 
 ### Prepare dedicated environment for upgrade testing
