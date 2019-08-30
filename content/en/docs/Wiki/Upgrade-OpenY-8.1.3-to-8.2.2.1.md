@@ -13,7 +13,7 @@ Given the fact [Drupal 8.7+ has no support for automatic entity updates](https:/
 * `composer install --ignore-platform-reqs --no-suggest`
 * `composer update --prefer-stable --no-suggest`
 * `cd docroot`
-* `drush dl -y plugin-8.x-2.5 contribute-8.x-1.0-beta7 scheduler-8.x-1.0 views_block_filter_block datalayer simple_menu_icons rabbit_hole metatag simple_sitemap-8.x-2.9 easy_breadcrumb-8.x-1.6`
+* `drush dl -y plugin-8.x-2.5 contribute-8.x-1.0-beta7 scheduler-8.x-1.0 views_block_filter_block datalayer simple_menu_icons rabbit_hole metatag simple_sitemap-8.x-3.0 easy_breadcrumb-8.x-1.6`
 * `drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_wrapper openy_loc_branch content_moderation focal_point`
 * `drush ev "Drupal::service('module_installer')->install(['openy']);"` <- This steps fixes some hidden bug when `openy` profile removed from `core.extension` configuration for unknown reason.
 * Manual step: Edit all yml files in `profiles` folder to comment `media.type.image` , `field.field.node.program.field_header_content`, `field.field.node.branch.field_location_amenities` in dependencies sections.
