@@ -3,6 +3,27 @@
 This is a recipe for upgrading very old OpenY to decent version.
 Given the fact [Drupal 8.7+ has no support for automatic entity updates](https://www.drupal.org/node/3034742) ( BaseFieldDefinitions ) we have to upgrade to 8.2.2.1 of OpenY which is still on 8.6 Drupal Core
 
+# Environment
+
+```sh
+vagrant@vagrant:/var/www/docroot$ uname -a
+Linux vagrant 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+vagrant@vagrant:/var/www/docroot$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.1 LTS
+Release:	18.04
+Codename:	bionic
+vagrant@vagrant:/var/www/docroot$ php -v
+PHP 7.1.31-1+ubuntu18.04.1+deb.sury.org+1 (cli) (built: Aug  7 2019 10:23:12) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.1.31-1+ubuntu18.04.1+deb.sury.org+1, Copyright (c) 1999-2018, by Zend Technologies
+    with Xdebug v2.7.2, Copyright (c) 2002-2019, by Derick Rethans
+vagrant@vagrant:/var/www/docroot$ drush --version
+ Drush Version   :  8.2.3 
+```
+
 # Step by step update
 
 * Use PHP7.1 for upgrade and install `php7.1-mysql php7.1-mcrypt php7.1-cli php7.1-common php7.1-curl php7.1-dev php7.1-fpm php7.1-gd php7.1-mysql php7.1-memcached php7.1-imagic php7.1-xml php7.1-xdebug php7.1-mbstring php7.1-soap php7.1-zip php7.1-xml`
