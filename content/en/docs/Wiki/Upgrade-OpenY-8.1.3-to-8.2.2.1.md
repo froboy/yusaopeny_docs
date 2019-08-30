@@ -25,7 +25,7 @@ Given the fact Drupal 8.7+ has no support for automatic entity updates ( BaseFie
 ![image](https://user-images.githubusercontent.com/563412/64005820-c61e3480-cb19-11e9-9853-dbad3c17d851.png)
 
 
-* run `drush updatedb -y` <- this will fail for the first time, disregard
+* run `drush updatedb -y` <- this will fail for the first time ( Media not installed yet ), disregard
 * run `drush updatedb -y` <- this should run properly.
 * run `drush entup`
 
