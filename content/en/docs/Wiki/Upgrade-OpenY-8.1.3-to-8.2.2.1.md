@@ -17,6 +17,16 @@ Given the fact Drupal 8.7+ has no support for automatic entity updates ( BaseFie
 * `drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_wrapper openy_loc_branch content_moderation focal_point`
 * `drush ev "Drupal::service('module_installer')->install(['openy']);"` <- This steps fixes some hidden bug when `openy` profile removed from `core.extension` configuration for unknown reason.
 * Manual step: Edit all yml files in `profiles` folder to comment `media.type.image` , `field.field.node.program.field_header_content`, `field.field.node.branch.field_location_amenities` in dependencies sections.
+
+![image](https://user-images.githubusercontent.com/563412/64005803-bc94cc80-cb19-11e9-8137-702d141c48e5.png)
+
+![image](https://user-images.githubusercontent.com/563412/64005817-c1598080-cb19-11e9-8a04-9be0c7f3a15a.png)
+
+![image](https://user-images.githubusercontent.com/563412/64005820-c61e3480-cb19-11e9-9853-dbad3c17d851.png)
+
+
 * run `drush updatedb -y` <- this will fail for the first time, disregard
 * run `drush updatedb -y` <- this should run properly.
 * run `drush entup`
+
+
