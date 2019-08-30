@@ -1,6 +1,6 @@
 ### Document work in progress
 
-These are instructions for upgrading very old Open Y to the latest version.
+These are instructions for upgrading a very old version of Open Y to the latest version.
 Given the fact [Drupal 8.7+ has no support for automatic entity updates](https://www.drupal.org/node/3034742) ( BaseFieldDefinitions ) we have to upgrade to 8.2.2.1 of OpenY, which is still on 8.6 Drupal Core, and then update to the latest Open Y version as usual.
 
 # Environment
