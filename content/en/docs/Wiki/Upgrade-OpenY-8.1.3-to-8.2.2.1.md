@@ -15,15 +15,15 @@ Description:	Ubuntu 18.04.1 LTS
 Release:	18.04
 Codename:	bionic
 vagrant@vagrant:/var/www/docroot$ php -v
-PHP 7.1.31-1+ubuntu18.04.1+deb.sury.org+1 (cli) (built: Aug  7 2019 10:23:12) ( NTS )
+**PHP 7.1.31-1**+ubuntu18.04.1+deb.sury.org+1 (cli) (built: Aug  7 2019 10:23:12) ( NTS )
 Copyright (c) 1997-2018 The PHP Group
 Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
     with Zend OPcache v7.1.31-1+ubuntu18.04.1+deb.sury.org+1, Copyright (c) 1999-2018, by Zend Technologies
     with Xdebug v2.7.2, Copyright (c) 2002-2019, by Derick Rethans
 vagrant@vagrant:/var/www/docroot$ drush --version
- Drush Version   :  8.2.3 
+ **Drush Version   :  8.2.3** 
 vagrant@vagrant:/var/www/docroot$ composer --version
-Composer version 1.7.2 2018-08-16 16:57:12
+**Composer version 1.7.2** 2018-08-16 16:57:12
 ```
 
 # Step by step guide for update
@@ -32,6 +32,7 @@ Composer version 1.7.2 2018-08-16 16:57:12
 * Go to the folder of OpenY code tree where `docroot` folder is contained
 * `mv composer.json composer.json.orig`
 * `wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.2.x/composer.json`
+* `mkdir -p scripts ; cd scripts && wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.2.x/scripts/remove_libraries_gitignore_files.sh && cd ..`
 * `composer require ymcatwincities/openy:8.2.2.1 --no-suggest --no-update`
 * `composer install --ignore-platform-reqs --no-suggest`
 * `composer update --prefer-stable --no-suggest`
