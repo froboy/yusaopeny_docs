@@ -10,6 +10,8 @@ Example - if you are on OpenY 8.0.1 then
 * Upgrade to 8.2.2.1
 * Upgrade to latest OpenY
 
+[Upgrade use case - from 8.1.3 to 8.2.2.1]( https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
+
 **Table of Contents**
 
 - [Prepare dedicated environment for upgrade testing](#prepare-dedicated-environment-for-upgrade-testing)
