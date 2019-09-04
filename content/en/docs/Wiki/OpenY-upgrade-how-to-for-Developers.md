@@ -6,9 +6,9 @@ Key OpenY versions worth using as intermediate steps for upgrading from very old
 - 8.2.2.1 ( this is very important step everyone should have. After this version `drush entup` is not working. 
 
 Example - if you are on OpenY 8.0.1 then
-Upgrade to 8.1.13.1
-Upgrade to 8.2.2.1
-Upgrade to latest OpenY
+* Upgrade to 8.1.13.1
+* Upgrade to 8.2.2.1
+* Upgrade to latest OpenY
 
 **Table of Contents**
 
