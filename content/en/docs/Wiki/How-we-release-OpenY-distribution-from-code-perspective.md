@@ -13,6 +13,7 @@ When tagging a new release of OpenY we used to be doing steps below
 1. Review/Merge/Update https://github.com/ymcatwincities/openy-project ( usually composer.json or/and oneline script install ) and tag a new release there
 2. Review/Merge all Pull Requests in https://github.com/ymcatwincities/openy that were planned for release
 3. Change OpenY version in https://github.com/ymcatwincities/openy/blob/8.x-2.x/openy.info.yml#L5 to expected
+3a. Change OpenY version in major modules if there were changes to them ( Activity Finder, PEF, etc )
 4. Create Changelog release notes as a draft and include Contributors as well as major issues fixed/introduced
 5. Send for review to core team ( Craig Paulnock, Paige Kiecker ), get approval.
 6. Change OpenY version to next with -dev suffix for developers in https://github.com/ymcatwincities/openy/blob/8.x-2.x/openy.info.yml#L5
