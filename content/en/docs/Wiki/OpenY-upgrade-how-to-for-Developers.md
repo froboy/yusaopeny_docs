@@ -85,7 +85,7 @@ drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_
 Sometimes it is important to get latest [openy_upgrade_tool](https://github.com/ymcatwincities/openy/tree/8.x-2.x/modules/custom/openy_upgrade_tool) from repository even if you are updating to not latest version of OpenY.
 You'll be able to disable them in the end once all updates executed successfully
 
-### Verify if the Media Entity to Media in Core migration is possible
+### Verify if the Media Entity to Media in Core migration is possible ( only for upgrades from OpenY 1.x to 2.x )
 
 Go to `docroot` directory of your codebase and execute:
 ```sh
