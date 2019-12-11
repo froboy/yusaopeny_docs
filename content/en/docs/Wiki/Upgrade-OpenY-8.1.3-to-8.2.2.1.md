@@ -1,4 +1,8 @@
-### Document work in progress
+### Video tutorials
+
+Upgrade OpenY from 8.0.7 to 8.2.2.1 - https://www.youtube.com/watch?v=U_mg0-yKGOI
+
+### Document is work in progress
 
 These are instructions for upgrading a very old version of Open Y to the latest version.
 Given the fact [Drupal 8.7+ has no support for automatic entity updates](https://www.drupal.org/node/3034742) ( BaseFieldDefinitions ) we have to upgrade to 8.2.2.1 of OpenY, which is still on 8.6 Drupal Core, and then update to the latest Open Y version as usual.
