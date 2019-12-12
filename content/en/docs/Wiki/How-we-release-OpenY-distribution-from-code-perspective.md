@@ -15,6 +15,7 @@ When tagging a new release of OpenY we used to be doing steps below
 3. Change OpenY version in https://github.com/ymcatwincities/openy/blob/8.x-2.x/openy.info.yml#L5 to expected
 3a. Change OpenY version in major modules if there were changes to them ( Activity Finder, PEF, etc )
 4. Create Changelog release notes as a draft and include Contributors as well as major issues fixed/introduced
+4a. Spin up a copy of OpenY site and check top priority functionality for regressions.
 5. Send for review to core team ( Craig Paulnock, Paige Kiecker ), get approval.
 6. Change OpenY version to next with -dev suffix for developers in https://github.com/ymcatwincities/openy/blob/8.x-2.x/openy.info.yml#L5
 7. Refresh OpenY private mirror on openy.cibox.tools CI server
