@@ -1,7 +1,10 @@
 Welcome to the Open Y wiki!
 
+### For YMCA associations
 
 [OpenY Release Schedule](https://github.com/ymcatwincities/openy/wiki/Open-Y-Release-Schedule-and-Guidelines)
+
+### For Developers
 
 [OpenY Upgrade for Developers](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers)
 
