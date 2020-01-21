@@ -1,3 +1,8 @@
+# How to get OpenY version and environment configuration
+
+See video https://www.youtube.com/watch?v=01y617maeBE
+
+
 # How to work with builds?
 
 To get fully working Open Y site for the code change you are about to push for review - there is a build generating system installed for Open Y GitHub repository that automatically generates dedicated temporary website with your changes applied.
