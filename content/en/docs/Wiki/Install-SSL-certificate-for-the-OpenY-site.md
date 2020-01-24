@@ -9,7 +9,7 @@ There are a lot of SSL providers, like Network Solutions, Godaddy, AWS, and tons
 
 Full how-to located https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache
 
-On January 24th OpenY requirements are
+On January 24th 2020 OpenY requirements are
  - Ubuntu 16.04
  - PHP 7.2
  - Apache 2
