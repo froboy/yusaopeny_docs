@@ -8,7 +8,7 @@ Open Y Core Team reserves the right to break these standards only in the followi
 * This communication will be posted to the Open Y message board, Slack, and the documentation on GitHub will be updated to reflect the new standards.
 
 
-In order to deliver the best quality of the code and functionality in Open Y down below is a list of requirements and best practices we set for the development community.
+In order to deliver the best quality of the code and functionality in Open Y down below is a [list of requirements and best practices](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices) we set for the development community.
 
 * For the PHP code, we follow Drupal code standards https://www.drupal.org/docs/develop/standards
 * For the Javascript, we follow couple standards - by AirBnd ( ReactJS ) https://github.com/airbnb/javascript/tree/master/react , and by Vue.js https://vuejs.org/v2/style-guide/
