@@ -14,6 +14,8 @@ In order to deliver the best quality of the code and functionality in Open Y dow
 * For the PHP code, we follow Drupal code standards https://www.drupal.org/docs/develop/standards
 * For the Javascript, we follow couple standards - by AirBnd ( ReactJS ) https://github.com/airbnb/javascript/tree/master/react , and by Vue.js https://vuejs.org/v2/style-guide/
 
+## Template for the PR
+
 In order to create a good quality Pull Request we prepared a template https://github.com/ymcatwincities/openy/blob/8.x-2.x/.github/PULL_REQUEST_TEMPLATE.md , which automatically added to a new Pull Request in OpenY Github Repository.
 List of requirements from the template:
 * Provide a link to original issue, which is going to be fixed by PR you are creating.
