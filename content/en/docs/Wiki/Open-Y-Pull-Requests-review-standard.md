@@ -7,6 +7,7 @@ Open Y Core Team reserves the right to break these standards only in the followi
 * When the standards are broken, it is the responsibility of the Open Y core team to explain why the standards needed to be broken, and what the new standards will be moving forward.
 * This communication will be posted to the Open Y message board, Slack, and the documentation on GitHub will be updated to reflect the new standards.
 
+## Requirements for the Pull Request and code.
 
 In order to deliver the best quality of the code and functionality in Open Y down below is a [list of requirements and best practices](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices) we set for the development community.
 
