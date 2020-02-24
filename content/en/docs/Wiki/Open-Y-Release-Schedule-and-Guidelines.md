@@ -15,4 +15,4 @@
 Minor releases numbered `1.x.x`. Consist of
 
 - Only bug fixes
-- Never have new features, or enhancements
+- Never have new features, or major enhancements
