@@ -4,3 +4,4 @@
 2. https://github.com/ymcatwincities/openy_memberships - Membership Framework for OpenY and Drupal.
 3. https://github.com/ymcatwincities/paragraph_skins - Skins component from OpenY.
 4. https://github.com/ymcatwincities/openy_prgf_sidebar_menu - SideBar menu for referencing menu blocks and using in SideBars across different pages.
+5. https://packagist.org/packages/openy/openy_loc_finder - Extended Location Finder
