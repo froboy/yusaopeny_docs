@@ -60,7 +60,7 @@ to store your patched core into your own repository.
 
 In case if you have followed tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo you should have your OPenY installed on you DigitalOcean server(droplet) in a predictable for current document folder. That's why we prepared a short how to patch your OpenY site in a most simple way if you are not a Tech Guru, but just a user
 1. Log in as an admin user to your site admin UI by visiting ```/user/login``` URI page.
-2. Login to your ВigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY ![image](https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png)
+2. Login to your DigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY ![image](https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png)
 3. You should see a popup window with a black screen where console asks you for the login. Use ```root``` user and a password generated for you upon droplet creation.
 4. After login to a console run the command below, respectively to the version of your Drupal core.
 
