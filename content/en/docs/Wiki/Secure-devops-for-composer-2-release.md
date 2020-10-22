@@ -29,7 +29,9 @@ as an output of the command.
 
 ### If you do not upgrade to the latest 1.x version before October 30, 2020. i.e. if you accidentally upgraded to composer 2.x
 
-If you faced your composer already updated to composer version 2 and having issues with it ( [connect with the Open Y team on GitHub and the #developers channel on Slack](https://github.com/ymcatwincities/openy/issues/new) ) - downgrade it to the latest  1.x version by running a command
+If you faced your composer already updated to composer version 2 and having issues with it - downgrade it to the latest  1.x version by running a command
 ```sh
 composer selfupdate --1
 ```
+
+If you faced with any issues connect with the Open Y team on GitHub ( [create issue](https://github.com/ymcatwincities/openy/issues/new) ) and the #developers channel [on Slack](https://openy.org/contact) 
