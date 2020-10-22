@@ -2,6 +2,7 @@ Developer team, partners, and contributors: Composer will be upgraded to 2.x on 
 
 The Open Y team prepared an avoidance plan for the community to take action steps before the release while Open Y will be verifying Composer 2.x causes no issues or regressions.
 
+If you use Docksal or Vagrant local environments your composer version will not update automatically, so you're currently safe from inadvertent updates. Instructions for updating those environments will be included with any necessary Open Y updates at a later date.
 
 ### Case before October 30, 2020, when you are on composer 1.x
 
