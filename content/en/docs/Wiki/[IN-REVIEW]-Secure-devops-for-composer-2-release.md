@@ -1,3 +1,6 @@
+
+### Case before October 30, 2020 when you are on composer 1.x
+
 Composer 2 is coming and older versions of composer 1.x showing now a message
 
 ```
@@ -19,6 +22,8 @@ MacBook-Pro-Andrii:www podarok$ composer --version
 Composer version 1.10.15 2020-10-13 15:59:09
 ```
 as an output of the command.
+
+### Case after October 30, 2020, when you accidentally upgraded to composer 2.x
 
 If you faced your composer already updated to composer version 2 and having issues with it - downgrade it to latest  1.x version by running a command
 ```sh
