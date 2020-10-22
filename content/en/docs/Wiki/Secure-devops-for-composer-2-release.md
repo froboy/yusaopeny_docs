@@ -1,11 +1,11 @@
-Composer is going to be upgraded to 2.x on October 30, 2020, which could cause issues of instability, when your older composer 1.x accidentally auto-updated to 2.x version which could have incompatibility issues.
+Composer will be upgraded to 2.x on October 30, 2020,. This could cause issues of instability when your older composer 1.x accidentally auto-updates to the 2.x version due to incompatibility issues.
 
-Below Open Y team prepared an avoidance plan for the community to be prepared while Open Y will be verifying Composer 2.x causes no issues or regressions.
+The Open Y team prepared an avoidance plan for the community to take action steps before the release while Open Y will be verifying Composer 2.x causes no issues or regressions.
 
 
-### Case before October 30, 2020 when you are on composer 1.x
+### Case before October 30, 2020, when you are on composer 1.x
 
-Composer 2 is coming and older versions of composer 1.x showing now a message
+Composer 2 is coming and older versions of composer 1.x showing the message below. 
 
 ```
 Composer 2.0 is about to be released and the older 1.x releases will self-update directly to it once it is released. To avoid surprises update now to the latest 1.x version
@@ -27,9 +27,9 @@ Composer version 1.10.15 2020-10-13 15:59:09
 ```
 as an output of the command.
 
-### Case after October 30, 2020, when you accidentally upgraded to composer 2.x
+### If you do not upgrade to the latest 1.x version before October 30, 2020. i.e. if you accidentally upgraded to composer 2.x
 
-If you faced your composer already updated to composer version 2 and having issues with it ( [let us know, if any](https://github.com/ymcatwincities/openy/issues/new) ) - downgrade it to the latest  1.x version by running a command
+If you faced your composer already updated to composer version 2 and having issues with it ( [connect with the Open Y team on GitHub and the #developers channel on Slack](https://github.com/ymcatwincities/openy/issues/new) ) - downgrade it to the latest  1.x version by running a command
 ```sh
 composer selfupdate --1
 ```
