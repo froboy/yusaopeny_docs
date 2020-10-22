@@ -1,4 +1,4 @@
-Composer will be upgraded to 2.x on October 30, 2020,. This could cause issues of instability when your older composer 1.x accidentally auto-updates to the 2.x version due to incompatibility issues.
+Composer will be upgraded to 2.x on October 30, 2020,. This could cause issues of instability when your older composer 1.x accidentally auto-updates to the 2.x version due to incompatibility issues. Issues could include: composer fails to run any commands and blocks OpenY upgrade/maintenance.
 
 The Open Y team prepared an avoidance plan for the community to take action steps before the release while Open Y will be verifying Composer 2.x causes no issues or regressions.
 
