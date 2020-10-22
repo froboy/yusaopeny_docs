@@ -29,7 +29,7 @@ as an output of the command.
 
 ### If you do not upgrade to the latest 1.x version before October 30, 2020. i.e. if you accidentally upgraded to composer 2.x
 
-If you faced your composer already updated to composer version 2 and having issues with it - downgrade it to the latest  1.x version by running a command
+If your composer already updated to composer version 2 and you have issues with this upgrade, the solution is to downgrade composer to the latest  1.x version by running the following command.
 ```sh
 composer selfupdate --1
 ```
