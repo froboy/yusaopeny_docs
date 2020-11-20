@@ -13,3 +13,5 @@ Welcome to the Open Y wiki!
 [Install SSl certificate for your site](https://github.com/ymcatwincities/openy/wiki/Install-SSL-certificate-for-the-OpenY-site)
 
 [Development FAQ](https://github.com/ymcatwincities/openy/wiki/Development-FAQ)
+
+[Code review best practices](https://github.com/ymcatwincities/openy/wiki/Code-Review-Quality-Best-Practices)
