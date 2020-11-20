@@ -42,3 +42,84 @@ Like
 - acrypt - Asymetric crypt alghoritm
 
 and so on.
+
+PHP
+=====
+
+Return early pattern
+====
+
+To keep readability in functions and methods, it is wise to return early if simple conditions apply that can be checked at the beginning of a method:
+
+```php
+<?php
+
+function foo($bar, $baz)
+{
+    if ($foo) {
+        //assume
+        //that
+        //here
+        //is
+        //the
+        //whole
+        //logic
+        //of
+        //this
+        //method
+        return $calculated_value;
+    } else {
+        return null;
+    }
+}
+?>
+```
+It's better to return early, keeping indentation and brain power needed to follow the code low.
+
+```php
+<?php
+
+function foo($bar, $baz)
+{
+    if (!$foo) {
+        return null;
+    }
+
+    //assume
+    //that
+    //here
+    //is
+    //the
+    //whole
+    //logic
+    //of
+    //this
+    //method
+    return $calculated_value;
+}
+?>
+```
+
+Define early pattern
+=====
+
+When you have a condition that aims to change the value of variable without additional logic, get rid of ```if else elseif``` code, just define early variable and change it via conditions
+
+Before:
+```php
+if ($a = 'hello') {
+ $text = 'Welcome to site';
+}
+else {
+ $text = 'Register please';
+}
+```
+
+After:
+```php
+$text = 'Register please';
+if ($a = 'hello') {
+ $text = 'Welcome to site';
+}
+```
+
