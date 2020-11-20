@@ -33,3 +33,12 @@ It is almost impossible to create a reusable module when you'll grab altogether 
     6. **${business_name}** - when the code is so abstract that it has no tying to OpenY, and ready to be hosted on Drupal.org as independet project.
 
 
+Code sharing
+=====
+
+For ability to support code sharing MODULE-NAME should be selected in relation to business logic of the module. It is not good to create modules by abstracting it out of the business. All the modules, ejected to drupal.org from our past project were possible to share only because they represent some feature, tied to a business. 
+Like 
+- personify - module for SOAP related methods for working with Personify API
+- acrypt - Asymetric crypt alghoritm
+
+and so on.
