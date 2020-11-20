@@ -12,4 +12,4 @@ Welcome to the Open Y wiki!
 
 [Install SSl certificate for your site](https://github.com/ymcatwincities/openy/wiki/Install-SSL-certificate-for-the-OpenY-site)
 
-[Development FAQ]
+[Development FAQ](https://github.com/ymcatwincities/openy/wiki/Development-FAQ)
