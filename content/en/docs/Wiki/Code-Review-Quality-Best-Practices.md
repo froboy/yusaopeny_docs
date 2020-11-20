@@ -136,6 +136,7 @@ In this file we should put updates that are related to the distribution in gener
 In case if you update some configuration for specific feature, make sure that you put updates into appropriate module.
 
 ### Revert only specific property from config
+This is preffered method of updating configs due to less conflicts for upgrading customized Open Y instances 
 
 With [config_import module](https://www.drupal.org/project/confi) help we can update only part from full config.
 
@@ -158,6 +159,8 @@ Where:
 - "display.default.display_options.pager" - config specific property (you can set value from a nested array with variable depth)
 
 ### Revert full configs
+Keep in ming this variant has an extensive config files manipulation and increases time for upgrade.
+
 For updating full config or several configs from directory use service 'openy_upgrade_tool.importer'.
 ```
 $config_dir = drupal_get_path('module', 'openy_media_image') . '/config/install';
