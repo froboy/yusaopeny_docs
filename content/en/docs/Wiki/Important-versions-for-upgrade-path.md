@@ -7,6 +7,7 @@ Example. If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 you sh
 1. Upgrade 8.2.7.1 ...
 
 
+### Important versions
 
 * 8.1.13.1 ( optional, when you have a lot of customized code and 8.2.2.1 is failing in most places). 
 * 8.2.2.1 ( this is a very important step everyone should have. After this version, `drush entup` stops working. In this version, we finally migrated to the core media subsystem, and before going further - important to upgrade media by upgrading your site to this version first.
