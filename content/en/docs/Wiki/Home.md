@@ -8,6 +8,8 @@ Welcome to the Open Y wiki!
 
 [OpenY Upgrade for Developers](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers)
 
+[Important Open Y versions for smooth upgrade path](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path)
+
 [Open Y 3rd party software and libraries dependencies](https://github.com/ymcatwincities/openy/wiki/Open-Y-3rd-party-dependencies)
 
 [Install SSl certificate for your site](https://github.com/ymcatwincities/openy/wiki/Install-SSL-certificate-for-the-OpenY-site)
