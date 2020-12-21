@@ -3,9 +3,8 @@ Check video about this document: https://youtu.be/RGfYLjYpi4Q
 DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x before going OpenY 2.0 upgrade
 See https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version
 
-Key OpenY versions worth using as intermediate steps for upgrading from very old OpenY versions
-- 8.1.13.1 ( optional, when you have a lot of customized code and 8.2.2.1 is failing in most places). 
-- 8.2.2.1 ( this is very important step everyone should have. After this version `drush entup` is not working. 
+[Key OpenY versions worth using as intermediate steps for upgrading from very old OpenY versions](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path)
+ 
 
 Example - if you are on OpenY 8.0.1 then
 * Upgrade to 8.1.13.1 ( skip this, try 8.2.2.1 first )
