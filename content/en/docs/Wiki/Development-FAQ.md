@@ -2,6 +2,11 @@
 
 See video https://www.youtube.com/watch?v=01y617maeBE
 
+# How to use xdebug in Visual Studio Code for Vagrant VM environment
+
+See https://gist.github.com/podarok/732ba655939ba9be3304e57b9bb5b2c3
+Install it to .vscode/launch.json and run Debugger listening configuration. VSCode will start reacting on breakpoints and enabled options in settings once the browser hits a site from the development environment.
+
 
 # How to work with builds?
 
