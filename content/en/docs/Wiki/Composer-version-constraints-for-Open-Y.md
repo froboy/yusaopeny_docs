@@ -30,6 +30,7 @@ composer require drupal/custom_formatters:3.0@beta1
 
 You can change any of the dependency versions without upgrading Open Y by running the only `composer require` command and Drupal Update DB routines afterward.
 
+Check [official Composer documentation about version constraints](https://getcomposer.org/doc/articles/versions.md).
 
 
 
