@@ -11,7 +11,7 @@ By having multiple OR ( || ) conditions we are providing information for develop
 
 For example, if, for some reason, custom_formatters 3.0 won't be compatible with any of Open Y dependencies at a time of release, developer can select an older beta version in order to proceed with the upgrade. 
 
-For selecting a specific version of dependency when you do upgrade of Open Y - add dependency and it's version alongside with Open Y at a `composer require` step
+For selecting a specific version of dependency when you do upgrade of Open Y - add dependency and it's version alongside with Open Y at a `composer require...` step
 
 Example
 
