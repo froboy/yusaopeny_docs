@@ -1,6 +1,6 @@
 ## Open Y Release Guidelines
 
-![OpenY Releases](https://s8.postimg.cc/vgvt8dlxx/releases.png)
+[Archive of schedule for OpenY releases 2018-2019](https://s8.postimg.cc/vgvt8dlxx/releases.png)
 ![OpenY/VirtualY Releases for 2021](https://user-images.githubusercontent.com/563412/104428684-6fd65800-558d-11eb-93b3-5c63e92ccd56.png)
 
 ### Major releases (Quarterly)
