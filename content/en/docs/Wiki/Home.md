@@ -6,6 +6,8 @@ Welcome to the Open Y wiki!
 
 ### For Developers
 
+[Technology pipeline](https://github.com/ymcatwincities/openy/wiki/Open-Y-technology-pipeline)
+
 [OpenY Upgrade for Developers](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers)
 
 [Important Open Y versions for smooth upgrade path](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path)
