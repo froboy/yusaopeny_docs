@@ -8,3 +8,4 @@ In order to deliver best technologies for the YMCA movement we have a lot of bes
 1. We started to have Smoke Tests for everything in OpenY/VirtualY https://www.youtube.com/watch?v=MH4BwMowlic&list=PL_QVggMcFfKYfV1cnistny2L-Sp55SoMg
 1. We have #architects_support chat where we are discussing everything challenging and technologies around with our partners as well as YUSA
 1. We maintain and regularly populate YouTube playlist for Developers https://www.youtube.com/watch?v=RSsQLVVhldc&list=PL_QVggMcFfKZp05THV3dYlYOG3MsJ8xSf
+1. 3rd party dependencies https://github.com/ymcatwincities/openy/wiki/Open-Y-3rd-party-dependencies
