@@ -3,8 +3,8 @@ Open Y has a pretty intense development timeline and in this document, we are ma
 Example. If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 you should make it in couple of steps
 1. Upgrade 8.1.2 to 8.1.13.1
 1. Upgrade 8.1.13.1 to 8.2.2.1
-1. Upgrade 8.2.2.1 to 8.2.7.1
-1. Upgrade 8.2.7.1 ...
+1. Upgrade 8.2.2.1 to 8.2.7.3
+1. Upgrade 8.2.7.3 ...
 
 
 ### Important versions
