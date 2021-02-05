@@ -1,5 +1,6 @@
 See how solr server configuration should be done on a server
 https://github.com/ymcatwincities/openy_activity_finder/wiki
+Solr search was introduced in [this Pull Request](https://github.com/ymcatwincities/openy/pull/1967)
 
 
 **Upgrade path:**
