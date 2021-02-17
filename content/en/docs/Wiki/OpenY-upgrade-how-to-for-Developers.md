@@ -6,7 +6,7 @@ DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x b
 [Key OpenY versions worth using as intermediate steps for upgrading from very old OpenY versions](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path)
  
 
-[Upgrade use case - from 8.1.3 to 8.2.2.1]( https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
+[Upgrade use case - from 8.1.3 to 8.2.2.1](https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
 
 **Table of Contents**
 
@@ -149,7 +149,7 @@ Review and revert or apply updated version of the configs after upgrade.
 
 ### Check for regressions
 
-...
+In order to check for regressions during upgrade, it is best to work with smoke tests. Open Y maintains the [smoke tests database document](https://docs.google.com/spreadsheets/d/1yLUkMgJKK94hABy107_V-1AcJbRSSEf2s4wsQto1wfI/edit?usp=sharing) you should use for the process.
 
 ### Backup current state of the updated site
 
