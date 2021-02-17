@@ -17,7 +17,7 @@ DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x b
 - [Verify if the Media Entity to Media in Core migration is possible](#verify-if-the-media-entity-to-media-in-core-migration-is-possible)
 - [Update the site](#update-the-site)
 - [Visit OpenY upgrade tool dashboard](#visit-openy-upgrade-tool-dashboard)
-- [Check for regressions](#check-for-regressions)
+- [Check for regressions/Smoke tests](#check-for-regressions)
 - [Backup current state of the updated site](#backup-current-state-of-the-updated-site)
 - [Proceed with an update to next version until succeeded (Start from item 1)](#proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1)
 
