@@ -31,7 +31,7 @@ Down below you can see steps and plan how decoupling should be done in the futur
 ### Steps for decoupling current, existing component of Open Y
 
 - Create a new GitHub/Drupal.org repository
-- Filter selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of Open Y profile. This is needed as a part of Code of Conduct in order to keep credits of work done for this component.
+- Filter selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of Open Y profile. This is needed as a part of [Code of Conduct](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices) in order to keep credits of work done for this component.
 - create composer.json for the component, in order to be able to start using it via `composer` manager. Example [from Virtual Y](https://github.com/ymcatwincities/openy_gated_content/blob/1.2.4/composer.json)
 - Make it available for the public via packagist.org or drupal.org as a release. Ensure `podarok` used added as a co-maintainer to respective system
 - Create Pull Request with adding this package back to Open Y profile via composer.json
