@@ -37,3 +37,44 @@ Down below you can see steps and plan how decoupling should be done in the futur
 - Create Pull Request with adding this package back to Open Y profile via composer.json
 - Ensure ejected code is not duplicated in Open Y profile. Remove duplicated code in a same Pull Request
 - ask for review and release, according to the release plan.
+
+### How to update module on Drupal.org
+
+* Git filter-branch to get a history of changes.
+* Change git origin to Drupal.org project.
+* Create a new branch and push the code to Drupal.org.
+* Crate and push tag to Drupa.org. Create a release on drupal.org.
+* Update composer.json in this distribution with a new tag.
+
+### How to decouple module from YN to Drupal.org
+Example: https://www.drupal.org/project/paragraph_skins
+
+```sh
+git clone git@github.com:ymcatwincities/openy.git decouple
+rm -rf decouple_copy && cp -a decouple decouple_copy
+cd decouple_copy
+git filter-branch --subdirectory-filter docroot/modules/contrib/paragraph_skins
+git clean -dfx
+git remote remove origin && git remote add origin git@git.drupal.org:project/paragraph_skins.git
+git pull origin 8.x-1.x --allow-unrelated-histories
+# Resolve conflicts if applicable.
+git push origin production:8.x-1.x
+# Create tags and release on Drupal.org
+```
+
+### How to decouple module from Open Y to public https://github.com/Open-Y-subprojects repo
+Request Repository for module. Example: https://github.com/Open-Y-subprojects/shared_content_server
+
+```sh
+git clone git@github.com:ymcatwincities/openy.git decouple
+rm -rf decouple_copy && cp -a decouple decouple_copy
+cd decouple_copy
+git filter-branch --subdirectory-filter docroot/profiles/contrib/openy/modules/custom/SOME_MODULE_HERE
+git clean -dfx
+git remote remove origin && git remote add origin git@github.com:Open-Y-subprojects/SOME_MODULE_HERE.git
+git push origin production
+# Create composer.json on the decoupled repository. Example: https://github.com/ymcatwincities/openy_activity_finder/blob/4.x/composer.json
+git clone git@github.com:ynorth-projects/distribution.git yn-distribution
+# Update composer json for distrubution. See below
+```
+[Example for Activity Finder](https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111)
