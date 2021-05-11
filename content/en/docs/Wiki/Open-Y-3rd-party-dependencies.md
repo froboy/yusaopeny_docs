@@ -3,7 +3,7 @@
 * Oracle MySQL 5.7+ database server https://www.mysql.com/
 * PHP 7.3+ interpreter https://www.php.net/ 
 * Ubuntu LTS Operating System ( CentOS or any other Linux(Unix) OS ) https://ubuntu.com/ ( 16,18.20 versions of Ubuntu are supported/tested )
-* Apache SOLR search engine server https://lucene.apache.org/solr/ ( 4.9 Solr for Activity Finder tested, other versions work in progress )
+* Apache SOLR search engine server https://lucene.apache.org/solr/ ( version 4.9.1 and version 8 Solr for Activity Finder tested, other versions work in progress )
 * High load/performance
 1. Memcache http://memcached.org/
 2. Varnish reverse cache server https://varnish-cache.org/
