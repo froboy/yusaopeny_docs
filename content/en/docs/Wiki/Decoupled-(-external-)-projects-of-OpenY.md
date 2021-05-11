@@ -1,5 +1,7 @@
 # Inventory of external modules, available via composer Packagist.org
 
+Check all GitHub for the tag https://github.com/topics/openy-decoupled
+
 1. https://github.com/ymcatwincities/openy_block_modal - Implements a simple block with a body and title that will be used to display modal windows.
 2. https://github.com/ymcatwincities/openy_memberships - Membership Framework for OpenY and Drupal.
 3. https://github.com/ymcatwincities/paragraph_skins - Skins component from OpenY. Decoupled to drupal.org https://www.drupal.org/project/paragraph_skins
