@@ -7,6 +7,7 @@ DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x b
  
 
 [Upgrade use case - from 8.1.3 to 8.2.2.1](https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
+[Upgrade use case from 8.2.2.3 to 8.2.7.3](https://github.com/ymcatwincities/openy/wiki/Upgrade-use-case-from-8.2.2.3-to-8.2.7.3)
 
 **Table of Contents**
 
@@ -74,7 +75,7 @@ If your `composer.json` file is modified, merge the changes manually. Essentiall
 
 ```sh
 cd docroot
-drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_wrapper openy_loc_branch openy_focal_point
+drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_wrapper openy_loc_branch openy_focal_point media_directories_ui
 ```
 Sometimes it is important to get latest [openy_upgrade_tool](https://github.com/ymcatwincities/openy/tree/8.x-2.x/modules/custom/openy_upgrade_tool) from repository even if you are updating to not latest version of OpenY.
 You'll be able to disable them in the end once all updates executed successfully
