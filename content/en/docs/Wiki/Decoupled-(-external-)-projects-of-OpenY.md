@@ -20,3 +20,4 @@ Check all GitHub for the tag https://github.com/topics/openy-decoupled
 16. https://github.com/ymcatwincities/ymca_sync - Syncer backend core
 17. https://github.com/ymcatwincities/openy_activity_finder - Activity Finder app
 18. https://github.com/ymcatwincities/media_entity_document - Media Entity Document
+19. https://github.com/ynorth-projects/openy_prgf_session_table - if you need to present couple of Sessions in a table view without using any complex app like Schedules or Activity Finder
