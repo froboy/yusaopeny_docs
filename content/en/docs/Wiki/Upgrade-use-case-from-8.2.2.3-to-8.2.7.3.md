@@ -1,6 +1,6 @@
 
 
-1 uninstall lndr and optimizely modules before running [composer update commands](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207-)
+1 uninstall `lndr` and `optimizely` modules before running [composer update commands](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207-)
 
 2 config to remove
 ```sh
