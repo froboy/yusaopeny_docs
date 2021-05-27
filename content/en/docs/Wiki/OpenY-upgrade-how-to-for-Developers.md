@@ -6,8 +6,8 @@ DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x b
 [Key OpenY versions worth using as intermediate steps for upgrading from very old OpenY versions](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path)
  
 
-[Upgrade use case - from 8.1.3 to 8.2.2.1](https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
-[Upgrade use case from 8.2.2.3 to 8.2.7.3](https://github.com/ymcatwincities/openy/wiki/Upgrade-use-case-from-8.2.2.3-to-8.2.7.3)
+* [Upgrade use case - from 8.1.3 to 8.2.2.1](https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
+* [Upgrade use case from 8.2.2.3 to 8.2.7.3](https://github.com/ymcatwincities/openy/wiki/Upgrade-use-case-from-8.2.2.3-to-8.2.7.3)
 
 **Table of Contents**
 
