@@ -33,11 +33,11 @@ Upgrade to Open Y 2.x version
 ### Prepare dedicated environment for upgrade testing
 
 Ensure you have working computer or virtual machine with 
- - Ubuntu 14.04(16.04, 18.04 or any decent Ubuntu LTS versions) 64 bit
+ - Ubuntu 20.04(16.04, 18.04 or any decent Ubuntu LTS versions) 64 bit
  - MySQL 5.5+(5.7 preffered because of the performance improvements)
  - Apache 2.4(or Nginx + php-fpm in case if you are fine with htaccess issues down the road)
- - PHP 7.2 (7.3+ could be an issue with some contrib modules)
- - Drush 8.1.17 version ( OpenY pre 8.2 ). **No support for Drush 9.x yet**. **Use drush 8.3+ for OpenY 8.2+**
+ - PHP 7.3 (7.4+ could be an issue with some contrib modules)
+ - Drush 8.1.17 version ( OpenY pre 8.2 ). **No support for Drush 9.x in Drupal 8 branches. Only in Drupal 9**. **Use drush 8.3+ for OpenY 8.2+**
 
 OpenY team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/ymcatwincities/openy-cibox-vm). Feel free to use it to get working virtual environment.
 Your own OpenY instance should have Virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
