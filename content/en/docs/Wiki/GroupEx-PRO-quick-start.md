@@ -28,5 +28,6 @@ In order to configure it, follow steps below
 - Locations - choose Branch
 - Groupex ID - Enter GroupEx ID of the Branch
 - Save
-13. Run `drush openy-pef-gxp-sync` ( Drupal 8, drush 8 ) or `drush yn-sync openy_pef_gxp_sync.syncer` ( Drupal 9, drush 10 ) command from your project docroot.
+13. Go to `admin/openy/settings/groupex-enabled-locations` and enable Locations that you want to sync.
+14. Run `drush openy-pef-gxp-sync` ( Drupal 8, drush 8 ) or `drush yn-sync openy_pef_gxp_sync.syncer` ( Drupal 9, drush 10 ) command from your project docroot.
 
