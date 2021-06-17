@@ -10,6 +10,7 @@ For the OpenY distribution we have [Terms of Use](https://github.com/ymcatwincit
 To understand how we use and develop technologies, refer to the documents below:
 
 * Drupal Code of Conduct https://www.drupal.org/dcoc 
+* Conventional commits policy https://www.conventionalcommits.org/en/v1.0.0/
 * Code Standards https://www.drupal.org/docs/develop/standards ( This reference core team is using for pointing possible flaws during code reviews for OpenY repository and pull requests )
 * [Open Y Development FAQ](https://github.com/ymcatwincities/openy/wiki/Development-FAQ)
 
