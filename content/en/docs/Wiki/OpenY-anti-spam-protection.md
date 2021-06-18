@@ -4,6 +4,7 @@ In order to protect Open Y customers, we added anti-spam protection, based on Ca
 You can check [the tutorial for how to install and configure reCaptcha on your site.](https://www.youtube.com/watch?v=nHo2uL-bPyM)
 
 In the majority of cases having the above configuration in place will protect you from 99% of the spam, unless there is a human entered spam that has no protection. To overcome some human-based spam you should use blacklist logic for blocking email domains, used in spam messages.
+For that, you can use https://dgo.to/protected_submissions module which allows you to harden all submissions on a site with a list of stop words as well as per language settings.
 
 ## Virtual Y use case
 
