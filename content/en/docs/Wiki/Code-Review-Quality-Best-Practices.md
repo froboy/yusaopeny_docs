@@ -180,3 +180,6 @@ $config_importer->importConfigs([
   'views.view.example_view',
 ]);
 ```
+
+### JavaScript includes
+![image](https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png)
