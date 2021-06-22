@@ -13,6 +13,7 @@ Example. If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 you sh
 * `8.2.2.1` ( this is a very important step everyone should have. After this version, `drush entup` stops working. In this version, we finally migrated to the core media subsystem, and before going further - important to upgrade media by upgrading your site to this version first.
 * `8.2.7.3` ( this is a very stable Drupal 8 based Open Y with a bunch of contrib module updates ). This is one of the last Drupal 8 based Open Y versions before upgrade to Drupal 9 core. Also, in 8.2.7.0(8.2.7.1) we started to introduce multiple version constraints in composer.json to allow developers to choose between the minimum or latest dependency versions. This is for securing the upgrade path as well as adding flexibility for version selection if needed.
 * `9.2.8.0` - Drupal 9 version which must be used in upgrade path before going to 9.2.8.1+ . This version has a difference with previous in added 9.0-9.1 Drupal core and disabled deprecated component.
+* `9.2.3.0` - Removed a bunch of not-used modules from distribution. 
 
 
 See [Version Constraints practices for Open Y](https://github.com/ymcatwincities/openy/wiki/Composer-version-constraints-for-Open-Y)
