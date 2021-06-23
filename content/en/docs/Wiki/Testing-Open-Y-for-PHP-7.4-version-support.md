@@ -21,5 +21,13 @@ composer require --dev phpcompatibility/php-compatibility
 ./vendor/bin/phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 7.4 --config-set installed_paths vendor/phpcompatibility/php-compatibility
 ```
 
+3. Generate report
+
+```
+./vendor/bin/phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 7.4 --report-file=report.txt
+```
+
+
+
 
 
