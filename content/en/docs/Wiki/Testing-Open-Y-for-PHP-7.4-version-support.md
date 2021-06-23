@@ -27,6 +27,14 @@ composer require --dev phpcompatibility/php-compatibility
 ./vendor/bin/phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 7.4 --report-file=report.txt
 ```
 
+or if you need to skip warnings
+
+```
+./vendor/bin/phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 7.4 --report-file=report.txt -n
+```
+
+In report.txt you'd find a full list of findings to be resolved in order to pass compatibility
+
 
 
 
