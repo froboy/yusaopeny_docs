@@ -228,3 +228,30 @@ After
 $node = $this->entityTypeManager->getStorage('node')->load($result->getField('nid')->getValues()[0]);
 ...
 ```
+
+## To create meaningful log messages
+
+In order to have a good log reading experience, we need to keep meaningful log messages with a proper context within
+
+
+Before
+
+```php
+...
+        if($type == 'program') {
+          
+          if ($feed['profile_media_videos'] != NULL || $feed['profile_media_images'] != NULL) {
+          \Drupal::logger('272')->notice($type);
+...
+```
+
+After
+
+```php
+...
+        if($type == 'program') {
+          
+          if ($feed['profile_media_videos'] != NULL || $feed['profile_media_images'] != NULL) {
+          \Drupal::logger('form_import')->notice("FORM IMPORT: type is $type");
+...
+```
