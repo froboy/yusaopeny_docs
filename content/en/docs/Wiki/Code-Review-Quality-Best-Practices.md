@@ -183,3 +183,48 @@ $config_importer->importConfigs([
 
 ### JavaScript includes
 ![image](https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png)
+
+## isset has check for null value
+
+`isset()` verifies if set and not null https://www.php.net/manual/en/function.isset.php
+no need to do additional verification against NULL
+
+
+Before
+
+```php
+...
+'video' => (isset($feed['profile_media_videos']) || $feed['profile_media_videos'] != NULL) ? $feed['profile_media_videos'] : '',
+...
+```
+
+After
+
+```php
+...
+'video' => (isset($feed['profile_media_videos'])) ? $feed['profile_media_videos'] : '',
+...
+```
+
+
+## Use Dependency Injection
+
+For the decoupled and easier to upgrade code in Drupal 8+ Dependency Injection code must be used everywhere instead of calling methods from services statically.
+See https://api.drupal.org/api/drupal/core%21core.api.php/group/container/9.3.x
+
+
+Before
+
+```php
+...
+$node = Drupal::entityTypeManager()->getStorage('node')->load($result->getField('nid')->getValues()[0]);
+...
+```
+
+After
+```php
+...
+
+$node = $this->entityTypeManager->getStorage('node')->load($result->getField('nid')->getValues()[0]);
+...
+```
