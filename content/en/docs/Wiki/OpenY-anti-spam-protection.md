@@ -9,3 +9,9 @@ For that, you can use https://dgo.to/protected_submissions module which allows y
 ## Virtual Y use case
 
 In order to overcome caching issues, Virtual Y uses a simple_recaptcha module which could be used in the same cases.
+
+Some time ago we have faced the issue when “Captcha” + “reCAPTCHA” have been working wrong on some projects, we are supporting: every time the challenge was solved – the form wasn’t validated on a submit for some reason.
+There was some issue on drupal.org regarding such issues (the last blocker was https://www.drupal.org/project/captcha/issues/3089263 ), and a bunch of patches, that should resolve the issues, so that times we’ve applied the patches and sometimes that helped, sometimes – not.
+At some point, the “Simple reCaptcha” module was used on a first project, and it had no issues with the challenges' wrong checks – so we’ve started to replace the “Captcha” + “reCAPTCHA” modules bunch with the “Simple reCaptcha”.
+
+As for the VY, we’ve again faced the issue that the challenge solved hasn’t passed the validation, even being on the last version of the reCAPTCHA module, which has already merged in the fix for the issue. 
