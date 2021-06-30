@@ -26,4 +26,5 @@ Check all GitHub for the tag https://github.com/topics/openy-decoupled
 
 # Decoupling mindmap
 
-![Open Y decoupling](https://user-images.githubusercontent.com/563412/122896510-cec8a600-d351-11eb-9f40-31459837608f.png)
+![Open Y decoupling](https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png)
+
