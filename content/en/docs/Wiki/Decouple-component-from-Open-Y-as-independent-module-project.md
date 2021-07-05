@@ -78,3 +78,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 # Update composer json for distrubution. See below
 ```
 [Example for Activity Finder](https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111)
+
+
+# References
+Useful article for future decoupling - https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b 
