@@ -21,3 +21,7 @@ Welcome to the Open Y wiki!
 [Development FAQ](https://github.com/ymcatwincities/openy/wiki/Development-FAQ)
 
 [Code review best practices](https://github.com/ymcatwincities/openy/wiki/Code-Review-Quality-Best-Practices)
+
+### For QA Engineers
+
+[Open Y Smoke Tests Index](https://github.com/ymcatwincities/openy/wiki/Open-Y-Smoke-Tests-Index)
