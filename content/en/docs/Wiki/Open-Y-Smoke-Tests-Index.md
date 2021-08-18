@@ -9,3 +9,4 @@
 ## Open Y Features
 - [Location Finder Application](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_loc_finder/SMOKE_TESTS.md) - how to test
 - [Small Banner](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_small_banner/SMOKE_TESTS.md)
+- [Banner](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_banner/SMOKE_TESTS.md)
