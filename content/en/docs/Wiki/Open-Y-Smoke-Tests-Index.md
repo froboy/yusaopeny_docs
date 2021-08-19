@@ -12,3 +12,5 @@
 - [Banner](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_banner/SMOKE_TESTS.md)
 - [Simple Content](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_simple_content/SMOKE_TESTS.md)
 - [Grid Content](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_grid_content/SMOKE_TESTS.md)
+- [Embedded GroupExpro Schedule](https://github.com/ymcatwincities/openy/blob/9.x-2.x/modules/custom/embedded_groupexpro_schedule/SMOKE_TESTS.md)
+- [Open Y Search](https://github.com/ymcatwincities/openy/blob/9.x-2.x/modules/custom/openy_search/SMOKE_TESTS.md)
