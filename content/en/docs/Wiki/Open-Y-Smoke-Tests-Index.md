@@ -11,3 +11,4 @@
 - [Small Banner](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_small_banner/SMOKE_TESTS.md)
 - [Banner](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_banner/SMOKE_TESTS.md)
 - [Simple Content](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_simple_content/SMOKE_TESTS.md)
+- [Grid Content](https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_grid_content/SMOKE_TESTS.md)
