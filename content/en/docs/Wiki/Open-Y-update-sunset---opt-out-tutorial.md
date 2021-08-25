@@ -15,3 +15,6 @@ Visit `OpenY\Terms and conditions` in your Open Y site instance and uncheck Opti
 
 After submitting this form your site will stop sending anonymous data.
 If checkbox was not enabled - just disregard, you didn't opt-in earlier
+
+# Deprecation action
+Uninstall and deprecation was done in https://github.com/ymcatwincities/openy/pull/2537
