@@ -3,9 +3,9 @@
 ## Preamble
 
 Back in 28 Jan 2020 Open Y decided to add an anonymous analytics module https://github.com/ymcatwincities/openy/tree/9.x-2.x/modules/custom/openy_analytics which was a free opt-in/opt-out solution for the Core team to gather stats from Open Y sites about the frequency of components used. 
-The idea behind this was to gather data in order to understand the demand for the components in Open Y and make decisions based on this data.
+The idea behind this was to gather data in order to understand the demand for the components in Open Y and use the data to make better decisions.
 
-Due to recent information this feature is not frequently used, the Open Y Core team decided to sunset this functionality and remove openy_analytics as well as openy_update modules from the Open Y Distribution in order to reduce server load from Open Y instances and archive the analytics server as deprecated.
+Recently, the Open Y Core team decided to sunset this functionality and remove openy_analytics as well as openy_update modules from the Open Y Distribution, as this feature was rarely used. By sunsetting this functionality, we reduced server load from Open Y instances and archive the analytics server as deprecated.
 
 ## How to opt-out from analytics subsystem
 
