@@ -1,4 +1,4 @@
-# Welcome to Open Y wiki
+Welcome to Open Y wiki
 
 In order to generate composer.json Drupal.org defines specific rules in module info.yml file
 
