@@ -18,3 +18,13 @@ Example. If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 you sh
 
 See [Version Constraints practices for Open Y](https://github.com/ymcatwincities/openy/wiki/Composer-version-constraints-for-Open-Y)
 
+## Known issues
+
+If you are faced with an issue when `composer` installs improper version of drupal/core for the chosen version of Open Y from the list above, please use a trick in order to downgrade to a needed one
+
+```sh
+composer require drupal/core-recommended:9.2.8
+```
+Run the above command in a folder where `docroot` folder is.
+Use proper core version instead of `9.2.8` 
+
