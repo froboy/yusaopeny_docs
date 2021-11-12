@@ -22,6 +22,8 @@ Always use
 composer create-project ymcatwincities/openy-project:dev-9.2.x-development buildnew --no-interaction --prefer-dist
 ```
 
+before running any commands from README files above.
+
 **Only by having a full Open Y tree on your disk, you'd we able to compile CSS/JS assets, using tutorials from README files above**
 
 
