@@ -1,49 +1,53 @@
-Back in 2019 Open Y team started the decoupling process for some major components and projects for them to become independent
+## History
 
-Communication started in  [Community Board - decouple thread](https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513)
+In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.
 
-After some time a small bunch of projects was decoupled and/or born as decoupled. See [initial index of these projects in wiki](https://github.com/ymcatwincities/openy/wiki/Decoupled-(-external-)-projects-of-OpenY)
+Communication started in the [Community Board - Ejecting modules from OpenY distro as independent projects](https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513).
 
-In 2021 Open Y core team faced a lot of coupling blocker in Open Y distribution during [the upgrade from Drupal 8 to Drupal 9](https://github.com/ymcatwincities/openy/milestone/21)
+The decoupling process is ongoing. See [the index of decoupled projects](https://github.com/ymcatwincities/openy/wiki/Decoupled-(-external-)-projects-of-OpenY).
 
-In order to make process of decoupling part of Open Y development and maintenance strategy in 2021 Open Y core team shared strategy with wider development community and came to a plan, described in a document [here](https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing)
+In 2021 the Open Y core team faced coupling blockers in the distribution during [the upgrade from Drupal 8 to Drupal 9](https://github.com/ymcatwincities/openy/milestone/21)
 
-Down below you can see steps and plan how decoupling should be done in the future
+To formalize the ongoing development and maintenance strategy, the Open Y core team [shared its decoupling plan with the wider community](https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing) in mid-2021.
 
-### Policy
+This document elaborates on those processes.
 
-- Every new component or sub-project of Open Y should be developed in it's own repository, by using GitHub or Drupal.org project infrastructure. Example of Drupal.org [here](https://www.drupal.org/project/paragraph_skins) and GitHub [here](https://github.com/ymcatwincities/openy_activity_finder)
-- The decoupled project **could be part of the core** - e.g [Activity Finder ](https://github.com/ymcatwincities/openy_activity_finder), added to Open Y profile by default, see [here](https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112) , or **not part of the core**, e.g. [Open Y Membership Framework](https://github.com/ymcatwincities/openy_memberships) which could be installed additionally by following [this tutorial](https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation)
-- GitHub should be selected as a repository when there is no strategy to make a component or project available for wider Drupal.org community. When it is tied to YMCA business and unlikely could be leveraged by somebody else
-- Drupal.org should be selected as a repository when the component became useful for some other projects, outside of just Open Y. Mandatory requirement here is - component should be able to install on vanilla Drupal without the need of using the Open Y profile.
+## Policy
 
-### Steps for creating a new, decoupled component
+- Every new component or sub-project of Open Y should be developed in its own repository - either on GitHub or Drupal.org. 
+  - Drupal.org example: [paragraph_skins](https://www.drupal.org/project/paragraph_skins) 
+  - GitHub Example: [openy_activity_finder](https://github.com/ymcatwincities/openy_activity_finder)
+- The decoupled project could be 
+  - **part of Open Y core** - e.g. [Activity Finder](https://github.com/ymcatwincities/openy_activity_finder) and [added to Open Y profile by default](https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112), or
+  - **not part of the core**, e.g. [Open Y Membership Framework](https://github.com/ymcatwincities/openy_memberships) which could be [installed later](https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation).
+- **GitHub** should be used when there is no strategy to make a component or project available for the wider Drupal community - that is, when it is tied to YMCA business and unlikely to be leveraged by somebody else.
+- **Drupal.org** should be used when the component could be useful to projects outside of Open Y. In this case, the component should be installable on vanilla Drupal without using the Open Y profile.
 
-- Create a new GitHub/Drupal.org repository
-- Work on getting first, finished release with at least `beta` version stability
-- create composer.json for the component, in order to be able to start using it via `composer` manager. Example [from Virtual Y](https://github.com/ymcatwincities/openy_gated_content/blob/1.2.4/composer.json)
-- Make it available for the public via packagist.org or drupal.org as a release. Ensure `podarok` used added as a co-maintainer to respective system
-- Suggest it for adding to Open Y by following the approval process.
-- Once approved, create Pull Request with adding it as a dependency in composer.json.
-- Ensure this component enabled in any of the Packages, maintained in [Open Y profile installation](https://github.com/ymcatwincities/openy/blob/9.2.8.0/openy.packages.yml) 
-- ask for review and release, according to the release plan.
+## Process
+### for creating a new decoupled component
 
-### Steps for decoupling current, existing component of Open Y
+1. Create a new GitHub/Drupal.org repository.
+1. Work on getting an initial release with at least `beta` version stability.
+1. Create a composer.json file for the component in order to be able to start using it via `composer`. See [Virtual Y](https://github.com/ymcatwincities/openy_gated_content/blob/master/composer.json) for an example.
+1. Make it available for the public via packagist.org or drupal.org as a release. Ensure `podarok` is added as a co-maintainer to the respective system.
+1. Suggest adding to Open Y by [opening an issue](https://github.com/ymcatwincities/openy/issues).
+1. If approved, create a Pull Request adding it as a dependency in [composer.json](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json).
+1. Ensure this component is enabled in any of the packages maintained in the [Open Y profile installation](https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml) 
+1. Ask for review and release, according to the [release plan](https://github.com/ymcatwincities/openy/wiki/How-we-release-OpenY-distribution-from-code-perspective).
 
-- Create a new GitHub/Drupal.org repository
-- Filter selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of Open Y profile. This is needed as a part of [Code of Conduct](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices) in order to keep credits of work done for this component.
-- create composer.json for the component, in order to be able to start using it via `composer` manager. Example [from Virtual Y](https://github.com/ymcatwincities/openy_gated_content/blob/1.2.4/composer.json)
-- Make it available for the public via packagist.org or drupal.org as a release. Ensure `podarok` used added as a co-maintainer to respective system
-- Create Pull Request with adding this package back to Open Y profile via composer.json
-- Ensure ejected code is not duplicated in Open Y profile. Remove duplicated code in a same Pull Request
-- ask for review and release, according to the release plan.
+### for decoupling an existing component of Open Y
 
+Follow the steps above, but:
+- After creating the repo, filter the selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the [Code of Conduct](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices).
+- After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.
+
+## Examples
 ### How to update module on Drupal.org
 
 * Git filter-branch to get a history of changes.
 * Change git origin to Drupal.org project.
 * Create a new branch and push the code to Drupal.org.
-* Crate and push tag to Drupa.org. Create a release on drupal.org.
+* Create and push tag to Drupal.org. Create a release on drupal.org.
 * Update composer.json in this distribution with a new tag.
 
 ### How to decouple module from YN to Drupal.org
@@ -62,8 +66,8 @@ git push origin production:8.x-1.x
 # Create tags and release on Drupal.org
 ```
 
-### How to decouple module from Open Y to public https://github.com/Open-Y-subprojects repo
-Request Repository for module. Example: https://github.com/Open-Y-subprojects/shared_content_server
+### How to decouple module from Open Y to [Open Y Subprojects](https://github.com/Open-Y-subprojects)
+Request a repository for the module. Example: https://github.com/Open-Y-subprojects/shared_content_server
 
 ```sh
 git clone git@github.com:ymcatwincities/openy.git decouple
@@ -81,4 +85,5 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 
 
 # References
-Useful article for future decoupling - https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b 
+
+- A useful article for future decoupling - [Move files from one repository to another, preserving git history](https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b)
