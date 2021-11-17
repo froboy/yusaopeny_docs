@@ -21,7 +21,7 @@ This document elaborates on those processes.
   - **part of Open Y core** - e.g. [Activity Finder](https://github.com/ymcatwincities/openy_activity_finder) and [added to Open Y profile by default](https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112), or
   - **not part of the core**, e.g. [Open Y Membership Framework](https://github.com/ymcatwincities/openy_memberships) which could be [installed later](https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation).
 - **GitHub** should be used when there is no strategy to make a component or project available for the wider Drupal community - that is, when it is tied to YMCA business and unlikely to be leveraged by somebody else.
-- **Drupal.org** should be used when the component could be useful to projects outside of Open Y. In this case, the component should be installable on vanilla Drupal without using the Open Y profile.
+- **Drupal.org** should be used when the component could be useful to projects outside of Open Y.
 
 ## Process
 ### for creating a new decoupled component
