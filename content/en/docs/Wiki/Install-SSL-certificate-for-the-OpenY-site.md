@@ -1,5 +1,3 @@
-Welcome to OpenY wiki
-
 ### Security
 
 In order to have better SEO and security for the data, processed from the OpenY instance to client's browser it is required to install SSL certificate for the site.

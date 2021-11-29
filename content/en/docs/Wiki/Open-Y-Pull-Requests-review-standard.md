@@ -1,8 +1,6 @@
-### Welcome to OpenY wiki
-
 Check more [technical guidelines about our best practices for code quality](https://github.com/ymcatwincities/openy/wiki/Code-Review-Quality-Best-Practices).
 
-## Adherence to standards: 
+## Adherence to standards:
 Open Y Core Team will adhere to the same standards we set for the community for all areas of development and technologies as per Open Y documentation.
 Open Y Core Team reserves the right to break these standards only in the following scenario:
 * Emergency - a major defect or security risk has been discovered that requires extreme measures to resolve.

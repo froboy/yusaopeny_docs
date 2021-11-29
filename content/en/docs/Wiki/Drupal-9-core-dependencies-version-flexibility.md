@@ -1,7 +1,5 @@
-# Welcome to Open Y wiki
-
 February 2021 release tagged Drupal core both 9.0.x and 9.1.x as allowed to be used.
-Composer by default is installing the latest stable version, so a command 
+Composer by default is installing the latest stable version, so a command
 ```bash
 composer create-project ymcatwincities/openy-project:dev-9.2.x-development OPENY --no-interaction
 ```

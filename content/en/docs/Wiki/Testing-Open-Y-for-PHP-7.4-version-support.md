@@ -1,5 +1,3 @@
-# Welcome to Open Y wiki
-
 ## Requirements
 
 * php-cli 7.4 ( memory_limit value should be large ( 2000M ) or unlimiter ( -1 ) in order to not fail

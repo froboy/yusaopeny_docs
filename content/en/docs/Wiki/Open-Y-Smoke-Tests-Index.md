@@ -1,5 +1,3 @@
-# Welcome to Open Y wiki
-
 ## Smoke tests in core and dependencies
 
 - [Open Y core tests and dependencies](https://github.com/ymcatwincities/openy/blob/9.x-2.x/SMOKE_TESTS.md)

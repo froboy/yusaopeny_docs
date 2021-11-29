@@ -1,5 +1,3 @@
-Welcome to Open Y wiki
-
 In order to generate composer.json Drupal.org defines specific rules in module info.yml file
 
 If you need to add a dependency to the drupal.org module you should provide a format
@@ -11,7 +9,7 @@ dependencies:
 ```
 In this case your module will have composer dependency to https://dgo.to/webform
 
-If you make it 
+If you make it
 
 ```yml
 dependencies:

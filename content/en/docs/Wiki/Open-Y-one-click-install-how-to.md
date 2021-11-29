@@ -1,5 +1,3 @@
-### Welcome to Open Y wiki
-
 ### Installing Open Y on DigitalOcean droplet
 
 1. Create Ubuntu 16.04 LTS x64 droplet in area close to your location
