@@ -13,7 +13,7 @@ For selecting a specific version of dependency when you do upgrade of Open Y - a
 
 Example
 
-from [upgrade doc](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers)
+from [[upgrade doc|OpenY-upgrade-how-to-for-Developers]]
 ```bash
 composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest

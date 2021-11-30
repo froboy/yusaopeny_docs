@@ -1,13 +1,13 @@
 Check video about this document: https://youtu.be/RGfYLjYpi4Q
 
-DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x before going OpenY 2.0 upgrade. [Check here](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version)
+DISCLAIMER: If you have old 1.x version it makes sense to update to latest 1.x before going OpenY 2.0 upgrade. [[Check here|OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version]]
 
 
-[Key OpenY versions worth using as intermediate steps for upgrading from very old OpenY versions](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path)
+[[Key OpenY versions worth using as intermediate steps for upgrading from very old OpenY versions|Important-versions-for-upgrade-path]]
  
 
-* [Upgrade use case - from 8.1.3 to 8.2.2.1](https://github.com/ymcatwincities/openy/wiki/Upgrade-OpenY-8.1.3-to-8.2.2.1)
-* [Upgrade use case from 8.2.2.3 to 8.2.7.3](https://github.com/ymcatwincities/openy/wiki/Upgrade-use-case-from-8.2.2.3-to-8.2.7.3)
+* [[Upgrade use case - from 8.1.3 to 8.2.2.1|Upgrade-OpenY-8.1.3-to-8.2.2.1]]
+* [[Upgrade use case from 8.2.2.3 to 8.2.7.3|Upgrade-use-case-from-8.2.2.3-to-8.2.7.3]]
 
 **Table of Contents**
 

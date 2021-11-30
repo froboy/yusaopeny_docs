@@ -16,7 +16,7 @@ Example. If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 you sh
 * `9.2.10.0` - Removed a bunch of not-used modules from distribution. 
 
 
-See [Version Constraints practices for Open Y](https://github.com/ymcatwincities/openy/wiki/Composer-version-constraints-for-Open-Y)
+See [[Version Constraints practices for Open Y|Composer-version-constraints-for-Open-Y]]
 
 ## Known issues
 

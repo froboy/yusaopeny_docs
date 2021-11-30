@@ -3,16 +3,16 @@ Our community grew up from other communities like Drupal CMF community ( https:/
 
 # Bylaws
 
-For the OpenY distribution we have [Terms of Use](https://github.com/ymcatwincities/openy/wiki/Open-Y-Terms-of-Use) and [Participant Agreement](https://github.com/ymcatwincities/openy/wiki/Open-Y-Participant-Agreement)
+For the OpenY distribution we have [[Terms of Use|Open-Y-Terms-of-Use]] and [[Participant Agreement|Open-Y-Participant-Agreement]].
 
 # Development
 
 To understand how we use and develop technologies, refer to the documents below:
 
-* Drupal Code of Conduct https://www.drupal.org/dcoc 
+* Drupal Code of Conduct https://www.drupal.org/dcoc
 * Conventional commits policy https://www.conventionalcommits.org/en/v1.0.0/
 * Code Standards https://www.drupal.org/docs/develop/standards ( This reference core team is using for pointing possible flaws during code reviews for OpenY repository and pull requests )
-* [Open Y Development FAQ](https://github.com/ymcatwincities/openy/wiki/Development-FAQ)
+* [[Open Y Development FAQ|Development-FAQ]]
 
 Javascript Code Standards  ( + React JS )
 * https://github.com/airbnb/javascript/tree/master/react ( master reference for reviewing javascript ES5/ES6 )

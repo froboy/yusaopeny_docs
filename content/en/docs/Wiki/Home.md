@@ -4,18 +4,18 @@ This wiki is the primary location for developer documentation for [Open Y](https
 
 ## For YMCA Associations
 
-- [OpenY Release Schedule](https://github.com/ymcatwincities/openy/wiki/Open-Y-Release-Schedule-and-Guidelines)
+- [[OpenY Release Schedule|Open-Y-Release-Schedule-and-Guidelines]]
 
 ## For Developers
 
-- [Development Processes](https://github.com/ymcatwincities/openy/wiki/Open-Y-technology-pipeline)
-- [Updating Open Y](https://github.com/ymcatwincities/openy/wiki/OpenY-upgrade-how-to-for-Developers)
-- [Development FAQ](https://github.com/ymcatwincities/openy/wiki/Development-FAQ)
-- [Code review best practices](https://github.com/ymcatwincities/openy/wiki/Code-Review-Quality-Best-Practices)
+- [[Development Processes|Open-Y-technology-pipeline]]
+- [[Updating Open Y|OpenY-upgrade-how-to-for-Developers]]
+- [[Development FAQ|Development-FAQ]]
+- [[Code review best practices|Code-Review-Quality-Best-Practices]]
 
 ## For QA Engineers
 
-- [Open Y Smoke Tests Index](https://github.com/ymcatwincities/openy/wiki/Open-Y-Smoke-Tests-Index)
+- [[Open Y Smoke Tests Index|Open-Y-Smoke-Tests-Index]]
 
 ---
 

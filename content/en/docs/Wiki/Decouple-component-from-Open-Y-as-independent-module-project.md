@@ -4,7 +4,7 @@ In 2019 the Open Y team started decoupling major components to streamline the di
 
 Communication started in the [Community Board - Ejecting modules from OpenY distro as independent projects](https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513).
 
-The decoupling process is ongoing. See [the index of decoupled projects](https://github.com/ymcatwincities/openy/wiki/Decoupled-(-external-)-projects-of-OpenY).
+The decoupling process is ongoing. See [[the index of decoupled projects|Decoupled-(-external-)-projects-of-OpenY]].
 
 In 2021 the Open Y core team faced coupling blockers in the distribution during [the upgrade from Drupal 8 to Drupal 9](https://github.com/ymcatwincities/openy/milestone/21)
 
@@ -14,10 +14,10 @@ This document elaborates on those processes.
 
 ## Policy
 
-- Every new component or sub-project of Open Y should be developed in its own repository - either on GitHub or Drupal.org. 
-  - Drupal.org example: [paragraph_skins](https://www.drupal.org/project/paragraph_skins) 
+- Every new component or sub-project of Open Y should be developed in its own repository - either on GitHub or Drupal.org.
+  - Drupal.org example: [paragraph_skins](https://www.drupal.org/project/paragraph_skins)
   - GitHub Example: [openy_activity_finder](https://github.com/ymcatwincities/openy_activity_finder)
-- The decoupled project could be 
+- The decoupled project could be
   - **part of Open Y core** - e.g. [Activity Finder](https://github.com/ymcatwincities/openy_activity_finder) and [added to Open Y profile by default](https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112), or
   - **not part of the core**, e.g. [Open Y Membership Framework](https://github.com/ymcatwincities/openy_memberships) which could be [installed later](https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation).
 - **GitHub** should be used when there is no strategy to make a component or project available for the wider Drupal community - that is, when it is tied to YMCA business and unlikely to be leveraged by somebody else.
@@ -32,13 +32,13 @@ This document elaborates on those processes.
 1. Make it available for the public via packagist.org or drupal.org as a release. Ensure `podarok` is added as a co-maintainer to the respective system.
 1. Suggest adding to Open Y by [opening an issue](https://github.com/ymcatwincities/openy/issues).
 1. If approved, create a Pull Request adding it as a dependency in [composer.json](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json).
-1. Ensure this component is enabled in any of the packages maintained in the [Open Y profile installation](https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml) 
-1. Ask for review and release, according to the [release plan](https://github.com/ymcatwincities/openy/wiki/How-we-release-OpenY-distribution-from-code-perspective).
+1. Ensure this component is enabled in any of the packages maintained in the [Open Y profile installation](https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml)
+1. Ask for review and release, according to the [[release plan|How-we-release-OpenY-distribution-from-code-perspective]].
 
 ### for decoupling an existing component of Open Y
 
 Follow the steps above, but:
-- After creating the repo, filter the selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the [Code of Conduct](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices).
+- After creating the repo, filter the selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the [[Code of Conduct|Open-Y-Code-of-Conduct-and-Best-Practices]].
 - After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.
 
 ## Examples

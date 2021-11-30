@@ -1,4 +1,4 @@
-In order to deliver high quality code and product for Open Y users we are relying on [Code of Conduct and Best Practices](https://github.com/ymcatwincities/openy/wiki/Open-Y-Code-of-Conduct-and-Best-Practices).
+In order to deliver high quality code and product for Open Y users we are relying on [[Code of Conduct and Best Practices|Open-Y-Code-of-Conduct-and-Best-Practices]].
 Current document is more technical in depth for specific cases that were discussed during long time code quality review process Open Y team has in place, where all code should be reviewed by 1-2 developers before merging into Open Y codebase.
 
 Generic Rules
