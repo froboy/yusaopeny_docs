@@ -13,14 +13,14 @@ Components in Open Y (whether modules, themes, or other code structures) should 
         1. **field\_${entity\_type|abbr}\_${entity\_bundle|abbr}\_{name|abbr}**
             1. Example: **field_prgf_sc_body**
     1. **All descriptions are mandatory!**
-1. Module naming conventions - Depending on to the context we should choose the name from this list:
+1. Module naming conventions - Depending on the context we should choose the name from this list:
     1. **\${project_name|abbr}_\${business_name|abbr**} - when the code looks like legacy and has specifics that are not ready to be open-sourced
     1. **openy_${business_name|abbr}** - when the code is ready to be ejected to OpenY package
     1. **${business_name}** - when the code is so abstract that it has no connection to OpenY and is ready to be hosted on Drupal.org as an independent project.
 
 ## Code Sharing
 
-In order to support reuse by the community, the MODULE-NAME should be selected in relation to the business logic of the module. It is not good to create modules by abstracting them out of the business. All modules that have been shared to drupal.org from past projects were possible to share only because they represent some feature, tied to a business need. For example:
+To support reuse by the community, the MODULE-NAME should relate to the business logic of the module. It is not good to create modules by abstracting them out of the business. All modules that have been shared to drupal.org from past projects were possible to share only because they represent some feature, tied to a business need. For example:
 
 - personify - module for SOAP related methods for working with Personify API
 - acrypt - Asymmetric crypt algorithm
@@ -134,7 +134,7 @@ $node = $this->entityTypeManager->getStorage('node')->load($result->getField('ni
 
 ## Creating meaningful log messages
 
-In order to provide useful logging for site managers, we need to write meaningful log messages with a proper context.
+To provide useful logging for site managers, we need to write meaningful log messages with a proper context.
 
 Before:
 
@@ -160,7 +160,7 @@ After:
 
 # Maintaining an Upgrade Path
 
-All changes in configurations should be added to appropriate hook\_update\_N in order to update already existing environments. We suggest using the [Config Importer and Tools
+All changes in configurations should be added to appropriate hook\_update\_N to update already existing environments. We suggest using the [Config Importer and Tools
 ](https://www.drupal.org/project/confi) package for working with hook\_update\_N.
 
 ## Install files
@@ -229,6 +229,6 @@ $config_importer->importConfigs([
 ]);
 ```
 
-## JavaScript includes
+# JavaScript includes
 
 ![image](https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png)
