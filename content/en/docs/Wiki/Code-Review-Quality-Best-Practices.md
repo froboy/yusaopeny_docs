@@ -1,53 +1,35 @@
-In order to deliver high quality code and product for Open Y users we are relying on [[Code of Conduct and Best Practices|Open-Y-Code-of-Conduct-and-Best-Practices]].
-Current document is more technical in depth for specific cases that were discussed during long time code quality review process Open Y team has in place, where all code should be reviewed by 1-2 developers before merging into Open Y codebase.
+This document serves as an addition to our [[Code of Conduct and Best Practices|Open-Y-Code-of-Conduct-and-Best-Practices]]. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.
 
-Generic Rules
-=====
+# General Rules
 
-It is almost impossible to create a reusable module when you'll grab altogether new features and content types, unrelated to them. Or settings, related to only this project. That's why all settings(features in the Drupal world) should be split out of the module, tied to. 
+Components in Open Y (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.
 
-1. OpenY naming convention
-
+1. General naming conventions
     1. Features module naming
-
-        1. **openy_${entity_type|abbr}_${entity_bundle|abbr}_${feature|optional}**
-
+        1. **openy\_${entity\_type|abbr}\_${entity_bundle|abbr}\_${feature|optional}**
             1. Example: **openy_node_blog_feature**
+            1. **openy_prgf_sc_feature** -> OpenY Paragraph Simple Content (name within yml)
+    1. Fields naming (<=20 chars)
+        1. **field\_${entity\_type|abbr}\_${entity\_bundle|abbr}\_{name|abbr}**
+            1. Example: **field_prgf_sc_body**
+    1. **All descriptions are mandatory!**
+1. Module naming conventions - Depending on to the context we should choose the name from this list:
+    1. **\${project_name|abbr}_\${business_name|abbr**} - when the code looks like legacy and has specifics that are not ready to be open-sourced
+    1. **openy_${business_name|abbr}** - when the code is ready to be ejected to OpenY package
+    1. **${business_name}** - when the code is so abstract that it has no connection to OpenY and is ready to be hosted on Drupal.org as an independent project.
 
-            2. **openy_prgf_sc_feature** -> OpenY Paragraph Simple Content (name within yml)
+## Code Sharing
 
-    2. Fields naming (<=20 chars)
+In order to support reuse by the community, the MODULE-NAME should be selected in relation to the business logic of the module. It is not good to create modules by abstracting them out of the business. All modules that have been shared to drupal.org from past projects were possible to share only because they represent some feature, tied to a business need. For example:
 
-        2. **field_${entity_type|abbr}_${entity_bundle|abbr}_{name|abbr}**
-
-            3. Example: **field_prgf_sc_body**
-
-    3. **All descriptions mandatory!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
-
-2. Modules naming. Depending to the context we should chose the name from below list
-
-    4. **${project_name|abbr}_${business_name|abbr**} - when the code looks like legacy and has specifics not ready to be open source
-
-    5. **openy_${business_name|abbr} **- when the code is ready to be ejected to OpenY package
-
-    6. **${business_name}** - when the code is so abstract that it has no tying to OpenY, and ready to be hosted on Drupal.org as independet project.
-
-
-Code sharing
-=====
-
-For ability to support code sharing MODULE-NAME should be selected in relation to business logic of the module. It is not good to create modules by abstracting it out of the business. All the modules, ejected to drupal.org from our past project were possible to share only because they represent some feature, tied to a business. 
-Like 
 - personify - module for SOAP related methods for working with Personify API
-- acrypt - Asymetric crypt alghoritm
+- acrypt - Asymmetric crypt algorithm
 
 and so on.
 
-PHP
-=====
+# PHP
 
-Return early pattern
-====
+## Return early pattern
 
 To keep readability in functions and methods, it is wise to return early if simple conditions apply that can be checked at the beginning of a method:
 
@@ -57,16 +39,7 @@ To keep readability in functions and methods, it is wise to return early if simp
 function foo($bar, $baz)
 {
     if ($foo) {
-        //assume
-        //that
-        //here
-        //is
-        //the
-        //whole
-        //logic
-        //of
-        //this
-        //method
+        // logic goes here
         return $calculated_value;
     } else {
         return null;
@@ -74,7 +47,8 @@ function foo($bar, $baz)
 }
 ?>
 ```
-It's better to return early, keeping indentation and brain power needed to follow the code low.
+
+It's better to return early, keeping indentation and brainpower needed to follow the code low.
 
 ```php
 <?php
@@ -85,27 +59,18 @@ function foo($bar, $baz)
         return null;
     }
 
-    //assume
-    //that
-    //here
-    //is
-    //the
-    //whole
-    //logic
-    //of
-    //this
-    //method
+    // logic goes here
     return $calculated_value;
 }
 ?>
 ```
 
-Define early pattern
-=====
+## Define early pattern
 
-When you have a condition that aims to change the value of variable without additional logic, get rid of ```if else elseif``` code, just define early variable and change it via conditions
+When you have a condition that aims to change the value of a variable without additional logic, get rid of ```if else elseif``` code and instead define your variable early and change it via conditions.
 
 Before:
+
 ```php
 if ($a = 'hello') {
  $text = 'Welcome to site';
@@ -116,6 +81,7 @@ else {
 ```
 
 After:
+
 ```php
 $text = 'Register please';
 if ($a = 'hello') {
@@ -123,74 +89,11 @@ if ($a = 'hello') {
 }
 ```
 
-# How to support upgrade path
-All changes in configurations should be added to appropriate hook\_update\_N in order to update already existing environments. We suggest to use https://www.drupal.org/project/confi for working with hook\_update\_N.
+## Null Checks with `isset`
 
-### `openy.install` in profile
-In this file we should put updates that are related to the distribution in general and don't fit into any feature.
+[`isset()`](https://www.php.net/manual/en/function.isset.php) verifies if set and not null. There is no need to do additional verification against NULL.
 
-- Enable/Disable module
-- General configs
-
-### `openy_*.install` in modules
-In case if you update some configuration for specific feature, make sure that you put updates into appropriate module.
-
-### Revert only specific property from config
-This is preffered method of updating configs due to less conflicts for upgrading customized Open Y instances 
-
-With [config_import module](https://www.drupal.org/project/confi) help we can update only part from full config.
-
-For updating specific property in config (use service 'openy_upgrade_tool.param_updater'):
-
-1) go to related to this config module
-
-2) create new hook_update_N in openy_*.install file
-
-3) in update add next code (this is example):
-
-```
-$config = drupal_get_path('module', 'openy_media_image') . '/config/install/views.view.images_library.yml';
-$config_importer = \Drupal::service('openy_upgrade_tool.param_updater');
-$config_importer->update($config, 'views.view.images_library', 'display.default.display_options.pager');
-```
-Where:
-- $config variable contains path to config with config name
-- "views.view.images_library" - config name
-- "display.default.display_options.pager" - config specific property (you can set value from a nested array with variable depth)
-
-### Revert full configs
-Keep in ming this variant has an extensive config files manipulation and increases time for upgrade.
-
-For updating full config or several configs from directory use service 'openy_upgrade_tool.importer'.
-```
-$config_dir = drupal_get_path('module', 'openy_media_image') . '/config/install';
-$config_importer = \Drupal::service('openy_upgrade_tool.importer');
-$config_importer->setDirectory($config_dir);
-$config_importer->importConfigs(['views.view.images_library']);
-```
-Where:
-- $config_dir - path to directory with config
-- "views.view.images_library" - config name
-
-
-Also you can update several configs from directory:
-```
-$config_importer->importConfigs([
-  'views.view.images_library',
-  'views.view.example_view',
-]);
-```
-
-### JavaScript includes
-![image](https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png)
-
-## isset has check for null value
-
-`isset()` verifies if set and not null https://www.php.net/manual/en/function.isset.php
-no need to do additional verification against NULL
-
-
-Before
+Before:
 
 ```php
 ...
@@ -198,7 +101,7 @@ Before
 ...
 ```
 
-After
+After:
 
 ```php
 ...
@@ -206,14 +109,13 @@ After
 ...
 ```
 
+## Dependency Injection
 
-## Use Dependency Injection
+For the decoupled and easier to upgrade code in Drupal 8+ Dependency injection should be used instead of calling methods from services statically.
 
-For the decoupled and easier to upgrade code in Drupal 8+ Dependency Injection code must be used everywhere instead of calling methods from services statically.
-See https://api.drupal.org/api/drupal/core%21core.api.php/group/container/9.3.x
+See the Drupal API [Overview of the Dependency Injection Container and Services](https://api.drupal.org/api/drupal/core%21core.api.php/group/container/9.3.x).
 
-
-Before
+Before:
 
 ```php
 ...
@@ -221,7 +123,8 @@ $node = Drupal::entityTypeManager()->getStorage('node')->load($result->getField(
 ...
 ```
 
-After
+After:
+
 ```php
 ...
 
@@ -229,29 +132,103 @@ $node = $this->entityTypeManager->getStorage('node')->load($result->getField('ni
 ...
 ```
 
-## To create meaningful log messages
+## Creating meaningful log messages
 
-In order to have a good log reading experience, we need to keep meaningful log messages with a proper context within
+In order to provide useful logging for site managers, we need to write meaningful log messages with a proper context.
 
-
-Before
+Before:
 
 ```php
 ...
         if($type == 'program') {
-          
+
           if ($feed['profile_media_videos'] != NULL || $feed['profile_media_images'] != NULL) {
           \Drupal::logger('272')->notice($type);
 ...
 ```
 
-After
+After:
 
 ```php
 ...
         if($type == 'program') {
-          
+
           if ($feed['profile_media_videos'] != NULL || $feed['profile_media_images'] != NULL) {
           \Drupal::logger('form_import')->notice("FORM IMPORT: type is $type");
 ...
 ```
+
+# Maintaining an Upgrade Path
+
+All changes in configurations should be added to appropriate hook\_update\_N in order to update already existing environments. We suggest using the [Config Importer and Tools
+](https://www.drupal.org/project/confi) package for working with hook\_update\_N.
+
+## Install files
+
+### `openy.install` in profile
+
+In this file, we should put updates that are related to the distribution in general and don't fit into any feature.
+
+- Enable/Disable module
+- General configs
+
+### `openy_*.install` in modules
+
+If you update some configuration for a specific feature, make sure that you put updates into this file in the appropriate module.
+
+## Config Management
+
+### Revert only specific property from config
+
+This is the preferred method of updating configs as it will result in fewer conflicts for upgrading customized Open Y instances.
+
+With [config_import module](https://www.drupal.org/project/confi) we can update only part of the full config.
+
+For updating specific property in config use the `openy_upgrade_tool.param_updater` service:
+
+1. Find the module where your config lives.
+1. Create a new `hook_update_N` in the `openy_*.install` file.
+1. In that hook add the update code (for example):
+
+```php
+$config = drupal_get_path('module', 'openy_media_image') . '/config/install/views.view.images_library.yml';
+$config_importer = \Drupal::service('openy_upgrade_tool.param_updater');
+$config_importer->update($config, 'views.view.images_library', 'display.default.display_options.pager');
+```
+
+Where:
+
+- `$config` variable contains path to config with config name, like:
+- `views.view.images_library` - config name
+- `display.default.display_options.pager` - config specific property (you can set value from a nested array with variable depth)
+
+### Revert full configs
+
+This variant uses extensive config file manipulation and increases the time for an upgrade.
+
+For updating full config or several configs from directory use the `openy_upgrade_tool.importer` service:
+
+```php
+$config_dir = drupal_get_path('module', 'openy_media_image') . '/config/install';
+$config_importer = \Drupal::service('openy_upgrade_tool.importer');
+$config_importer->setDirectory($config_dir);
+$config_importer->importConfigs(['views.view.images_library']);
+```
+
+Where:
+
+- `$config_dir` - path to directory with config
+- `views.view.images_library` - config name
+
+Also you can update several configs from a directory:
+
+```php
+$config_importer->importConfigs([
+  'views.view.images_library',
+  'views.view.example_view',
+]);
+```
+
+## JavaScript includes
+
+![image](https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png)
