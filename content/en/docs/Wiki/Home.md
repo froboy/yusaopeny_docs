@@ -36,6 +36,8 @@ This wiki is the primary location for developer documentation for [Open Y](https
 
 ## Getting Started with Open Y Development
 
+Whether you are just getting started with Open Y or need to test a feature in a stable environment, the Open Y Core Team maintains a number of [[Sandboxes]] that you can use.
+
 ### Processes & Components
 
 - [[Development Processes|Open-Y-technology-pipeline]]
