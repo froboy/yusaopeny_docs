@@ -2,6 +2,11 @@
 
 The Open Y core team manages sandboxes for stable and development versions of Open Y to facilitate the evaluation of the product, to help with QA, and enable investigation of issues.
 
+To learn more:
+
+- Watch a [detailed video about the process of building the sandboxes](https://www.youtube.com/watch?v=dS-8-t0WJgo)
+- Read a [case study on Drupal.org](https://www.drupal.org/case-study/open-y-sandboxes)
+
 ## Stable Sandboxes
 
 https://sandboxes.openy.org/
