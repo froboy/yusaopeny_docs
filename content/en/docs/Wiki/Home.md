@@ -43,7 +43,6 @@ Whether you are just getting started with Open Y or need to test a feature in a 
 - [[Development Processes|Open-Y-technology-pipeline]]
 - [[Development-FAQ]]
 - [[Videos]]
-- [[GroupEx-PRO-quick-start]]
 - [[Spam Protection Strategies|OpenY-anti-spam-protection]]
 
 ### Environment Setup
