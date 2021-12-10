@@ -1,3 +1,8 @@
+This walk-through is outdated and is in the process of being updated. Instead, try:
+
+- A [video walk-through of installing Open Y for tech novices](https://www.youtube.com/watch?v=nGyMJCwMsqM)
+- An overview of the [[Open Y Sandboxes|Sandboxes]]
+
 ### Installing Open Y on DigitalOcean droplet
 
 1. Create Ubuntu 16.04 LTS x64 droplet in area close to your location
@@ -21,10 +26,13 @@ Open http://127.0.0.1/core/install.php to proceed with OpenY installation.
 Enjoy.
 
 ---
+
 In order to install the latest beta release of Open Y 2.0 change the command on step 3:
+
 ```sh
 curl -Ls http://bit.ly/initopeny | bash -s beta
 ```
 
 ---
-If you found any issues - please post a message to issue queue https://github.com/ymcatwincities/openy/issues
+
+If you find any issues please post a message to the issue queue https://github.com/ymcatwincities/openy/issues
