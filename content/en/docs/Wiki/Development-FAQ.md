@@ -1,68 +1,87 @@
-# How to get OpenY version and environment configuration
+# Open Y Developer FAQ
 
-See video https://www.youtube.com/watch?v=01y617maeBE
+## Local Development
 
-# How to use xdebug in Visual Studio Code for Vagrant VM environment
+### Getting started with a local environment
 
-See https://gist.github.com/podarok/732ba655939ba9be3304e57b9bb5b2c3
-Install it to .vscode/launch.json and run Debugger listening configuration. VSCode will start reacting on breakpoints and enabled options in settings once the browser hits a site from the development environment.
+To start developing you need to obtain the latest Open Y codebase. See the [`openy-project` repository](https://github.com/ymcatwincities/openy-project#latest-development-version-drupal-9-2x) for the full process.
 
+[This video tutorial](https://www.youtube.com/watch?v=jRlinjpTl0c) will walk you through how to initiate a local development environment.
 
-# How to work with builds?
+The Open Y team has pre-built environments and walkthroughs using either [Vagrant and VirtualBox](https://github.com/ymcatwincities/openy-cibox-vm#drupal-vagrant-dev-box-for-openy-support) or [Docker and Docksal](https://github.com/ymcatwincities/openy-docksal#get-started). Choose the method that you're most comfortable with and get started!
 
-To get fully working Open Y site for the code change you are about to push for review - there is a build generating system installed for Open Y GitHub repository that automatically generates dedicated temporary website with your changes applied.
+### Gathering information about your local environment
 
-# Why some builds are created automatically and some not? 
+To best troubleshoot issues, it's helpful for the Open Y team to have as much information about your environment as possible. Before you ask for help, watch this tutorial on [how to gather that information](https://www.youtube.com/watch?v=01y617maeBE).
 
-By default - builds are configured for trusted users, so if you getting message from the bot like "Can one of the admins verify this patch? Use "o+k to test" or ''t+est this please" for manual build execution." - your username is not in whitelist and somebody from Open Y core team should dive in and run build for you. Contact @podarok to get your build generated or added your to whitelist.
+### Debugging with Xdebug in your local
 
-# How to create a build for my PR? 
+The Docksal project maintains detailed information for [using Xdebug with VSCode, PHPStorm, and more](https://docs.docksal.io/tools/xdebug/).
 
-If you are whitelisted - create Pull Request from your fork to Open Y repository and after up to 30 minutes you'll receive comments with links to generated site builds.
+## Contributing
 
-# When builds are deleted from the server?
+### Who should I specify for review?
 
-Usually you have a day for the build to be wiped out from the server. If there is an active development - lifetime could be significantly shorter, up to couple hours.
+We have a best practice to get at least 2 independent reviews before merging code. Please request a review from the Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) and somebody else (from your team or another Open Y partner).
 
-# Who should I contact in order to get logs from the server? 
+### Who is responsible for merging?
 
-Andrii Podanenko @podarok or Dima Danylevskyi @danylevskyi
+The Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) is responsible for final approval, merging, and release management on the Open Y project.
 
-# Who should I specify for review? 
+### What labels in PRs should I use?
 
-We have a best practice to get at least 2 independent reviews before merging the code. So add Andrii Podanenko @podarok and somebody else ( from your team or other team within OpenY )
+### What milestone should I specify?
 
-# Who is responsible for merging? 
+### Why I can't add labels or specify milestones?
 
-For merging into Open Y main GitHub repository - please contact Andrii Podanenko
-If you are working with future branch in main repository or dedicated fork - it's up to you or your team who will be merging. Ping Andrii Podanenko for review anyway. Could be done after merge, though.
+All of these require you to be granted Contributor access to the Open Y GitHub repository. Contact the Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) to get access. Labels are usually set by the Open Y Core Team.
 
-# What labels in PRs should I use? 
-# What milestone should I specify? 
-# Why I can't add labels or specify milestone?
+### Why are the steps for review in Pull Requests so important?
 
-You should be added to Collaborators of Open Y GitHub repository. Contact Andrii Podanenko to get access. Labels usually set by Open Y core team. If you are aware of the context and impact/demand - feel free to chose whatever labels makes sense for you.
+When you send your code for review our team must know both how to review the code and what to test to verify the functionality. You are the only source of truth for how to check functionality. Adding steps for review will help the reviewer and QA team to verify that the issue is resolved.
 
-# Why Steps for review in Pull Requests are so important? 
+### Why should I add a reference to the GitHub issue in my PR description?
 
-When you send your code for review it is important not only reviewing the code but functionally test how it works on build site. You are the only source of truth for how to check functionality. Adding steps for review will help reviewer or Qa to check functionality. 
+As we are a community-led project, there may be a long time between creating an issue and resolving it in a Pull Request. The reviewer should be able to understand the context and possible discussion around the issue to be resolved with your PR. The more context we have, the better and faster we can review the request.
 
-# Why should I add a reference to the GitHub issue in my PR description? 
-
-From the moment of creating some issue to the resolution in Pull Request could be long travel. Reviewer should be able to understand context and possible discussion around issue you are going to fix with PR. That's why it is so important to have a reference.
-
-# In what format should I add commits, should I add internal Jira task ID or GitHub issue?
+### In what format should I add commits, should I add internal Jira task ID or GitHub issue?
 
 It is important to make commit messages with some sort of sense for the human to read them when digging back in history. Adding any task identifications from the project management system is allowed.
 
-# What is deepcode bot? 
+### What is the "DeepCode" bot?
 
-DeepCode bot is the automated, machine learning code review system, that analyses huge amount of GItHub repositories and sometimes useful to find common issues before humans will do reviews. It is important, but not always necessary fix issues, found by DeepCode bot, because sometimes it fails. If you see the comment - ensure to read report. If you see sense in report - fix the issue, suggested by the bot.
+DeepCode bot is the automated, machine learning code review system that analyses huge amounts of GitHub repositories and is sometimes useful to find common issues before humans do reviews. It is helpful, but not always necessary to fix issues found by the DeepCode bot because sometimes it fails. If you see a comment be sure to read the report. If the report makes sense, then fix the issue suggested by the bot.
 
-# What should I do if `CIBox tests`/`Accessibility tests`/`ci/circleci` are failed?
+## Build Automation & CI
 
-If you have any concerns with reports, generated by all code checkers that used in Open Y - ask Andrii Podanenko to get them resolved. Majority of these systems are work in progress and helpful for review and make code better but not hard rules to rely on.
+### What CI processes does Open Y have in place?
 
-# How to install Open Y on Pantheon hosting
+To get a fully working Open Y site for the code change you are about to push for review there is a build generating system installed for the Open Y GitHub repository that automatically generates a dedicated temporary website with your changes applied.
 
-See [request from a community](https://github.com/ymcatwincities/openy/issues/2004). The solution is described in Pantheon documentation https://pantheon.io/docs/nested-docroot . We suggest to maintain your own composer.json with specified web-root directory, as described in Pantheon examples https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94
+## Why are some builds created automatically and some not?
+
+By default, builds are configured for trusted users, so if you are getting a message from the bot like
+
+> "Can one of the admins verify this patch? Use "o+k to test" or ''t+est this please" for manual build execution."
+
+then your username is not in the allowlist and somebody from the Open Y Core Team can comment to initiate a build for you. Contact `@podarok` to get your build generated or your name added to the allowlist.
+
+### How do I create a build for my PR?
+
+If you are on the allowlist then simply create a Pull Request from your fork to the Open Y repository. After up to 30 minutes you'll receive comments with links to the generated site builds.
+
+### When are builds deleted from the server?
+
+Usually, you have a day for the build to be wiped out from the server. If there is an upcoming deadline and many PRs are coming in, the lifetime could be significantly shorter, down to a couple of hours.
+
+### Who should I contact to get logs from the build server?
+
+Andrii Podanenko `@podarok` or Dima Danylevskyi `@danylevskyi`
+
+### What should I do if tests fail?
+
+If you have any concerns with reports generated by the code checkers that are used in Open Y ask Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.
+
+## How do I install Open Y on Pantheon hosting
+
+See [request from a community](https://github.com/ymcatwincities/openy/issues/2004). The solution is described in [Pantheon's documentation on nested docroots](https://pantheon.io/docs/nested-docroot). We suggest that you maintain your own `composer.json` with the specified web-root directory, as described in the [Pantheon examples](https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94).
