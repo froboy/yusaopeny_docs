@@ -1,24 +1,49 @@
-## Hosting and Development environment
-* Apache 2.4 ( Nginx Stable ( alternative ) https://httpd.apache.org/
-* Oracle MySQL 5.7+ database server https://www.mysql.com/
-* PHP 7.3+ interpreter https://www.php.net/ 
-* Ubuntu LTS Operating System ( CentOS or any other Linux(Unix) OS ) https://ubuntu.com/ ( 16,18.20 versions of Ubuntu are supported/tested )
-* Apache SOLR search engine server https://lucene.apache.org/solr/ ( version 4.9.1 and version 8 Solr for Activity Finder tested, other versions work in progress )
-* High load/performance
-1. Memcache http://memcached.org/
-2. Varnish reverse cache server https://varnish-cache.org/
-3. Nginx reverse cache ( alternative )
-* Oracle VM Virtualbox https://www.virtualbox.org/
-* Vagrant configuration manager https://www.vagrantup.com/
-* Ansible configuration manager and automation https://www.ansible.com/
-* Composer package manager - https://getcomposer.org/
-* Docker virtual environments https://www.docker.com/
+Open Y's system requirements generally track [those of Drupal](https://www.drupal.org/docs/system-requirements) with some occasional more opinionated recommendations.
+
+## General Requirements
+
+Supported versions may differ based on your Drupal version.
+
+- A [supported web server](https://www.drupal.org/docs/system-requirements/web-server-requirements) like Apache or Nginx
+- A [supported database server](https://www.drupal.org/docs/system-requirements/database-server-requirements) like MySQL or MariaDB
+- A [supported version of PHP](https://www.drupal.org/docs/system-requirements/php-requirements)
+- A Linux-based operating system
+  - [Ubuntu](https://ubuntu.com/) 16, 18, and 20 are supported.
+  - CentOS or similar may work as well.
+
+Recommended for advanced functionality, but not required:
+
+- [Apache SOLR](https://lucene.apache.org/solr/) search server
+  - Version 4.9.1 and version 8 have been tested for Activity Finder. Other versions are works in progress.
+
+### For high load/performance sites
+
+- A memory-based key-value store
+  - [Memcache](http://memcached.org/)
+  - [Redis](https://redis.io)
+- A reverse proxy/HTTP cache
+  - [Varnish](https://varnish-cache.org/)
+  - [Nginx reverse proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
+
+See also Drupal's recommendations for [managing site performance and scalability](https://www.drupal.org/docs/managing-site-performance-and-scalability).
+
+### For development
+
+- [Oracle VM Virtualbox](https://www.virtualbox.org/)
+- [Vagrant configuration manager](https://www.vagrantup.com/)
+- [Ansible configuration manager and automation](https://www.ansible.com/)
+- [Composer package manager](https://getcomposer.org/)
+- [Docker virtual environments](https://www.docker.com/)
+
+See our [installation instructions](https://github.com/ymcatwincities/openy-project#installation) for a full walkthrough of these tools.
 
 ## Software libraries and frameworks
-* Drupal 8+ Content Management Framework - https://drupal.org/project/drupal
-* Symfony Framework https://symfony.com/
-* ReactJS Javascript Framework by Facebook https://reactjs.org/
-* Vue.js Javascript Framework https://vuejs.org/
-* Google reCaptcha https://www.google.com/recaptcha/intro/v3.html
-* NodeJS environment https://nodejs.org/en/
 
+Open Y leverages many other open source frameworks including, but not limited to:
+
+- [Drupal](https://drupal.org/project/drupal)
+- [Symfony](https://symfony.com/)
+- [ReactJS](https://reactjs.org/)
+- [Vue.js](https://vuejs.org/)
+- [Google reCAPTCHA](https://www.google.com/recaptcha/intro/v3.html)
+- [NodeJS](https://nodejs.org/en/)
