@@ -1,3 +1,7 @@
+---
+title: DataLayer
+---
+
 See also the Data Layer module readme datalayer/README.md
 
 The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.
@@ -64,4 +68,4 @@ function my_module_datalayer_alter(&$data_layer) {
     $data_layer['entityLabel'] = strtolower($data_layer['entityLabel']);
   }
 }
-```
+```)

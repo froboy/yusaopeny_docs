@@ -1,3 +1,7 @@
+---
+title: Theming_and_Design
+---
+
 Welcome to Open Y Theming and Design documentation.
 
 ### How to change styles on content type level
@@ -16,5 +20,4 @@ In order to change CSS on each particular page you should use the following sele
 - .node-id-{node ID};
 - .path-frontpage.
   
-The existing node types are: _activity_, _alert_, _blog_, _branch_, _camp_, _class_, _facility_, _landing-page_, _membership_, _news_, _program_, _program-subcategory_, _session_.
-
+The existing node types are: _activity_, _alert_, _blog_, _branch_, _camp_, _class_, _facility_, _landing-page_, _membership_, _news_, _program_, _program-subcategory_, _session_.)

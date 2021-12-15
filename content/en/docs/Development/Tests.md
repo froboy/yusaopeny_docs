@@ -1,3 +1,7 @@
+---
+title: Tests
+---
+
 # Running Tests
 These instructions explain how you can run tests.
 
@@ -138,4 +142,4 @@ The first portion, `field_location_address` represents the Drupal field machine 
     | field_location_coordinates:lat | 47.293433        |
     | :lng                           | -122.238717      |
     | field_location_phone           | +1234567890      |
-  ```
+  ```)

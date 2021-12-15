@@ -1,3 +1,7 @@
+---
+title: AcceptanceTesting
+---
+
 ### Open Y Acceptance testing best practices
 
 Open Y is a big distribution with a large amount of modules, components, subsystems, and business 
@@ -55,4 +59,4 @@ And last, but not the lease - adding Behat tests to the system will ensure funct
 request, on every CI build in the future.
 
 ### Rule
-Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.
+Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)

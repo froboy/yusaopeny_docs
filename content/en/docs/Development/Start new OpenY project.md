@@ -1,3 +1,7 @@
+---
+title: Start new OpenY project
+---
+
 Here you can find instructions how you can start project based on Open Y distribution.
 
 # New project from scratch based on Open Y
@@ -60,16 +64,16 @@ Please take a look at the full `composer.json` file below that you should eventu
     },
     "autoload": {
         "psr-4": {
-            "Drupal\\Core\\Composer\\": "core/lib/Drupal/Core/Composer"
+            "Drupal\Core\Composer\": "core/lib/Drupal/Core/Composer"
         }
     },
     "scripts": {
-        "pre-autoload-dump": "Drupal\\Core\\Composer\\Composer::preAutoloadDump",
+        "pre-autoload-dump": "Drupal\Core\Composer\Composer::preAutoloadDump",
         "post-autoload-dump": [
-          "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
+          "Drupal\Core\Composer\Composer::ensureHtaccess"
         ],
-        "post-package-install": "Drupal\\Core\\Composer\\Composer::vendorTestCodeCleanup",
-        "post-package-update": "Drupal\\Core\\Composer\\Composer::vendorTestCodeCleanup",
+        "post-package-install": "Drupal\Core\Composer\Composer::vendorTestCodeCleanup",
+        "post-package-update": "Drupal\Core\Composer\Composer::vendorTestCodeCleanup",
         "post-install-cmd": [
             "bash scripts/remove_vendor_git_folders.sh || :"
         ],
@@ -311,4 +315,4 @@ In this section you can learn how to configure development environment and CI se
 [![Open Y v1.0b - Install Tutorial](https://img.youtube.com/vi/RCvsLANsbm8/0.jpg)](https://youtu.be/RCvsLANsbm8)
 
 ## End to end installation
-[![Open Y install - in 16 minutes end to end, no tutorial](https://img.youtube.com/vi/RT6kC38zgvo/0.jpg)](https://youtu.be/RT6kC38zgvo)
+[![Open Y install - in 16 minutes end to end, no tutorial](https://img.youtube.com/vi/RT6kC38zgvo/0.jpg)](https://youtu.be/RT6kC38zgvo))

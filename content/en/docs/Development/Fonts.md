@@ -1,3 +1,7 @@
+---
+title: Fonts
+---
+
 #Fonts
 
 The majority of the fonts used by the Open Y distribution are freely available, except for Cachet. 
@@ -41,4 +45,4 @@ You may also need to add a JavaScript file provided by fonts.com. You can add th
 
 Another option is to use the @font-your-face Drupal module, https://www.drupal.org/project/fontyourface .
 
-Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.
+Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)

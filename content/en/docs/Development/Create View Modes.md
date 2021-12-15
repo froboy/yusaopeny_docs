@@ -1,3 +1,7 @@
+---
+title: Create View Modes
+---
+
 # How to Create new View mode and use
 As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.
 
@@ -26,4 +30,4 @@ or after each entity type you can see 'Add new {Name} view mode' and click on it
 ![Configuration project add/update form](../assets/view_mode_using_list.png)
 
 2. Then make sure you enable the new viewmode in "Allowed Entity Embed Display plugins", and at the bottom of the page click "Save".
-![Configuration project add/update form](../assets/view_mode_enable.png)
+![Configuration project add/update form](../assets/view_mode_enable.png))

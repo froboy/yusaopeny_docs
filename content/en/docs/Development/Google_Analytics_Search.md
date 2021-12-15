@@ -1,3 +1,7 @@
+---
+title: Google_Analytics_Search
+---
+
 # How to configure search tracking in Google Analytics account
 ##Prerequisites
 Google Analitycs account to track you site should be created.
@@ -20,4 +24,4 @@ Google Analitycs contrib module should be enabled and configured to use existing
 6. Reports about the search tracking you can find at main screen in Behavior → Site Search Section
 
 Attention: Data processing latency for search tracking reports is 24-48 hours
-(see https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency)
+(see https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency))

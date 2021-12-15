@@ -1,3 +1,7 @@
+---
+title: Tour
+---
+
 # How to use Tour for modules
 
 ### How to use Open Y Tour Token with Tour
@@ -24,4 +28,4 @@ button_name - name of button when show in a tip;
 
 selector - selector to be clicked. 
 
-Please see and use [jQuery selectors](https://www.w3schools.com/jquery/jquery_ref_selectors.asp).
+Please see and use [jQuery selectors](https://www.w3schools.com/jquery/jquery_ref_selectors.asp).)

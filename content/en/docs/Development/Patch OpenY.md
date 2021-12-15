@@ -1,3 +1,7 @@
+---
+title: Patch OpenY
+---
+
 Here you can find instructions how you can patch Open Y distribution used on 
 your project.
 
@@ -35,4 +39,4 @@ repository, as on this example:
     ```
 3. After adding a patch execute command `composer update`
 4. Verify you can see added changes in Open Y
-5. Enjoy!
+5. Enjoy!)

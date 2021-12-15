@@ -1,3 +1,7 @@
+---
+title: GoogleCustomSearchConfiguration
+---
+
 # Google Custom Search configuration
 
 The Open Y release **8.2.4** introduces Google Custom Search for the website out of the box.
@@ -119,4 +123,4 @@ The `openy_third_party_services.google_search_engine_id` parameter sets the Sear
 Use the following snippet to set the Search Engine ID on already installed websites:
 ```
 drush config-set openy_google_search.settings google_engine_id "01234567890123456789:abcedefgh"
-```
+```)

@@ -1,3 +1,7 @@
+---
+title: Server Requirements
+---
+
 If you need to prepare server for the Open Y instance, here below you should find all needed software to meet its requirements.
 
 ### List of requirements
@@ -37,4 +41,4 @@ If you need to prepare server for the Open Y instance, here below you should fin
  * Ansible (optional) 
  * Docker (optional)
  * SOLR 4.x (if there will be requirement for SOLR search support)
- * Varnish (optional)
+ * Varnish (optional))

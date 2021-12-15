@@ -1,3 +1,7 @@
+---
+title: Contributing
+---
+
 Contributing to Open Y
 =====
 
@@ -24,4 +28,4 @@ If you would like to get drupal.org credits for your contribution:
 - Create issue on [drupal.org](https://www.drupal.org/project/issues/openy?categories=All)
 - Link drupal.org issue to GitHub Pull Request
 - Specify in GitHub Pull Request link to drupal.org issue
-- Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.
+- Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)

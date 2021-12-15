@@ -1,3 +1,7 @@
+---
+title: AddThis
+---
+
 # How to configure AddThis
 
 Open Y AddThis module allow you easy add Social icons to any node.
@@ -15,4 +19,4 @@ You can add AddThis to specific node use 'Social share icons' paragraph
 1. Click on 'Edit' any node
 
 2. After content add 'Social share icons' paragraph
-![Enter Public id](../assets/addthis_paragraph.png)
+![Enter Public id](../assets/addthis_paragraph.png))
