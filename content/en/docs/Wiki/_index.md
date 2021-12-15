@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Wiki
 ---
 
 This wiki is the primary location for developer documentation for [Open Y](https://openy.org/) - a digital transformation platform for YMCAs.
