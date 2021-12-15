@@ -6,7 +6,7 @@ The Open Y community aims to build from the methods and best practices of other 
 
 # Bylaws
 
-For the OpenY distribution we have [[Terms of Use|Open-Y-Terms-of-Use]] and [[Participant Agreement|Open-Y-Participant-Agreement]].
+For the OpenY distribution we have [Terms of Use]({{< relref "Open-Y-Terms-of-Use" >}}) and [Participant Agreement]({{< relref "Open-Y-Participant-Agreement" >}}).
 
 # Development
 
@@ -15,8 +15,8 @@ To understand how we use and develop technologies, refer to the documents below:
 - [Drupal Code of Conduct](https://www.drupal.org/dcoc)
 - [Conventional commits policy](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Drupal Coding Standards](https://www.drupal.org/docs/develop/standards)
-- [[Open Y Development FAQ|Development-FAQ]]
-- [[Open Y Development Best Practices|Code-Review-Quality-Best-Practices]]
+- [Open Y Development FAQ]({{< relref "Development-FAQ" >}})
+- [Open Y Development Best Practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
 
 JavaScript Code Standards
 

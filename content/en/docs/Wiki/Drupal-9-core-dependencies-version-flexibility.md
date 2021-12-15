@@ -28,4 +28,4 @@ composer require drupal/core:~9.0.7
 
 where 9.0.7 - is a needed version for your Open Y instance
 
-For modules see [[Composer-version-constraints-for-Open-Y]]
+For modules see [Composer-version-constraints-for-Open-Y]({{< relref "Composer-version-constraints-for-Open-Y.md" >}})

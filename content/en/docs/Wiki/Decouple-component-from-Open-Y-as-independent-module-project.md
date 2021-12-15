@@ -8,7 +8,7 @@ In 2019 the Open Y team started decoupling major components to streamline the di
 
 Communication started in the [Community Board - Ejecting modules from OpenY distro as independent projects](https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513).
 
-The decoupling process is ongoing. See [[the index of decoupled projects|Decoupled-(-external-)-projects-of-OpenY]].
+The decoupling process is ongoing. See [the index of decoupled projects]({{< relref "Decoupled-(-external-)-projects-of-OpenY" >}}).
 
 In 2021 the Open Y core team faced coupling blockers in the distribution during [the upgrade from Drupal 8 to Drupal 9](https://github.com/ymcatwincities/openy/milestone/21)
 
@@ -38,13 +38,13 @@ This document elaborates on those processes.
 1. Suggest adding to Open Y by [opening an issue](https://github.com/ymcatwincities/openy/issues).
 1. If approved, create a Pull Request adding it as a dependency in [composer.json](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json).
 1. Ensure this component is enabled in any of the packages maintained in the [Open Y profile installation](https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml)
-1. Ask for review and release, according to the [[release plan|How-we-release-OpenY-distribution-from-code-perspective]].
+1. Ask for review and release, according to the [release plan]({{< relref "How-we-release-OpenY-distribution-from-code-perspective" >}}).
 
 ### for decoupling an existing component of Open Y
 
 Follow the steps above, but:
 
-- After creating the repo, filter the selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the [[Code of Conduct|Open-Y-Code-of-Conduct-and-Best-Practices]].
+- After creating the repo, filter the selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the [Code of Conduct]({{< relref "Open-Y-Code-of-Conduct-and-Best-Practices" >}}).
 - After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.
 
 ## Examples

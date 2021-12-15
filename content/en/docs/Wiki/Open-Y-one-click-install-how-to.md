@@ -5,7 +5,7 @@ title: Open-Y-one-click-install-how-to
 This walk-through is outdated and is in the process of being updated. Instead, try:
 
 - A [video walk-through of installing Open Y for tech novices](https://www.youtube.com/watch?v=nGyMJCwMsqM)
-- An overview of the [[Open Y Sandboxes|Sandboxes]]
+- An overview of the [Open Y Sandboxes]({{< relref "Sandboxes" >}})
 
 ### Installing Open Y on DigitalOcean droplet
 

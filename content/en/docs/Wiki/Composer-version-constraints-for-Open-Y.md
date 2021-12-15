@@ -17,7 +17,7 @@ To select a specific version of a dependency when you do an upgrade of Open Y, a
 
 For example:
 
-from [[upgrade doc|OpenY-upgrade-how-to-for-Developers]]
+from [upgrade doc]({{< relref "OpenY-upgrade-how-to-for-Developers" >}})
 
 ```bash
 composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update

@@ -2,7 +2,7 @@
 title: Code-Review-Quality-Best-Practices
 ---
 
-This document serves as an addition to our [[Code of Conduct and Best Practices|Open-Y-Code-of-Conduct-and-Best-Practices]]. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.
+This document serves as an addition to our [Code of Conduct and Best Practices]({{< relref "Open-Y-Code-of-Conduct-and-Best-Practices" >}}). It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.
 
 # General Rules
 

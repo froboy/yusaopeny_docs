@@ -2,7 +2,7 @@
 title: Open-Y-Pull-Requests-review-standard
 ---
 
-Check more [[technical guidelines about our best practices for code quality|Code-Review-Quality-Best-Practices]].
+Check more [technical guidelines about our best practices for code quality]({{< relref "Code-Review-Quality-Best-Practices" >}}).
 
 # Adherence to Standards
 
@@ -16,7 +16,7 @@ The Open Y Core Team reserves the right to break these standards only in the fol
 
 ## Requirements for Pull Requests
 
-- Code in Pull Requests should follow our established [[best practices|Code-Review-Quality-Best-Practices]]
+- Code in Pull Requests should follow our established [best practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
 - Submitters' profiles on GitHub or Drupal.org should be up to date and contain at least a name and organization.
 
 ## Template for the PR
@@ -26,7 +26,7 @@ In order to create a good quality Pull Request, we prepared a [PR template](http
 List of requirements from the template:
 
 - Provide a link to the original issue, which is going to be fixed by the PR you are creating.
-- All coding styles are fulfilled and there are no issues reported by CodeSniffer. See [[Code of Conduct|Open-Y-Code-of-Conduct-and-Best-Practices]].
+- All coding styles are fulfilled and there are no issues reported by CodeSniffer. See [Code of Conduct]({{< relref "Open-Y-Code-of-Conduct-and-Best-Practices" >}}).
 - [Documentation](https://github.com/ymcatwincities/openy/tree/9.x-2.x/docs) have been updated according to PR changes.
 - [Steps for review](https://github.com/ymcatwincities/openy/pull/94#issue-204580200) have been provided according to PR changes. <br/><img src="https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/.github/assets/steps-for-review.png" width="200" alt="Steps for review"/>
 - Make sure you've provided all necessary hook\_update\_N to [support upgrade path](https://github.com/ymcatwincities/openy/blob/9.x-2.x/docs/Development/Upgrade%20path.md).

@@ -4,7 +4,7 @@ title: OpenY-upgrade-how-to-for-Developers
 
 Review a [video about this document](https://youtu.be/RGfYLjYpi4Q).
 
-Before upgrading, please review these [[required version steps for your upgrade path|Important-versions-for-upgrade-path]].
+Before upgrading, please review these [required version steps for your upgrade path]({{< relref "Important-versions-for-upgrade-path" >}}).
 
 ## Overview
 
@@ -164,4 +164,4 @@ Use [`drush sql-dump`](https://www.drush.org/latest/commands/sql_dump/) or anoth
 ### Proceed with an update to next version until succeeded (Start from item 1)
 
 DISCLAIMER: If you have an old 1.x version it makes sense to update to the latest 1.x before going OpenY 2.0 upgrade
-See [[OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version]]
+See [OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version]({{< relref "OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version.md" >}})

@@ -6,13 +6,13 @@ title: OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version
 Upgrade to old, Open Y 1.x version ( tested on upgrading 8.0.2 to 8.1.1.14 )
 =====
 
-See [[upgrade from 8.1.3 to 8.2.2.1|Upgrade-OpenY-8.1.3-to-8.2.2.1]]
+See [upgrade from 8.1.3 to 8.2.2.1]({{< relref "Upgrade-OpenY-8.1.3-to-8.2.2.1.md" >}})
 
 We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.
 
 ### Prepare dedicated environment for upgrade testing
 
-Ensure you have working computer or virtual machine with 
+Ensure you have working computer or virtual machine with
  - Ubuntu 14.04(16.04 or any decent Ubuntu LTS versions) 64 bit
  - MySQL 5.5+
  - Apache 2.4
@@ -69,7 +69,7 @@ drush ev "Drupal::service('module_installer')->install(['content_moderation','op
 ```
 
 
-Ensure commands above finished with no error messages. Best way to check it - run them one more time. If next run shows 
+Ensure commands above finished with no error messages. Best way to check it - run them one more time. If next run shows
 ```sh
 $ drush updatedb
 No database updates required                                                                                    [success]

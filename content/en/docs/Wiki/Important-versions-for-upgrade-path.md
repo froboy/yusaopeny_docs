@@ -15,9 +15,9 @@ For example: If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 yo
 
 These supplemental documents elaborate on a few specific cases:
 
-- [[Upgrade from Open Y <8.1.3|OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version]]
-- [[Upgrade from 8.1.3 to 8.2.2.1|Upgrade-OpenY-8.1.3-to-8.2.2.1]]
-- [[Upgrade from 8.2.2.3 to 8.2.7.3|Upgrade-use-case-from-8.2.2.3-to-8.2.7.3]]
+- [Upgrade from Open Y <8.1.3]({{< relref "OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version.md" >}})
+- [Upgrade from 8.1.3 to 8.2.2.1]({{< relref "Upgrade-OpenY-8.1.3-to-8.2.2.1.md" >}})
+- [Upgrade from 8.2.2.3 to 8.2.7.3]({{< relref "Upgrade-use-case-from-8.2.2.3-to-8.2.7.3.md" >}})
 
 ### Important versions
 
@@ -27,7 +27,7 @@ These supplemental documents elaborate on a few specific cases:
 - `9.2.8.0` - Drupal 9 version which must be used in the upgrade path before going to 9.2.8.1+. This version added 9.0-9.1 Drupal Core and disabled deprecated components.
 - `9.2.10.0` - Removed a bunch of unused modules from distribution.
 
-See [[Version Constraints practices for Open Y|Composer-version-constraints-for-Open-Y]]
+See [Version Constraints practices for Open Y]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 
 ## Known issues
 

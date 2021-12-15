@@ -4,7 +4,7 @@ title: How-to-develop-themes-in-Open-Y
 
 # Working with Themes
 
-Each Open Y theme was developed independently, either by the Open Y Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the [[Sandboxes]].
+Each Open Y theme was developed independently, either by the Open Y Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the [Sandboxes]({{< relref "Sandboxes.md" >}}).
 
 Each theme has its own dependencies and build processes. Please read the steps in each `README` for details.
 
