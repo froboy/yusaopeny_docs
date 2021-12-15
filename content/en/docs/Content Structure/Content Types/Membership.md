@@ -20,4 +20,4 @@ Membership content type is used for adding membership on the site.
 ### URL pattern
 
 Content type is using following pattern:
-`/membership/[node:title]`)
+`/membership/[node:title]`
