@@ -1,3 +1,7 @@
+---
+title: Upgrade-use-case-from-8.2.2.3-to-8.2.7.3
+---
+
 
 
 1 uninstall `lndr` and `optimizely` modules before running [[composer update commands|OpenY-upgrade-how-to-for-Developers#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207-]]

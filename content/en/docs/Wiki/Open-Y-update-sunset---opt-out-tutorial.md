@@ -1,3 +1,7 @@
+---
+title: Open-Y-update-sunset---opt-out-tutorial
+---
+
 ## Preamble
 
 Back on 28 Jan 2020 Open Y decided to add an anonymous analytics module [`openy_analytics`](https://github.com/ymcatwincities/openy/tree/9.x-2.x/modules/custom/openy_analytics) which was a free opt-in/opt-out solution for the Core team to gather stats from Open Y sites about the frequency of components used.

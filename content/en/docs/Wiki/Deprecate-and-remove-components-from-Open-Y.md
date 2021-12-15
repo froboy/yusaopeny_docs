@@ -1,3 +1,7 @@
+---
+title: Deprecate-and-remove-components-from-Open-Y
+---
+
 Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:
 
 1. **Decide** -  Before removing components from the distribution we gather feedback from the community to protect active projects from having components accidentally removed. This is accomplished via messaging in the Open Y Slack and discussion on Monthly calls.

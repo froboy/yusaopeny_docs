@@ -1,3 +1,7 @@
+---
+title: Decouple-component-from-Open-Y-as-independent-module-project
+---
+
 ## History
 
 In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.

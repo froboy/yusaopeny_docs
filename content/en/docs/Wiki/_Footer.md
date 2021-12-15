@@ -1,1 +1,0 @@
-© 2021 Open Y https://openy.org.

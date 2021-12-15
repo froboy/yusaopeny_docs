@@ -1,3 +1,7 @@
+---
+title: Open-Y-technology-pipeline
+---
+
 To deliver the best technologies for the YMCA movement, the Open Y development community maintains the following documents and best practices:
 
 1. [[Development FAQ|Development-FAQ]]

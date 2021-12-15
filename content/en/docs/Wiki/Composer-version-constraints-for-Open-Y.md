@@ -1,3 +1,7 @@
+---
+title: Composer-version-constraints-for-Open-Y
+---
+
 In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our `composer.json`.
 
 Examples from [composer.json](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json):

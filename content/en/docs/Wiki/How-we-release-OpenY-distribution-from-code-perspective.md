@@ -1,3 +1,7 @@
+---
+title: How-we-release-OpenY-distribution-from-code-perspective
+---
+
 ### Repos involved in releases
 
 1. Open Y Drupal Profile Distribution [ymcatwincities/openy](https://github.com/ymcatwincities/openy)

@@ -1,3 +1,7 @@
+---
+title: Upgrade-OpenY-8.1.3-to-8.2.2.1
+---
+
 ### Video tutorials
 
 Upgrade OpenY from 8.0.7 to 8.2.2.1 - https://www.youtube.com/watch?v=U_mg0-yKGOI
@@ -56,5 +60,3 @@ vagrant@vagrant:/var/www/docroot$ composer --version
 * run `drush updatedb -y` <- this will fail for the first time ( Media not installed yet ), disregard
 * run `drush updatedb -y` <- this should run properly.
 * run `drush entup`
-
-

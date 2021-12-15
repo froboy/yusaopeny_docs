@@ -1,3 +1,7 @@
+---
+title: Important-versions-for-upgrade-path
+---
+
 Open Y development moves quickly and in this document, we flag important versions that should not be skipped while you upgrade your sites.
 
 ## Determining your upgrade path
@@ -34,4 +38,3 @@ composer require drupal/core-recommended:9.2.8
 ```
 
 Run the above command where your `docroot` is. Use the current core version instead of `9.2.8`.
-

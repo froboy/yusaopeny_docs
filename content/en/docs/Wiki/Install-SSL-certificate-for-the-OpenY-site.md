@@ -1,3 +1,7 @@
+---
+title: Install-SSL-certificate-for-the-OpenY-site
+---
+
 ## Web Security and Open Y
 
 As many parties have moved to [Encrypt the Web](https://www.eff.org/encrypt-the-web), `https` sites and SSL certificates have shifted from "nice to have" to necessities.

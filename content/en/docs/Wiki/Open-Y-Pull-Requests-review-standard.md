@@ -1,3 +1,7 @@
+---
+title: Open-Y-Pull-Requests-review-standard
+---
+
 Check more [[technical guidelines about our best practices for code quality|Code-Review-Quality-Best-Practices]].
 
 # Adherence to Standards

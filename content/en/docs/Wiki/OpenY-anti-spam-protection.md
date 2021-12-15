@@ -1,3 +1,7 @@
+---
+title: OpenY-anti-spam-protection
+---
+
 In order to protect Open Y customers, we have added anti-spam protection based on CAPTCHA and Google reCAPTCHA out of the box in Open Y core
 
 You can check [the tutorial for how to install and configure reCaptcha on your site](https://www.youtube.com/watch?v=nHo2uL-bPyM).

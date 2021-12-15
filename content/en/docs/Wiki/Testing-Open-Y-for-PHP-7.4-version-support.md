@@ -1,3 +1,7 @@
+---
+title: Testing-Open-Y-for-PHP-7.4-version-support
+---
+
 ## Requirements
 
 * php-cli 7.4 ( memory_limit value should be large ( 2000M ) or unlimiter ( -1 ) in order to not fail
@@ -32,8 +36,3 @@ or if you need to skip warnings
 ```
 
 In report.txt you'd find a full list of findings to be resolved in order to pass compatibility
-
-
-
-
-

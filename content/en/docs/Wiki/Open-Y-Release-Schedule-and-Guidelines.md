@@ -1,3 +1,7 @@
+---
+title: Open-Y-Release-Schedule-and-Guidelines
+---
+
 ## Open Y Release Guidelines
 
 Open Y releases major releases of the base project [Open Y](https://github.com/ymcatwincities/openy) and [Virtual Y](https://github.com/ymcatwincities/openy_gated_content) quarterly. Minor releases and sub-project releases occur as needed.

@@ -1,3 +1,7 @@
+---
+title: OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version
+---
+
 
 Upgrade to old, Open Y 1.x version ( tested on upgrading 8.0.2 to 8.1.1.14 )
 =====
@@ -85,4 +89,3 @@ You almost 100% proved updated were executed correctly.
 6. ### Proceed with an update to next version until succeeded (Start from item 1)
 
 ...
-

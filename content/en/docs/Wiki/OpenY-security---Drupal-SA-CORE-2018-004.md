@@ -1,3 +1,7 @@
+---
+title: OpenY-security---Drupal-SA-CORE-2018-004
+---
+
 To update your OpenY site with security fix from Drupal core https://www.drupal.org/SA-CORE-2018-004
 OpenY team is suggesting 2 options- via patch and via Drupal core upgrade(or OpenY upgrade).
 Drupal core upgrade or OpenY upgrade is not always possible, but security issue should be fixed asap.

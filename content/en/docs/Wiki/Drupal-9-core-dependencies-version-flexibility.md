@@ -1,3 +1,7 @@
+---
+title: Drupal-9-core-dependencies-version-flexibility
+---
+
 This document is no longer updated.
 
 To update the version of Drupal being used on your site independent of Open Y see [Updating Drupal Core via Composer](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer). Be aware that `openy/composer.json` may set [Drupal core version constraints](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json#:~:text=%22drupal/-,core%2Drecommended,-%22%3A%20%22%3E%3D9.1%2C%20%3C9.3%22%2C).

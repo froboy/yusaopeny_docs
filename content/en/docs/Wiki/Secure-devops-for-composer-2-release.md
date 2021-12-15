@@ -1,3 +1,7 @@
+---
+title: Secure-devops-for-composer-2-release
+---
+
 This article only applies to long-term users of Open Y. Open Y supports Composer 2 [as of version 8.2.7 in November 2020](https://github.com/ymcatwincities/openy/releases/tag/8.2.7) and new installs use Composer 2 by default.
 
 ----

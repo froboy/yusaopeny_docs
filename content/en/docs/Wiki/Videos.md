@@ -1,3 +1,7 @@
+---
+title: Videos
+---
+
 # Video Tutorials
 
 The Open Y team maintains a [YouTube channel](https://www.youtube.com/c/OpenY/featured) with video tutorials for developers, content editors, evaluators, and more. Visit YouTube for the full list of content.

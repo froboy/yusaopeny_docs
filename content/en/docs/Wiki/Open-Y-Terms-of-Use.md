@@ -1,3 +1,7 @@
+---
+title: Open-Y-Terms-of-Use
+---
+
 Version 2.0, May 2018
 
 This is a free service provided by Open Y, LLC (“**we**,” “**us**,” and “**our**”) for users in the YMCA community (“**users**,” “**you**,” and “**your**”). **By using the Open Y repository, you agree to these Terms of Use.**

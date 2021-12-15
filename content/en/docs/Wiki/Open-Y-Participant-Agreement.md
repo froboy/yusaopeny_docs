@@ -1,3 +1,7 @@
+---
+title: Open-Y-Participant-Agreement
+---
+
 **OPEN Y PARTICIPATION AGREEMENT**
 
 This Open Y Participation Agreement (this “**Agreement**”) is between Open Y, LLC, and participating YMCA member associations in the United States (“**Member Associations**”). Open Y, LLC has received license rights from the National Council of Young Men’s Christian Associations of the United States of America, an Illinois not-for-profit corporation (“**YUSA**”) to provide the Platform (as defined below) to you. Open Y is not a part of YUSA; Open Y is a part of the YMCA of the Greater Twin Cities.

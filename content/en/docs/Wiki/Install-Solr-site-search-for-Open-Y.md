@@ -1,3 +1,7 @@
+---
+title: Install-Solr-site-search-for-Open-Y
+---
+
 Open Y leverages [Apache Solr](https://solr.apache.org/) for a few features:
 
 - [Activity Finder](https://github.com/ymcatwincities/openy_activity_finder/wiki) requires Solr

@@ -1,3 +1,7 @@
+---
+title: Sandboxes
+---
+
 # Open Y Sandboxes for Evaluation and QA
 
 The Open Y core team manages sandboxes for stable and development versions of Open Y to facilitate the evaluation of the product, to help with QA, and enable investigation of issues.

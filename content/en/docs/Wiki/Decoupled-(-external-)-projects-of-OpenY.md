@@ -1,3 +1,7 @@
+---
+title: Decoupled-(-external-)-projects-of-OpenY
+---
+
 # Inventory of external modules available via Composer
 
 Check all GitHub for the tag [``openy-decoupled``](https://github.com/topics/openy-decoupled)
