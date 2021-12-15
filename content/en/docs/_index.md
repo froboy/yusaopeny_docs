@@ -1,5 +1,9 @@
 ---
 title: Documentation
+linkTitle: Documentation
+menu:
+  main:
+    weight: 20
 ---
 
 # Open Y Distribution
