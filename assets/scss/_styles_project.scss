@@ -2,6 +2,7 @@
 Open Y style overrides.
 */
 
-a.navbar-brand .text-uppercase {
+a.navbar-brand span + span {
   display: none;
 }
+

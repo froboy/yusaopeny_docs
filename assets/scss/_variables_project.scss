@@ -5,4 +5,6 @@ Add styles or override variables from the theme here.
 */
 
 $primary: black;
+$primary-light: lighten($primary, 80%) !default;
 $secondary: #f93549;
+$link-color: #f93549;
