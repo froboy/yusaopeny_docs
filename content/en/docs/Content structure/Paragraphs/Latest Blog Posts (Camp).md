@@ -1,3 +1,7 @@
+---
+title: Latest Blog Posts (Camp)
+---
+
 # Latest Blog Posts (Camp)
 
 This is dynamic paragraph that renders the latest blog posts associated with a camp.

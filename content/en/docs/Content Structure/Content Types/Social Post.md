@@ -18,4 +18,4 @@ Social Post content type is used for adding Social Posts on the site. Social Pos
 ### URL pattern
 
 Content type is using following pattern:
-`/social_post/[node:title]`)
+`/social_post/[node:title]`

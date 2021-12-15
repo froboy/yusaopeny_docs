@@ -27,4 +27,4 @@ In "Full" and "Half" view modes document should be displayed as iframe, where `U
 ```html
 <iframe src="//docs.google.com/gview?url=URL&embedded=true" frameborder="0"></iframe>
 ```
-Link - should lead to the original document with `target=blank`.)
+Link - should lead to the original document with `target=blank`.

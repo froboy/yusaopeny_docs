@@ -1,3 +1,7 @@
+---
+title: Flexible
+---
+
 # Block Flexible Content
 A block with amenities list of the current branch.
 

@@ -12,4 +12,4 @@ A simple block with a body.
 | Icon class | field_icon_class | No | Provide a "Font Awesome" icon name, e.g. flag, car, info. Overrides image icon. | |
 | Body | field_sb_body | No | Enter body text. | |
 | Link | field_sb_link | No | Add link to the block. | |
-| Title | field_sb_title | No | Title to display at top of block. | |)
+| Title | field_sb_title | No | Title to display at top of block. | |

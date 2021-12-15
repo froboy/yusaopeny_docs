@@ -1,3 +1,7 @@
+---
+title: Program
+---
+
 # Program
 Program content type is used for adding Programs on the site.
 

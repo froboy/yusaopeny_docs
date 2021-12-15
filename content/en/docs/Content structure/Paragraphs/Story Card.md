@@ -1,3 +1,7 @@
+---
+title: Story Card
+---
+
 # Story Card
 This is a Paragraph type that will be used for the Story Cards.
 

@@ -13,4 +13,4 @@ Relates to:
 ### Fields
 | Name  | Machine name | Required | Description |
 | ------------- | ------------- | ------------- | ------------- |
-| Block | field\_prgf_block | Yes | Block reference to the view/block. Should have default value and should be hidden in form display. |)
+| Block | field\_prgf_block | Yes | Block reference to the view/block. Should have default value and should be hidden in form display. |

@@ -1,3 +1,7 @@
+---
+title: Latest News Posts (Branch)
+---
+
 # Latest News Posts (Branch)
 
 This is dynamic paragraph that renders the latest news posts associated with a branch.

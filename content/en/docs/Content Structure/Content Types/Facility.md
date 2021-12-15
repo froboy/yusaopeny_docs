@@ -28,4 +28,4 @@ Facility content type is used for adding facilities on the site.
 ### URL pattern
 
 Content type is using following pattern:
-`/facility/[node:title]`)
+`/facility/[node:title]`

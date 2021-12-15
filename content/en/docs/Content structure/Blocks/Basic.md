@@ -1,3 +1,7 @@
+---
+title: Basic
+---
+
 # Basic Block
 A simple block with a description.
 

@@ -1,3 +1,7 @@
+---
+title: Classes Listing
+---
+
 # Classes Listing + Classes Listing Filters
 Classes Listing - should display all published classes grouped by activity.
 

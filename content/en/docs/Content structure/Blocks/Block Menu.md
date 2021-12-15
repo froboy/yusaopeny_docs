@@ -1,3 +1,7 @@
+---
+title: Block Menu
+---
+
 # Block Menu
 Implements custom block type with a links.
 

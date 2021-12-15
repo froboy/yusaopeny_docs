@@ -1,3 +1,7 @@
+---
+title: Alert
+---
+
 # Alert
 Alert content type is used for adding alerts on the site.
 

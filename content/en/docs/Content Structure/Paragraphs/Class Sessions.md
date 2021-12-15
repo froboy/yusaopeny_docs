@@ -56,4 +56,4 @@ Relates to [Branches Popup (Class)](Branches Popup (Class).md).
 - And I don't have location=% in the URL
 - Results should contain all branches
 - In sidebar we should see "All locations...."
-- Location popup should be shown (Unless only one location is associated with the class))
+- Location popup should be shown (Unless only one location is associated with the class)

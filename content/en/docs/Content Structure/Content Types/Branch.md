@@ -34,4 +34,4 @@ Branch content type is used for adding Branches on the site.
 ### URL pattern
 
 Content type is using following pattern:
-`/locations/[node:title]`)
+`/locations/[node:title]`
