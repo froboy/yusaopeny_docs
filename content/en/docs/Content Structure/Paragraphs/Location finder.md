@@ -12,4 +12,4 @@ Location finder block contains locations views displays with branches, camps and
 
 | Name  | Machine name | Required | Description |
 | ------------- | ------------- | ------------- | ------------- |
-| Location finder | field\_prgf\_location\_finder | No | Block reference to the location_finder block. Should have default value and should be hidden in form display. |)
+| Location finder | field\_prgf\_location\_finder | No | Block reference to the location_finder block. Should have default value and should be hidden in form display. |

@@ -27,4 +27,4 @@ Blog Post content type is used for adding blog posts on the site.
 ### URL pattern
 
 Content type is using following pattern:
-`/blog/[node:title]`)
+`/blog/[node:title]`

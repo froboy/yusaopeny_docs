@@ -32,4 +32,4 @@ Session content type is used for adding Sessions on the site.
 | Days  | field\_session\_time_days  | No | Checkboxes with following values: <ul><li>sunday\|Sunday</li><li>monday\|Monday</li><li>tuesday\|Tuesday</li><li>wednesday\|Wednesday</li><li>thursday\|Thursday</li><li>friday\|Friday</li><li>saturday\|Saturday</li></ul> Should support multiple values. |
 
 ### URL pattern
-No URL pattern. Eventually this content type shouldn't be available for end users.)
+No URL pattern. Eventually this content type shouldn't be available for end users.

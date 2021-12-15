@@ -18,4 +18,4 @@ Configuration setting at /admin/config/development/daxko/programs-search
 
 | Name  | Machine name | Required | Description |
 | ------------- | ------------- | ------------- | ------------- |
-| Program registration block | field\_prgf\_reg\_block | No | Block reference to the programs_search_block block. Should have default value and should be hidden in form display. |)
+| Program registration block | field\_prgf\_reg\_block | No | Block reference to the programs_search_block block. Should have default value and should be hidden in form display. |

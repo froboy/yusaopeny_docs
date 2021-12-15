@@ -11,4 +11,4 @@ The core idea of paragraphs is to have a nice looking and behaving widget for ad
 without referencing external entities. Keep in mind, that paragraphs are not reusable types. For having reusable type look for
 ```blocks``` or ```entities``` in terms of Drupal 8.
 
-Paragraphs were created for making UX better and super convenient.)
+Paragraphs were created for making UX better and super convenient.

@@ -8,4 +8,4 @@ See more [How to configure AddThis](../../Development/AddThis.md)
 
 ### Fields
 | Name  | Machine name | Required | Description | Notes |
-| ------------- | ------------- | ------------- | ------------- | ------------- | )
+| ------------- | ------------- | ------------- | ------------- | ------------- |

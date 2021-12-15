@@ -11,4 +11,4 @@ This is a vocabulary that will be used for adding colors on the site.
 | Name  | Machine name | Required | Description |
 | ------------- | ------------- | ------------- | ------------- |
 | Name  | drupal's default  | Yes | Color name. |
-| Color  | field_color  | Yes | Color selector. |)
+| Color  | field_color  | Yes | Color selector. |

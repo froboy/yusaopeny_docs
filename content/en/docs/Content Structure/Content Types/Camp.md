@@ -28,4 +28,4 @@ Camp content type is used for adding Camps on the site.
 ### URL pattern
 
 Content type is using following pattern:
-`/camps/[node:title]`)
+`/camps/[node:title]`
