@@ -1,3 +1,16 @@
+# Hugo
+.hugo_build.lock
 /public
 resources/
 node_modules/
+
+# vim temporary files
+*~
+*.sw?
+
+# system files
+.DS_Store
+
+# IDE files
+.idea
+.vscode
