@@ -1,8 +1,11 @@
-In order to remove components, that are outdated or not used by Open Y users we are following policy, described in this document.
+Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:
 
-1. Before removing components from distribution we need to ensure we are gathering feedback from the community and protecting currently available installation from accidentally removed components, that are still in use. This should be accomplished via messaging in Open Y Slack and discussion on Monthly calls.
-2. In order to remove code from Open Y we should deprecate it first in order to notify users it is going to be removed soon. For that components should be moved from `Open Y` package group to `Open Y ( Deprecated )` package group. Example https://github.com/open-y-subprojects/openy_features/pull/15/files . Deprecation notice must be reflected in the upcoming point and quarterly release of Open Y.
-3. Before removing a code from distribution component should be uninstalled by adding an upgrade path to distribution. This should happen via Pull Request to second quarterly release after the deprecation notice happened in #2
-4. Complete Removal of the component should happen after 2(two) quarterly releases are released since deprecation notice happened ( 6 months minimum ), in next quarterly release since component uninstallation released in a release.
-5. Release where uninstallation for deprecated component added should be added to important versions document in Wiki https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path
-6. Code should be decoupled to external GitHub repositories with all history of commits, marked as `openy-decoupled` and archived.
+1. **Decide** -  Before removing components from the distribution we gather feedback from the community to protect active projects from having components accidentally removed. This is accomplished via messaging in the Open Y Slack and discussion on Monthly calls.
+1. **Deprecate** - Once a decision is made, we notify users that the feature will be removed soon. The deprecated component is moved from the `Open Y` package group to the `Open Y ( Deprecated )` package group. For example: [Deprecate Daxko Program Registration Paragraph](https://github.com/open-y-subprojects/openy_features/pull/15/files). Deprecation notices are posted in point and quarterly releases of Open Y.
+1. **Uninstall** - Before removing code, components should be uninstalled via an update hook in the distribution and any hard dependencies should be removed. Uninstalls must occur _at least one point (fix) release_ after the deprecation notice.
+1. **Remove** - Complete removal of the component from the codebase or `composer.json` should happen _at least one quarterly (feature) release_ after the deprecation notice.
+
+Additionally, the following housekeeping steps should be taken when deprecating a component:
+
+1. The release where the deprecated component has been uninstalled should be added to the [important versions document](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path) in the Wiki.
+1. Code should be decoupled to external GitHub repositories with all history of commits, marked as `openy-decoupled`, and archived.

@@ -24,6 +24,7 @@ This document elaborates on those processes.
 - **Drupal.org** should be used when the component could be useful to projects outside of Open Y.
 
 ## Process
+
 ### for creating a new decoupled component
 
 1. Create a new GitHub/Drupal.org repository.
@@ -38,20 +39,23 @@ This document elaborates on those processes.
 ### for decoupling an existing component of Open Y
 
 Follow the steps above, but:
+
 - After creating the repo, filter the selected component by running `git filter-branch --subdirectory-filter ...` from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the [[Code of Conduct|Open-Y-Code-of-Conduct-and-Best-Practices]].
 - After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.
 
 ## Examples
+
 ### How to update module on Drupal.org
 
-* Git filter-branch to get a history of changes.
-* Change git origin to Drupal.org project.
-* Create a new branch and push the code to Drupal.org.
-* Create and push tag to Drupal.org. Create a release on drupal.org.
-* Update composer.json in this distribution with a new tag.
+- Git filter-branch to get a history of changes.
+- Change git origin to Drupal.org project.
+- Create a new branch and push the code to Drupal.org.
+- Create and push tag to Drupal.org. Create a release on drupal.org.
+- Update composer.json in this distribution with a new tag.
 
 ### How to decouple module from YN to Drupal.org
-Example: https://www.drupal.org/project/paragraph_skins
+
+Example: [paragraph_skins](https://www.drupal.org/project/paragraph_skins)
 
 ```sh
 git clone git@github.com:ymcatwincities/openy.git decouple
@@ -67,7 +71,8 @@ git push origin production:8.x-1.x
 ```
 
 ### How to decouple module from Open Y to [Open Y Subprojects](https://github.com/Open-Y-subprojects)
-Request a repository for the module. Example: https://github.com/Open-Y-subprojects/shared_content_server
+
+Request a repository for the module. Example: [shared_content_server](https://github.com/Open-Y-subprojects/shared_content_server)
 
 ```sh
 git clone git@github.com:ymcatwincities/openy.git decouple
@@ -81,8 +86,8 @@ git push origin production
 git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 # Update composer json for distrubution. See below
 ```
-[Example for Activity Finder](https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111)
 
+[Example for Activity Finder](https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111)
 
 # References
 

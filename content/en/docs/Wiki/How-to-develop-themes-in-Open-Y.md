@@ -1,27 +1,24 @@
-# Inventory of themes
+# Working with Themes
 
-Open Y Carnation - https://github.com/ymcatwincities/openy/tree/9.x-2.x/themes/openy_themes/openy_carnation
+Each Open Y theme was developed independently, either by the Open Y Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the [[Sandboxes]].
 
-Check [README.md](https://github.com/ymcatwincities/openy/blob/9.x-2.x/themes/openy_themes/openy_carnation/README.md)
+Each theme has its own dependencies and build processes. Please read the steps in each `README` for details.
 
-Open Y Lily - https://github.com/ymcatwincities/openy/tree/9.x-2.x/themes/openy_themes/openy_lily
+## Inventory of themes
 
-Check [README.md](https://github.com/ymcatwincities/openy/blob/9.x-2.x/themes/openy_themes/openy_lily/README.md)
+As of December 2021, themes [have been decoupled](https://github.com/ymcatwincities/openy/pull/2595) from the Open Y profile to independent projects on Drupal.org.
 
-Open Y Rose - https://github.com/ymcatwincities/openy/tree/9.x-2.x/themes/openy_themes/openy_rose
+### Carnation
 
-Check [README.md](https://github.com/ymcatwincities/openy/blob/9.x-2.x/themes/openy_themes/openy_rose/README.md)
+- [openy_carnation project](https://www.drupal.org/project/openy_carnation) on Drupal.org
+- [README](https://git.drupalcode.org/project/openy_carnation) for getting started with development
 
-# How to work with themes
+### Lily
 
-Always use
+- [openy_lily project](https://www.drupal.org/project/openy_lily) on Drupal.org
+- [README](https://git.drupalcode.org/project/openy_lily) for getting started with development
 
-```sh
-composer create-project ymcatwincities/openy-project:dev-9.2.x-development buildnew --no-interaction --prefer-dist
-```
+### Rose
 
-before running any commands from README files above.
-
-**Only by having a full Open Y tree on your disk, you'd we able to compile CSS/JS assets, using tutorials from README files above**
-
-
+- [openy_rose project](https://www.drupal.org/project/openy_rose) on Drupal.org
+- [README](https://git.drupalcode.org/project/openy_rose) for getting started with development
