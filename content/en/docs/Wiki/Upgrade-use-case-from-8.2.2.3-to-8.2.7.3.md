@@ -2,7 +2,9 @@
 title: Upgrade-use-case-from-8.2.2.3-to-8.2.7.3
 ---
 
+This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).
 
+---
 
 1 uninstall `lndr` and `optimizely` modules before running [composer update commands]({{< relref "OpenY-upgrade-how-to-for-Developers#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207-" >}})
 

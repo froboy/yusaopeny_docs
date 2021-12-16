@@ -2,6 +2,10 @@
 title: OpenY-security-update-how-to.-Update-Drupal-core-only
 ---
 
+This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).
+
+---
+
 To update your OpenY site with security fix from Drupal core https://www.drupal.org/sa-core-2018-002
 OpenY team is suggesting 2 options- via patch and via Drupal core upgrade(or OpenY upgrade).
 Drupal core upgrade or OpenY upgrade is not always possible, but security issue should be fixed asap.
@@ -28,7 +32,7 @@ patch -p1 --dry-run < 8.2.x.patch
 ```
 You should see a result
 ```sh
-# patch -p1 --dry-run < 8.2.x.patch 
+# patch -p1 --dry-run < 8.2.x.patch
 checking file docroot/core/lib/Drupal/Core/DrupalKernel.php
 checking file docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php
 ```
@@ -43,7 +47,7 @@ TIP: In case if you are using git repository for your site run
 ```sh
 git add docroot/core/lib/Drupal/Core/DrupalKernel.php docroot/core/lib/Drupal/Core/Security && git commit -m "Patching OpenY core" && git push
 ```
-to store your patched core into your own repository. 
+to store your patched core into your own repository.
 
 ### Patching OpenY releases 8.1.1 - 8.1.6 (Drupal core 8.3.x)
 
@@ -64,7 +68,7 @@ patch -p1 --dry-run < 8.3.x.patch
 ```
 You should see a result
 ```sh
-# patch -p1 --dry-run < 8.3.x.patch 
+# patch -p1 --dry-run < 8.3.x.patch
 checking file docroot/core/lib/Drupal/Core/DrupalKernel.php
 checking file docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php
 ```
@@ -79,7 +83,7 @@ TIP: In case if you are using git repository for your site run
 ```sh
 git add docroot/core/lib/Drupal/Core/DrupalKernel.php docroot/core/lib/Drupal/Core/Security && git commit -m "Patching OpenY core" && git push
 ```
-to store your patched core into your own repository. 
+to store your patched core into your own repository.
 
 ### Patching OpenY releases 8.1.7 - 8.1.9 (Drupal core 8.4.x)
 
@@ -100,7 +104,7 @@ patch -p1 --dry-run < 8.4.x.patch
 ```
 You should see a result
 ```sh
-# patch -p1 --dry-run < 8.4.x.patch 
+# patch -p1 --dry-run < 8.4.x.patch
 checking file docroot/core/lib/Drupal/Core/DrupalKernel.php
 checking file docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php
 ```
@@ -115,7 +119,7 @@ TIP: In case if you are using git repository for your site run
 ```sh
 git add docroot/core/lib/Drupal/Core/DrupalKernel.php docroot/core/lib/Drupal/Core/Security && git commit -m "Patching OpenY core" && git push
 ```
-to store your patched core into your own repository. 
+to store your patched core into your own repository.
 
 ==========================
 
@@ -136,7 +140,7 @@ Type manually exact line
 bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh)
 ```
 and hit Enter.
-You should see ```OpenY was patched``` message. 
+You should see ```OpenY was patched``` message.
 
 ### One line script to patch 8.3.x Drupal core for OpenY
 
@@ -146,7 +150,7 @@ Type manually exact line
 bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.3.x.sh)
 ```
 and hit Enter.
-You should see ```OpenY was patched``` message. 
+You should see ```OpenY was patched``` message.
 
 ### One line script to patch 8.4.x Drupal core for OpenY
 
@@ -156,4 +160,4 @@ Type manually exact line
 bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh)
 ```
 and hit Enter.
-You should see ```OpenY was patched``` message. 
+You should see ```OpenY was patched``` message.

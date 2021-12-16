@@ -2,6 +2,10 @@
 title: Upgrade-OpenY-8.1.3-to-8.2.2.1
 ---
 
+This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).
+
+---
+
 ### Video tutorials
 
 Upgrade OpenY from 8.0.7 to 8.2.2.1 - https://www.youtube.com/watch?v=U_mg0-yKGOI
@@ -29,7 +33,7 @@ Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
     with Zend OPcache v7.1.31-1+ubuntu18.04.1+deb.sury.org+1, Copyright (c) 1999-2018, by Zend Technologies
     with Xdebug v2.7.2, Copyright (c) 2002-2019, by Derick Rethans
 vagrant@vagrant:/var/www/docroot$ drush --version
- **Drush Version   :  8.2.3** 
+ **Drush Version   :  8.2.3**
 vagrant@vagrant:/var/www/docroot$ composer --version
 **Composer version 1.7.2** 2018-08-16 16:57:12
 ```
