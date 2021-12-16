@@ -1,13 +1,12 @@
 ---
-title: Documentation
+title: Open Y Distribution Documentation
 linkTitle: Documentation
 menu:
   main:
     weight: 20
 ---
 
-# Open Y Distribution
-The Open Y platform is a content management system that uses Drupal 8 functionality and useful modules from YMCAs and digital partners. It’s easy and free to use—everyone is welcome to implement Open Y and run Open Y projects.
+The Open Y platform is a content management system that uses Drupal functionality and useful modules from YMCAs and digital partners. It’s easy and free to use—everyone is welcome to implement Open Y and run Open Y projects.
 
 In 2016 a group of YMCA digital, marketing and technology experts recognized the digital opportunities that exist if we work together as a community and established Open Y.
 
@@ -26,8 +25,5 @@ A core team led by a small group of YMCAs including the [Greater Twin Cities](ht
 
 Open Y is similar to the [Thunder Coalition](http://www.thunder.org) for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site.
 
-# Documentation
-Documentation is available at [https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs](https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs)
-
 # Details
-For details please visit http://www.openymca.org
+For more details please visit [http://www.openymca.org](http://www.openymca.org).
