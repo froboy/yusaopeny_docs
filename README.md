@@ -1,10 +1,8 @@
-# Docsy Example
+# Open Y Docs
 
 [Docsy][] is a [Hugo theme][] for technical documentation sites, providing easy
-site navigation, structure, and more. This **Docsy Example Project** uses the
-Docsy theme and provides a skeleton documentation structure for you to use. You
-can clone/copy this project and edit it with your own content, or use it as an
-example.
+site navigation, structure, and more. This **Open Y Docs Project** uses the
+Docsy theme to serve documentation for the [Open Y](https://openy.org) distribution.
 
 In this project, the Docsy theme is included as a Git submodule:
 
@@ -15,24 +13,17 @@ $ git submodule
 
 You can find detailed theme instructions in the [Docsy user guide][].
 
-This Docsy Example Project is hosted on [Netlify][] at [example.docsy.dev][].
-You can view deploy logs from the [deploy section of the project's Netlify
-dashboard][deploys], or this [alternate dashboard][].
 
-This is not an officially supported Google product. This project is currently maintained.
+## Working with this repo
 
-## Using the Docsy Example Project as a template
+To contribute to this repo:
 
-A simple way to get started is to use this project as a template, which gives you a site project that is set up and ready to use. To do this: 
+1. Fork this repo if you're not a maintainer.
 
-1. Click **Use this template**.
-
-2. Select a name for your new project and click **Create repository from template**.
-
-3. Make your own local working copy of your new repo using git clone, replacing https://github.com/my/example.git with your repo’s web URL:
+3. Clone the repo, being sure to include the submodules:
 
 ```bash
-git clone --recurse-submodules --depth 1 https://github.com/my/example.git
+git clone --recurse-submodules --depth 1 https://github.com/open-y-subprojects/openy_docs.git
 ```
 
 You can now edit your own versions of the site’s source files.
@@ -57,14 +48,14 @@ hugo server
 
 ## Running a container locally
 
-You can run docsy-example inside a [Docker](https://docs.docker.com/)
-container, the container runs with a volume bound to the `docsy-example`
+You can run openy_docs inside a [Docker](https://docs.docker.com/)
+container, the container runs with a volume bound to the `openy_docs`
 folder. This approach doesn't require you to install any dependencies other
 than [Docker Desktop](https://www.docker.com/products/docker-desktop) on
 Windows and Mac, and [Docker Compose](https://docs.docker.com/compose/install/)
 on Linux.
 
-1. Build the docker image 
+1. Build the docker image
 
    ```bash
    docker-compose build
@@ -78,16 +69,16 @@ on Linux.
 
    > NOTE: You can run both commands at once with `docker-compose up --build`.
 
-1. Verify that the service is working. 
+1. Verify that the service is working.
 
    Open your web browser and type `http://localhost:1313` in your navigation bar,
-   This opens a local instance of the docsy-example homepage. You can now make
-   changes to the docsy example and those changes will immediately show up in your
+   This opens a local instance of the openy_docs homepage. You can now make
+   changes to the Open Y Docs and those changes will immediately show up in your
    browser after you save.
 
 ### Cleanup
 
-To stop Docker Compose, on your terminal window, press **Ctrl + C**. 
+To stop Docker Compose, on your terminal window, press **Ctrl + C**.
 
 To remove the produced images run:
 
@@ -104,7 +95,7 @@ As you run the website locally, you may run into the following error:
 ```
 ➜ hugo server
 
-INFO 2021/01/21 21:07:55 Using config file: 
+INFO 2021/01/21 21:07:55 Using config file:
 Building sites … INFO 2021/01/21 21:07:55 syncing static files to /
 Built in 288 ms
 Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68" not found in file cache
@@ -118,5 +109,5 @@ See our [user guide](https://www.docsy.dev/docs/getting-started/) for instructio
 [Docsy user guide]: https://docsy.dev/docs
 [Docsy]: https://github.com/google/docsy
 [example.docsy.dev]: https://example.docsy.dev
-[Hugo theme]: https://gohugo.io/themes/installing-and-using-themes/
+[Hugo theme]: https://gohugo.io/hugo-modules/theme-components/
 [Netlify]: https://netlify.com
