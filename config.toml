@@ -1,5 +1,5 @@
-baseURL = "https://froboy.github.io/openy_docs/"
-title = "Open Y"
+baseURL = "/"
+title = "Open Y Docs"
 
 enableRobotsTXT = true
 
