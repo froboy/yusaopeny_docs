@@ -2,10 +2,8 @@
 title: Daxko
 ---
 
-# Daxko
+Relates to: [Program Registration (Daxko)]({{< relref "Program Registration (Daxko).md" >}})
 
-Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)
+Configuration setting at `/admin/config/development/daxko`
 
-Configuration setting at /admin/config/development/daxko
-
-Account configuration must be setup before the Program Registration paragraph will work.)
+Account configuration must be setup before the Program Registration paragraph will work.

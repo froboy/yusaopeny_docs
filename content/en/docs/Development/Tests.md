@@ -2,11 +2,10 @@
 title: Tests
 ---
 
-# Running Tests
 These instructions explain how you can run tests.
 
-
 ## Behat
+
 ### Requirements
 - Ansible 1.9.4+ http://docs.ansible.com/ansible/intro_installation.html
 - Docker https://docs.docker.com/engine/installation/
@@ -28,7 +27,7 @@ $ cd profiles/contrib/openy
 $ sh runtests.sh --tags run_selenium
 $ bin/behat
 ```
-    
+
 ### Stop selenium container
 In order to stop  selenium container:
 
@@ -121,8 +120,8 @@ $ bin/behat
     ```
 #### Example Address and Latitude + Longitude
 Fields with sub field/columns:
-The machine name and columns can be found in the form markup in the field name property. 
-![Inspect form field name depicted](../assets/complex_field_machine_names.png)
+The machine name and columns can be found in the form markup in the field name property.
+![Inspect form field name depicted](../../assets/complex_field_machine_names.png)
 The first portion, `field_location_address` represents the Drupal field machine name, while the second array key `address_line1` represents the column.
 
 - Add Address
@@ -142,4 +141,4 @@ The first portion, `field_location_address` represents the Drupal field machine 
     | field_location_coordinates:lat | 47.293433        |
     | :lng                           | -122.238717      |
     | field_location_phone           | +1234567890      |
-  ```)
+  ```

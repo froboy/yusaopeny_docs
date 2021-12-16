@@ -2,47 +2,36 @@
 title: Fonts
 ---
 
-#Fonts
+From [YMCA Link](https://link.ymca.net/mlink/post/ODI2MA):
 
-The majority of the fonts used by the Open Y distribution are freely available, except for Cachet. 
+> Typography is an important element of our brand identity. Cachet and Verdana, the only two fonts used on YMCA collateral, help provide our words with a distinctive look and welcoming feel. And Cachet, as our primary font, should be used for all internal and external materials whenever possible.
+>
+> To help Ys incorporate the Cachet font into their online applications, **Y-USA is now licensing the web font version of Cachet for all YMCAs.** Previously, Ys could only access the desktop version of the font from the Brand Resource Center (BRC).
+>
+> Visit the BRC to:
+>
+> * [Download Cachet as a Web Font ](https://theybrand.org/wordpress/cachet) (requires YMCA Link login)
 
-Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.
+Once you've downloaded the WOFF files, you'll need to add them to your site. These instructions mirror the [walkthrough in this video](https://www.youtube.com/watch?v=Kl1lwYSg3ww&feature=youtu.be).
 
-The font definitions in the distribution's main theme, Open Y Rose, are set to use Cachet, but fallback to Ubuntu Condensed if the font is not present.
+- Visit **Admin** > **Extend** and ensure the "@fontyourface" and "@fontyourface - Local Fonts" modules are enabled.
+- Visit **Admin** > **Appearance** > **@font-your-face** > **Custom Fonts**
+- Click **+ Add Custom Font** and add each of the Cachet font files you downloaded above with the following settings:
 
-    font-family: "Cachet W01 Bold", 'Ubuntu Condensed', sans-serif;
+| Label | Font Family | Font Style | Font Weight | Font Classification | Font File |
+|-----|-----|-----|-----|-----|-----|
+| Cachet Extra Light | Cachet | Normal | 300 | Sans Serif | CachetW05-ExtraLight.woff |
+| Cachet Book | Cachet | Normal | 400 | Sans Serif | CachetW05-Book.woff |
+| Cachet Medium | Cachet | Normal | 500 | Sans Serif | CachetW05-Medium.woff |
+| Cachet Bold | Cachet | Normal | 700 | Sans Serif | CachetW05-Bold.woff |
 
-## Ubuntu Condensed
-Ubuntu Condensed is a free font available from Google Fonts, https://fonts.google.com/specimen/Ubuntu+Condensed .
-
-If you look at the openy_rose.libraries.yml file you can see Ubunutu Condensed is already linked as part of the theme.
-
-    global-styling:
-      css:
-        base:
-          //fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
-
-## Cachet
-Cachet, specifically "Cachet W01 Medium", is part of the YMCA styleguide. It is a commercial font, and must be purchased for individual sites. It cannot be distributed as part of the Open Y distribution or hosted on Drupal.org.
-
-The font can be purchased from fonts.com, https://www.fonts.com/font/monotype/cachet/book .
-
-## Installing Cachet
-There are a number of ways to get Cachet setup on your site. As long as the font gets linked in the page it should get used, since it is already part of the font declarations.
-
-If you purchase Cachet from fonts.com, add the URL you are provided to the global-styling library in openy_rose.libraries.yml, right where Ubuntu Condensed is linked.
+![Add_custom_font|591x500](../../assets/Add_custom_font.png)
 
 
-      css:
-        base:
-          //fast.fonts.net/cssapi/abcdef-12345-tuvwxyx-67890.css: {}
-          //fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
+- After you've added each font, **Enable** them.
 
-You may also need to add a JavaScript file provided by fonts.com. You can add that in the same global-styling library.
+![Custom_Font|690x156, 100%](../../assets/Custom_Font.png)
 
-    js:
-        //fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
+- Your site should now use the Cachet font in headers and other areas. Usage is dependent on the Open Y theme you choose.
 
-Another option is to use the @font-your-face Drupal module, https://www.drupal.org/project/fontyourface .
-
-Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)
+This content was originally [published on the Open Y Message Board](https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894).

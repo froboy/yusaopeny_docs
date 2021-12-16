@@ -2,7 +2,6 @@
 title: Upgrade path
 ---
 
-# How to support upgrade path
 All changes in configurations should be added to appropriate hook\_update\_N in order to update already existing environments. We suggest to use https://www.drupal.org/project/confi for working with hook\_update\_N.
 
 ### `openy.install` in profile
@@ -55,4 +54,4 @@ $config_importer->importConfigs([
   'views.view.images_library',
   'views.view.example_view',
 ]);
-```)
+```

@@ -1,18 +1,18 @@
 ---
-title: Start new OpenY project
+title: Start new Open Y project
 ---
 
 Here you can find instructions how you can start project based on Open Y distribution.
 
-# New project from scratch based on Open Y
+## New project from scratch based on Open Y
 
 In order to start new project from scratch, you can use [installation instructions](https://github.com/ymcatwincities/openy-project#installation) that will build your project and even add development environment.
 
 
-# Add Open Y to existing Drupal 8 project
+## Add Open Y to existing Drupal 8 project
 
 Please take a look at the full `composer.json` file below that you should eventually get.
-<details> 
+<details>
   <summary><strong>Example composer.json (Drupal 8.3.2 + Open Y 1.2)</strong></summary>
 
 ```
@@ -205,7 +205,7 @@ Please take a look at the full `composer.json` file below that you should eventu
 
 </details>
 
-1. Add `"ymcatwincities/openy": "8.*.*"` to the `require` section in your `composer.json`, like [here](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L7) 
+1. Add `"ymcatwincities/openy": "8.*.*"` to the `require` section in your `composer.json`, like [here](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L7)
 
 2. Add all required repositories that are [listed here](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L31) to your `composer.json`
 
@@ -276,9 +276,9 @@ In this section you can learn how to configure development environment and CI se
 ### Create project
 
 1. Generate project based on [this quickstart](http://docs.cibox.tools/en/latest/Quickstart/#prepare-github-project)
-  
+
 2. Add Open Y to the project using (Add Open Y to already existing Drupal 8 project)
-  
+
 3. Init git and add initial commit
 
   ```bash
@@ -315,4 +315,4 @@ In this section you can learn how to configure development environment and CI se
 [![Open Y v1.0b - Install Tutorial](https://img.youtube.com/vi/RCvsLANsbm8/0.jpg)](https://youtu.be/RCvsLANsbm8)
 
 ## End to end installation
-[![Open Y install - in 16 minutes end to end, no tutorial](https://img.youtube.com/vi/RT6kC38zgvo/0.jpg)](https://youtu.be/RT6kC38zgvo))
+[![Open Y install - in 16 minutes end to end, no tutorial](https://img.youtube.com/vi/RT6kC38zgvo/0.jpg)](https://youtu.be/RT6kC38zgvo)
