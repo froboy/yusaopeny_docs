@@ -1,5 +1,5 @@
 ---
-title: Drupal-9-core-dependencies-version-flexibility
+title: Drupal 9 core dependencies version flexibility
 ---
 
 This document is no longer updated.

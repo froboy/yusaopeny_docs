@@ -1,5 +1,5 @@
 ---
-title: Open-Y-technology-pipeline
+title: Open Y technology pipeline
 ---
 
 To deliver the best technologies for the YMCA movement, the Open Y development community maintains the following documents and best practices:

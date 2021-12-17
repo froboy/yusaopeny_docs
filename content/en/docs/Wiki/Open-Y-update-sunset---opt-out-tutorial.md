@@ -1,5 +1,5 @@
 ---
-title: Open-Y-update-sunset---opt-out-tutorial
+title: Open Y update sunset - opt out tutorial
 ---
 
 ## Preamble

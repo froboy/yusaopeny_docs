@@ -1,5 +1,5 @@
 ---
-title: Install-SSL-certificate-for-the-OpenY-site
+title: Install SSL certificate for the OpenY site
 ---
 
 ## Web Security and Open Y

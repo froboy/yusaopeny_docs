@@ -1,5 +1,5 @@
 ---
-title: Open-Y-Pull-Requests-review-standard
+title: Open Y Pull Requests review standard
 ---
 
 Check more [technical guidelines about our best practices for code quality]({{< relref "Code-Review-Quality-Best-Practices" >}}).

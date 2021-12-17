@@ -1,5 +1,5 @@
 ---
-title: Testing-Open-Y-for-PHP-7.4-version-support
+title: Testing Open Y for PHP 7.4 version support
 ---
 
 ## Requirements

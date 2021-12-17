@@ -1,5 +1,5 @@
 ---
-title: Important-versions-for-upgrade-path
+title: Important versions for upgrade path
 ---
 
 Open Y development moves quickly and in this document, we flag important versions that should not be skipped while you upgrade your sites.

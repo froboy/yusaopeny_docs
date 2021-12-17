@@ -1,5 +1,5 @@
 ---
-title: Deprecate-and-remove-components-from-Open-Y
+title: Deprecate and remove components from Open Y
 ---
 
 Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:

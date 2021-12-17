@@ -1,5 +1,5 @@
 ---
-title: Open-Y-2.0-root-YAML-files
+title: Open Y 2.0 root YAML files
 ---
 
 There are plenty of [YAML](http://en.wikipedia.org/wiki/YAML) configuration files at the root of the profile. Some of them are standard Drupal configuration and others are Open Y specific.

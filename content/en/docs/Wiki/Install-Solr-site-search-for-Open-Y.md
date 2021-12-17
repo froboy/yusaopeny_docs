@@ -1,5 +1,5 @@
 ---
-title: Install-Solr-site-search-for-Open-Y
+title: Install Solr site search for Open Y
 ---
 
 Open Y leverages [Apache Solr](https://solr.apache.org/) for a few features:

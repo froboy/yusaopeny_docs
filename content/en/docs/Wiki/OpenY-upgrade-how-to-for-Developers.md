@@ -1,5 +1,5 @@
 ---
-title: OpenY-upgrade-how-to-for-Developers
+title: OpenY upgrade how to for Developers
 ---
 
 Review a [video about this document](https://youtu.be/RGfYLjYpi4Q).

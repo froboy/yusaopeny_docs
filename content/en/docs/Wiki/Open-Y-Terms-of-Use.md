@@ -1,5 +1,5 @@
 ---
-title: Open-Y-Terms-of-Use
+title: Open Y Terms of Use
 ---
 
 Version 2.0, May 2018

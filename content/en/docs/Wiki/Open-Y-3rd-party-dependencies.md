@@ -1,5 +1,5 @@
 ---
-title: Open-Y-3rd-party-dependencies
+title: Open Y 3rd-party dependencies
 ---
 
 Open Y's system requirements generally track [those of Drupal](https://www.drupal.org/docs/system-requirements) with some occasional more opinionated recommendations.

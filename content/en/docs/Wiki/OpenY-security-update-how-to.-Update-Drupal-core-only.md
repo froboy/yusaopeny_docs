@@ -1,5 +1,5 @@
 ---
-title: OpenY-security-update-how-to.-Update-Drupal-core-only
+title: OpenY security update how to - Update Drupal core only
 ---
 
 This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).

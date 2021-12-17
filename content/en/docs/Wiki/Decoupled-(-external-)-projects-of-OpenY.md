@@ -1,5 +1,5 @@
 ---
-title: Decoupled-(-external-)-projects-of-OpenY
+title: Decoupled (external) projects of OpenY
 ---
 
 # Inventory of external modules available via Composer

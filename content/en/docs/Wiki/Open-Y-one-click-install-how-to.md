@@ -1,5 +1,5 @@
 ---
-title: Open-Y-one-click-install-how-to
+title: Open Y one-click install how-to
 ---
 
 This walk-through is outdated and is in the process of being updated. Instead, try:

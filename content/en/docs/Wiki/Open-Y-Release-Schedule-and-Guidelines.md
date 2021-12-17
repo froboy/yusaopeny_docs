@@ -1,5 +1,5 @@
 ---
-title: Open-Y-Release-Schedule-and-Guidelines
+title: Open Y Release Schedule and Guidelines
 ---
 
 ## Open Y Release Guidelines

@@ -1,5 +1,5 @@
 ---
-title: Development-FAQ
+title: Development FAQ
 ---
 
 # Open Y Developer FAQ

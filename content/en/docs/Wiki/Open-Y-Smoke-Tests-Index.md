@@ -1,5 +1,5 @@
 ---
-title: Open-Y-Smoke-Tests-Index
+title: Open Y Smoke Tests Index
 ---
 
 ## Smoke tests in core and dependencies

@@ -1,5 +1,5 @@
 ---
-title: Decouple-component-from-Open-Y-as-independent-module-project
+title: Decouple component from Open Y as independent module project
 ---
 
 ## History

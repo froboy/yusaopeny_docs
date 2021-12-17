@@ -1,5 +1,5 @@
 ---
-title: Dependencies-in-drupal-info.yml
+title: Dependencies in drupal info.yml
 ---
 
 In order to generate `composer.json`, Drupal.org defines specific rules in the modules `info.yml` file

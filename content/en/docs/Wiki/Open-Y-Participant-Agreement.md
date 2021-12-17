@@ -1,5 +1,5 @@
 ---
-title: Open-Y-Participant-Agreement
+title: Open Y Participant Agreement
 ---
 
 **OPEN Y PARTICIPATION AGREEMENT**

@@ -1,5 +1,5 @@
 ---
-title: Upgrade-OpenY-8.1.3-to-8.2.2.1
+title: Upgrade OpenY 8.1.3 to 8.2.2.1
 ---
 
 This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).

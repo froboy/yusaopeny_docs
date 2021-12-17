@@ -1,5 +1,5 @@
 ---
-title: How-to-develop-themes-in-Open-Y
+title: How to develop themes in Open Y
 ---
 
 # Working with Themes

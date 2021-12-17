@@ -1,5 +1,5 @@
 ---
-title: Open-Y-Code-of-Conduct-and-Best-Practices
+title: Open Y Code of Conduct and Best Practices
 ---
 
 The Open Y community aims to build from the methods and best practices of other open-source projects, such as the [Drupal community](https://drupal.org) and the [Drupal Ukrainian community](http://drupal.ua).

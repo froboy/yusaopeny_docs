@@ -1,5 +1,5 @@
 ---
-title: OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version
+title: OpenY upgrade for developers - Upgrade to old OpenY 1.x version
 ---
 
 This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).

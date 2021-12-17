@@ -1,5 +1,5 @@
 ---
-title: How-we-release-OpenY-distribution-from-code-perspective
+title: How we release OpenY distribution from code perspective
 ---
 
 ### Repos involved in releases
