@@ -2,7 +2,6 @@
 title: Color
 ---
 
-# Area Vocabulary
 This is a vocabulary that will be used for adding colors on the site.
 
 **Machine_name**: color
