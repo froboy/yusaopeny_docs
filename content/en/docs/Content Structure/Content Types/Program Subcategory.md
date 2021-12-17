@@ -2,7 +2,6 @@
 title: Program Subcategory
 ---
 
-# Program Subcategory
 Program Subcategory content type is used for adding program subcategories on the site.
 
 ### Fields

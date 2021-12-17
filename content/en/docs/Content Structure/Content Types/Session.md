@@ -2,7 +2,6 @@
 title: Session
 ---
 
-# Session
 Session content type is used for adding Sessions on the site.
 
 ### Fields

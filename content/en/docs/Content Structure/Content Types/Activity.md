@@ -2,7 +2,6 @@
 title: Activity
 ---
 
-# Activity
 Activity content type is used for adding Activities on the site.
 
 ### Fields

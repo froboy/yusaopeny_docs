@@ -2,7 +2,6 @@
 title: Membership
 ---
 
-# Membership
 Membership content type is used for adding membership on the site.
 
 ### Fields

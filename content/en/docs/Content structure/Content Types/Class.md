@@ -2,7 +2,6 @@
 title: Class
 ---
 
-# Class
 Class content type is used for adding Classes on the site.
 
 ### Fields

@@ -2,7 +2,6 @@
 title: News
 ---
 
-# News
 News Post content type is used for adding news posts on the site.
 
 ### Fields

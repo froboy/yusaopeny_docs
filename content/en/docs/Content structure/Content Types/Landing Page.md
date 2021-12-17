@@ -2,7 +2,6 @@
 title: Landing Page
 ---
 
-# Landing Page
 Landing Page content type is used for adding landing pages on the site.
 
 ### Fields

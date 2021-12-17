@@ -2,7 +2,6 @@
 title: Social Post
 ---
 
-# Social Post
 Social Post content type is used for adding Social Posts on the site. Social Posts are grabbed from social networks.
 
 ### Fields

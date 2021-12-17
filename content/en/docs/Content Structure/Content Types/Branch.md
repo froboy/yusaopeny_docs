@@ -2,7 +2,6 @@
 title: Branch
 ---
 
-# Branch
 Branch content type is used for adding Branches on the site.
 
 ### Fields
@@ -11,7 +10,7 @@ Branch content type is used for adding Branches on the site.
 | Title  | drupal's default  | Yes | Title of the branch item. |
 | Neighborhood | field\_location_area  | No | A taxonomy reference field using the "Area" vocabulary. |
 | Coming Soon | field\_location_state  | No | A checkbox field to determine branches in development. |
-| Temporary URL | field\_location\_temp_url  | No | A link field to provide a temporary page URL (a blog post, or smth else) if the branch is coming soon. |
+| Temporary URL | field\_location\_temp_url  | No | A link field to provide a temporary page URL (a blog post, or something else) if the branch is coming soon. |
 | Meta Tags  | field\_meta_tags  | No | A meta tags field allows us to provide structured metadata and Graph meta tags for Facebook, Pinterest, LinkedIn and other social networking sites. |
 | **Contact** | Field group |||
 | Address | field\_location_address | Yes | An address field that will provide the ability to add details about the locations. Details to be completed: <ul><li>Address</li><li>City</li><li>State</li><li>Zip Code</li></ul> |

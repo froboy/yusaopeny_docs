@@ -2,7 +2,6 @@
 title: Camp
 ---
 
-# Camp
 Camp content type is used for adding Camps on the site.
 
 ### Fields

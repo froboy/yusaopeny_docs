@@ -2,7 +2,6 @@
 title: Facility
 ---
 
-# Facility
 Facility content type is used for adding facilities on the site.
 
 ### Fields

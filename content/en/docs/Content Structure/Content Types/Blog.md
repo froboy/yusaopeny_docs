@@ -2,7 +2,6 @@
 title: Blog
 ---
 
-# Blog
 Blog Post content type is used for adding blog posts on the site.
 
 ### Fields
