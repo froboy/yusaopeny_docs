@@ -10,7 +10,7 @@ The Open Y platform is a content management system that uses Drupal functionalit
 
 In 2016 a group of YMCA digital, marketing and technology experts recognized the digital opportunities that exist if we work together as a community and established Open Y.
 
-A core team led by a small group of YMCAs including the [Greater Twin Cities](http://www.ymcamn.org), [Greater Seattle](http://www.seattleymca.org) and [Greater Houston](https://www.ymcahouston.org):
+A core team led by a small group of YMCAs including the [YMCA of the North ( former Greater Twin Cities )](https://ymcanorth.org), [Greater Seattle](http://www.seattleymca.org) and [Greater Houston](https://www.ymcahouston.org):
 
 - Pays for expenses associated with managing Open Y
 - Maintains the Open Y content management system
