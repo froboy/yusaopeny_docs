@@ -2,7 +2,6 @@
 title: Branch Amenities
 ---
 
-# Block Branch Amenities
 A block with amenities list of the current branch.
 
 ### Fields

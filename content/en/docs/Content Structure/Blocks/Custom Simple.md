@@ -2,7 +2,6 @@
 title: Custom Simple
 ---
 
-# Block Custom Simple
 A simple block with a body.
 
 ### Fields
