@@ -2,7 +2,6 @@
 title: Session Time
 ---
 
-# Session Time
 This is a paragraph type that will be used for field_session_time the in Session CT.
 
 ### Fields

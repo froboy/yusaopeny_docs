@@ -2,8 +2,6 @@
 title: Limited Time Offer
 ---
 
-# Limited Time Offer
-
 This Paragraph add limited time offer for Home Page based on Landing Page CT.
 
 ### Fields

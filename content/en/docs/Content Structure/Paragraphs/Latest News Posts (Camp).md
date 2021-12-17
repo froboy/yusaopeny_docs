@@ -2,8 +2,6 @@
 title: Latest News Posts (Camp)
 ---
 
-# Latest News Posts (Camp)
-
 This is dynamic paragraph that renders the latest news posts associated with a camp.
 
 It uses sticky at the top option and order items based on published date (newest at the top).

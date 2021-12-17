@@ -2,8 +2,6 @@
 title: Latest Blog Posts (Branch)
 ---
 
-# Latest Blog Posts (Branch)
-
 This is dynamic paragraph that renders the latest blog posts associated with a branch.
 
 It uses sticky at the top option and order items based on published date (newest at the top).

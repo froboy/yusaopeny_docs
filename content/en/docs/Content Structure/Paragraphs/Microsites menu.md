@@ -2,8 +2,6 @@
 title: Microsites menu
 ---
 
-# Microsites Menu
-
 Provide paragraph containing a microsites menu block.
 
 ### Fields

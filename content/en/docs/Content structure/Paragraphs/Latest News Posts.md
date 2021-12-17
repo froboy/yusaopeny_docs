@@ -2,8 +2,6 @@
 title: Latest News Posts
 ---
 
-# Latest News Posts
-
 This is dynamic paragraph that renders the latest news posts that are promoted to the front page.
 
 It uses sticky at the top option and order items based on published date (newest at the top).

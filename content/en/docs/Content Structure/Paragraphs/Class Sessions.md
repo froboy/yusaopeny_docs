@@ -2,8 +2,6 @@
 title: Class Sessions
 ---
 
-# Class Sessions
-
 This is dynamic paragraph that renders the class session instances, based on url query parameter location with a valid id.
 
 Relates to [Branches Popup (Class)](Branches Popup (Class).md).

@@ -2,8 +2,6 @@
 title: Program Registration (Daxko)
 ---
 
-# Program Registration (Daxko)
-
 This is paragraph that renders the Programs Search Block.
 
 Programs Search Block provides a form to search programs from Daxko.

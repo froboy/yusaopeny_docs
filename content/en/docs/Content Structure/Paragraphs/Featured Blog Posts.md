@@ -2,7 +2,6 @@
 title: Featured Blog Posts
 ---
 
-# Featured Blog Posts
 This is a paragraph type that will be used for the featured stories.
 
 ### Fields

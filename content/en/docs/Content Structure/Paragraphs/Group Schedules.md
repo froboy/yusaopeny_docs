@@ -2,8 +2,6 @@
 title: Group Schedules
 ---
 
-# Group Schedules
-
 This is dynamic paragraph that renders the group schedules from GroupEx Pro.
 
 ### Fields

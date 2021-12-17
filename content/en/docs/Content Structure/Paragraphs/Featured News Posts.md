@@ -2,7 +2,6 @@
 title: Featured News Posts
 ---
 
-# Featured News Posts
 This is a paragraph type that will be used for the featured news.
 
 ### Fields

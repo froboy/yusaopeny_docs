@@ -2,7 +2,6 @@
 title: Membership info
 ---
 
-# Membership info
 This is a paragraph type that will be used for field_mbrshp_info the in Membership CT.
 
 ### Fields

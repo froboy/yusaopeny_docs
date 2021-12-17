@@ -2,8 +2,6 @@
 title: Branches Popup (All)
 ---
 
-# Branches Popup (All)
-
 This is dynamic paragraph that renders the locations selection popup, based on current node.
 
 Relates to:

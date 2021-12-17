@@ -2,7 +2,6 @@
 title: Secondary Description and Sidebar
 ---
 
-# Secondary Description and Sidebar
 This is a Paragraph type that will be used for the paragraphs with left (secondary description) and right (sidebar) blocks.
 
 ### Fields

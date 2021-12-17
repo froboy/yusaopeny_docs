@@ -2,8 +2,6 @@
 title: Blog Posts Listing
 ---
 
-# Blog Posts Listing
-
 This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.
 
  - Location

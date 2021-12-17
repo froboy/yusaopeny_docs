@@ -2,8 +2,6 @@
 title: News Posts Listing
 ---
 
-# News Posts Listing
-
 This is dynamic paragraph that renders the latest news posts and utilizes exposed filters.
 
  - Location

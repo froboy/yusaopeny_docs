@@ -2,7 +2,6 @@
 title: Grid Content
 ---
 
-# Grid Content
 This is a paragraph type that will be used for the grid content stories.
 
 ### Fields

@@ -2,8 +2,6 @@
 title: Schedule search form
 ---
 
-# Schedule search form
-
 This is dynamic paragraph that renders the session instances filters for [Schedule search list](Schedule search list.md).
 
 ### Fields

@@ -2,7 +2,6 @@
 title: Banner
 ---
 
-# Banner
 This is a paragraph type that will be used for the banner content.
 
 ### Fields

@@ -2,8 +2,6 @@
 title: All Amenities
 ---
 
-# All Amenities
-
 Provide a paragraph with a table view shows list of Branches.
 
 ### Fields

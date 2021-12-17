@@ -2,8 +2,6 @@
 title: Location finder filters
 ---
 
-# Location finder filters
-
 This is paragraph that renders the Location finder map with pins and filters.
 
 ### Fields

@@ -1,8 +1,7 @@
 ---
-title: Social_Share_Icons
+title: Social Share Icons
 ---
 
-# Social Share Icons
 This is a paragraph type that will be used for the add social media share.
 See more [How to configure AddThis](../../Development/AddThis.md)
 

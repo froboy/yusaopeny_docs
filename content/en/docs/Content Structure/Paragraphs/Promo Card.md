@@ -2,7 +2,6 @@
 title: Promo Card
 ---
 
-# Promo Card
 This is a Paragraph type that will be used for the Promo Cards.
 
 ### Fields

@@ -2,7 +2,6 @@
 title: Simple Content
 ---
 
-# Simple Content
 Simple Content is used for adding text to the pages.
 
 ### Fields

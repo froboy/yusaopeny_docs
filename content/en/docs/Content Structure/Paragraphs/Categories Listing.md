@@ -2,7 +2,6 @@
 title: Categories Listing
 ---
 
-# Categories Listing
 This is dynamic paragraph that renders all published categories according to current program page.
 
 It uses sticky at the top option and order items based on published date(newest at the top).

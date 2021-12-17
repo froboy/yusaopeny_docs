@@ -2,8 +2,6 @@
 title: Featured Highlights
 ---
 
-# Featured Highlights
-
 Provides a paragraph containing blocks of specific types positioned as 2, 3 or 4 blocks per row.
 
 ### Fields

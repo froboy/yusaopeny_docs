@@ -2,8 +2,6 @@
 title: Schedule search list
 ---
 
-# Schedule search list
-
 This is dynamic paragraph that renders the session instances, based on url parameters, and or filters from [Schedule search form](Schedule search form.md).
 
 Relates to [Branches Popup (All)](Branches Popup (All).md).

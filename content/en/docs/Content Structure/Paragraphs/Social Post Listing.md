@@ -2,8 +2,6 @@
 title: Social Post Listing
 ---
 
-# Social Post Listing
-
 This is dynamic paragraph that renders the latest social posts that were imported from social networks.
 
 

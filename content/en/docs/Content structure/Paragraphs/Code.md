@@ -2,8 +2,6 @@
 title: Code
 ---
 
-# Code
-
 Provide paragraph containing a Code block. Can be used to embed Youtube video for instance.
 
 ### Fields

@@ -1,8 +1,8 @@
 ---
 title: Classes Listing
+description: "and classes listing filters"
 ---
 
-# Classes Listing + Classes Listing Filters
 Classes Listing - should display all published classes grouped by activity.
 
 Classes Listing Filters - this paragraph should disply filter form for "Classes Listing" with following fields:

@@ -2,7 +2,6 @@
 title: Grid columns
 ---
 
-# Grid columns
 This is a paragraph type that will be used for field_grid_columns the in Grid Content paragraph.
 
 ### Fields

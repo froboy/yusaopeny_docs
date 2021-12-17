@@ -2,8 +2,6 @@
 title: Location finder
 ---
 
-# Location finder
-
 This is paragraph that renders the Location finder block.
 
 Location finder block contains locations views displays with branches, camps and facilities.
