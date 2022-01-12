@@ -26,7 +26,7 @@ Before upgrading, please review these [required version steps for your upgrade p
 Ensure you have a working computer or virtual machine with:
 
 - Ubuntu 20.04 (16.04, 18.04, or any decent Ubuntu LTS version) 64 bit
-- MySQL 5.5+ (5.7 is preferred because of the performance improvements)
+- MySQL 5.7+ (8+ is preferred because of the performance improvements)
 - Apache 2.4 (or Nginx + php-fpm in case if you are fine with htaccess issues down the road)
 - PHP 7.4 (8.0+ could be an issue with some contrib modules)
 - Drush 8.4.10 system version (for Open Y pre 8.2 ). **No support for Drush 9.x in Drupal 8 branches. Only in Drupal 9**. **Use Drush 8.4+ for OpenY 9.2+**
