@@ -65,3 +65,7 @@ Watch a [video tutorial](https://youtu.be/-Sq3uZb5K_U) on how to switch an exist
 ## Legacy Solr Support
 
 The contrib [Search API Solr](https://www.drupal.org/project/search_api_solr) module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling Open Y Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.
+
+The error message may look something like this:
+
+> Notice: Undefined index: 4.x in Drupal\search_api_solr\Controller\SolrConfigSetController->getConfigFiles()
