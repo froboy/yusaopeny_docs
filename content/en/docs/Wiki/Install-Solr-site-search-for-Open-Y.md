@@ -61,3 +61,7 @@ Watch a [video tutorial](https://youtu.be/-Sq3uZb5K_U) on how to switch an exist
 - Save the server and observe that Search API has successfully connected to your server.
 - Edit the "Search content" index and change the "Server" field to the newly configured "Solr Search" index.
 - Visit the "Search content" index and click "Index now" to re-index the content.
+
+## Legacy Solr Support
+
+The contrib [Search API Solr](https://www.drupal.org/project/search_api_solr) module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling Open Y Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.
