@@ -1,8 +1,9 @@
 ---
 title: "Text Editor"
+weight: 1
+description: >
+  Some fields in Open Y allow you to format your text like in a Word doc. This feature is called [the Text Editor or WYSIWYG (What Your See Is What You Get)](https://ckeditor.com).
 ---
-
-Some fields in Open Y allow you to format your text like in a Word doc. This feature is called [the Text Editor or WYSIWYG (What Your See Is What You Get)](https://ckeditor.com).
 
 ![blog-description__text-editor|690x307](/img/dd630632ed4ea5876a15d65709946e420ffb84d1.png)
 
