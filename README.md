@@ -4,18 +4,6 @@
 site navigation, structure, and more. This **Open Y Docs Project** uses the
 Docsy theme to serve documentation for the [Open Y](https://openy.org) distribution.
 
-In this project, the Docsy theme component is pulled in as a Hugo module, together with other module dependencies:
-
-```bash
-$ hugo mod graph
-hugo: collected modules in 566 ms
-hugo: collected modules in 578 ms
-github.com/google/docsy-example github.com/google/docsy@v0.2.0
-github.com/google/docsy-example github.com/google/docsy/dependencies@v0.2.0
-github.com/google/docsy/dependencies@v0.2.0 github.com/twbs/bootstrap@v4.6.1+incompatible
-github.com/google/docsy/dependencies@v0.2.0 github.com/FortAwesome/Font-Awesome@v0.0.0-20210804190922-7d3d774145ac
-```
-
 You can find detailed theme instructions in the [Docsy user guide][].
 
 
@@ -23,12 +11,16 @@ You can find detailed theme instructions in the [Docsy user guide][].
 
 To contribute to this repo:
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/open-y-subprojects/openy_docs)
+
+OR (the old fashioned way)...
+
 1. Fork this repo if you're not a maintainer.
 
 2. Clone the repo, being sure to include the submodules:
 
 ```bash
-git clone --depth 1 https://github.com/open-y-subprojects/openy_docs.git
+git clone https://github.com/open-y-subprojects/openy_docs.git
 ```
 
 You can now edit your own versions of the site’s source files.
