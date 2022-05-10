@@ -23,12 +23,16 @@ You can find detailed theme instructions in the [Docsy user guide][].
 
 To contribute to this repo:
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/open-y-subprojects/openy_docs>)
+
+OR (the old fashioned way)...
+
 1. Fork this repo if you're not a maintainer.
 
 2. Clone the repo, being sure to include the submodules:
 
 ```bash
-git clone --depth 1 https://github.com/open-y-subprojects/openy_docs.git
+git clone https://github.com/open-y-subprojects/openy_docs.git
 ```
 
 You can now edit your own versions of the site’s source files.
