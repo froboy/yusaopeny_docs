@@ -6,3 +6,23 @@ a.navbar-brand span + span {
   display: none;
 }
 
+// Swap the sidebar nav and utility position
+aside.d-xl-block {
+  @media (min-width: 1200px) {
+    display: grid!important;
+  }
+
+  .td-toc {
+    order: 1;
+  }
+
+  .td-page-meta {
+    font-size: 0.9rem;
+    order: 2;
+  }
+}
+
+// Increase contrast for ToC links.
+.td-toc #TableOfContents a {
+    color: #5a5858;
+}
