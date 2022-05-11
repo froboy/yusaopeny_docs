@@ -2,16 +2,16 @@
 title: Promo Card
 ---
 
-> ## [u]What is a Promo Card[/u]?
+
 > Adds a small individual card to the sidebar of a page. Great for posting evergreen promotional content, such as links to join pages.
 
 ## Examples
-### // Carnation
+### Carnation
 ![carnation__promo-card|652x500, 50%](upload://q5TCtCNY4MDBOrTJfOkA9RE5seC.png)
-### // Lily
+### Lily
 
 ![lily__promo-card|690x434, 50%](upload://bxld42wmFFySY49H6GnQypX6N63.png)
-### // Rose
+### Rose
 ![rose__promo-card|541x500, 50%](upload://rznFuholwufglFDUNcEwvoZqEtf.png)
 ---
 

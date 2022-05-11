@@ -2,7 +2,7 @@
 title: Teaser
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 Secondary Description and Sidebar
 

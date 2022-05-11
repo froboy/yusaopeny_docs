@@ -3,7 +3,7 @@ title: Latest News Posts
 description: (including Camp/Branch)
 ---
 
-> ## [u]What is Latest News Posts?[/u]
+
 > These three paragraphs embed a listing of News posts, sorted by the most recent, in a row/listing design
 >
 > * **Latest News Posts** shows all the most recent news posts across your entire site.
@@ -14,10 +14,10 @@ description: (including Camp/Branch)
 
 ## Examples
 
-### // Carnation
+### Carnation
 ![carnation--camp__latest-news-posts--desktop|690x264, 75%](upload://xjcY3wRWQuFlVKyZMInQfmJwGKk.png)
 
-### // Rose
+### Rose
 ![rose--camp__latest-news-posts--desktop|690x368, 75%](upload://tcmJaSLmYZKSICEYmgam6XxLO1Y.png)
 ---
 

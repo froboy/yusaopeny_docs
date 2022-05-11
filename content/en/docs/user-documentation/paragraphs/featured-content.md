@@ -2,15 +2,15 @@
 title: Featured Content
 ---
 
-> ## [u]What is Featured Content?[/u]
+
 > Featured content adds a section of simple simple columns onto a page with an optional call-to-action button on the bottom, an optional title, and optional description.
 
 ## Examples
-### // Carnation
+### Carnation
 ![carnation--landing-page__featured-content--desktop|690x409, 50%](upload://ow5oBSx0JCFIw15o0WRtevEgOgf.png)
-### // Lily
+### Lily
 ![lily--landing-page__featured-content--desktop|690x409, 50%](upload://gqbVaSepPEXHGzLRpkE2VztifJO.png)
-### // Rose
+### Rose
 ![rose--landing-page__featured-content--desktop|690x409, 50%](upload://kpkvAkHxRTupSjVe9uU7qfqHb5z.png)
 
 ---

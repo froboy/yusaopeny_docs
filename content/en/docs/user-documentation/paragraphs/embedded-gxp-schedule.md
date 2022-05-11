@@ -2,7 +2,7 @@
 title: Embedded GroupEx Pro Schedule
 ---
 
-> >## [u]What Is Embedded GroupEx Pro Schedule?[/u]:
+> >## **What Is Embedded GroupEx Pro Schedule?**:
 >Embeds the out-of-box GroupEx Pro schedule script on a page with a single click.
 
 ## Example
@@ -29,7 +29,7 @@ title: Embedded GroupEx Pro Schedule
 > For information on where to find your GroupEx Pro account number, visit groupexpro.com.
 
 ---
-### // Adding the Paragraph to Your Page
+### Adding the Paragraph to Your Page
 
 Select *Embedded GroupEx Pro Schedule* from the paragraphs dropdown. Hit save.
 

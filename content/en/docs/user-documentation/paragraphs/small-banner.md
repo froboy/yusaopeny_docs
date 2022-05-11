@@ -2,26 +2,26 @@
 title: Small Banner
 ---
 
-> ## [u]What is Small Banner?[/u]
+
 > The small banner is a wide, short image that serves as a page header or as a page element, such as an anchor in the bottom area. Comes with fields for a title, background color, description and image.
 
 ## Examples
-### // Carnation
+### Carnation
 
-#### /// Desktop
+#### Desktop
 ![carnation--landing-page__small-banner|690x182, 75%](upload://ztfFhwLTMlymczCza5kBFLPtfSK.jpeg)
-#### /// Mobile
+#### Mobile
 ![carnation--landing-page__small-banner--mobile|652x500, 50%](upload://diCjdeqo5vQ29Fjiupt8Kw5wgei.jpeg)
-### // Lily
-#### /// Desktop
+### Lily
+#### Desktop
 ![lily--landing-banner__small-banner--desktop|690x307, 50%](upload://dY0ef05XZNRxOJpYDzvPvrjbr6X.jpeg)
-#### /// Mobile
+#### Mobile
 
 ![lily--landing-page__small-banner--mobile|514x500, 50%](upload://1EUNipe3m7hlLQpdIp3QFHqhezM.jpeg)
-### // Rose
-#### /// Desktop
+### Rose
+#### Desktop
 ![rose--ladning-page__small--banner--desktop|690x319, 75%](upload://y9VrlIAnsVkyPi8FdfeYaJBFK0q.png)
-#### /// Mobile
+#### Mobile
 ![rose--landing-page__small-banner--mobile|486x500, 50%](upload://BnGmFeWjsTjq257K38iD7sp2bH.png)
 ---
 ## Areas it Can be Used
@@ -34,14 +34,14 @@ title: Small Banner
 
 Select *Add Small Banner* from the paragraphs dropdown. Then, fill out the following fields:
 
-* [u]Title (required):[/u] This field adds a headline to your banner. The placement of the title will depend on your theme and customization, but it will typically appear as large, all-caps text.
+* **Title (required):** This field adds a headline to your banner. The placement of the title will depend on your theme and customization, but it will typically appear as large, all-caps text.
 
-* [u]Color (required):[/u] The background color for your banner. In Lily and Rose, this background color displays behind your title and description.
+* **Color (required):** The background color for your banner. In Lily and Rose, this background color displays behind your title and description.
   > In Carnation, you will not see the background color unless you choose not to add an image.
 
-* [u]Description (optional):[/u] Displays beneath your Title. You have the option to style your text using the text editor, but it’s not as consistent as other places where you typically see the editor..
+* **Description (optional):** Displays beneath your Title. You have the option to style your text using the text editor, but it’s not as consistent as other places where you typically see the editor..
 
-* [u]Image:[/u]  [Use the image library](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738) to embed an image. You can upload a new image from your computer or reuse an existing image from your library. The image field is optional, but recommended.
+* **Image:**  [Use the image library](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738) to embed an image. You can upload a new image from your computer or reuse an existing image from your library. The image field is optional, but recommended.
 
     * *Note -> This does not work in Rose.*
 

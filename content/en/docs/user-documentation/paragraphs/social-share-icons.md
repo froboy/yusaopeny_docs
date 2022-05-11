@@ -2,7 +2,7 @@
 title: Social Share Icons
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 Social Share Icons
 

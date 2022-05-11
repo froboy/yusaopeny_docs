@@ -2,7 +2,7 @@
 title: Limited Time Offer
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 Limited Time Offer
 

@@ -2,7 +2,7 @@
 title: Secondary Description and Sidebar
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 Secondary Description and Sidebar
 

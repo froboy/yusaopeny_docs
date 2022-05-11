@@ -2,14 +2,14 @@
 title: Blog Posts Listing
 ---
 
-> ## [u]What Is Blog Posts Listing?[/u]:
+
 > This paragraph adds a section teaser cards that link to blog posts and dropdown search fields for users to search for blogs they want to read.
 ## Examples
-### // Carnation
+### Carnation
 ![carnation--landing-page__blog-listing|690x403, 75%](upload://1itw6gKGtnEw3GBx0HOTpMIPJjP.jpeg)
-### // Lily
+### Lily
 ![lily-landing-page__blog-listing|690x456, 75%](upload://cSNmLCLfccdudScYx3rSIcXyNXI.jpeg)
-### // Rose
+### Rose
 ![rose--landing-page__blog-listing|690x403, 75%](upload://9XsjHUvqHi9hIuWp5ZcVRh6ZAtV.jpeg)
 
 ## Areas it Should Be Used

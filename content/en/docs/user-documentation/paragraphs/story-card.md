@@ -2,7 +2,7 @@
 title: Story Card
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 Story Card
 

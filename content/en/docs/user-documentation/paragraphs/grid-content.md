@@ -2,15 +2,15 @@
 title: Grid Content
 ---
 
-> ## [u]What is Grid Content?[/u]
+
 >Grid content allows you to embed one or more rows of up to four sections of content side-by-side. Allows you to have a title with an icon, a description and a link.
 
 ## Examples
-### // Carnation
+### Carnation
 ![carnation--branch__grid-content|690x326, 50%](upload://hr810ymEKvK5xCOKq4YOzaWgBJz.png)
-### // Lily
+### Lily
 ![lily--branch__grid-content|690x326, 50%](upload://pEtNXHTHdCiliXuXHGGFsdqaSvC.png)
-### // Rose
+### Rose
 ![rose--branch__grid-content|690x217, 50%](upload://jdVqUBOqwux3NxtqnMYf0a8BLXM.png)
 
 ---
@@ -47,21 +47,21 @@ Next, you will see a button that says *Add Grid Columns.* This is where you will
 
 For each item you add, you will have the following fields:
 
-* [u]Headline (optional)[/u] - A title for your section. Will be larger/smaller depending on your selected style and theme
+* **Headline (optional)** - A title for your section. Will be larger/smaller depending on your selected style and theme
 
-* [u]Icon (optional)[/u] - An image you can embed to display inline with your headline. Upload a new image or use one in your image library
+* **Icon (optional)** - An image you can embed to display inline with your headline. Upload a new image or use one in your image library
 
   [How to use the image library ⇒](http://#)
 
-* [u]Icon Class[/u] - [A font awesome icon CSS class](https://fontawesome.com). You can type in the name of the class, and Open Y will generate the icon.
+* **Icon Class** - [A font awesome icon CSS class](https://fontawesome.com). You can type in the name of the class, and Open Y will generate the icon.
 
   [Using Icon Fields in Open Y ⇒](http://#)
 
-* [u]Description[/u] - A standard text editor field. Because of how each grid content item styles, it’s recommended that the text in this field be shorter than 200 characters.
+* **Description** - A standard text editor field. Because of how each grid content item styles, it’s recommended that the text in this field be shorter than 200 characters.
 
   [How to use the Text Editor in Open Y ⇒](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643)
 
-* [u]Link[/u] - Two fields to add a URL and a link. Depending on your theme, the link will style either as a basic link or as a button.
+* **Link** - Two fields to add a URL and a link. Depending on your theme, the link will style either as a basic link or as a button.
 
   [How link fields work in Open Y ⇒](http://#)
 > Note: If you add more items than your selected style, you will create a new row. For example:

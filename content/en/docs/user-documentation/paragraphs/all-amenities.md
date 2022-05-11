@@ -3,7 +3,7 @@ title: All Amenities
 description: (deprecated)
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 All Amenities (deprecated)
 

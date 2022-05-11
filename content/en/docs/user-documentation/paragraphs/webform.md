@@ -2,7 +2,7 @@
 title: Webform
 ---
 
-> ## [u]What is the Webform Paragraph?[/u]
+
 > This paragraph embeds a Webform onto a page.
 
 ## Areas it Should be used:

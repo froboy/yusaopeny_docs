@@ -2,23 +2,23 @@
 title: Gallery
 ---
 
->## [u]What Is Gallery?[/u]
+>## **What Is Gallery?**
 > The Open Y gallery embeds a carousel or slider of images onto a page. The gallery can play on a loop, and users can click back and forth using the arrows.
 >
 >You can have a gallery with a simple title, and you can also add a description below the headline and/or a call to action button.
 
 ## Examples
-### // Carnation
-#### // Desktop
+### Carnation
+#### Desktop
 ![carnation--branch__gallery-desktop|690x271, 50%](upload://yYalTqQ9TYSNSOD6O8tRjw86G1H.jpeg)
-#### // Mobile
+#### Mobile
 ![carnation--branch__gallery-mobile|636x500, 50%](upload://n1n1lMPBFGXb62MbQ1xqCtkpcGi.jpeg)
-### // Lily
-#### // Desktop
+### Lily
+#### Desktop
 ![lily--branch__gallery-desktop|690x307, 50%](upload://hJwtCHNkCW9i2JxqBvkAfOpJmk8.jpeg)
-#### // Mobile
+#### Mobile
 ![lily--branch__gallery-mobile|558x500, 50%](upload://gvIetlk2bDAII2gB8maoOBkGpqT.jpeg)
-### // Rose
+### Rose
 ![rose--branch__gallery-desktop|690x307, 50%](upload://q91s1TBTpOlXjRFg1UCKLlLNo5c.jpeg)
 
 ---

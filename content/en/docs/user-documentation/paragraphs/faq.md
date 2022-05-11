@@ -2,7 +2,7 @@
 title: FAQ
 ---
 
-> ## [u]What is FAQ?[/u]
+
 > Create an easy-to-read FAQ or policy section with the FAQ paragraph. FAQ adds an accordion tab that expands when users click on it.
 
 ## Example
@@ -31,7 +31,7 @@ title: FAQ
   **[Learn how to use the text editor ⇒](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643)**
 
 ---
-### // Add Another Section
+### Add Another Section
 To add another Question and Answer, click the *Add another item* button at the bottom of your paragraph.
 
 ![admin__faq--fields--another-item-button|519x103, 50%](upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png)

@@ -2,7 +2,7 @@
 title: Membership Calculator
 ---
 
-> ## [u]What is the Membership Calculator?[/u]
+
 >
 > Membership Calculator adds an interactive "membership wizard" to an Open Y site.
 ---

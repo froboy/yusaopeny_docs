@@ -2,16 +2,16 @@
 title: Camp Menu
 ---
 
-> ## [u]What It Does[/u]:
+
 > Camp menu adds a horizontal menu beneath the Header Area on a camp page.
 
 ## Examples
-### // Carnation
+### Carnation
 ![carnation--camp__camp--menu|690x180, 75%](upload://yEu9UFLnGp7gH7aUeWphadUFzvC.jpeg)
 
-### // Lily
+### Lily
 ![lily--camp__camp-menu|690x242, 75%](upload://8on2aI5cwXvu3scx8lkYVV8J5VM.jpeg)
-### // Rose
+### Rose
 ![rose--camp__camp-menu|690x242, 75%](upload://P1Snx7VCshybWHdZnlohJqRCbo.jpeg)
 
 ---
@@ -40,7 +40,7 @@ Once you’re done adding your menu links, scroll down to the Header Area and ad
 
 ---
 
-### // Mobile Considerations for Camp Menu
+### Mobile Considerations for Camp Menu
 
 When a user views your camp menu in  mobile, the menu doesn't collapse; it merely shrinks. Menu items either disappear or wrap onto a new line if they do not fit the space.
 

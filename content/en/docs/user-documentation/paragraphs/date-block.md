@@ -2,7 +2,7 @@
 title: Date Block
 ---
 
-> ## [u]What Is Date Block?[/u]
+
 > A date block allow you to schedule different sections to show or hide on your pages.
 
 ## Areas It Should Be Used
@@ -18,7 +18,7 @@ title: Date Block
 
 Pick *Add Date Block* from the list of paragraphs in the dropdown. You will see two options: add a new custom block or add an existing custom block.
 
-### // Add New Custom Block
+### Add New Custom Block
 
 If you’re using Date Block for the first time or creating a new date block, choose the Add New Custom Block option.
 
@@ -41,7 +41,7 @@ Hit “Create custom block” to add your block.
 
 ---
 
-### // Add Existing Custom Block
+### Add Existing Custom Block
 
 To reuse a date block you’ve previously created, click the “Add Existing Custom Block” button.” Enter the description of your block into the autocomplete field. Select your block from the options to drop it in.
 
@@ -49,7 +49,7 @@ To reuse a date block you’ve previously created, click the “Add Existing Cus
 
 ---
 
-### // Editing a Date Block
+### Editing a Date Block
 
 To edit your block, click “edit” next to the paragraph. You will need to click another “edit” button when the name of your date block appears.
 Make your changes inside the block and, when you’re done, click “Update Custom Block.”

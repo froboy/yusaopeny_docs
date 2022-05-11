@@ -2,18 +2,18 @@
 title: Featured News Posts
 ---
 
-> ## [u]What Is Featured News Posts?[/u]
+
 > Featured News Posts creates a standalone page with [a listing of news posts](https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694) curated one-by-one. Great for linking in emails and social media posts.
 
 ## Examples
 
-### // Carnation
-#### /// Desktop
+### Carnation
+#### Desktop
 ![carnation--landing-page__featured-news-posts--dekstop|690x288, 50%](upload://kmFZ5eKuYNADTpkSU37EvJz0xM2.jpeg)
-#### /// Mobile
+#### Mobile
 ![carnation--landing-page__featured-news-posts--mobile|413x500, 50%](upload://bIN6mGK0N9UpCTSvRHAHz4XXyen.jpeg)
 
-### // Rose
+### Rose
 
 ![rose--landing-page__featured-news-posts--dekstop|690x376, 50%](upload://2ujbm3arbX2vYQq5dBa3DX1rQPj.jpeg)
 

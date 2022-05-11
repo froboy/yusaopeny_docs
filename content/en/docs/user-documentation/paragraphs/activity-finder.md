@@ -2,7 +2,7 @@
 title: Activity Finder
 ---
 
-## [u]Documentation in Progress[/u]
+## **Documentation in Progress**
 
 Activity Finder
 

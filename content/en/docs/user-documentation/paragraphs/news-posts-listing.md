@@ -2,7 +2,7 @@
 title: News Posts Listing
 ---
 
-> ## [u]What is News Posts Listing?[/u]
+
 >
 > News Posts Listing adds a section of listings that link to news posts and dropdown search fields for users to search for news they want to read.
 ---

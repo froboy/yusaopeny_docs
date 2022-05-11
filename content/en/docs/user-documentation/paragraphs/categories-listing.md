@@ -2,18 +2,18 @@
 title: Categories Listing
 ---
 
-> ## [u]What it Categories Listing?[/u]
+
 > Embeds horizontal cards for program subcategories on a programs page.
 ## Examples
-### // Carnation
-#### /// Desktop
+### Carnation
+#### Desktop
 ![carnation--program__categories-listing|690x482, 75%](upload://xrlcIOa55e8fW3E1raw5hgOShZC.jpeg)
 
-#### /// Mobile
+#### Mobile
 ![carnation--program__categories-listing--mobile|430x500, 75%](upload://io6AMAadCvHRaj49uJNdmKth9J5.jpeg)
-### // Lily
+### Lily
 ![lily--program__categories-listing|690x482, 75%](upload://8Io8pXHVcadphB2D0Rd3ukiWMAq.jpeg)
-### // Rose
+### Rose
 ![rose--program__categories-listing|690x475, 75%](upload://2XvcBc6D2SLP6N445IYQujdRElf.jpeg)
 
 ---

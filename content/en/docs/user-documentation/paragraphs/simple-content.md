@@ -2,7 +2,7 @@
 title: Simple Content
 ---
 
->## [u]What is Simple Content?[/u]
+>## **What is Simple Content?**
 >Simple content adds a section of non-reusable text onto a page. Good for places where basic text is needed and nothing else.
 
 ## Areas It Should Be Used

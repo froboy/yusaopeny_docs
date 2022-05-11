@@ -3,7 +3,7 @@ title: Latest Blog Posts
 description: (including Camp/Branch)
 ---
 
-> ## [u]What is Latest Blog Posts?[/u]
+
 > These three paragraphs embed a listing of blog posts, sorted by the most recent, in a card design.
 > * **Latest Blog Posts** shows all the most recent blog posts across your entire site.
 > * **Latest Blog Posts (Branch)** filters your most recent blog posts by the branch the paragraph is embedded on (for example, if on a Downtown YMCA page, only Downtown YMCA blog posts will show up). Placed on a non-branch page, only the headline will show up.
