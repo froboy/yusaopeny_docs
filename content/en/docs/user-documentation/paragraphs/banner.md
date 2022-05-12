@@ -36,8 +36,8 @@ In the Header Area of your content, select “Add Banner” from the dropdown. T
 
 ### Content Types that Support Banner
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Program (Works better in Carnation/Lily)](https://community.openymca.org/t/program-content-types-open-y-user-docs/691/2)
-* [Branch](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685/2)
-* [Camp](https://community.openymca.org/t/camp-content-types-user-docs/690/2)
+* [Landing Page](../content-types/landing-page.md)
+* [Program (Works better in Carnation/Lily)](../content-types/program.md)
+* [Branch](../content-types/branch.md)
+* [Camp](../content-types/camp.md)
 * Facility
