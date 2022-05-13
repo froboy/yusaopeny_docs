@@ -8,7 +8,7 @@ title: 'Basic Text Formatting'
 
 Choose any of the options for your text below by clicking on the icon/performing the keyboard shortcut indicated. To format text you’ve previously typed, just highlight the text and then click on the button in the editor.
 
-![blog-description__text-editor-buttons|690x56](/img/005bb7b2eb3fb5e7558f3b2d95462b797903decb.png)
+![blog-description__text-editor-buttons|690x56](../../../../../assets/img/005bb7b2eb3fb5e7558f3b2d95462b797903decb.png)
 
 [Demo Basic Text Formatting on CKEditor 4 >](https://ckeditor.com/ckeditor-4/demo/#article)
 

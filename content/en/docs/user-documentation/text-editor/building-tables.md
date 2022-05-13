@@ -11,7 +11,7 @@ title: 'Building Tables'
 ## Adding a New Table
 To add a table, click on the table icon. A popup will appear with your initial setup options:
 
-![landing-page-simple-content__table|586x176, 50%](/img/4f4624d31c5ac550174bb49165287c9d93698ead.png)    ![paragraph-simple-content__table-options|320x469, 50%](/img/29d8b4d51f19d6ddcb056a169c597a9e2901d53f.gif)
+![landing-page-simple-content__table|586x176, 50%](../../../../../assets/img/4f4624d31c5ac550174bb49165287c9d93698ead.png)    ![paragraph-simple-content__table-options|320x469, 50%](../../../../../assets/img/29d8b4d51f19d6ddcb056a169c597a9e2901d53f.gif)
 
 * Set the number of rows and columns by typing numbers into those fields
 * The headers field dropdown gives you options to create a header column, row, or both.
@@ -31,7 +31,7 @@ To add a table, click on the table icon. A popup will appear with your initial s
 
 To edit a table after you’ve built one, right click on the table. To access the basic table options, click on “Table Properties.”
 
-![landing-page-|296x500, 50%](/img/a0d80e4672ca10fedb2a4c3bbf53f2a439c8229f.png)
+![landing-page-|296x500, 50%](../../../../../assets/img/a0d80e4672ca10fedb2a4c3bbf53f2a439c8229f.png)
 
 You can also double-click inside a table cell.
 
@@ -51,7 +51,7 @@ The “Cell” option from the right-click menu gives you same options as Row an
 
 However, there is another option called “Cell Properties” that allows you to style your cells as well. Just right-click > Cell > Cell Properties.
 
-![A sample of the available cell options when you right click on a cell, 75%](/img/f6a82a1957f81cf57cba0e863bbe47044377e602.png)
+![A sample of the available cell options when you right click on a cell, 75%](../../../../../assets/img/f6a82a1957f81cf57cba0e863bbe47044377e602.png)
 
 This opens a dialogue box similar to the table properties. You can set the width/height for your cell (pixels only for height; pixels or percentages for your width) in the fields on the left.
 
@@ -74,7 +74,7 @@ To see an example of what a table might look like on your site, open the "Source
 
 ### // Pricing Table
 
-![landing-page-simple-content__pricing-example|690x426, 75%](/img/f917638b631b58e8faa0fc9dd6824b9e6d19b4a0.png)
+![landing-page-simple-content__pricing-example|690x426, 75%](../../../../../assets/img/f917638b631b58e8faa0fc9dd6824b9e6d19b4a0.png)
 
 ```html
     <h2>Registration and Pricing</h2>
@@ -112,7 +112,7 @@ To see an example of what a table might look like on your site, open the "Source
 ```
 
 ### // Camp Locations
-![landing-page-simple-content__camp-locations-example|690x386](/img/609efb274c09d0d2635e57f376a68b3fa372eb76.png)
+![landing-page-simple-content__camp-locations-example|690x386](../../../../../assets/img/609efb274c09d0d2635e57f376a68b3fa372eb76.png)
 
 ```html
     <style>
