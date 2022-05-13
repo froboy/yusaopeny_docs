@@ -56,19 +56,19 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 
 > Making any changes to a date block will change it on every page where it has been added.
 >
-> [Learn more about custom blocks ⇒](https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733)
+> [Learn more about custom blocks ⇒](../blocks/_index.md)
 
 ---
 
 ## Content Types That Support Date Block
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Branch](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685)
-* [Camp](https://community.openymca.org/t/camp-content-types-user-docs/690)
+* [Landing Page](../content-types/landing-page.md)
+* [Branch](../content-types/branch.md)
+* [Camp](../content-types/camp.md)
 * Facility
-* [Blog Post](https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693)
-* [News Post](https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694)
-* [Class](https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697)
-* [Program](https://community.openymca.org/t/program-content-types-open-y-user-docs/691)
-* [Program Subcategory](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
+* [Blog Post](../content-types/blog-post.md)
+* [News Post](../content-types/news-post.md)
+* [Class](../content-types/activity-class-session.md)
+* [Program](../content-types/program.md)
+* [Program Subcategory](../content-types/program-subcategory.md)
 * Event

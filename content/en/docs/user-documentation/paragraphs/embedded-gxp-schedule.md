@@ -39,8 +39,8 @@ Select *Embedded GroupEx Pro Schedule* from the paragraphs dropdown. Hit save.
 
 ## Content Types That Support Embedded GroupEx Pro Schedule
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Branch (Single-Branch Associations Only)](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685)
+* [Landing Page](../content-types/landing-page.md)
+* [Branch (Single-Branch Associations Only)](../content-types/branch.md)
 ---
 
 ## Related Paragraphs

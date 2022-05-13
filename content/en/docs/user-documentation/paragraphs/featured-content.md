@@ -29,17 +29,17 @@ Select *Add featured content* from the paragraphs dropdown. Add an optional *hea
 * **Lily/Rose:** The headline left-aligns by default.
 * **Carnation:** The headline center-aligns in Carnation.
 
-Next, add an optional *Description* [using the text editor](https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors). Avoid changing your text alignment for your description.
+Next, add an optional *Description* [using the text editor](../text-editor/basic-text-formatting.md). Avoid changing your text alignment for your description.
 
 Add an optional link in the link field.
 
-[Learn how to use a Link field ⇒](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738)
+[Learn how to use a Link field ⇒](../text-editor/adding-links.md)
 
 ---
 
 Select the number of columns you would like to have in each row using the style dropdown.
 
-* **Carnation**: Due to the card styling in Carnation, this field does not limit the number of cards that will display in a single row. A recommended workaround is to add multiple rows of featured content or [use the Grid Content paragraph type](https://community.openymca.org/t/grid-content-paragraphs-open-y-user-docs/716).
+* **Carnation**: Due to the card styling in Carnation, this field does not limit the number of cards that will display in a single row. A recommended workaround is to add multiple rows of featured content or [use the Grid Content paragraph type](../paragraphs/grid-content.md).
 
 > ***Advanced users***: You can clear the confusion for content editors in Carnation by making the style field an optional field and hiding it in the form display in the UI.
 >
@@ -55,11 +55,11 @@ Finally, add content for each column of content using the text editor. To add ad
 
 ## Content Types that Support Featured Content
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Branch](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685)
-* [Camp](https://community.openymca.org/t/camp-content-types-user-docs/6)
+* [Landing Page](../content-types/landing-page.md)
+* [Branch](../content-types/branch.md)
+* [Camp](../content-types/camp.md)
 * Facility
-* [Blog Post](https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693)
-* [News Post](https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694)
-* [Program](https://community.openymca.org/t/program-content-types-open-y-user-docs/691)
-* [Program Subcategory](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
+* [Blog Post](../content-types/blog-post.md)
+* [News Post](../content-types/news-post.md)
+* [Program](../content-types/program.md)
+* [Program Subcategory](../content-types/program-subcategory.md)

@@ -34,7 +34,7 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 
 * To add a new block, click the “Add New Custom Block” button.
 
-[Learn more about blocks ⇒](https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733)
+[Learn more about blocks ⇒](../blocks/_index.md)
 
 * When you add your block, you will see a blank, unformatted text field. Type your HTML text into this field.
 
@@ -56,14 +56,14 @@ Once you’re done, click the button that either says *Add custom block* or *Upd
 
 ## Content Types that Support Code
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Branch](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685)
-* [Camp](https://community.openymca.org/t/camp-content-types-user-docs/690)
+* [Landing Page](../content-types/landing-page.md)
+* [Branch](../content-types/branch.md)
+* [Camp](../content-types/camp.md)
 * Facility
 * Event
-* [Activity](https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697)
-* [Program](https://community.openymca.org/t/program-content-types-open-y-user-docs/691)
-* [Program Subcategory](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Class](https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697)
-* [Blog Post](https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693)
-* [News Post](https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694)
+* [Activity](../content-types/activity-class-session.md)
+* [Program](../content-types/program.md)
+* [Program Subcategory](../content-types/program-subcategory.md)
+* [Class](../content-types/activity-class-session.md)
+* [Blog Post](../content-types/blog-post.md)
+* [News Post](../content-types/news-post.md)

@@ -24,7 +24,7 @@ Styling will differ greatly based on the theme. Use of this paragraph in Rose is
 
 Supported Content Types
 
-* Landing Page
+* [Landing Page](../content-types/landing-page.md)
 
 Related Paragraphs
 

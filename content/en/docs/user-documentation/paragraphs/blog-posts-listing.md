@@ -32,11 +32,11 @@ The view for the Blog Listings paragraph is not available for editing in the [Op
 
 ## Content Types that Support Blog Posts
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
+* [Landing Page](../content-types/landing-page.md)
 
 ## Related/Alternative Paragraphs
 
 * Event Posts Listing
-* [Latest Blog Posts/(Camp)/(Branch)](https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717)
-* [Latest News Posts/(Camp)/(Branch)](https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718)
-* [News Posts Listing](https://community.openymca.org/t/news-posts-listing-paragraphs-open-y-user-docs/721)
+* [Latest Blog Posts/(Camp)/(Branch)](../paragraphs/latest-blog-posts.md)
+* [Latest News Posts/(Camp)/(Branch)](../paragraphs/latest-news-posts.md)
+* [News Posts Listing](../paragraphs/news-posts-listing.md)

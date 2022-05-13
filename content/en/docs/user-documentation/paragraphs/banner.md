@@ -30,7 +30,7 @@ In the Header Area of your content, select “Add Banner” from the dropdown. T
 
   **How to add/edit images >**
 
-* **Link/Button:** Add a URL and a link to the button on the page. The button on your banner cannot be styled without custom CSS/code. [Using link/button fields ⇒](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738)
+* **Link/Button:** Add a URL and a link to the button on the page. The button on your banner cannot be styled without custom CSS/code. [Using link/button fields ⇒](../text-editor/building-buttons.md)
 
   > **Note:** If you know a little CSS, you can have your agency partner [install the CSS Editor ](https://www.drupal.org/project/css_editor)module, and you can target `.btn.banner-btn` to change the default button.
 
