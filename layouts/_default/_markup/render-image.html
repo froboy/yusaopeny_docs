@@ -1,12 +1,23 @@
 {{- $img := .Page.Resources.GetMatch .Destination -}}
 {{- if and (not $img) .Page.File -}}
-{{ $path := path.Join .Page.File.Dir .Destination }}
+<!-- We have to hardcode content/en below because of docsy's mounting -->
+<!-- it'd be nice not to but... I tried.-->
+{{ $path := path.Join "content/en" .Page.File.Dir .Destination }}
+{{ $path := trim $path "/assets" }}
 {{- $img = resources.Get $path -}}
 {{- end -}}
 {{- with $img -}}
+<!-- Don't mess with gifs -->
+<!-- via https://alexlakatos.com/web/2020/07/17/hugo-image-processing/ -->
+{{ if in $img.MediaType "gif" }}
+<figure class="image-caption">
+    <img alt="{{ $.Text }}" src="{{ $img.RelPermalink }}" />
+    <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
+</figure>
+{{ else }}
 {{- $large := $img.Resize "1200x" -}}
-{{ $medium := $large.Fill "726x402" -}}
-{{ $small := $medium.Fill "458x254" -}}
+{{ $medium := $large.Resize "726x" -}}
+{{ $small := $medium.Resize "458x" -}}
 <figure class="image-caption">
     <img alt="{{ $.Text }}" srcset="
         {{ $small.RelPermalink }} 458w,
@@ -14,5 +25,6 @@
         {{ $large.RelPermalink }} 1200w" sizes="50vw" src="{{ $small.RelPermalink }}" />
     <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
 </figure>
+{{ end }}
 {{- else -}}
 <img src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" />{{- end -}}

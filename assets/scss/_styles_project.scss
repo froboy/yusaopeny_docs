@@ -26,3 +26,14 @@ aside.d-xl-block {
 .td-toc #TableOfContents a {
     color: #5a5858;
 }
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9rem;
+  padding-left: 1em;
+  margin-top: 0.25em;
+}
+
+figcaption, iframe {
+  @extend .td-max-width-on-larger-screens;
+}
