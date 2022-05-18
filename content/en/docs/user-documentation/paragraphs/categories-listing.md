@@ -23,18 +23,18 @@ title: Categories Listing
 ---
 ## How To Use It:
 
-* [On a Programs page](https://community.openymca.org/t/program-content-types-open-y-user-docs/691), go to the content area and click to open it.
+* [On a Programs page](../content-types/program.md), go to the content area and click to open it.
 * Select Categories listing.
 
 ![admin-program__programs-listing|690x170, 75%](upload://fgGiiosW91RDrSYvP8zwfDlsP0P.png)
 
-> This paragraph can only used on programs pages that have [subcategories tied to them](https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692). If a program has no subcategories tied to it or if it’s used on another content type, it will not work.
+> This paragraph can only used on programs pages that have [subcategories tied to them](../content-types/program-subcategory.md). If a program has no subcategories tied to it or if it’s used on another content type, it will not work.
 
-[Learn more about programs content type ⇒](https://community.openymca.org/t/program-content-types-open-y-user-docs/691)
+[Learn more about programs content type ⇒](../content-types/program.md)
 
-[Learn more about programs subcategories content type ⇒](https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692)
+[Learn more about programs subcategories content type ⇒](../content-types/program-subcategory.md)
 
 ---
 ## Content Types that Support Categories Listing
 
-* [Program](https://community.openymca.org/t/program-content-types-open-y-user-docs/691)
+* [Program](../content-types/program.md)

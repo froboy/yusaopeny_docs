@@ -47,10 +47,10 @@ To add another blog post, click the *Add another item* button. Click the blue sa
 
 ## Content Types that Support Featured Blog Pots
 
-* [Landing Page](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Program](https://community.openymca.org/t/program-content-types-open-y-user-docs/691)
-* [Program Subcategory](https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667)
-* [Branch](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685)
-* [Camp](https://community.openymca.org/t/camp-content-types-user-docs/690)
+* [Landing Page](../content-types/landing-page.md)
+* [Program](../content-types/program.md)
+* [Program Subcategory](../content-types/program-subcategory.md)
+* [Branch](../content-types/branch.md)
+* [Camp](../content-types/camp.md)
 * Facility
-* [Blog Post](https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693)
+* [Blog Post](../content-types/blog-post.md)

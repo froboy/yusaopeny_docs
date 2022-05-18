@@ -53,4 +53,4 @@ It's recommended you limit your menu items to no more than 3 or 4 unless you opt
 ---
 ## Content Types That Support this Paragraph
 
-* [Camp](https://community.openymca.org/t/camp-content-types-user-docs/690)
+* [Camp](../content-types/camp.md)
