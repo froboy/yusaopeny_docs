@@ -20,7 +20,7 @@ You can add a paragraph onto a page when you see the paragraphs dropdown field. 
 
 ## Two Ways to Add Paragraphs
 
-With [Open Y 2.4](https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624), content editors have two ways to add paragraphs onto a page - inline editor and admin portal.
+Content editors have two ways to add paragraphs onto a page - inline editor and admin portal.
 
 ### Admin Portal
 
@@ -30,7 +30,7 @@ To add a paragraph into an Area, open that area and select a paragraph from the 
 
 {{< youtube 6ti2l8HB5Qc >}}
 
-### Inline Editor (NEW)
+### Inline Editor
 
 If you've upgraded to Open Y 2.4 or later, you can add a paragraph from the front-end by clicking on the Plus icon in a given region and selecting a paragraph from the pop-up window.
 
@@ -42,17 +42,13 @@ If you've upgraded to Open Y 2.4 or later, you can add a paragraph from the fron
 
 Sometimes you have one layout in your head and it doesn’t look as good when you add it to your page. You can easily move around your sections by clicking on the cross icon to the left of your paragraphs. Drag around your paragraphs to rearrange.
 
-![Just drag your paragraphs to rearrange them.,75%](upload://A2aXQz2GyNGt0O2bPQ80DgF5eZX.gif)
+![Just drag your paragraphs to rearrange them](../../../../../assets/img/fc8d41e992ec8bbb3bbae6a9753fbebdbdecb661.gif)
 
 ## Editing Paragraphs
-
-![Click the edit button next to a paragraph to edit it., 75%](upload://l08kRV3xp03b5XGVaGA50lGYnT.gif)
 
 Need to fix a typo? Click the edit button next to each paragraph to open it back up and make edits.
 
 ##  Deleting Paragraphs
-
-![Remove a paragraph and confirm to delete it from your layout, 75%](upload://2dIYO5spDIKgtJu0rMvLURIV0Sy.gif)
 
 Maybe you didn’t need that section. Don’t worry: you can easily delete a paragraph by clicking on the remove option from the dropdown next to where it says “Edit.”
 
