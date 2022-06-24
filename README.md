@@ -1,8 +1,8 @@
-# Open Y Docs
+# Y USA Open Y Docs
 
 [Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
-site navigation, structure, and more. This **Open Y Docs Project** uses the
-Docsy theme to serve documentation for the [Open Y](https://openy.org) distribution.
+site navigation, structure, and more. This **Y USA Open Y Docs Project** uses the
+Docsy theme to serve documentation for the [Y USA Open Y](https://openy.org) distribution.
 
 You can find detailed theme instructions in the [Docsy user guide][].
 
@@ -70,7 +70,7 @@ on Linux.
 
    Open your web browser and type `http://localhost:1313` in your navigation bar,
    This opens a local instance of the openy_docs homepage. You can now make
-   changes to the Open Y Docs and those changes will immediately show up in your
+   changes to the Y USA Open Y Docs and those changes will immediately show up in your
    browser after you save.
 
 ### Cleanup

@@ -4,7 +4,7 @@ title: 'Building Buttons'
 
 {{< youtube id=lJmhRo99uuM >}}
 
-[As an alternate to using the link tool](https://community.openymca.org/t/adding-links-in-the-text-editor/645), you can easily create buttons with Open Y using the button editor. When you click on the button icon, it will open a pop-up.
+[As an alternate to using the link tool](https://community.openymca.org/t/adding-links-in-the-text-editor/645), you can easily create buttons with Y USA Open Y using the button editor. When you click on the button icon, it will open a pop-up.
 
 ![WYSIWYG Editor options with the button tab highlighted in green.](../../../../../assets/img/d5736f5507428b99030d5c88620d3f226f154cfc.png)
 >You can also edit a button you've created previously by clicking on the link in the text editor.
@@ -71,6 +71,6 @@ You can add icons to your buttons or links in the icons tab. On the right, you w
 
 **View free font awesome icons at fontawesome.com**
 
->**Note:** The left field makes reference to the Bootstrap Glyphicons library. As of this documentation, this icon library has been deprecated, and the Glyphicons fields will not work in Open Y.
+>**Note:** The left field makes reference to the Bootstrap Glyphicons library. As of this documentation, this icon library has been deprecated, and the Glyphicons fields will not work in Y USA Open Y.
 >
 >Because the button embed is an open-source tool developed by a third party, these fields will go away once the code’s maintainer updates the code.

@@ -4,7 +4,7 @@ title: AddThis
 
 # How to configure AddThis
 
-Open Y AddThis module allow you easy add Social icons to any node.
+Y USA Open Y AddThis module allow you easy add Social icons to any node.
 
 1. Go to `http://www.addthis.com` and create your account and get public id.
 

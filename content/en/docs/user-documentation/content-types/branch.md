@@ -2,7 +2,7 @@
 title: Branch
 ---
 
-**One of the first places members go when they visit a Y website is to their local Y’s page. In Open Y, you create pages for a wellness facility with the Branch content type.**
+**One of the first places members go when they visit a Y website is to their local Y’s page. In Y USA Open Y, you create pages for a wellness facility with the Branch content type.**
 
 ---
 
@@ -101,6 +101,6 @@ If you embed a Branch Amenities with Icons paragraph on your page, the amenities
 If you don't see an option available or would like to rename a branch amenity, go to Structure > Taxonomy > Amenities.
 
 **####** Closed Amenities
-Ys with Open Y 2.5 or later can tag amenities at a branch that have closed. Content editors will see a "Closed Amenities" field.
+Ys with Y USA Open Y 2.5 or later can tag amenities at a branch that have closed. Content editors will see a "Closed Amenities" field.
 
 ![carnation--branch--closed-amenities|442x499, 50%](upload://1H6H8xKzjCpEMYDKfZe7it4R40Y.png)   ![admin--branch__amenities--closed-amenities|690x341, 50%](upload://a4WrDjPoqlMgnP5OtobiCzpvrZg.png)

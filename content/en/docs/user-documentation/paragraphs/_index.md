@@ -2,10 +2,10 @@
 title: "Paragraphs"
 weight: 4
 description: >
-  Embed simple text, images, blocks and interactive components with blocks, Open Y’s layout-building component.
+  Embed simple text, images, blocks and interactive components with blocks, Y USA Open Y’s layout-building component.
 ---
 
-Open Y content editors use paragraphs to create unique layouts for their pages. Each paragraph is a section of content that comes with its own styling, functionality, and fields.
+Y USA Open Y content editors use paragraphs to create unique layouts for their pages. Each paragraph is a section of content that comes with its own styling, functionality, and fields.
 
 You can add a paragraph onto a page when you see the paragraphs dropdown field. These paragraphs will typically be inside one of the four main “Areas” inside a content type:
 
@@ -26,13 +26,13 @@ Content editors have two ways to add paragraphs onto a page - inline editor and 
 
 To add a paragraph into an Area, open that area and select a paragraph from the dropdown. The button will usually be labeled with "Add [First Paragraph in List]" (the first paragraph in the list depends on the content type/area), and there will be some helper text above.
 
-> The video below provides an example of the functionality of paragraphs; however, the specific layouts demoed are **not** Open Y layouts.
+> The video below provides an example of the functionality of paragraphs; however, the specific layouts demoed are **not** Y USA Open Y layouts.
 
 {{< youtube 6ti2l8HB5Qc >}}
 
 ### Inline Editor
 
-If you've upgraded to Open Y 2.4 or later, you can add a paragraph from the front-end by clicking on the Plus icon in a given region and selecting a paragraph from the pop-up window.
+If you've upgraded to Y USA Open Y 2.4 or later, you can add a paragraph from the front-end by clicking on the Plus icon in a given region and selecting a paragraph from the pop-up window.
 
 > **Note:** Not all paragraphs are available for inline editing yet. More paragraphs will be added to the inline content editor in later releases
 
@@ -54,4 +54,4 @@ Maybe you didn’t need that section. Don’t worry: you can easily delete a par
 
 ### Choosing the Right Paragraph Type
 
-Open Y comes with more than 50 paragraph types, and depending on your partner’s customizations, you may have even more. This documentation will focus the types that come out of the box with Open Y and how to use them.
+Y USA Open Y comes with more than 50 paragraph types, and depending on your partner’s customizations, you may have even more. This documentation will focus the types that come out of the box with Y USA Open Y and how to use them.

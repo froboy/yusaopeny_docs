@@ -2,9 +2,9 @@
 title: Sandboxes
 ---
 
-# Open Y Sandboxes for Evaluation and QA
+# Y USA Open Y Sandboxes for Evaluation and QA
 
-The Open Y core team manages sandboxes for stable and development versions of Open Y to facilitate the evaluation of the product, to help with QA, and enable investigation of issues.
+The Y USA Open Y core team manages sandboxes for stable and development versions of Y USA Open Y to facilitate the evaluation of the product, to help with QA, and enable investigation of issues.
 
 To learn more:
 
@@ -15,7 +15,7 @@ To learn more:
 
 https://sandboxes.openy.org/
 
-These sandboxes are set to rebuild completely overnight and clear their database and files every 2 hours. To get access visit [How can I try or get a demo of Open Y?](https://community.openymca.org/t/how-can-i-try-or-get-a-demo-of-open-y/318)
+These sandboxes are set to rebuild completely overnight and clear their database and files every 2 hours. To get access visit [How can I try or get a demo of Y USA Open Y?](https://community.openymca.org/t/how-can-i-try-or-get-a-demo-of-open-y/318)
 
 These sandboxes contain 3 profile variations:
 
@@ -23,7 +23,7 @@ These sandboxes contain 3 profile variations:
 - Extended
 - Custom
 
-based on the latest stable release of Open Y.
+based on the latest stable release of Y USA Open Y.
 
 These sandboxes are built on CI by running:
 
@@ -37,7 +37,7 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 https://sandboxes-dev.openy.org/
 
-These usually contain the latest development version of Open Y (the master branch of [openy](https://github.com/ymcatwincities/openy).
+These usually contain the latest development version of Y USA Open Y (the master branch of [openy](https://github.com/ymcatwincities/openy).
 
 These sandboxes are built on CI by running:
 
@@ -51,7 +51,7 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 https://membership-framework-sandboxes-d9.openy.org/
 
-These are based on the Open Y stable Standard profile and the development version of the [Membership Framework](https://github.com/ymcatwincities/openy_memberships).
+These are based on the Y USA Open Y stable Standard profile and the development version of the [Membership Framework](https://github.com/ymcatwincities/openy_memberships).
 
 To rebuild the sandbox, CI is running:
 
@@ -65,7 +65,7 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory13097841656330601319.ini
 
 ## Activity Finder Sandboxes - development version
 
-| Theme | Link | Open Y | Profile | Activity Finder | Theme | Bootstrap |
+| Theme | Link | Y USA Open Y | Profile | Activity Finder | Theme | Bootstrap |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Carnation | https://sandbox-carnation-cus-d9.openy.org/activity-finder-v4 | stable | Custom | v4 dev | v4 |
 | Rose | https://sandbox-rose-cus-d9.openy.org/activity-finder-v4 | stable |  Custom | v4 dev | v3 |

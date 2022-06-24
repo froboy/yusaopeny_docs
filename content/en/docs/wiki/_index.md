@@ -2,7 +2,7 @@
 title: Wiki
 ---
 
-This wiki is the primary location for developer documentation for [Open Y](https://openy.org/) - a digital transformation platform for YMCAs.
+This wiki is the primary location for developer documentation for [Y USA Open Y](https://openy.org/) - a digital transformation platform for YMCAs.
 
 # Where to Start
 
@@ -13,13 +13,13 @@ This wiki is the primary location for developer documentation for [Open Y](https
 ## For Developers
 
 - [Development Processes]({{< relref "Open-Y-technology-pipeline.md" >}})
-- [Updating Open Y]({{< relref "OpenY-upgrade-how-to-for-Developers.md" >}})
+- [Updating Y USA Open Y]({{< relref "OpenY-upgrade-how-to-for-Developers.md" >}})
 - [Development FAQ]({{< relref "Development-FAQ.md" >}})
 - [Code review best practices]({{< relref "Code-Review-Quality-Best-Practices.md" >}})
 
 ## For QA Engineers
 
-- [Open Y Smoke Tests Index]({{< relref "Open-Y-Smoke-Tests-Index.md" >}})
+- [Y USA Open Y Smoke Tests Index]({{< relref "Open-Y-Smoke-Tests-Index.md" >}})
 
 ---
 
@@ -38,9 +38,9 @@ This wiki is the primary location for developer documentation for [Open Y](https
 - [Participant Agreement]({{< relref "Open-Y-Participant-Agreement.md" >}})
 - [Terms of Use]({{< relref "Open-Y-Terms-of-Use.md" >}})
 
-## Getting Started with Open Y Development
+## Getting Started with Y USA Open Y Development
 
-Whether you are just getting started with Open Y or need to test a feature in a stable environment, the Open Y Core Team maintains a number of [Sandboxes]({{< relref "Sandboxes.md" >}}) that you can use.
+Whether you are just getting started with Y USA Open Y or need to test a feature in a stable environment, the Y USA Open Y Core Team maintains a number of [Sandboxes]({{< relref "Sandboxes.md" >}}) that you can use.
 
 ### Processes & Components
 
@@ -57,12 +57,12 @@ Whether you are just getting started with Open Y or need to test a feature in a 
 - [Install-SSL-certificate-for-the-OpenY-site]({{< relref "Install-SSL-certificate-for-the-OpenY-site.md" >}})
 - [Switching Drupal Core Versions]({{< relref "Drupal-9-core-dependencies-version-flexibility.md" >}})
 
-## Contributing to Open Y
+## Contributing to Y USA Open Y
 
 ### Working with Existing Functionality
 
 - [Working with Themes]({{< relref "How-to-develop-themes-in-Open-Y.md" >}})
-- [Working with the Open Y Profile]({{< relref "Open-Y-2.0-root-YAML-files.md" >}})
+- [Working with the Y USA Open Y Profile]({{< relref "Open-Y-2.0-root-YAML-files.md" >}})
 - [Smoke Tests for Validating Changes]({{< relref "Open-Y-Smoke-Tests-Index.md" >}})
 
 ### Adding and Removing Functionality
@@ -75,9 +75,9 @@ Whether you are just getting started with Open Y or need to test a feature in a 
 - [Managing Composer Version Constraints]({{< relref "Composer-version-constraints-for-Open-Y.md" >}})
 - [Updating to Composer 2]({{< relref "Secure-devops-for-composer-2-release.md" >}})
 
-### Decoupling Open Y
+### Decoupling Y USA Open Y
 
-- [Intro to Decoupling Open Y Components]({{< relref "Decouple-component-from-Open-Y-as-independent-module-project.md" >}})
+- [Intro to Decoupling Y USA Open Y Components]({{< relref "Decouple-component-from-Open-Y-as-independent-module-project.md" >}})
 - [List of Decoupled Components]({{< relref "Decoupled-(-external-)-projects-of-OpenY.md" >}})
 - [Managing Drupal Dependencies while Decoupling]({{< relref "Dependencies-in-drupal-info.yml.md" >}})
 - [Analytics Decoupling and Opt-out]({{< relref "Open-Y-update-sunset---opt-out-tutorial.md" >}})
@@ -91,10 +91,10 @@ Whether you are just getting started with Open Y or need to test a feature in a 
 
 ### Update Processes & Notices
 
-- [Updating Open Y]({{< relref "OpenY-upgrade-how-to-for-Developers.md" >}})
+- [Updating Y USA Open Y]({{< relref "OpenY-upgrade-how-to-for-Developers.md" >}})
 - [Important-versions-for-upgrade-path]({{< relref "Important-versions-for-upgrade-path.md" >}})
 
-These documents are for old versions of Open Y, but may contain useful information for troubleshooting future update issues.
+These documents are for old versions of Y USA Open Y, but may contain useful information for troubleshooting future update issues.
 
 - [SA-CORE-2018-004]({{< relref "OpenY-security---Drupal-SA-CORE-2018-004.md" >}})
 - [SA-CORE-2018-002]({{< relref "OpenY-security-update-how-to.-Update-Drupal-core-only.md" >}})

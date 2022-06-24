@@ -26,7 +26,7 @@ In the Header Area of your content, select “Add Banner” from the dropdown. T
 
   Use the image library to embed an image. You can upload a new image from your computer or reuse an existing image from your library. The image field is optional, but recommended.
 
-  For recommended image sizes for your Open Y site, talk to your agency partner.
+  For recommended image sizes for your Y USA Open Y site, talk to your agency partner.
 
   **How to add/edit images >**
 

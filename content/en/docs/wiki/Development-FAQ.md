@@ -2,21 +2,21 @@
 title: Development FAQ
 ---
 
-# Open Y Developer FAQ
+# Y USA Open Y Developer FAQ
 
 ## Local Development
 
 ### Getting started with a local environment
 
-To start developing you need to obtain the latest Open Y codebase. See the [`openy-project` repository](https://github.com/ymcatwincities/openy-project#latest-development-version-drupal-9-2x) for the full process.
+To start developing you need to obtain the latest Y USA Open Y codebase. See the [`openy-project` repository](https://github.com/ymcatwincities/openy-project#latest-development-version-drupal-9-2x) for the full process.
 
 [This video tutorial](https://www.youtube.com/watch?v=jRlinjpTl0c) will walk you through how to initiate a local development environment.
 
-The Open Y team has pre-built environments and walkthroughs using either [Vagrant and VirtualBox](https://github.com/ymcatwincities/openy-cibox-vm#drupal-vagrant-dev-box-for-openy-support) or [Docker and Docksal](https://github.com/ymcatwincities/openy-docksal#get-started). Choose the method that you're most comfortable with and get started!
+The Y USA Open Y team has pre-built environments and walkthroughs using either [Vagrant and VirtualBox](https://github.com/ymcatwincities/openy-cibox-vm#drupal-vagrant-dev-box-for-openy-support) or [Docker and Docksal](https://github.com/ymcatwincities/openy-docksal#get-started). Choose the method that you're most comfortable with and get started!
 
 ### Gathering information about your local environment
 
-To best troubleshoot issues, it's helpful for the Open Y team to have as much information about your environment as possible. Before you ask for help, watch this tutorial on [how to gather that information](https://www.youtube.com/watch?v=01y617maeBE).
+To best troubleshoot issues, it's helpful for the Y USA Open Y team to have as much information about your environment as possible. Before you ask for help, watch this tutorial on [how to gather that information](https://www.youtube.com/watch?v=01y617maeBE).
 
 ### Debugging with Xdebug in your local
 
@@ -26,11 +26,11 @@ The Docksal project maintains detailed information for [using Xdebug with VSCode
 
 ### Who should I specify for review?
 
-We have a best practice to get at least 2 independent reviews before merging code. Please request a review from the Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) and somebody else (from your team or another Open Y partner).
+We have a best practice to get at least 2 independent reviews before merging code. Please request a review from the Y USA Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) and somebody else (from your team or another Y USA Open Y partner).
 
 ### Who is responsible for merging?
 
-The Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) is responsible for final approval, merging, and release management on the Open Y project.
+The Y USA Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) is responsible for final approval, merging, and release management on the Y USA Open Y project.
 
 ### What labels in PRs should I use?
 
@@ -38,7 +38,7 @@ The Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) is responsibl
 
 ### Why I can't add labels or specify milestones?
 
-All of these require you to be granted Contributor access to the Open Y GitHub repository. Contact the Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) to get access. Labels are usually set by the Open Y Core Team.
+All of these require you to be granted Contributor access to the Y USA Open Y GitHub repository. Contact the Y USA Open Y Lead Technical Architect (Andrii Podanenko, `@podarok`) to get access. Labels are usually set by the Y USA Open Y Core Team.
 
 ### Why are the steps for review in Pull Requests so important?
 
@@ -58,9 +58,9 @@ DeepCode bot is the automated, machine learning code review system that analyses
 
 ## Build Automation & CI
 
-### What CI processes does Open Y have in place?
+### What CI processes does Y USA Open Y have in place?
 
-To get a fully working Open Y site for the code change you are about to push for review there is a build generating system installed for the Open Y GitHub repository that automatically generates a dedicated temporary website with your changes applied.
+To get a fully working Y USA Open Y site for the code change you are about to push for review there is a build generating system installed for the Y USA Open Y GitHub repository that automatically generates a dedicated temporary website with your changes applied.
 
 ## Why are some builds created automatically and some not?
 
@@ -68,11 +68,11 @@ By default, builds are configured for trusted users, so if you are getting a mes
 
 > "Can one of the admins verify this patch? Use "o+k to test" or ''t+est this please" for manual build execution."
 
-then your username is not in the allowlist and somebody from the Open Y Core Team can comment to initiate a build for you. Contact `@podarok` to get your build generated or your name added to the allowlist.
+then your username is not in the allowlist and somebody from the Y USA Open Y Core Team can comment to initiate a build for you. Contact `@podarok` to get your build generated or your name added to the allowlist.
 
 ### How do I create a build for my PR?
 
-If you are on the allowlist then simply create a Pull Request from your fork to the Open Y repository. After up to 30 minutes you'll receive comments with links to the generated site builds.
+If you are on the allowlist then simply create a Pull Request from your fork to the Y USA Open Y repository. After up to 30 minutes you'll receive comments with links to the generated site builds.
 
 ### When are builds deleted from the server?
 
@@ -84,8 +84,8 @@ Andrii Podanenko `@podarok` or Dima Danylevskyi `@danylevskyi`
 
 ### What should I do if tests fail?
 
-If you have any concerns with reports generated by the code checkers that are used in Open Y ask Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.
+If you have any concerns with reports generated by the code checkers that are used in Y USA Open Y ask Y USA Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.
 
-## How do I install Open Y on Pantheon hosting
+## How do I install Y USA Open Y on Pantheon hosting
 
 See [request from a community](https://github.com/ymcatwincities/openy/issues/2004). The solution is described in [Pantheon's documentation on nested docroots](https://pantheon.io/docs/nested-docroot). We suggest that you maintain your own `composer.json` with the specified web-root directory, as described in the [Pantheon examples](https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94).

@@ -2,7 +2,7 @@
 title: OpenY security Drupal-SA-CORE-2018-004
 ---
 
-This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).
+This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit [How to upgrade Y USA Open Y]({{< relref OpenY-upgrade-how-to-for-Developers.md >}}).
 
 ---
 

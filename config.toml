@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Open Y Docs"
+title = "Y USA Open Y Docs"
 
 enableRobotsTXT = true
 
@@ -67,8 +67,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Open Y"
-description = "The Open Y Documentation"
+title = "Y USA Open Y"
+description = "The Y USA Open Y Documentation"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -90,7 +90,7 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = 'Open Y'
+copyright = 'Y USA Open Y'
 privacy_policy = "https://openy.org/"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -173,10 +173,10 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "Open Y"
+	name = "Y USA Open Y"
 	url = "https://openy.org"
 	icon = "fa fa-globe"
-        desc = "Main Open Y site and updates."
+        desc = "Main Y USA Open Y site and updates."
 [[params.links.user]]
 	name ="LinkedIn"
 	url = "https://www.linkedin.com/company/open-y"
@@ -186,7 +186,7 @@ enable = false
 	name = "YouTube"
 	url = "https://www.youtube.com/channel/UC4hp3K9JFptqPZyNjJLvkJg"
 	icon = "fab fa-youtube"
-        desc = "Learn all about Open Y."
+        desc = "Learn all about Y USA Open Y."
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"

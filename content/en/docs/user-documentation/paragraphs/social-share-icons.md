@@ -24,9 +24,9 @@ On the next screen, scroll down to the “Just Copy” section and grab your pub
 
 Your id should look something like this: `ra-5e0fb44ead5eb04f`
 
-** If you are having trouble with this, contact your Open Y agency partner, and they can help get this set up for you. You will still need to set up your account.
+** If you are having trouble with this, contact your Y USA Open Y agency partner, and they can help get this set up for you. You will still need to set up your account.
 
-Go back to your Open Y site and then go to your admin toolbar: Open Y > Setting > AddThis Settings
+Go back to your Y USA Open Y site and then go to your admin toolbar: Y USA Open Y > Setting > AddThis Settings
 
 Paste your public id into the field on the next page. Then click save.
 

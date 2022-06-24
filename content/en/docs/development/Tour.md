@@ -2,7 +2,7 @@
 title: Tour
 ---
 
-### How to use Open Y Tour Token with Tour
+### How to use Y USA Open Y Tour Token with Tour
 
 In someone modules have tour tips and for more interactivity, you can add a token with a click to any selector.
 

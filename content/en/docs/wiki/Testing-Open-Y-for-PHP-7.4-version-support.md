@@ -1,5 +1,5 @@
 ---
-title: Testing Open Y for PHP 7.4 version support
+title: Testing Y USA Open Y for PHP 7.4 version support
 ---
 
 ## Requirements
@@ -9,7 +9,7 @@ title: Testing Open Y for PHP 7.4 version support
 
 ## Steps
 
-1. Obtain latest development code of Open Y
+1. Obtain latest development code of Y USA Open Y
 
 ```sh
 composer create-project ymcatwincities/openy-project:9.2.x-development-dev openy7.4

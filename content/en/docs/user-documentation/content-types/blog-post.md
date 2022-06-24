@@ -8,7 +8,7 @@ title: Blog Post
 
 ![carnation--blog--desktop|690x479, 75%](upload://Rkgdb0hjyEt9lLUjFxWtTDGmZE.jpeg)
 
-Blog posts in Open Y allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.
+Blog posts in Y USA Open Y allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.
 
 ## When Should I Use a Blog Post?
 When you decide to use a blog post [depends greatly on your Association's content strategy](https://www.youtube.com/watch?v=myGNK_qUGDM). However, blog posts are designed so you can post timely pages and list them throughout your site. Examples of blogs may include:
@@ -57,7 +57,7 @@ The content area is the main body of your page. You can use the default fields e
 
 * **Image**: Displays above your description and inside a Photo Card. Not required. Uses the [media browser and image field.](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738)
 
-* **Description**: [Using the Open Y text editor](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643), you can enter anything from a brief summary to the entire body of your text.
+* **Description**: [Using the Y USA Open Y text editor](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643), you can enter anything from a brief summary to the entire body of your text.
   ![carnation--landing-page__blog-posts--color-card--green|590x500, 50%](upload://zhby7Do2LGR6ZscauU8bVJdUB8h.png) ![lily--landing-page__blog-posts--color-card--green|434x500, 50%](upload://48cFIYzzKbvW4UQushKjT8etmSS.png)
 
 

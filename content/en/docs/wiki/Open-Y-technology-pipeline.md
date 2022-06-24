@@ -1,12 +1,12 @@
 ---
-title: Open Y technology pipeline
+title: Y USA Open Y technology pipeline
 ---
 
-To deliver the best technologies for the YMCA movement, the Open Y development community maintains the following documents and best practices:
+To deliver the best technologies for the YMCA movement, the Y USA Open Y development community maintains the following documents and best practices:
 
 1. [Development FAQ]({{< relref "Development-FAQ" >}})
-1. [Open Y Coding Standards]({{< relref "Code-Review-Quality-Best-Practices" >}})
-1. [How new technologies and features are added to Open Y](https://community.openymca.org/t/i-made-some-customizations-to-my-site-that-i-want-to-co[…]at-are-the-best-practices-for-backporting-my-features/435)
+1. [Y USA Open Y Coding Standards]({{< relref "Code-Review-Quality-Best-Practices" >}})
+1. [How new technologies and features are added to Y USA Open Y](https://community.openymca.org/t/i-made-some-customizations-to-my-site-that-i-want-to-co[…]at-are-the-best-practices-for-backporting-my-features/435)
 1. [Sandboxes]({{< relref "Sandboxes.md" >}})
 1. Smoke Tests
 	- [Smoke Tests YouTube Playlist](https://www.youtube.com/watch?v=MH4BwMowlic&list=PL_QVggMcFfKYfV1cnistny2L-Sp55SoMg)

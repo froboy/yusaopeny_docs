@@ -1,8 +1,8 @@
 ---
-title: Open Y Code of Conduct and Best Practices
+title: Y USA Open Y Code of Conduct and Best Practices
 ---
 
-The Open Y community aims to build from the methods and best practices of other open-source projects, such as the [Drupal community](https://drupal.org) and the [Drupal Ukrainian community](http://drupal.ua).
+The Y USA Open Y community aims to build from the methods and best practices of other open-source projects, such as the [Drupal community](https://drupal.org) and the [Drupal Ukrainian community](http://drupal.ua).
 
 # Bylaws
 
@@ -15,8 +15,8 @@ To understand how we use and develop technologies, refer to the documents below:
 - [Drupal Code of Conduct](https://www.drupal.org/dcoc)
 - [Conventional commits policy](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Drupal Coding Standards](https://www.drupal.org/docs/develop/standards)
-- [Open Y Development FAQ]({{< relref "Development-FAQ" >}})
-- [Open Y Development Best Practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
+- [Y USA Open Y Development FAQ]({{< relref "Development-FAQ" >}})
+- [Y USA Open Y Development Best Practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
 
 JavaScript Code Standards
 

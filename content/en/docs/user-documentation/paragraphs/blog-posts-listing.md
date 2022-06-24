@@ -28,7 +28,7 @@ Advanced users can make changes to the exposed fields using the Views module and
 
 https://www.youtube.com/watch?v=h39RyuMzfBU
 
-The view for the Blog Listings paragraph is not available for editing in the [Open Y sandbox](https://sandbox.openymca.org), but you can edit the View [using your own dedicated instance](https://www.youtube.com/watch?v=GpknEXv1IfA). Doing so through the UI, however, could have implications for future upgrades.
+The view for the Blog Listings paragraph is not available for editing in the [Y USA Open Y sandbox](https://sandbox.openymca.org), but you can edit the View [using your own dedicated instance](https://www.youtube.com/watch?v=GpknEXv1IfA). Doing so through the UI, however, could have implications for future upgrades.
 
 ## Content Types that Support Blog Posts
 

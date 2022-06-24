@@ -1,8 +1,8 @@
 ---
-title: Open Y 3rd-party dependencies
+title: Y USA Open Y 3rd-party dependencies
 ---
 
-Open Y's system requirements generally track [those of Drupal](https://www.drupal.org/docs/system-requirements) with some occasional more opinionated recommendations.
+Y USA Open Y's system requirements generally track [those of Drupal](https://www.drupal.org/docs/system-requirements) with some occasional more opinionated recommendations.
 
 ## General Requirements
 
@@ -43,7 +43,7 @@ See our [installation instructions](https://github.com/ymcatwincities/openy-proj
 
 ## Software libraries and frameworks
 
-Open Y leverages many other open source frameworks including, but not limited to:
+Y USA Open Y leverages many other open source frameworks including, but not limited to:
 
 - [Drupal](https://drupal.org/project/drupal)
 - [Symfony](https://symfony.com/)

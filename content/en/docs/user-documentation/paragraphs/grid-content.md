@@ -53,17 +53,17 @@ For each item you add, you will have the following fields:
 
   [How to use the image library ⇒](http://#)
 
-* **Icon Class** - [A font awesome icon CSS class](https://fontawesome.com). You can type in the name of the class, and Open Y will generate the icon.
+* **Icon Class** - [A font awesome icon CSS class](https://fontawesome.com). You can type in the name of the class, and Y USA Open Y will generate the icon.
 
-  [Using Icon Fields in Open Y ⇒](http://#)
+  [Using Icon Fields in Y USA Open Y ⇒](http://#)
 
 * **Description** - A standard text editor field. Because of how each grid content item styles, it’s recommended that the text in this field be shorter than 200 characters.
 
-  [How to use the Text Editor in Open Y ⇒](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643)
+  [How to use the Text Editor in Y USA Open Y ⇒](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643)
 
 * **Link** - Two fields to add a URL and a link. Depending on your theme, the link will style either as a basic link or as a button.
 
-  [How link fields work in Open Y ⇒](http://#)
+  [How link fields work in Y USA Open Y ⇒](http://#)
 > Note: If you add more items than your selected style, you will create a new row. For example:
 >
 >* 2 items per row style, 3 items added -> two rows of content

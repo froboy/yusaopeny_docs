@@ -1,18 +1,18 @@
 ---
-title: Open Y Pull Requests review standard
+title: Y USA Open Y Pull Requests review standard
 ---
 
 Check more [technical guidelines about our best practices for code quality]({{< relref "Code-Review-Quality-Best-Practices" >}}).
 
 # Adherence to Standards
 
-The Open Y Core Team will adhere to the same standards we set for the community for all areas of development and technologies as per the Open Y documentation.
+The Y USA Open Y Core Team will adhere to the same standards we set for the community for all areas of development and technologies as per the Y USA Open Y documentation.
 
-The Open Y Core Team reserves the right to break these standards only in the following scenarios:
+The Y USA Open Y Core Team reserves the right to break these standards only in the following scenarios:
 
 - Emergency - a major defect or security risk has been discovered that requires extreme measures to resolve.
-- When the standards are broken, it is the responsibility of the Open Y Core Team to explain why the standards needed to be broken, and what the new standards will be moving forward.
-- This communication will be posted to the Open Y message board, Slack, and the documentation on GitHub will be updated to reflect the new standards.
+- When the standards are broken, it is the responsibility of the Y USA Open Y Core Team to explain why the standards needed to be broken, and what the new standards will be moving forward.
+- This communication will be posted to the Y USA Open Y message board, Slack, and the documentation on GitHub will be updated to reflect the new standards.
 
 ## Requirements for Pull Requests
 

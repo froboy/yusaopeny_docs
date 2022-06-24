@@ -2,7 +2,7 @@
 title: Landing Page
 ---
 
-#### Landing pages are the most flexible content type in Open Y, with no unique fields other than a layout selector.
+#### Landing pages are the most flexible content type in Y USA Open Y, with no unique fields other than a layout selector.
 
 ### Fields in Landing Page
 

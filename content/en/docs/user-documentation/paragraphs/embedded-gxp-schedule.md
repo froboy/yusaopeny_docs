@@ -22,7 +22,7 @@ title: Embedded GroupEx Pro Schedule
 > * To integrate you GroupEx Pro account, go to the admin toolbar.
     >
     >   ![admin__menu--gxp-account-settings|611x500, 75%](upload://rB0AOyzPIPVqX3ivE8BAKhsD2IQ.png)
-> * Go to Open Y > Integrations > GroupEx Pro > Group Ex Pro Account Settings. Add your account number to the field. That’s it!
+> * Go to Y USA Open Y > Integrations > GroupEx Pro > Group Ex Pro Account Settings. Add your account number to the field. That’s it!
     >![admin__gxp-account-settings|690x259, 75%](upload://uNJgKy1DAu5mYhqnijpzbSB8eAB.png)
 >
 > ---

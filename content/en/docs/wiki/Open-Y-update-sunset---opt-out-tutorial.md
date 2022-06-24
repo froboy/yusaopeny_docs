@@ -12,7 +12,7 @@ Recently, the Open Y Core Team decided to sunset this functionality and remove `
 
 ## How to opt-out from analytics subsystem
 
-Visit Open Y -> Terms and Conditions in your Open Y site instance and uncheck the Optional Permissions checkbox
+Visit Y USA Open Y -> Terms and Conditions in your Y USA Open Y site instance and uncheck the Optional Permissions checkbox
 
 ![image](https://user-images.githubusercontent.com/563412/130236284-5979a4fe-289c-4ccc-9c18-059d17d143e8.png)
 

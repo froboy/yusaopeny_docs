@@ -1,10 +1,10 @@
 ---
-title: Open Y Release Schedule and Guidelines
+title: Y USA Open Y Release Schedule and Guidelines
 ---
 
-## Open Y Release Guidelines
+## Y USA Open Y Release Guidelines
 
-Open Y releases major releases of the base project [Open Y](https://github.com/ymcatwincities/openy) and [Virtual Y](https://github.com/ymcatwincities/openy_gated_content) quarterly. Minor releases and sub-project releases occur as needed.
+Y USA Open Y releases major releases of the base project [Y USA Open Y](https://github.com/ymcatwincities/openy) and [Virtual Y](https://github.com/ymcatwincities/openy_gated_content) quarterly. Minor releases and sub-project releases occur as needed.
 
 ### Major releases (Quarterly)
 
@@ -29,4 +29,4 @@ Minor releases are numbered `2.x.x` and consist of
 
 #### Prior years
 
-- [Open Y releases for 2018-2019](https://user-images.githubusercontent.com/238201/146017405-10f28823-5af7-4498-9384-5502cbf5adaf.png)
+- [Y USA Open Y releases for 2018-2019](https://user-images.githubusercontent.com/238201/146017405-10f28823-5af7-4498-9384-5502cbf5adaf.png)

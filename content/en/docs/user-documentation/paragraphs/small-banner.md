@@ -45,7 +45,7 @@ Select *Add Small Banner* from the paragraphs dropdown. Then, fill out the follo
 
     * *Note -> This does not work in Rose.*
 
-  For recommended image sizes for your Open Y site, talk to your agency partner.
+  For recommended image sizes for your Y USA Open Y site, talk to your agency partner.
 
   [How to add/edit images ⇒](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738)
 

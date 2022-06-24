@@ -2,18 +2,18 @@
 title: "Images and Documents"
 weight: 6
 description: >
-  Open Y’s media library and browser stores images and files, allowing you to have custom cropping, focal pointing, folders and image styles.
+  Y USA Open Y’s media library and browser stores images and files, allowing you to have custom cropping, focal pointing, folders and image styles.
 ---
 
 Here is a full list of tutorials on the topic.
 
-## Open Y 2.4 and later
+## Y USA Open Y 2.4 and later
 
 ### Using the new Media Directories Feature
 
 {{< youtube gcaBlhyPZEY >}}
 
-## Open Y 2.3.5 and earlier
+## Y USA Open Y 2.3.5 and earlier
 
 ### Images Tutorials
 
