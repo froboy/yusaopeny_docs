@@ -200,7 +200,7 @@ enable = false
         desc = "Chat with developers and community members"
 [[params.links.developer]]
 	name = "Message Board"
-	url = "https://community.openymca.org/"
+	url = "https://https://community.ycloud.y.org//"
 	icon = "fa fa-user-friends"
         desc = "Connect with the community and ask for help and support."
 
