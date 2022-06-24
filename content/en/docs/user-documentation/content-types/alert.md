@@ -42,6 +42,6 @@ Click on "Content" from your admin toolbar, and then click on the blue "Add Cont
 > **What is a relative path?**
 > A *relative path* is the part of your url after your *domain name.*
 >
-> At https://openy.org/community, for example, the *domain name* is **`openy.org`**, while the *relative path* is **`/community`**.
+> At https://ycloud.y.org/open-y-association-websites/community, for example, the *domain name* is **`openy.org`**, while the *relative path* is **`/community`**.
 
 Using the **Alert visibility state** radio buttons at the bottom, you can either show or hide your alert from the page paths listed in the text area above.

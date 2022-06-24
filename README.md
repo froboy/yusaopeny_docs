@@ -2,7 +2,7 @@
 
 [Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **Y USA Open Y Docs Project** uses the
-Docsy theme to serve documentation for the [Y USA Open Y](https://openy.org) distribution.
+Docsy theme to serve documentation for the [Y USA Open Y](https://ycloud.y.org/open-y-association-websites) distribution.
 
 You can find detailed theme instructions in the [Docsy user guide][].
 

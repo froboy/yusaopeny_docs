@@ -2,7 +2,7 @@
 title: Wiki
 ---
 
-This wiki is the primary location for developer documentation for [Y USA Open Y](https://openy.org/) - a digital transformation platform for YMCAs.
+This wiki is the primary location for developer documentation for [Y USA Open Y](https://ycloud.y.org/open-y-association-websites/) - a digital transformation platform for YMCAs.
 
 # Where to Start
 

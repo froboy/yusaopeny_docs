@@ -26,7 +26,7 @@ Ys with newer versions of Y USA Open Y can add attributes to their links, includ
 * For links on your website, don’t use the full URL. Highlight everything beginning with the `/` after your `.com`, `.org`, etc.
   * For example, for openy.org/about, you would choose /about. This is called the relative path, and it will help your analytics tracking.
 * For links on other websites, grab the full URL, including the `https://`.
-  * For example, for openy.org/about, you would choose https://openy.org/about.
+  * For example, for openy.org/about, you would choose https://ycloud.y.org/open-y-association-websites/about.
 * For email links, add `"mailto:example@exampleymca.org."`
 
 To update/change a link, highlight the link text and click the link icon or Ctrl+K (Windows) /Command(⌘)+K (Mac).

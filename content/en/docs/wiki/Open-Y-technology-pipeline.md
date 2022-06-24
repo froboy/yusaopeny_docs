@@ -11,6 +11,6 @@ To deliver the best technologies for the YMCA movement, the Y USA Open Y develop
 1. Smoke Tests
 	- [Smoke Tests YouTube Playlist](https://www.youtube.com/watch?v=MH4BwMowlic&list=PL_QVggMcFfKYfV1cnistny2L-Sp55SoMg)
 	- [Open-Y-Smoke-Tests-Index]({{< relref "Open-Y-Smoke-Tests-Index.md" >}})
-1. A Slack Team [by invite](https://openy.org/contact/slack_access_request) with an #architects_support channel where we discuss technical issues with our partners and YUSA.
+1. A Slack Team [by invite](https://ycloud.y.org/open-y-association-websites/contact/slack_access_request) with an #architects_support channel where we discuss technical issues with our partners and YUSA.
 1. A [YouTube playlist for Developers](https://www.youtube.com/watch?v=RSsQLVVhldc&list=PL_QVggMcFfKZp05THV3dYlYOG3MsJ8xSf)
 1. A list of [3rd party dependencies]({{< relref "Open-Y-3rd-party-dependencies" >}}) which are reviewed periodically for new features and deprecations.

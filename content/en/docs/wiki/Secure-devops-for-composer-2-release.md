@@ -49,4 +49,4 @@ If your composer updated to version 2 and you have issues with this upgrade, the
 composer selfupdate --1
 ```
 
-If you are faced with any issues connect with the Y USA Open Y team on GitHub ([create issue](https://github.com/YCloudYUSA/yusaopeny/issues/new)) and the #developers channel [on Slack](https://openy.org/contact).
+If you are faced with any issues connect with the Y USA Open Y team on GitHub ([create issue](https://github.com/YCloudYUSA/yusaopeny/issues/new)) and the #developers channel [on Slack](https://ycloud.y.org/open-y-association-websites/contact).

@@ -91,7 +91,7 @@ section = ["HTML", "print", "RSS"]
 
 [params]
 copyright = 'Y USA Open Y'
-privacy_policy = "https://openy.org/"
+privacy_policy = "https://ycloud.y.org/open-y-association-websites/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -174,7 +174,7 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name = "Y USA Open Y"
-	url = "https://openy.org"
+	url = "https://ycloud.y.org/open-y-association-websites"
 	icon = "fa fa-globe"
         desc = "Main Y USA Open Y site and updates."
 [[params.links.user]]
