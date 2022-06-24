@@ -5,7 +5,7 @@ title: Acceptance Testing
 Y USA Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.
 
-For the automated tests we have created [General Checks template](https://github.com/ymcatwincities/openy/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md)
+For the automated tests we have created [General Checks template](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md)
 on GitHub every developer should follow to get review approval from Y USA Open Y core team.
 However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.
 
@@ -43,10 +43,10 @@ Tip: usually a new version of the module already contains a bug fix, so adding a
 released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.
 
 After creating list of modules that could introduce regression issues it is highly recommended to follow
-Quick-start section of the module's readme files, that usually is shipped with modules. [Example for the location_finder](https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart).
+Quick-start section of the module's readme files, that usually is shipped with modules. [Example for the location_finder](https://github.com/YCloudYUSA/yusaopeny/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart).
 In case if a module has no Quick-start or Acceptance testing section in readme - it is important to test at least one place
 where functionality of the module should be working. It is highly recommended to add this manual test steps as
-a follow-up task, [new issue](https://github.com/ymcatwincities/openy/issues/new) or even better - create Pull Request
+a follow-up task, [new issue](https://github.com/YCloudYUSA/yusaopeny/issues/new) or even better - create Pull Request
 with changes to readme into Y USA Open Y repository. For the sake of performance, adding step by step how-to to the respective
 module's README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.
 

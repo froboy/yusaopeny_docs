@@ -6,7 +6,7 @@ Here you can find instructions how you can start project based on Y USA Open Y d
 
 ## New project from scratch based on Y USA Open Y
 
-In order to start new project from scratch, you can use [installation instructions](https://github.com/ymcatwincities/openy-project#installation) that will build your project and even add development environment.
+In order to start new project from scratch, you can use [installation instructions](https://github.com/YCloudYUSA/yusaopeny-project#installation) that will build your project and even add development environment.
 
 
 ## Add Y USA Open Y to existing Drupal 8 project
@@ -24,7 +24,7 @@ Please take a look at the full `composer.json` file below that you should eventu
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "~1.4",
-        "ymcatwincities/openy": "8.*.*",
+        "YCloudYUSA/yusaopeny": "8.*.*",
         "cweagans/composer-patches": "~1.0"
     },
     "minimum-stability": "dev",
@@ -205,11 +205,11 @@ Please take a look at the full `composer.json` file below that you should eventu
 
 </details>
 
-1. Add `"ymcatwincities/openy": "8.*.*"` to the `require` section in your `composer.json`, like [here](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L7)
+1. Add `"YCloudYUSA/yusaopeny": "8.*.*"` to the `require` section in your `composer.json`, like [here](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L7)
 
-2. Add all required repositories that are [listed here](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L31) to your `composer.json`
+2. Add all required repositories that are [listed here](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L31) to your `composer.json`
 
-3. Add installer path as here to your `composer json`. See [example](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L165).
+3. Add installer path as here to your `composer json`. See [example](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L165).
 
 - `composer.json` **inside** of docroot
 Installer path will look like this:
@@ -243,19 +243,19 @@ Installer path will look like this:
     }
     ```
 
-4. Add `"cweagans/composer-patches": "~1.0"` to the `require` section in you `composer.json`. See [example](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L10).
+4. Add `"cweagans/composer-patches": "~1.0"` to the `require` section in you `composer.json`. See [example](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L10).
 
-5. Add `"enable-patching": true` to the `extra` section in your `composer.json` See [example](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L173).
+5. Add `"enable-patching": true` to the `extra` section in your `composer.json` See [example](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L173).
 
-6. Add `"secure-http": false` to the `config` section in your `composer.json` See [example](https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L177).
+6. Add `"secure-http": false` to the `config` section in your `composer.json` See [example](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L177).
 
 7. Remove `composer.lock` and `vendor` folder from the project if they are exist in your folder.
 
 8. Remove `"replace"` section from your `composer.json`
 
 9. (Optional) If you keep `vendor` folder in your git repository, we recommend to clean up project from `.git` folder inside modules and libraries. To do so
-- Add cleaner script to your project from [Y USA Open Y composer package](https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh). You can just copy it and paste onto your project.
-- [Adjust folders](https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh#L4) that you would like to cleanup
+- Add cleaner script to your project from [Y USA Open Y composer package](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh). You can just copy it and paste onto your project.
+- [Adjust folders](https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh#L4) that you would like to cleanup
 - Execute it in `post-install-cmd` and `post-update-cmd`:
 
     ```
@@ -307,7 +307,7 @@ In this section you can learn how to configure development environment and CI se
 3. Run command
 
   ```bash
-  bash <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/build/openy-digital-ocean.sh)
+  bash <(curl -s https://raw.githubusercontent.com/YCloudYUSA/yusaopeny/8.x-1.x/build/openy-digital-ocean.sh)
   ```
 4. Open link(e.g. http://IP/core/install.php) from console output and finish Y USA Open Y installation
 

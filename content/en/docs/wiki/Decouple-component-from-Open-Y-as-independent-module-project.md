@@ -10,7 +10,7 @@ Communication started in the [Community Board - Ejecting modules from OpenY dist
 
 The decoupling process is ongoing. See [the index of decoupled projects]({{< relref "Decoupled-(-external-)-projects-of-OpenY" >}}).
 
-In 2021 the Y USA Open Y core team faced coupling blockers in the distribution during [the upgrade from Drupal 8 to Drupal 9](https://github.com/ymcatwincities/openy/milestone/21)
+In 2021 the Y USA Open Y core team faced coupling blockers in the distribution during [the upgrade from Drupal 8 to Drupal 9](https://github.com/YCloudYUSA/yusaopeny/milestone/21)
 
 To formalize the ongoing development and maintenance strategy, the Y USA Open Y core team [shared its decoupling plan with the wider community](https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing) in mid-2021.
 
@@ -20,10 +20,10 @@ This document elaborates on those processes.
 
 - Every new component or sub-project of Y USA Open Y should be developed in its own repository - either on GitHub or Drupal.org.
   - Drupal.org example: [paragraph_skins](https://www.drupal.org/project/paragraph_skins)
-  - GitHub Example: [openy_activity_finder](https://github.com/ymcatwincities/openy_activity_finder)
+  - GitHub Example: [openy_activity_finder](https://github.com/YCloudYUSA/yusaopeny_activity_finder)
 - The decoupled project could be
-  - **part of Y USA Open Y core** - e.g. [Activity Finder](https://github.com/ymcatwincities/openy_activity_finder) and [added to Y USA Open Y profile by default](https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112), or
-  - **not part of the core**, e.g. [Y USA Open Y Membership Framework](https://github.com/ymcatwincities/openy_memberships) which could be [installed later](https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation).
+  - **part of Y USA Open Y core** - e.g. [Activity Finder](https://github.com/YCloudYUSA/yusaopeny_activity_finder) and [added to Y USA Open Y profile by default](https://github.com/YCloudYUSA/yusaopeny/blob/9.2.8.0/composer.json#L112), or
+  - **not part of the core**, e.g. [Y USA Open Y Membership Framework](https://github.com/YCloudYUSA/yusaopeny_memberships) which could be [installed later](https://github.com/YCloudYUSA/yusaopeny_memberships/blob/master/README.md#installation).
 - **GitHub** should be used when there is no strategy to make a component or project available for the wider Drupal community - that is, when it is tied to YMCA business and unlikely to be leveraged by somebody else.
 - **Drupal.org** should be used when the component could be useful to projects outside of Y USA Open Y.
 
@@ -33,11 +33,11 @@ This document elaborates on those processes.
 
 1. Create a new GitHub/Drupal.org repository.
 1. Work on getting an initial release with at least `beta` version stability.
-1. Create a composer.json file for the component in order to be able to start using it via `composer`. See [Virtual Y](https://github.com/ymcatwincities/openy_gated_content/blob/master/composer.json) for an example.
+1. Create a composer.json file for the component in order to be able to start using it via `composer`. See [Virtual Y](https://github.com/YCloudYUSA/yusaopeny_gated_content/blob/master/composer.json) for an example.
 1. Make it available for the public via packagist.org or drupal.org as a release. Ensure `podarok` is added as a co-maintainer to the respective system.
-1. Suggest adding to Y USA Open Y by [opening an issue](https://github.com/ymcatwincities/openy/issues).
-1. If approved, create a Pull Request adding it as a dependency in [composer.json](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json).
-1. Ensure this component is enabled in any of the packages maintained in the [Y USA Open Y profile installation](https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml)
+1. Suggest adding to Y USA Open Y by [opening an issue](https://github.com/YCloudYUSA/yusaopeny/issues).
+1. If approved, create a Pull Request adding it as a dependency in [composer.json](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/composer.json).
+1. Ensure this component is enabled in any of the packages maintained in the [Y USA Open Y profile installation](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/openy.packages.yml)
 1. Ask for review and release, according to the [release plan]({{< relref "How-we-release-OpenY-distribution-from-code-perspective" >}}).
 
 ### for decoupling an existing component of Y USA Open Y
@@ -62,7 +62,7 @@ Follow the steps above, but:
 Example: [paragraph_skins](https://www.drupal.org/project/paragraph_skins)
 
 ```sh
-git clone git@github.com:ymcatwincities/openy.git decouple
+git clone git@github.com:YCloudYUSA/yusaopeny.git decouple
 rm -rf decouple_copy && cp -a decouple decouple_copy
 cd decouple_copy
 git filter-branch --subdirectory-filter docroot/modules/contrib/paragraph_skins
@@ -79,19 +79,19 @@ git push origin production:8.x-1.x
 Request a repository for the module. Example: [shared_content_server](https://github.com/Open-Y-subprojects/shared_content_server)
 
 ```sh
-git clone git@github.com:ymcatwincities/openy.git decouple
+git clone git@github.com:YCloudYUSA/yusaopeny.git decouple
 rm -rf decouple_copy && cp -a decouple decouple_copy
 cd decouple_copy
 git filter-branch --subdirectory-filter docroot/profiles/contrib/openy/modules/custom/SOME_MODULE_HERE
 git clean -dfx
 git remote remove origin && git remote add origin git@github.com:Open-Y-subprojects/SOME_MODULE_HERE.git
 git push origin production
-# Create composer.json on the decoupled repository. Example: https://github.com/ymcatwincities/openy_activity_finder/blob/4.x/composer.json
+# Create composer.json on the decoupled repository. Example: https://github.com/YCloudYUSA/yusaopeny_activity_finder/blob/4.x/composer.json
 git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 # Update composer json for distrubution. See below
 ```
 
-[Example for Activity Finder](https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111)
+[Example for Activity Finder](https://github.com/YCloudYUSA/yusaopeny/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111)
 
 # References
 

@@ -10,7 +10,7 @@ Each theme has its own dependencies and build processes. Please read the steps i
 
 ## Inventory of themes
 
-As of December 2021, themes [have been decoupled](https://github.com/ymcatwincities/openy/pull/2595) from the Y USA Open Y profile to independent projects on Drupal.org.
+As of December 2021, themes [have been decoupled](https://github.com/YCloudYUSA/yusaopeny/pull/2595) from the Y USA Open Y profile to independent projects on Drupal.org.
 
 ### Carnation
 

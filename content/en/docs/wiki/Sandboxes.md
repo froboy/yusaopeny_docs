@@ -28,7 +28,7 @@ based on the latest stable release of Y USA Open Y.
 These sandboxes are built on CI by running:
 
 ```sh
-composer create-project ymcatwincities/openy-project buildnew --no-interaction --prefer-dist
+composer create-project YCloudYUSA/yusaopeny-project buildnew --no-interaction --prefer-dist
 
 ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=sandbox_carnation_custom -e drupal_folder=/var/www/sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus.openy.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -e use_solr=false -i localhost, --connection=local -vvvv
 ```
@@ -37,12 +37,12 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 https://sandboxes-dev.openy.org/
 
-These usually contain the latest development version of Y USA Open Y (the master branch of [openy](https://github.com/ymcatwincities/openy).
+These usually contain the latest development version of Y USA Open Y (the master branch of [openy](https://github.com/YCloudYUSA/yusaopeny).
 
 These sandboxes are built on CI by running:
 
 ```sh
-composer create-project ymcatwincities/openy-project:dev-9.2.x-development buildnew --no-interaction --prefer-dist
+composer create-project YCloudYUSA/yusaopeny-project:dev-9.2.x-development buildnew --no-interaction --prefer-dist
 
 ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=sandbox_carnation_custom -e drupal_folder=/var/www/sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus.openy.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -e use_solr=false -i localhost, --connection=local -vvvv
 ```
@@ -51,12 +51,12 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 https://membership-framework-sandboxes-d9.openy.org/
 
-These are based on the Y USA Open Y stable Standard profile and the development version of the [Membership Framework](https://github.com/ymcatwincities/openy_memberships).
+These are based on the Y USA Open Y stable Standard profile and the development version of the [Membership Framework](https://github.com/YCloudYUSA/yusaopeny_memberships).
 
 To rebuild the sandbox, CI is running:
 
 ```sh
-composer create-project ymcatwincities/openy-project buildnew --no-interaction --prefer-dist
+composer create-project YCloudYUSA/yusaopeny-project buildnew --no-interaction --prefer-dist
 cd buildnew
 composer config minimum-stability dev
 composer require "openy/openy_memberships":"dev-master as 1.0.0"
@@ -74,9 +74,9 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory13097841656330601319.ini
 To rebuild the sandbox, CI is running:
 
 ```sh
-composer create-project ymcatwincities/openy-project:dev-9.2.x-development-af4 build --no-interaction --prefer-dist
+composer create-project YCloudYUSA/yusaopeny-project:dev-9.2.x-development-af4 build --no-interaction --prefer-dist
 cd ${WORKSPACE}/build
-composer require ymcatwincities/openy_activity_finder:"4.x-dev as 4.0"
+composer require YCloudYUSA/yusaopeny_activity_finder:"4.x-dev as 4.0"
 
 ansible-playbook docroot/reinstall.yml -i /tmp/inventory4660848605526222353.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=d9_sandbox_carnation_custom -e drupal_folder=/var/www/d9_sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus-d9.openy.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -i localhost, --connection=local -vvvv
 

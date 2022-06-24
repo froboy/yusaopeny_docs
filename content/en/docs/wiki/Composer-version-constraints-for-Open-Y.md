@@ -4,7 +4,7 @@ title: Composer version constraints for Y USA Open Y
 
 In 2020, due to changes in Drupal core release management and demand from Y USA Open Y customers to improve upgrade path flexibility and stability, the Y USA Open Y team added extended composer version constraints to our `composer.json`.
 
-Examples from [composer.json](https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json):
+Examples from [composer.json](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/composer.json):
 
 - `"drupal/ckeditor_bootstrap_buttons": "^1.2 || ^2.0.0",` - this line means previous version was 1.2 or any 1.x starting from 1.2, and latest tested - 2.0.0 with allowed any stable 2.x starting from 2.0.0
 - `"drupal/custom_formatters": "^3.0 || ^3.0@beta",` - tested with 3.0 beta of custom_formatters and allowed any 3.x starting from 3.0 (when it will be released)
@@ -20,14 +20,14 @@ For example:
 from [upgrade doc]({{< relref "OpenY-upgrade-how-to-for-Developers" >}})
 
 ```bash
-composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer require YCloudYUSA/yusaopeny:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest
 ```
 
 then change the dependency version
 
 ```bash
-composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer require YCloudYUSA/yusaopeny:NEW_VERSION_HERE --no-update
 composer require drupal/custom_formatters:3.0@beta1
 ```
 

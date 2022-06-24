@@ -8,10 +8,10 @@ Check all GitHub for the tag [``openy-decoupled``](https://github.com/topics/ope
 
 ## GitHub hosted
 
-1. [`ymcatwincities/openy_block_modal`](https://github.com/ymcatwincities/openy_block_modal) - Implements a simple block with a body and title that will be used to display modal windows.
-1. [`ymcatwincities/openy_memberships`](https://github.com/ymcatwincities/openy_memberships) - Membership Framework for OpenY and Drupal.
-1. [`ymcatwincities/openy_prgf_sidebar_menu`](https://github.com/ymcatwincities/openy_prgf_sidebar_menu) - SideBar menu for referencing menu blocks and using in SideBars across different pages.
-1. [`ymcatwincities/openy_loc_finder`](https://github.com/ymcatwincities/openy_loc_filter) - Extended Location Finder
+1. [`YCloudYUSA/yusaopeny_block_modal`](https://github.com/YCloudYUSA/yusaopeny_block_modal) - Implements a simple block with a body and title that will be used to display modal windows.
+1. [`YCloudYUSA/yusaopeny_memberships`](https://github.com/YCloudYUSA/yusaopeny_memberships) - Membership Framework for OpenY and Drupal.
+1. [`YCloudYUSA/yusaopeny_prgf_sidebar_menu`](https://github.com/YCloudYUSA/yusaopeny_prgf_sidebar_menu) - SideBar menu for referencing menu blocks and using in SideBars across different pages.
+1. [`YCloudYUSA/yusaopeny_loc_finder`](https://github.com/YCloudYUSA/yusaopeny_loc_filter) - Extended Location Finder
 1. [`Open-Y-subprojects/reqclique_gxp_sync`](https://github.com/Open-Y-subprojects/reqclique_gxp_sync) - Reqclique Group Exercise Sync
 1. [`open-y-subprojects/virtual_y_signaling_server`](https://github.com/open-y-subprojects/virtual_y_signaling_server) - Signalling server for Virtual Y
 1. [`open-y-subprojects/openy_daxko_gxp_syncer`](https://github.com/open-y-subprojects/openy_daxko_gxp_syncer) - Daxko GroupEx PRO v1 API Syncer into Program Event Framework
@@ -23,7 +23,7 @@ Check all GitHub for the tag [``openy-decoupled``](https://github.com/topics/ope
 1. [`ynorth-projects/openy_repeat`](https://github.com/ynorth-projects/openy_repeat) - Repeat API for PEF. Schedules APP built in Vue.js
 1. [`ynorth-projects/openy_pef_gxp_sync`](https://github.com/ynorth-projects/openy_pef_gxp_sync) - Groupex Pro Embed/OpenY Syncer into PEF
 1. [`ymcatwincities/ymca_sync`](https://github.com/ymcatwincities/ymca_sync) - Syncer backend core
-1. [`ymcatwincities/openy_activity_finder`](https://github.com/ymcatwincities/openy_activity_finder) - Activity Finder app
+1. [`YCloudYUSA/yusaopeny_activity_finder`](https://github.com/YCloudYUSA/yusaopeny_activity_finder) - Activity Finder app
 1. [`ymcatwincities/media_entity_document`](https://github.com/ymcatwincities/media_entity_document) - Media Entity Document
 1. [`ynorth-projects/openy_prgf_session_table`](https://github.com/ynorth-projects/openy_prgf_session_table) - if you need to present couple of Sessions in a table view without using any complex app like Schedules or Activity Finder
 

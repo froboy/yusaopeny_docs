@@ -20,7 +20,7 @@ For patching your very old OpenY release it is highly recommended to upgrade Ope
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/8.2.x.patch
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/8.2.x.patch
 ```
 Now you are ready to patch your site. But before patching - make a backup of the file which is about to be patched
 ```sh
@@ -56,7 +56,7 @@ For patching your relatively old OpenY release it is highly recommended to upgra
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/8.3.x.patch
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/8.3.x.patch
 ```
 Now you are ready to patch your site. But before patching - make a backup of the file which is about to be patched
 ```sh
@@ -92,7 +92,7 @@ For patching your OpenY release it is highly recommended to upgrade OpenY to lat
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/8.4.x.patch
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/8.4.x.patch
 ```
 Now you are ready to patch your site. But before patching - make a backup of the file which is about to be patched
 ```sh
@@ -137,7 +137,7 @@ In case if you have followed tutorial https://www.youtube.com/watch?v=V3K4-RLjxQ
 Type manually exact line
 
 ```sh
-bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh)
+bash < <(curl -s https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/run8.2.x.sh)
 ```
 and hit Enter.
 You should see ```OpenY was patched``` message.
@@ -147,7 +147,7 @@ You should see ```OpenY was patched``` message.
 Type manually exact line
 
 ```sh
-bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.3.x.sh)
+bash < <(curl -s https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/run8.3.x.sh)
 ```
 and hit Enter.
 You should see ```OpenY was patched``` message.
@@ -157,7 +157,7 @@ You should see ```OpenY was patched``` message.
 Type manually exact line
 
 ```sh
-bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh)
+bash < <(curl -s https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/run8.2.x.sh)
 ```
 and hit Enter.
 You should see ```OpenY was patched``` message.

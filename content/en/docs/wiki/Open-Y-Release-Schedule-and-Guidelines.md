@@ -4,7 +4,7 @@ title: Y USA Open Y Release Schedule and Guidelines
 
 ## Y USA Open Y Release Guidelines
 
-Y USA Open Y releases major releases of the base project [Y USA Open Y](https://github.com/ymcatwincities/openy) and [Virtual Y](https://github.com/ymcatwincities/openy_gated_content) quarterly. Minor releases and sub-project releases occur as needed.
+Y USA Open Y releases major releases of the base project [Y USA Open Y](https://github.com/YCloudYUSA/yusaopeny) and [Virtual Y](https://github.com/YCloudYUSA/yusaopeny_gated_content) quarterly. Minor releases and sub-project releases occur as needed.
 
 ### Major releases (Quarterly)
 

@@ -31,9 +31,9 @@ Ensure you have a working computer or virtual machine with:
 - PHP 7.4 (8.0+ could be an issue with some contrib modules)
 - Drush 8.4.10 system version (for Y USA Open Y pre 8.2 ). **No support for Drush 9.x in Drupal 8 branches. Only in Drupal 9**. **Use Drush 8.4+ for OpenY 9.2+**
 
-The Y USA Open Y team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/ymcatwincities/openy-cibox-vm). Feel free to use it to get a working virtual environment.
+The Y USA Open Y team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get a working virtual environment.
 
-Your own Y USA Open Y instance should have a virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
+Your own Y USA Open Y instance should have a virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/YCloudYUSA/yusaopeny-cibox-vm/blob/master/README.md).
 
 ### Obtain local copy of your production site
 
@@ -51,14 +51,14 @@ In the same folder where your `docroot` is, run:
 
 ```sh
 mv composer.json composer.json.bak || true
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.2.x/composer.json
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.2.x/composer.json
 cd docroot/profiles/contrib/openy/
 rm -f yparse*
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.2.x/scripts/yparse.sh
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.2.x/scripts/yparse.sh
 drush cr
 sh yparse.sh | xargs drush en -y
 cd ../../../../
-composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer require YCloudYUSA/yusaopeny:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest
 ```
 
@@ -73,7 +73,7 @@ cd docroot
 drush en openy_upgrade_tool openy_er openy_prgf_loc_finder openy_map openy_data_wrapper openy_loc_branch openy_focal_point media_directories_ui
 ```
 
-Sometimes it is important to get the latest [openy_upgrade_tool](https://github.com/ymcatwincities/openy/tree/8.x-2.x/modules/custom/openy_upgrade_tool) from the repository even if you are not updating to the latest version of Y USA Open Y. You'll be able to disable them in the end once all updates are executed successfully.
+Sometimes it is important to get the latest [openy_upgrade_tool](https://github.com/YCloudYUSA/yusaopeny/tree/8.x-2.x/modules/custom/openy_upgrade_tool) from the repository even if you are not updating to the latest version of Y USA Open Y. You'll be able to disable them in the end once all updates are executed successfully.
 
 ### Verify if the Media Entity to Media in Core migration is possible ( only for upgrades from OpenY 1.x to 2.x )
 
@@ -124,7 +124,7 @@ drush entup
 
 Please any log errors as issues for the QA team investigate.
 
-If you have issues, the only way to avoid errors is to use Drupal's `hook_update_dependencies` API to change the order of running updates to eliminate issues. [See this example](https://github.com/ymcatwincities/openy/pull/1560/files).
+If you have issues, the only way to avoid errors is to use Drupal's `hook_update_dependencies` API to change the order of running updates to eliminate issues. [See this example](https://github.com/YCloudYUSA/yusaopeny/pull/1560/files).
 
 Ensure commands above have finished with no error messages. The best way to check it is to run them one more time. If the next run shows:
 

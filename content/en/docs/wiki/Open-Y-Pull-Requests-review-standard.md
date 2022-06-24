@@ -21,14 +21,14 @@ The Y USA Open Y Core Team reserves the right to break these standards only in t
 
 ## Template for the PR
 
-In order to create a good quality Pull Request, we prepared a [PR template](https://github.com/ymcatwincities/openy/blob/8.x-2.x/.github/PULL_REQUEST_TEMPLATE.md) which is automatically added to new Pull Requests on GitHub.
+In order to create a good quality Pull Request, we prepared a [PR template](https://github.com/YCloudYUSA/yusaopeny/blob/8.x-2.x/.github/PULL_REQUEST_TEMPLATE.md) which is automatically added to new Pull Requests on GitHub.
 
 List of requirements from the template:
 
 - Provide a link to the original issue, which is going to be fixed by the PR you are creating.
 - All coding styles are fulfilled and there are no issues reported by CodeSniffer. See [Code of Conduct]({{< relref "Open-Y-Code-of-Conduct-and-Best-Practices" >}}).
-- [Documentation](https://github.com/ymcatwincities/openy/tree/9.x-2.x/docs) have been updated according to PR changes.
-- [Steps for review](https://github.com/ymcatwincities/openy/pull/94#issue-204580200) have been provided according to PR changes. <br/><img src="https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/.github/assets/steps-for-review.png" width="200" alt="Steps for review"/>
-- Make sure you've provided all necessary hook\_update\_N to [support upgrade path](https://github.com/ymcatwincities/openy/blob/9.x-2.x/docs/Development/Upgrade%20path.md).
-- Make sure your git email is associated with an account on drupal.org, otherwise you won't get commits there. <br/><img src="https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/.github/assets/drupalorg-email.png" width="200" alt="drupal.org email"/>
-- If you would like to get credits on drupal.org, [check documentation](https://github.com/ymcatwincities/openy/blob/9.x-2.x/docs/Development/Contributing.md#drupalorg-credits).
+- [Documentation](https://github.com/YCloudYUSA/yusaopeny/tree/9.x-2.x/docs) have been updated according to PR changes.
+- [Steps for review](https://github.com/YCloudYUSA/yusaopeny/pull/94#issue-204580200) have been provided according to PR changes. <br/><img src="https://raw.githubusercontent.com/YCloudYUSA/yusaopeny/8.x-1.x/.github/assets/steps-for-review.png" width="200" alt="Steps for review"/>
+- Make sure you've provided all necessary hook\_update\_N to [support upgrade path](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/docs/Development/Upgrade%20path.md).
+- Make sure your git email is associated with an account on drupal.org, otherwise you won't get commits there. <br/><img src="https://raw.githubusercontent.com/YCloudYUSA/yusaopeny/8.x-1.x/.github/assets/drupalorg-email.png" width="200" alt="drupal.org email"/>
+- If you would like to get credits on drupal.org, [check documentation](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/docs/Development/Contributing.md#drupalorg-credits).

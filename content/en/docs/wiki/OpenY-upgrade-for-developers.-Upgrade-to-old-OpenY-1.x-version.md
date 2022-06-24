@@ -21,8 +21,8 @@ Ensure you have working computer or virtual machine with
  - Apache 2.4
  - PHP 5.6-7.1 (7.2 is not supported yet)
 
-OpenY team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/ymcatwincities/openy-cibox-vm). Feel free to use it to get working virtual environment.
-Your own OpenY instance should have Virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
+OpenY team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get working virtual environment.
+Your own OpenY instance should have Virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/YCloudYUSA/yusaopeny-cibox-vm/blob/master/README.md).
 
 ### Obtain local copy of your production site
 
@@ -36,7 +36,7 @@ For that
 1. ### Detect version of your OpenY
 
 Starting from OpenY 1.10 release you should see a version of OpenY in your site reports dashboard.
-For previous versions the best way to check your version is to analyze creation date of index.php pr README.txt file in the docroot folder of your site and compare it to the release date from https://github.com/ymcatwincities/openy/releases . Your OpenY version should be the one which is older than creation date of the files.
+For previous versions the best way to check your version is to analyze creation date of index.php pr README.txt file in the docroot folder of your site and compare it to the release date from https://github.com/YCloudYUSA/yusaopeny/releases . Your OpenY version should be the one which is older than creation date of the files.
 
 2. ### Run command with next never version
 
@@ -44,14 +44,14 @@ In a same folder where is your ```docroot``` folder run
 
 ```sh
 mv composer.json composer.json.bak || true
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/composer.json
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/composer.json
 cd docroot/profiles/contrib/openy/
 rm -f yparse*
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/yparse.sh
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/yparse.sh
 drush cr
 sh yparse.sh | xargs drush en -y
 cd ../../../../
-composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer require YCloudYUSA/yusaopeny:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --update-with-all-dependencies --no-suggest
 
 ```

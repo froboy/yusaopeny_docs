@@ -22,7 +22,7 @@ if your site is located in /var/www/html
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
 
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/SA-CORE-2018-004.patch
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/SA-CORE-2018-004.patch
 ```
 
 if your site is located in /var/www/openy
@@ -30,7 +30,7 @@ if your site is located in /var/www/openy
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/openy
 
-wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/SA-CORE-2018-004.patch
+wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/SA-CORE-2018-004.patch
 ```
 
 Now you are ready to patch your site. But before patching - make a backup of the file which is about to be patched
@@ -77,7 +77,7 @@ In case if you have followed tutorial https://www.youtube.com/watch?v=V3K4-RLjxQ
 Type manually exact line
 
 ```sh
-bash < <(curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/runSA-CORE-2018-004.sh)
+bash < <(curl -s https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.1.x/scripts/patches/runSA-CORE-2018-004.sh)
 ```
 and hit Enter.
 You should see ```OpenY was patched``` message.

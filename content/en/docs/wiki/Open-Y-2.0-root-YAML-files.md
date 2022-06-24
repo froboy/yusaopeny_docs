@@ -90,7 +90,7 @@ Each installation type has a machine name which is a key of the top-level items.
 
 If an Y USA Open Y site is installed using the web interface there is a step where the installation type can be selected.
 
-If an Y USA Open Y site is installed using Drush then the installation type can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
+If an Y USA Open Y site is installed using Drush then the installation type can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/YCloudYUSA/yusaopeny/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
 
 ```
   drush site-install openy \
@@ -145,7 +145,7 @@ Each package has a machine name which is a key of the top-level items.
 
 The file defines which Y USA Open Y themes are available for installation when a website is being installed.
 
-If an Y USA Open Y site is installed using Drush then the theme can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/ymcatwincities/openy/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
+If an Y USA Open Y site is installed using Drush then the theme can be specified by an optional argument for the `drush site-install` command ([Installation with Drush](https://github.com/YCloudYUSA/yusaopeny/blob/8.x-2.x/docs/Development/InstallationWithDrush.md)):
 
 ```
   drush site-install openy \

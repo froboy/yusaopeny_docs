@@ -4,7 +4,7 @@ title: Open Y update sunset - opt out tutorial
 
 ## Preamble
 
-Back on 28 Jan 2020 Open Y decided to add an anonymous analytics module [`openy_analytics`](https://github.com/ymcatwincities/openy/tree/9.x-2.x/modules/custom/openy_analytics) which was a free opt-in/opt-out solution for the Core team to gather stats from Open Y sites about the frequency of components used.
+Back on 28 Jan 2020 Open Y decided to add an anonymous analytics module [`openy_analytics`](https://github.com/YCloudYUSA/yusaopeny/tree/9.x-2.x/modules/custom/openy_analytics) which was a free opt-in/opt-out solution for the Core team to gather stats from Open Y sites about the frequency of components used.
 
 The idea behind this was to gather data in order to understand the demand for the components in Open Y and use the data to make better decisions.
 
@@ -22,4 +22,4 @@ If the checkbox was not enabled just disregard it, you didn't opt-in earlier.
 
 ## Deprecation action
 
-Uninstall and deprecation was done in [#2537](https://github.com/ymcatwincities/openy/pull/2537)
+Uninstall and deprecation was done in [#2537](https://github.com/YCloudYUSA/yusaopeny/pull/2537)

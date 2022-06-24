@@ -2,7 +2,7 @@
 title: Secure devops for composer 2 release
 ---
 
-This article only applies to long-term users of Y USA Open Y. Y USA Open Y supports Composer 2 [as of version 8.2.7 in November 2020](https://github.com/ymcatwincities/openy/releases/tag/8.2.7) and new installs use Composer 2 by default.
+This article only applies to long-term users of Y USA Open Y. Y USA Open Y supports Composer 2 [as of version 8.2.7 in November 2020](https://github.com/YCloudYUSA/yusaopeny/releases/tag/8.2.7) and new installs use Composer 2 by default.
 
 ----
 
@@ -49,4 +49,4 @@ If your composer updated to version 2 and you have issues with this upgrade, the
 composer selfupdate --1
 ```
 
-If you are faced with any issues connect with the Y USA Open Y team on GitHub ([create issue](https://github.com/ymcatwincities/openy/issues/new)) and the #developers channel [on Slack](https://openy.org/contact).
+If you are faced with any issues connect with the Y USA Open Y team on GitHub ([create issue](https://github.com/YCloudYUSA/yusaopeny/issues/new)) and the #developers channel [on Slack](https://openy.org/contact).

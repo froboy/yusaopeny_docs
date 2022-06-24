@@ -39,7 +39,7 @@ See also Drupal's recommendations for [managing site performance and scalability
 - [Composer package manager](https://getcomposer.org/)
 - [Docker virtual environments](https://www.docker.com/)
 
-See our [installation instructions](https://github.com/ymcatwincities/openy-project#installation) for a full walkthrough of these tools.
+See our [installation instructions](https://github.com/YCloudYUSA/yusaopeny-project#installation) for a full walkthrough of these tools.
 
 ## Software libraries and frameworks
 

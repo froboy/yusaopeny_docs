@@ -11,5 +11,5 @@ Occasionally old code is deprecated from the Y USA Open Y codebase. In order to 
 
 Additionally, the following housekeeping steps should be taken when deprecating a component:
 
-1. The release where the deprecated component has been uninstalled should be added to the [important versions document](https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path) in the Wiki.
+1. The release where the deprecated component has been uninstalled should be added to the [important versions document](https://github.com/YCloudYUSA/yusaopeny/wiki/Important-versions-for-upgrade-path) in the Wiki.
 1. Code should be decoupled to external GitHub repositories with all history of commits, marked as `openy-decoupled`, and archived.

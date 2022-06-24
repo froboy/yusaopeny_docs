@@ -15,7 +15,7 @@ This walk-through is outdated and is in the process of being updated. Instead, t
 Use 2Gb droplet or more powerful if you need. Do not use 1Gb option - Y USA Open Y will fail on it.
 
 2. Login to the SSH console of the droplet
-3. Follow the comment from https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/openyonclickinstall.sh
+3. Follow the comment from https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/scripts/openyonclickinstall.sh
 Basically - run a command under root
 ```sh
 curl -Ls http://bit.ly/initopeny | bash -s
@@ -39,4 +39,4 @@ curl -Ls http://bit.ly/initopeny | bash -s beta
 
 ---
 
-If you find any issues please post a message to the issue queue https://github.com/ymcatwincities/openy/issues
+If you find any issues please post a message to the issue queue https://github.com/YCloudYUSA/yusaopeny/issues

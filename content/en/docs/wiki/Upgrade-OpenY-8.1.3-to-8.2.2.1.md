@@ -43,9 +43,9 @@ vagrant@vagrant:/var/www/docroot$ composer --version
 * Use PHP7.1 for upgrade and install `php7.1-mysql php7.1-mcrypt php7.1-cli php7.1-common php7.1-curl php7.1-dev php7.1-fpm php7.1-gd php7.1-mysql php7.1-memcached php7.1-imagic php7.1-xml php7.1-xdebug php7.1-mbstring php7.1-soap php7.1-zip php7.1-xml`
 * Go to the folder of OpenY code tree where `docroot` folder is contained
 * `mv composer.json composer.json.orig`
-* `wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.2.x/composer.json`
-* `mkdir -p scripts ; cd scripts && wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.2.x/scripts/remove_libraries_gitignore_files.sh && cd ..`
-* `composer require ymcatwincities/openy:8.2.2.1 --no-suggest --no-update`
+* `wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.2.x/composer.json`
+* `mkdir -p scripts ; cd scripts && wget https://raw.githubusercontent.com/YCloudYUSA/yusaopeny-project/8.2.x/scripts/remove_libraries_gitignore_files.sh && cd ..`
+* `composer require YCloudYUSA/yusaopeny:8.2.2.1 --no-suggest --no-update`
 * `composer install --ignore-platform-reqs --no-suggest`
 * `composer update --prefer-stable --no-suggest`
 * `cd docroot`

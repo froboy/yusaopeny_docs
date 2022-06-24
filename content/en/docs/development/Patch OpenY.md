@@ -15,12 +15,12 @@ Y USA Open Y release.
 
 ### How to patch Y USA Open Y via composer?
 
-If you followed instructions [docs/Development/Start new Y USA Open Y project](https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Start%20new%20OpenY%20project.md)
+If you followed instructions [docs/Development/Start new Y USA Open Y project](https://github.com/YCloudYUSA/yusaopeny/blob/8.x-1.x/docs/Development/Start%20new%20OpenY%20project.md)
 and you have configured `composer.json` you need just to do a few simple steps:
 1. Build a link to a patch using pull request ID
 
     ```
-    https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
+    https://patch-diff.githubusercontent.com/raw/YCloudYUSA/yusaopeny/pull/XXX.patch
     ```
 
 Where XXX is a number of pull request you want to use.
@@ -35,8 +35,8 @@ repository, as on this example:
         },
         "enable-patching": true,
         "patches": {
-            "ymcatwincities/openy": {
-                "Patch description": "https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch"
+            "YCloudYUSA/yusaopeny": {
+                "Patch description": "https://patch-diff.githubusercontent.com/raw/YCloudYUSA/yusaopeny/pull/XXX.patch"
             }
         }
     }
