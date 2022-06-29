@@ -26,6 +26,8 @@ These supplemental documents elaborate on a few specific cases:
 - `8.2.7.3` - This is a very stable Drupal 8 based Y USA Open Y with a bunch of contrib module updates. This is one of the last Drupal 8 based Y USA Open Y versions before the upgrade to Drupal 9 core. Also, in 8.2.7.0 and 8.2.7.1 we started to introduce multiple version constraints in `composer.json` to allow developers to choose between the minimum or latest dependency versions. This is for securing the upgrade path as well as adding flexibility for version selection if needed.
 - `9.2.8.0` - Drupal 9 version which must be used in the upgrade path before going to 9.2.8.1+. This version added 9.0-9.1 Drupal Core and disabled deprecated components.
 - `9.2.10.0` - Removed a bunch of unused modules from distribution.
+- `9.2.11.3` - Last Open Y Drupal core 9.3.* release
+- `9.2.11.4` - Technical release of Y USA Open Y ( no diff with 9.2.11.3 )
 
 See [Version Constraints practices for Y USA Open Y]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 
