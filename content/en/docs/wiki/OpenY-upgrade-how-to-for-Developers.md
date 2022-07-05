@@ -10,7 +10,7 @@ Before upgrading, please review these [required version steps for your upgrade p
 
 - [Prepare a dedicated environment for upgrade testing](#prepare-dedicated-environment-for-upgrade-testing)
 - [Obtain a local copy of your production site](#obtain-local-copy-of-your-production-site)
-- [Run command)](#run-command)
+- [Run command](#run-command)
 - [Update the site](#update-the-site)
 - [Visit the Y USA Open Y upgrade tool dashboard](#visit-openy-upgrade-tool-dashboard)
 - [Check for regressions/Smoke tests](#check-for-regressions)
