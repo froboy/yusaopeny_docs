@@ -26,12 +26,12 @@ Ensure you have a working computer or virtual machine with:
 - Ubuntu 20.04 (16.04, 18.04, or any decent Ubuntu LTS version) 64 bit
 - MySQL 5.7+ (8+ is preferred because of the performance improvements)
 - Apache 2.4 (or Nginx + php-fpm in case if you are fine with htaccess issues down the road)
-- PHP 7.4 (8.0+ could be an issue with some contrib modules)
-- Drush 8.4.10 system version (for Y USA Open Y pre 8.2 ). **No support for Drush 9.x in Drupal 8 branches. Only in Drupal 9**. **Use Drush 8.4+ for OpenY 9.2+**
+- PHP 8.1 (pre 8.1 could be an issue with some contrib modules)
+- Drush 10 || 11 
 
 The Y USA Open Y team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get a working virtual environment.
 
-Your own Y USA Open Y instance should have a virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/YCloudYUSA/yusaopeny-cibox-vm/blob/master/README.md).
+Your own Y USA Open Y instance should have a virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
 
 ### Obtain local copy of your production site
 
@@ -42,7 +42,7 @@ For that:
 - Make a backup of your production database and copy it to your local machine
 - Make a copy of your production site codebase and copy it to your local machine
 - **Ensure you have not manually removed Drupal modules in your database without the uninstallation step being executed!** In this case you'll need to return the module back to the codebase and uninstall it via Drupal Extend UI or Drush before running the next steps to upgrade Y USA Open Y.
-- Upgrade your site to latest Open Y - 9.2.11.3
+- **Upgrade your site to latest Open Y - 9.2.11.3**
 
 ### Run command 
 
