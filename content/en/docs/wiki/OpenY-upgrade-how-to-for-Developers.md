@@ -1,8 +1,8 @@
 ---
-title: OpenY upgrade how to for Developers
+title: Y USA Open Y upgrade how to for Developers
 ---
 
-Review a [video about this document](https://youtu.be/RGfYLjYpi4Q).
+Review a [video about this document]([https://youtu.be/RGfYLjYpi4Q](https://youtu.be/geeO2goJo9s)).
 
 Before upgrading, please review these [required version steps for your upgrade path]({{< relref "Important-versions-for-upgrade-path" >}}).
 
