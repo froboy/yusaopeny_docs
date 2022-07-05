@@ -42,7 +42,7 @@ For that:
 - Make a backup of your production database and copy it to your local machine
 - Make a copy of your production site codebase and copy it to your local machine
 - **Ensure you have not manually removed Drupal modules in your database without the uninstallation step being executed!** In this case you'll need to return the module back to the codebase and uninstall it via Drupal Extend UI or Drush before running the next steps to upgrade Y USA Open Y.
-- **Upgrade your site to latest Open Y - 9.2.11.3**
+- **Upgrade your site to latest Open Y - 9.2.11.3** See [respective docs from Open Y documentation](https://github.com/open-y-subprojects/openy_docs/blob/main/content/en/docs/wiki/OpenY-upgrade-how-to-for-Developers.md)
 
 ### Run command 
 
