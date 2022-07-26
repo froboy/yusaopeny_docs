@@ -1,7 +1,7 @@
 # Welcome to YMCA Code Sharing 
 
 
-## List of migrated repositires/projects
+## List of migrated repositories/projects
 
 - Open Y  https://github.com/YCloudYUSA/yusaopeny
 - Virtual Y https://github.com/YCloudYUSA/yusaopeny_gated_content
