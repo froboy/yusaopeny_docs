@@ -31,7 +31,8 @@ See https://github.com/YCloudYUSA/yusaopeny_gated_content#development
 
 ### QA sandboxes for Virtual Y
 
-https://virtual-y-sandboxes.openy-d9.org/ 
+- https://virtual-y-sandboxes-d9.openy.org/ on development version of Open Y, development version of VY
+- https://virtual-y-sandboxes.openy.org/ - on stable version of Open Y, stable version if VY
 
 ## How to start developing Membership Framework
 
@@ -40,4 +41,5 @@ See how to install/build it to your Open Y working project https://github.com/YC
 
 ### QA sandboxes for MF
 
-https://membership-framework-sandboxes-d9.openy.org/ 
+- https://membership-framework-sandboxes-d9.openy.org/ - on development version of Open Y, development version of MF 
+- https://membership-framework-sandboxes.openy.org/ - on stable version of Open Y, stable version of MF
