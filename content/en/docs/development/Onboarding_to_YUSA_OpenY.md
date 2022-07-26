@@ -12,7 +12,7 @@
 ## How to start developing Open Y
 
 In order to get copy of latest development version of Open Y, please follow steps from YUSA OpenY README.md
-See https://github.com/YCloudYUSA/yusaopeny#latest-development-version-drupal-9-2x
+See https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/README.md#latest-development-version-drupal-9-2x
 
 Pay attention Open Y has a modular structure, so if you plan changes to specific component - create Pull Request/Merge Request in respective project or repository, based on component's composer.json data.
 
