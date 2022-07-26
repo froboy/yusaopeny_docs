@@ -23,7 +23,8 @@ In order to test specific component - create PR to Open Y https://github.com/YCl
 
 See case study of sandboxes https://www.drupal.org/case-study/open-y-sandboxes
 
-https://sandboxes-dev-php8.openy.org/ - PHP 8.1 and Latest Open Y development branch ( 9.x-2.x from https://github.com/YCloudYUSA/yusaopeny )
+- https://sandboxes-dev-php8.openy.org/ - PHP 8.1 and Latest Open Y development branch ( 9.x-2.x from https://github.com/YCloudYUSA/yusaopeny )
+- https://sandboxes-dev.openy.org/ - PHP 7.4 and Latest Open Y stable release ( from https://github.com/YCloudYUSA/yusaopeny )
 
 ## How to start developing Virtual Y
 
