@@ -44,3 +44,13 @@ See how to install/build it to your Open Y working project https://github.com/YC
 
 - https://membership-framework-sandboxes-d9.openy.org/ - on development version of Open Y, development version of MF 
 - https://membership-framework-sandboxes.openy.org/ - on stable version of Open Y, stable version of MF
+
+## How to start developing Activity Finder
+
+Activity Finder is part of Open Y - so same process.
+
+### QA Sandboxes for Activity Finder
+
+- https://sandbox-lily-cus-d9.openy.org/ - Lily Theme, Open Y Custom
+- https://sandbox-rose-cus-d9.openy.org/ - Rose Theme, Open Y Custom
+- https://sandbox-carnation-cus-d9.openy.org/ - Carnation Theme, Open Y Custom
