@@ -6,6 +6,7 @@
 - Open Y  https://github.com/YCloudYUSA/yusaopeny
 - Virtual Y https://github.com/YCloudYUSA/yusaopeny_gated_content
 - Activity Finder https://github.com/YCloudYUSA/yusaopeny_activity_finder
+- Membership Framework https://github.com/YCloudYUSA/yusaopeny_memberships
 - Open Y Docs https://github.com/YCloudYUSA/yusaopeny_docs
 - Open Y project https://github.com/YCloudYUSA/yusaopeny-project
 
@@ -31,3 +32,12 @@ See https://github.com/YCloudYUSA/yusaopeny_gated_content#development
 ### QA sandboxes for Virtual Y
 
 https://virtual-y-sandboxes.openy-d9.org/ 
+
+## How to start developing Membership Framework
+
+See how to install/build it to your Open Y working project https://github.com/YCloudYUSA/yusaopeny_memberships/blob/master/README.md#installation
+
+
+### QA sandboxes for MF
+
+https://membership-framework-sandboxes-d9.openy.org/ 
