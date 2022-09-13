@@ -17,7 +17,7 @@ Before upgrading, please review these [required version steps for your upgrade p
 - [Backup current state of the updated site](#backup-current-state-of-the-updated-site)
 - [Proceed with an update to next version until succeeded (Start from item 1)](#proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1)
 
-## Upgrade to Y USA Open Y 9.2.11.4 from Open Y 9.2.11.3
+## Upgrade to Y USA Website Services 9.2.11.4 from Open Y 9.2.11.3
 
 ### Prepare dedicated environment for upgrade testing
 
