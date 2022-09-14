@@ -1,8 +1,8 @@
 ---
-title: Composer version constraints for Y USA Open Y
+title: Composer version constraints for YMCA Website Services
 ---
 
-In 2020, due to changes in Drupal core release management and demand from Y USA Open Y customers to improve upgrade path flexibility and stability, the Y USA Open Y team added extended composer version constraints to our `composer.json`.
+In 2020, due to changes in Drupal core release management and demand from YMCA Website Services customers to improve upgrade path flexibility and stability, the YMCA Website Services team added extended composer version constraints to our `composer.json`.
 
 Examples from [composer.json](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/composer.json):
 
@@ -11,9 +11,9 @@ Examples from [composer.json](https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2
 
 By having multiple OR (`||`) conditions we are providing information for developers on which versions could be used for upgrades. There are cases when the latest, even stable version of dependency could be incompatible with some other functionality and it makes sense to keep the version older while functionality is in the process of upgrading.
 
-For example, if, for some reason, `custom_formatters` 3.0 won't be compatible with any of Y USA Open Y dependencies at the time of release, a developer can select an older beta version in order to proceed with the upgrade.
+For example, if, for some reason, `custom_formatters` 3.0 won't be compatible with any of YMCA Website Services dependencies at the time of release, a developer can select an older beta version in order to proceed with the upgrade.
 
-To select a specific version of a dependency when you do an upgrade of Y USA Open Y, add a dependency and its version alongside Y USA Open Y at the `composer require...` step.
+To select a specific version of a dependency when you do an upgrade of YMCA Website Services, add a dependency and its version alongside YMCA Website Services at the `composer require...` step.
 
 For example:
 
@@ -31,6 +31,6 @@ composer require YCloudYUSA/yusaopeny:NEW_VERSION_HERE --no-update
 composer require drupal/custom_formatters:3.0@beta1
 ```
 
-You can change any of the dependency versions without upgrading Y USA Open Y by running only the `composer require...` command for specific dependencies and Drupal Update DB routines afterward.
+You can change any of the dependency versions without upgrading YMCA Website Services by running only the `composer require...` command for specific dependencies and Drupal Update DB routines afterward.
 
 Check [official Composer documentation about version constraints](https://getcomposer.org/doc/articles/versions.md) and [updating Drupal modules with Composer](https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer).

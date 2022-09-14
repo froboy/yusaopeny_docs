@@ -45,10 +45,10 @@ For example, if you add a banner in the Header Area, it will display below the t
 
 > Subcategory was originally designed to work with the *Classes Listing Filters* paragraph in the Header Area and the *Classes Listing* paragraph in the Content Area.
 >
-> **[View Subcategory Demo on Y USA Open Y Sandbox ⇒](https://sandbox-rose-cus.openy.org/programs/health-and-fitness/small-group-specialty-training?location=All)**
+> **[View Subcategory Demo on YMCA Website Services Sandbox ⇒](https://sandbox-rose-cus.openy.org/programs/health-and-fitness/small-group-specialty-training?location=All)**
 >
 > ---
-> With the integration of Activity Finder into Y USA Open Y, Classes Listing and Classes Listing Filters are becoming less popular among Y USA Open Y sites.
+> With the integration of Activity Finder into YMCA Website Services, Classes Listing and Classes Listing Filters are becoming less popular among YMCA Website Services sites.
 
 ### Content Area
 The Content Area includes a *Description* that displays full-width just below the Header Area.

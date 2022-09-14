@@ -2,11 +2,11 @@
 title: Code Review Quality Best Practices
 ---
 
-This document serves as an addition to our [Code of Conduct and Best Practices]({{< relref "Open-Y-Code-of-Conduct-and-Best-Practices" >}}). It is more technical and in-depth for specific cases that were discussed during code quality review processes the Y USA Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Y USA Open Y codebase.
+This document serves as an addition to our [Code of Conduct and Best Practices]({{< relref "Open-Y-Code-of-Conduct-and-Best-Practices" >}}). It is more technical and in-depth for specific cases that were discussed during code quality review processes the YMCA Website Services team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the YMCA Website Services codebase.
 
 # General Rules
 
-Components in Y USA Open Y (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.
+Components in YMCA Website Services (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.
 
 1. General naming conventions
     1. Features module naming
@@ -184,7 +184,7 @@ If you update some configuration for a specific feature, make sure that you put 
 
 ### Revert only specific property from config
 
-This is the preferred method of updating configs as it will result in fewer conflicts for upgrading customized Y USA Open Y instances.
+This is the preferred method of updating configs as it will result in fewer conflicts for upgrading customized YMCA Website Services instances.
 
 With [config_import module](https://www.drupal.org/project/confi) we can update only part of the full config.
 

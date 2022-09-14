@@ -1,8 +1,8 @@
 ---
-title: Install Solr site search for Y USA Open Y
+title: Install Solr site search for YMCA Website Services
 ---
 
-Y USA Open Y leverages [Apache Solr](https://solr.apache.org/) for a few features:
+YMCA Website Services leverages [Apache Solr](https://solr.apache.org/) for a few features:
 
 - [Activity Finder](https://github.com/YCloudYUSA/yusaopeny_activity_finder/wiki) requires Solr
 - Site search can _optionally_ use Solr as per [this Pull Request](https://github.com/YCloudYUSA/yusaopeny/pull/1967)
@@ -10,7 +10,7 @@ Y USA Open Y leverages [Apache Solr](https://solr.apache.org/) for a few feature
 ## Quick Start / Upgrade path
 
 - Log in as admin.
-- Go to `admin/modules` and enable the Y USA Open Y Search API module.
+- Go to `admin/modules` and enable the YMCA Website Services Search API module.
 
 ![image](https://user-images.githubusercontent.com/563412/142628630-b412aa4b-8f2b-42f6-ba06-c5bb6a78469c.png)
 
@@ -36,21 +36,21 @@ tip: Admins can enable and the Solr search and switch the index between servers.
 
 - Verify search results are displayed correctly.
 
-## Starting from the Y USA Open Y installer
+## Starting from the YMCA Website Services installer
 
-- Find the `Select search service` step displayed during the Y USA Open Y installation.
+- Find the `Select search service` step displayed during the YMCA Website Services installation.
 - Choose from one of these options during installation:
   - **None**
     - Nothing happens if the user chooses this option, search modules are displayed after installation.
-  - **Y USA Open Y Google Custom Search**
+  - **YMCA Website Services Google Custom Search**
     - Google Custom Search configuration form is displayed if the user chooses this option.
-    - The Y USA Open Y Google Search module is enabled after installation and ready to use.
-  - **Y USA Open Y Search API**
+    - The YMCA Website Services Google Search module is enabled after installation and ready to use.
+  - **YMCA Website Services Search API**
     - Search API backend options are displayed in this case with the following options:
       - _Database_
-        - The Y USA Open Y Search API module is enabled after installation. The database search API server is enabled. The search is ready to use after content indexation.
+        - The YMCA Website Services Search API module is enabled after installation. The database search API server is enabled. The search is ready to use after content indexation.
       - _Solr_
-        - Additional installation step with Solr configuration form is displayed in this case and user can specify all params for Solr connection. The Y USA Open Y Search API module is enabled after installation, Solr search API server is enabled. The search is ready to use after content indexing (if the correct Solr settings were used).
+        - Additional installation step with Solr configuration form is displayed in this case and user can specify all params for Solr connection. The YMCA Website Services Search API module is enabled after installation, Solr search API server is enabled. The search is ready to use after content indexing (if the correct Solr settings were used).
 
 ## Switch from database search backend to Solr backend
 
@@ -64,7 +64,7 @@ Watch a [video tutorial](https://youtu.be/-Sq3uZb5K_U) on how to switch an exist
 
 ## Legacy Solr Support
 
-The contrib [Search API Solr](https://www.drupal.org/project/search_api_solr) module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling Y USA Open Y Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.
+The contrib [Search API Solr](https://www.drupal.org/project/search_api_solr) module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling YMCA Website Services Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.
 
 The error message may look something like this:
 

@@ -2,7 +2,7 @@
 title: 'Building Tables'
 ---
 
-> The tables tool in the Y USA Open Y text editor provides the ability to create flexible tables for a number of different use cases, including displaying contact information, pricing tables, and more.
+> The tables tool in the YMCA Website Services text editor provides the ability to create flexible tables for a number of different use cases, including displaying contact information, pricing tables, and more.
 
 {{< youtube id=eUNj3ipaF58 >}}
 

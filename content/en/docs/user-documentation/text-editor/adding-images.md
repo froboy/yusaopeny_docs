@@ -2,15 +2,15 @@
 title: 'Adding Images'
 ---
 
-### NOTE TO USERS OF Y USA Open Y 2.4+
+### NOTE TO USERS OF YMCA Website Services 2.4+
 
-> This documentation is not up-to-date if you are using [Y USA Open Y 2.4](https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624) and later.
+> This documentation is not up-to-date if you are using [YMCA Website Services 2.4](https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624) and later.
 >
 > [View video tutorial  for Open 2.4 and later ⇒](https://www.youtube.com/watch?v=gcaBlhyPZEY)
 
-# Adding Images with the Y USA Open Y Text Editor
+# Adding Images with the YMCA Website Services Text Editor
 
-Y USA Open Y allows you to upload and embed images directly into a block of text, either from your computer or from the Y USA Open Y media library and browser.
+YMCA Website Services allows you to upload and embed images directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
 
 {{< youtube id=xogdtPEYxgg >}}
 
@@ -34,7 +34,7 @@ Y USA Open Y allows you to upload and embed images directly into a block of text
 After you save your image to the media library, a dialogue box will appear, giving you some additional options for embedding your image inline.
 
 * **Entity Name** simply refers to the name of your image, which you provided on the previous screen.
-* **Display as** allows you to change the size of the image display without the size of the original image.* By default, Y USA Open Y comes with *Full, Half, and Link* display modes
+* **Display as** allows you to change the size of the image display without the size of the original image.* By default, YMCA Website Services comes with *Full, Half, and Link* display modes
   * Full means your image fills the area where it's inserted
   * Half mean the picture is half the size of its area.
   * Link outputs the image as a simple link to the picture.

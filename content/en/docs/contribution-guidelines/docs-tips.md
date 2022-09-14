@@ -2,11 +2,11 @@
 title: Documentation Tips & Tricks
 ---
 
-In addition to the [full documentation](/docs/contribution-guidelines/#useful-resources), here are some commonly used functions in the Y USA Open Y Docs.
+In addition to the [full documentation](/docs/contribution-guidelines/#useful-resources), here are some commonly used functions in the YMCA Website Services Docs.
 
 ## General Styles
 
-The Y USA Open Y Docs are written in [Markdown](https://commonmark.org/help/), an easy-to read and write formatting language.
+The YMCA Website Services Docs are written in [Markdown](https://commonmark.org/help/), an easy-to read and write formatting language.
 
 The old documentation made heavy use of horizontal rules `---` and slashes in headings `## // Heading`. We try to use standard Markdown headings for organization and remove those visual indicators for better accessibility.
 

@@ -16,7 +16,7 @@ Areas Where it Should Be Used:
 
 How to Use It
 
-NOTE: This paragraph provides similar functionality to the Location filter by amenities, and is no longer recommended for use by the Y USA Open Y Core Team.
+NOTE: This paragraph provides similar functionality to the Location filter by amenities, and is no longer recommended for use by the YMCA Website Services Core Team.
 
 After selecting “All Amenities” from the paragraphs list, you can change the title that displays above the search checkboxes by entering text in the Title field.
 

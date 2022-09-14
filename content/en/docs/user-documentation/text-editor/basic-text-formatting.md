@@ -30,4 +30,4 @@ Choose any of the options for your text below by clicking on the icon/performing
 
 12. **Bulleted/Numbered lists -** Click the numbered or bulleted list icon to create a list. You can create indented bullets by hitting your tab key or clicking on the indent icon
 
->**Pro tip:** The Text Editor also ships with a custom “Styles” dropdown that allows you to customize additional text formats/styles for content editors. This is disabled by default in Y USA Open Y. Advanced users can enable this by going to Configuration > Content authoring > Text formats and editors
+>**Pro tip:** The Text Editor also ships with a custom “Styles” dropdown that allows you to customize additional text formats/styles for content editors. This is disabled by default in YMCA Website Services. Advanced users can enable this by going to Configuration > Content authoring > Text formats and editors

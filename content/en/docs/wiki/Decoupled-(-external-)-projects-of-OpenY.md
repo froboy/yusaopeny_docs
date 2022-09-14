@@ -16,10 +16,10 @@ Check all GitHub for the tag [``openy-decoupled``](https://github.com/topics/ope
 1. [`open-y-subprojects/virtual_y_signaling_server`](https://github.com/open-y-subprojects/virtual_y_signaling_server) - Signalling server for Virtual Y
 1. [`open-y-subprojects/openy_daxko_gxp_syncer`](https://github.com/open-y-subprojects/openy_daxko_gxp_syncer) - Daxko GroupEx PRO v1 API Syncer into Program Event Framework
 1. [`open-y-subprojects/ynorth_gxp_spots_proxy`](https://github.com/open-y-subprojects/ynorth_gxp_spots_proxy) - Availability Spots Cache Proxy for Groupex PRO embed API Syncer into PEF
-1. [`open-y-subprojects/openy_node_alert`](https://github.com/open-y-subprojects/openy_node_alert) - Alerts APP for Y USA Open Y
-1. [`open-y-subprojects/openy_focal_point`](https://github.com/open-y-subprojects/openy_focal_point) - Y USA Open Y Focal Point routines
+1. [`open-y-subprojects/openy_node_alert`](https://github.com/open-y-subprojects/openy_node_alert) - Alerts APP for YMCA Website Services
+1. [`open-y-subprojects/openy_focal_point`](https://github.com/open-y-subprojects/openy_focal_point) - YMCA Website Services Focal Point routines
 1. [`open-y-subprojects/shared_content_server`](https://github.com/open-y-subprojects/shared_content_server) - Shared Content Server
-1. [`ynorth-projects/openy_node_session`](https://github.com/ynorth-projects/openy_node_session) - Y USA Open Y Node Session
+1. [`ynorth-projects/openy_node_session`](https://github.com/ynorth-projects/openy_node_session) - YMCA Website Services Node Session
 1. [`ynorth-projects/openy_repeat`](https://github.com/ynorth-projects/openy_repeat) - Repeat API for PEF. Schedules APP built in Vue.js
 1. [`ynorth-projects/openy_pef_gxp_sync`](https://github.com/ynorth-projects/openy_pef_gxp_sync) - Groupex Pro Embed/OpenY Syncer into PEF
 1. [`ymcatwincities/ymca_sync`](https://github.com/ymcatwincities/ymca_sync) - Syncer backend core
@@ -29,10 +29,10 @@ Check all GitHub for the tag [``openy-decoupled``](https://github.com/topics/ope
 
 ## Drupal.org hosted
 
-1. [`drupal/upgrade_tool`](https://www.drupal.org/project/upgrade_tool) - Y USA Open Y Upgrade Tool
+1. [`drupal/upgrade_tool`](https://www.drupal.org/project/upgrade_tool) - YMCA Website Services Upgrade Tool
 1. [`ymcatwincities/paragraph_skins`](https://github.com/ymcatwincities/paragraph_skins) - Skins component from OpenY. Decoupled to [`drupal/paragraph_skins`](https://www.drupal.org/project/paragraph_skins)
-1. [`drupal/openy_autocomplete_path`](https://www.drupal.org/project/openy_autocomplete_path) - Y USA Open Y Autocomplete Path. Works in Drupal 8 only. Removed from `9.*` Y USA Open Y releases.
+1. [`drupal/openy_autocomplete_path`](https://www.drupal.org/project/openy_autocomplete_path) - YMCA Website Services Autocomplete Path. Works in Drupal 8 only. Removed from `9.*` YMCA Website Services releases.
 
 ## Decoupling mind-map
 
-![`Y USA Open Y decoupling`](https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png)
+![`YMCA Website Services decoupling`](https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png)

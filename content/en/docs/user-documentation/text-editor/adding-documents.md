@@ -2,7 +2,7 @@
 title: 'Adding/Embedding Documents'
 ---
 
-Y USA Open Y allows you to upload and embed documents directly into a block of text, either from your computer or from the Y USA Open Y media library and browser.
+YMCA Website Services allows you to upload and embed documents directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
 
 {{< youtube id=5w-_bpHtTLI >}}
 
@@ -25,7 +25,7 @@ Y USA Open Y allows you to upload and embed documents directly into a block of t
 After you save your document to the media library, a dialogue box will appear, giving you some additional options for embedding it inline.
 
 * **Entity Name** simply refers to the name of your document, which you provided on the previous screen.
-* **Display as** allows you to change the size of the document display without the size of the original video.* By default, Y USA Open Y comes with *Full, Half, and Link* display modes
+* **Display as** allows you to change the size of the document display without the size of the original video.* By default, YMCA Website Services comes with *Full, Half, and Link* display modes
   * Full means your document fills the area where it's inserted
   * Half mean the document is half the size of its area.
   * Link outputs the document as a simple link.

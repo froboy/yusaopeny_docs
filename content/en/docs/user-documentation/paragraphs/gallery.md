@@ -3,7 +3,7 @@ title: Gallery
 ---
 
 >## **What Is Gallery?**
-> The Y USA Open Y gallery embeds a carousel or slider of images onto a page. The gallery can play on a loop, and users can click back and forth using the arrows.
+> The YMCA Website Services gallery embeds a carousel or slider of images onto a page. The gallery can play on a loop, and users can click back and forth using the arrows.
 >
 >You can have a gallery with a simple title, and you can also add a description below the headline and/or a call to action button.
 
@@ -44,7 +44,7 @@ Optionally, you can add a Link in the link field.
 
 ![admin__gallery--link|690x217, 50%](upload://1zX6malPCRwSziaV0bMHJe210uI.png)
 
-[How link fields work in Y USA Open Y ⇒](https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732/2)
+[How link fields work in YMCA Website Services ⇒](https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732/2)
 
 Below the link field, you will add your images. Click on the *Add images* button to select the pictures for your gallery. You can upload an image to the media library, or select multiple images from your library.
 

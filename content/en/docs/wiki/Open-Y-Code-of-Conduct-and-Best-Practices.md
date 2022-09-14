@@ -1,8 +1,8 @@
 ---
-title: Y USA Open Y Code of Conduct and Best Practices
+title: YMCA Website Services Code of Conduct and Best Practices
 ---
 
-The Y USA Open Y community aims to build from the methods and best practices of other open-source projects, such as the [Drupal community](https://drupal.org) and the [Drupal Ukrainian community](http://drupal.ua).
+The YMCA Website Services community aims to build from the methods and best practices of other open-source projects, such as the [Drupal community](https://drupal.org) and the [Drupal Ukrainian community](http://drupal.ua).
 
 # Bylaws
 
@@ -15,8 +15,8 @@ To understand how we use and develop technologies, refer to the documents below:
 - [Drupal Code of Conduct](https://www.drupal.org/dcoc)
 - [Conventional commits policy](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Drupal Coding Standards](https://www.drupal.org/docs/develop/standards)
-- [Y USA Open Y Development FAQ]({{< relref "Development-FAQ" >}})
-- [Y USA Open Y Development Best Practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
+- [YMCA Website Services Development FAQ]({{< relref "Development-FAQ" >}})
+- [YMCA Website Services Development Best Practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
 
 JavaScript Code Standards
 

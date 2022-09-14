@@ -1,10 +1,10 @@
 ---
-title: Y USA Open Y Release Schedule and Guidelines
+title: YMCA Website Services Release Schedule and Guidelines
 ---
 
-## Y USA Open Y Release Guidelines
+## YMCA Website Services Release Guidelines
 
-Y USA Open Y releases major releases of the base project [Y USA Open Y](https://github.com/YCloudYUSA/yusaopeny) and [Virtual Y](https://github.com/YCloudYUSA/yusaopeny_gated_content) quarterly. Minor releases and sub-project releases occur as needed.
+YMCA Website Services releases major releases of the base project [YMCA Website Services](https://github.com/YCloudYUSA/yusaopeny) and [Virtual Y](https://github.com/YCloudYUSA/yusaopeny_gated_content) quarterly. Minor releases and sub-project releases occur as needed.
 
 ### Major releases (Quarterly)
 
@@ -29,4 +29,4 @@ Minor releases are numbered `2.x.x` and consist of
 
 #### Prior years
 
-- [Y USA Open Y releases for 2018-2019](https://user-images.githubusercontent.com/238201/146017405-10f28823-5af7-4498-9384-5502cbf5adaf.png)
+- [YMCA Website Services releases for 2018-2019](https://user-images.githubusercontent.com/238201/146017405-10f28823-5af7-4498-9384-5502cbf5adaf.png)

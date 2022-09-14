@@ -9,7 +9,7 @@ title: Search Tracking with Google Analytics
 
 ## Steps
 
-1. Log in to Google Analytics account that configured to track your Y USA Open Y site.
+1. Log in to Google Analytics account that configured to track your YMCA Website Services site.
 
 2. Click Admin button in bottom right corner of main screen
 ![Google Analytics Main Screen](../../assets/ga_search_1.png)

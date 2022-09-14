@@ -2,7 +2,7 @@
 title: Camp
 ---
 
-> Camps in Y USA Open Y are physical locations where outdoor camp programming takes place.
+> Camps in YMCA Website Services are physical locations where outdoor camp programming takes place.
 >
 > *Note: Camp is similar to the [Branch content type](https://community.openymca.org/t/branch-content-types-open-y-user-docs/685).*
 

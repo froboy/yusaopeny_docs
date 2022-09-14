@@ -15,7 +15,7 @@ Areas It Should Be Used
 
 How it Works
 
-This paragraph type requires an integration into a CRM. Out-of-the-box, Y USA Open Y’s Activity Finder integrates with Daxko, ActiveNet, and Personify. Any other CRM will require custom developer work.
+This paragraph type requires an integration into a CRM. Out-of-the-box, YMCA Website Services’s Activity Finder integrates with Daxko, ActiveNet, and Personify. Any other CRM will require custom developer work.
 
 Read more about the Activity Finder feature >
 

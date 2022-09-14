@@ -2,12 +2,12 @@
 title: Theming and Design
 ---
 
-Welcome to Y USA Open Y Theming and Design documentation.
+Welcome to YMCA Website Services Theming and Design documentation.
 
 ### How to change styles on content type level
 
 **Given:**
-As an Y USA Open Y site developer, I want to be able to easily change the CSS for a Camp page
+As an YMCA Website Services site developer, I want to be able to easily change the CSS for a Camp page
 independently from a Location page, so I can better customize the site to meet the needs of my customers.
 
 **How to:**

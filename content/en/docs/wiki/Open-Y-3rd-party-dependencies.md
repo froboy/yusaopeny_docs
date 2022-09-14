@@ -1,8 +1,8 @@
 ---
-title: Y USA Open Y 3rd-party dependencies
+title: YMCA Website Services 3rd-party dependencies
 ---
 
-Y USA Open Y's system requirements generally track [those of Drupal](https://www.drupal.org/docs/system-requirements) with some occasional more opinionated recommendations.
+YMCA Website Services's system requirements generally track [those of Drupal](https://www.drupal.org/docs/system-requirements) with some occasional more opinionated recommendations.
 
 ## General Requirements
 
@@ -43,7 +43,7 @@ See our [installation instructions](https://github.com/YCloudYUSA/yusaopeny-proj
 
 ## Software libraries and frameworks
 
-Y USA Open Y leverages many other open source frameworks including, but not limited to:
+YMCA Website Services leverages many other open source frameworks including, but not limited to:
 
 - [Drupal](https://drupal.org/project/drupal)
 - [Symfony](https://symfony.com/)

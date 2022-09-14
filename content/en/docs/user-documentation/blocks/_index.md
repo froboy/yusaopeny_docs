@@ -37,7 +37,7 @@ Standard across all block types is the block description field, which serves as 
 
 ## Block Types
 
-Y USA Open Y not only allows you to use blocks, but it supports different types of blocks for different types of content.
+YMCA Website Services not only allows you to use blocks, but it supports different types of blocks for different types of content.
 
 ### Basic Block
 

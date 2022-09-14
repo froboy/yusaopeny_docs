@@ -6,7 +6,7 @@ title: Alert
 
 ![Screen Shot 2020-03-24 at 10.07.11 PM|690x67](upload://4xCXyDaACMFdZrLgm2X88iV7AEY.png)
 
-Unlike most content types in Y USA Open Y, you don't use Alert to create pages. Instead, Alerts display as a *rendered entity* or a section of content on other pages.
+Unlike most content types in YMCA Website Services, you don't use Alert to create pages. Instead, Alerts display as a *rendered entity* or a section of content on other pages.
 
 Alerts also don't use paragraphs. By design, the layout of Alerts are rigid; however, text editor and the the color options listed below allow content editors some flexibility.
 
@@ -19,9 +19,9 @@ Click on "Content" from your admin toolbar, and then click on the blue "Add Cont
 
 * **Title**: Displays as the headline for your alert.
 
-* **Description**: The main body of your alert. Sentences should be short and minimally styled in this section. Uses [the Y USA Open Y Text Editor](https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors).
+* **Description**: The main body of your alert. Sentences should be short and minimally styled in this section. Uses [the YMCA Website Services Text Editor](https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors).
 
-* **Color Fields**: These three dropdown fields control different aspects of color in your alert. All three dropdowns reference the [the Y USA Open Y color vocabulary](http://#).
+* **Color Fields**: These three dropdown fields control different aspects of color in your alert. All three dropdowns reference the [the YMCA Website Services color vocabulary](http://#).
 
     * ***Background Color***: The color of your alert.
     * ***Text Color***: Stick to using either black or white for accessibility.

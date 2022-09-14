@@ -2,18 +2,18 @@
 title: "Images and Documents"
 weight: 6
 description: >
-  Y USA Open Y’s media library and browser stores images and files, allowing you to have custom cropping, focal pointing, folders and image styles.
+  YMCA Website Services’s media library and browser stores images and files, allowing you to have custom cropping, focal pointing, folders and image styles.
 ---
 
 Here is a full list of tutorials on the topic.
 
-## Y USA Open Y 2.4 and later
+## YMCA Website Services 2.4 and later
 
 ### Using the new Media Directories Feature
 
 {{< youtube gcaBlhyPZEY >}}
 
-## Y USA Open Y 2.3.5 and earlier
+## YMCA Website Services 2.3.5 and earlier
 
 ### Images Tutorials
 

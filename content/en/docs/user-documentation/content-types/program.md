@@ -2,18 +2,18 @@
 title: Program
 ---
 
-> In Y USA Open Y, a Program doesn't refer to specific offering or format, but to a content type that serves as a large, generic category page for program offerings.
+> In YMCA Website Services, a Program doesn't refer to specific offering or format, but to a content type that serves as a large, generic category page for program offerings.
 
 ![lily--program--desktop|690x454, 75%](upload://bpcGydlHcEsAnc6KAQpcR3Xou4i.jpeg)
 
 The Program content type is a high-level page that directs people to more specific program offerings.
 
-An example of a Program in Y USA Open Y would be a Swimming & Aquatics page that directs people to more specific offerings, such as swim lessons or clinics.
+An example of a Program in YMCA Website Services would be a Swimming & Aquatics page that directs people to more specific offerings, such as swim lessons or clinics.
 
 ----
 
 ## When Should I Use a Program?
-Programs are pages that should link to more specific offering pages. Most often in Y USA Open Y sites, they are the main program pages in an Y USA Open Y mega menu setup.
+Programs are pages that should link to more specific offering pages. Most often in YMCA Website Services sites, they are the main program pages in an YMCA Website Services mega menu setup.
 
 ![carnation__mega-menu--desktop|684x500, 75%](upload://wFIrGVZ4jOvjo2BCVy4bqrdjKyO.png)
 

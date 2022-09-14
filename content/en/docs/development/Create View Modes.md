@@ -4,7 +4,7 @@ title: Create & Use New View Modes
 
 As with any other entity in Drupal, when it comes to render the rendering it in different contexts, you might want to have specific view modes.
 
-Here you can find instructions how you can add new view modes into embedded entity form on Y USA Open Y distribution.
+Here you can find instructions how you can add new view modes into embedded entity form on YMCA Website Services distribution.
 
 ### Create a new View Mode
 

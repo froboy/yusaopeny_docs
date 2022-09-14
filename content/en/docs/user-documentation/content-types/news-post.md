@@ -8,7 +8,7 @@ title: News Post
 
 ![carnation--news--desktop|690x479, 75%](upload://s0DLIEjlMW9Tt8s68bV3168YsnA.png)
 
-News posts in Y USA Open Y allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.
+News posts in YMCA Website Services allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.
 
 ## When Should I Use a News Post?
 When you decide to use a news post [depends greatly on your Association's content strategy](https://www.youtube.com/watch?v=myGNK_qUGDM). However, news posts are designed so you can post timely pages and list them throughout your site. Examples of news posts may include:
@@ -40,7 +40,7 @@ The content area is the main body of your page. You can use the default fields e
 
 * **Image**: Displays above your description and inside a News Post listing. Not required. Uses the [media browser and image field.](https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734)
 
-* **Description**: [Using the Y USA Open Y text editor](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643), you can enter anything from a brief summary to the entire body of your text.
+* **Description**: [Using the YMCA Website Services text editor](https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643), you can enter anything from a brief summary to the entire body of your text.
 
 ### Sidebar Area
 

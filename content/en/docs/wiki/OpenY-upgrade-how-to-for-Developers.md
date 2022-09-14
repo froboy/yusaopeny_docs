@@ -1,5 +1,5 @@
 ---
-title: Y USA Open Y upgrade how to for Developers
+title: YMCA Website Services upgrade how to for Developers
 ---
 
 Review a [video about this document](https://youtu.be/geeO2goJo9s).
@@ -12,7 +12,7 @@ Before upgrading, please review these [required version steps for your upgrade p
 - [Obtain a local copy of your production site](#obtain-local-copy-of-your-production-site)
 - [Run command](#run-command)
 - [Update the site](#update-the-site)
-- [Visit the Y USA Open Y upgrade tool dashboard](#visit-openy-upgrade-tool-dashboard)
+- [Visit the YMCA Website Services upgrade tool dashboard](#visit-openy-upgrade-tool-dashboard)
 - [Check for regressions/Smoke tests](#check-for-regressions)
 - [Backup current state of the updated site](#backup-current-state-of-the-updated-site)
 - [Proceed with an update to next version until succeeded (Start from item 1)](#proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1)
@@ -29,9 +29,9 @@ Ensure you have a working computer or virtual machine with:
 - PHP 8.1 (pre 8.1 could be an issue with some contrib modules)
 - Drush 10 || 11 
 
-The Y USA Open Y team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get a working virtual environment.
+The YMCA Website Services team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get a working virtual environment.
 
-Your own Y USA Open Y instance should have a virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
+Your own YMCA Website Services instance should have a virtual machine injected into your site codebase. Just find ```Vagrantfile``` and proceed with ```vagrant up``` [accordingly to the documentation](https://github.com/ymcatwincities/openy-cibox-vm/blob/master/README.md).
 
 ### Obtain local copy of your production site
 
@@ -41,7 +41,7 @@ For that:
 
 - Make a backup of your production database and copy it to your local machine
 - Make a copy of your production site codebase and copy it to your local machine
-- **Ensure you have not manually removed Drupal modules in your database without the uninstallation step being executed!** In this case you'll need to return the module back to the codebase and uninstall it via Drupal Extend UI or Drush before running the next steps to upgrade Y USA Open Y.
+- **Ensure you have not manually removed Drupal modules in your database without the uninstallation step being executed!** In this case you'll need to return the module back to the codebase and uninstall it via Drupal Extend UI or Drush before running the next steps to upgrade YMCA Website Services.
 - **Upgrade your site to latest Open Y - 9.2.11.3** See [respective docs from Open Y documentation](https://github.com/open-y-subprojects/openy_docs/blob/main/content/en/docs/wiki/OpenY-upgrade-how-to-for-Developers.md)
 
 ### Run command 
@@ -86,7 +86,7 @@ Review and revert or apply an updated version of the configs after the upgrade.
 
 ### Check for regressions
 
-In order to check for regressions during the upgrade, it is best to work with smoke tests. Y USA Open Y maintains the [smoke tests database document](https://docs.google.com/spreadsheets/d/1yLUkMgJKK94hABy107_V-1AcJbRSSEf2s4wsQto1wfI/edit?usp=sharing) you should use for the process.
+In order to check for regressions during the upgrade, it is best to work with smoke tests. YMCA Website Services maintains the [smoke tests database document](https://docs.google.com/spreadsheets/d/1yLUkMgJKK94hABy107_V-1AcJbRSSEf2s4wsQto1wfI/edit?usp=sharing) you should use for the process.
 
 ### Backup current state of the updated site
 

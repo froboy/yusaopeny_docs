@@ -1,18 +1,18 @@
 ---
-title: Y USA Open Y Pull Requests review standard
+title: YMCA Website Services Pull Requests review standard
 ---
 
 Check more [technical guidelines about our best practices for code quality]({{< relref "Code-Review-Quality-Best-Practices" >}}).
 
 # Adherence to Standards
 
-The Y USA Open Y Core Team will adhere to the same standards we set for the community for all areas of development and technologies as per the Y USA Open Y documentation.
+The YMCA Website Services Core Team will adhere to the same standards we set for the community for all areas of development and technologies as per the YMCA Website Services documentation.
 
-The Y USA Open Y Core Team reserves the right to break these standards only in the following scenarios:
+The YMCA Website Services Core Team reserves the right to break these standards only in the following scenarios:
 
 - Emergency - a major defect or security risk has been discovered that requires extreme measures to resolve.
-- When the standards are broken, it is the responsibility of the Y USA Open Y Core Team to explain why the standards needed to be broken, and what the new standards will be moving forward.
-- This communication will be posted to the Y USA Open Y message board, Slack, and the documentation on GitHub will be updated to reflect the new standards.
+- When the standards are broken, it is the responsibility of the YMCA Website Services Core Team to explain why the standards needed to be broken, and what the new standards will be moving forward.
+- This communication will be posted to the YMCA Website Services message board, Slack, and the documentation on GitHub will be updated to reflect the new standards.
 
 ## Requirements for Pull Requests
 

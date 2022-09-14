@@ -4,7 +4,7 @@ title: Membership Calculator
 
 
 >
-> Membership Calculator adds an interactive "membership wizard" to an Y USA Open Y site.
+> Membership Calculator adds an interactive "membership wizard" to an YMCA Website Services site.
 ---
 ## Areas it Should Be Used
 
@@ -32,7 +32,7 @@ This step lists the Title, Image, and Description of each published Member node.
 ![Join___Drush_Site-Install|690x373](upload://u6yyw4uFzZZCotOQd4pYtQCaAhQ.png)
 
 ### Primary Location
-This step provides a map with radio buttons for the member to select their primary location. Every location listed in the **Y USA Open Y Location Filter Settings** (see Troubleshooting section below) is listed.
+This step provides a map with radio buttons for the member to select their primary location. Every location listed in the **YMCA Website Services Location Filter Settings** (see Troubleshooting section below) is listed.
 
 ![Join___Drush_Site-Install|690x442](upload://6i4S8IF4qJvSPyb2ALReAUlGoLv.jpeg)
 
@@ -45,7 +45,7 @@ This page provides a link for the member to continue their registration, or a me
 
 <h2 id="heading--troubleshooting">Troubleshooting</h2>
 
-On some sites, the second step of the *Membership Calculator* may not show any locations. In order to resolve this, visit **Administration** > **Y USA Open Y** > **Settings** > **Y USA Open Y Location Filter Settings** and ensure that any Branches you want to use in the location search are checked.
+On some sites, the second step of the *Membership Calculator* may not show any locations. In order to resolve this, visit **Administration** > **YMCA Website Services** > **Settings** > **YMCA Website Services Location Filter Settings** and ensure that any Branches you want to use in the location search are checked.
 
 ![Locations_filter_settings___Drush_Site-Install|689x287](upload://wnoZu5d7zbclkYYCE9DbOGCKEn0.png)
 

@@ -32,6 +32,6 @@ Once you've downloaded the WOFF files, you'll need to add them to your site. The
 
 ![Custom_Font|690x156, 100%](../../assets/Custom_Font.png)
 
-- Your site should now use the Cachet font in headers and other areas. Usage is dependent on the Y USA Open Y theme you choose.
+- Your site should now use the Cachet font in headers and other areas. Usage is dependent on the YMCA Website Services theme you choose.
 
-This content was originally [published on the Y USA Open Y Message Board](https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894).
+This content was originally [published on the YMCA Website Services Message Board](https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894).

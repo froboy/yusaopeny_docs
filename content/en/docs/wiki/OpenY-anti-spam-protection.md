@@ -1,8 +1,8 @@
 ---
-title: Y USA Open Y anti spam protection
+title: YMCA Website Services anti spam protection
 ---
 
-In order to protect Y USA Open Y customers, we have added anti-spam protection based on CAPTCHA and Google reCAPTCHA out of the box in Y USA Open Y core
+In order to protect YMCA Website Services customers, we have added anti-spam protection based on CAPTCHA and Google reCAPTCHA out of the box in YMCA Website Services core
 
 You can check [the tutorial for how to install and configure reCaptcha on your site](https://www.youtube.com/watch?v=nHo2uL-bPyM).
 

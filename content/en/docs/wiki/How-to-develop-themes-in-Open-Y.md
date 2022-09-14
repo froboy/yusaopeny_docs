@@ -1,16 +1,16 @@
 ---
-title: How to develop themes in Y USA Open Y
+title: How to develop themes in YMCA Website Services
 ---
 
 # Working with Themes
 
-Each Y USA Open Y theme was developed independently, either by the Y USA Open Y Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the [Sandboxes]({{< relref "Sandboxes.md" >}}).
+Each YMCA Website Services theme was developed independently, either by the YMCA Website Services Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the [Sandboxes]({{< relref "Sandboxes.md" >}}).
 
 Each theme has its own dependencies and build processes. Please read the steps in each `README` for details.
 
 ## Inventory of themes
 
-As of December 2021, themes [have been decoupled](https://github.com/YCloudYUSA/yusaopeny/pull/2595) from the Y USA Open Y profile to independent projects on Drupal.org.
+As of December 2021, themes [have been decoupled](https://github.com/YCloudYUSA/yusaopeny/pull/2595) from the YMCA Website Services profile to independent projects on Drupal.org.
 
 ### Carnation
 

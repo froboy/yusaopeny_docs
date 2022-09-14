@@ -2,14 +2,14 @@
 title: "Taxonomy, Vocabularies, and Terms"
 weight: 4
 description: >
-  Group pieces of related content together for tagging, filtering, sorting and grouping with Y USA Open Y’s tagging system.
+  Group pieces of related content together for tagging, filtering, sorting and grouping with YMCA Website Services’s tagging system.
 ---
 
-The Taxonomy feature in Y USA Open Y creates organized lists of categories, which allow you to group content, create folders for Images ([in Y USA Open Y 2.4 and later](https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624)) and create standard options for dropdown fields in your content.
+The Taxonomy feature in YMCA Website Services creates organized lists of categories, which allow you to group content, create folders for Images ([in YMCA Website Services 2.4 and later](https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624)) and create standard options for dropdown fields in your content.
 
 {{< youtube upFz4WrJ1-Q >}}
 
-Each list is called a *Vocabulary*, while each item in your list is called a *Term*. Terms comprise a Term Name and any additional data/settings for that particular vocabulary (see below in *Vocabularies in Y USA Open Y* for details).
+Each list is called a *Vocabulary*, while each item in your list is called a *Term*. Terms comprise a Term Name and any additional data/settings for that particular vocabulary (see below in *Vocabularies in YMCA Website Services* for details).
 
 ## How to Edit Vocabulary Lists
 
@@ -47,7 +47,7 @@ Below those two fields, you can add the additional information unique to your vo
 
 ![admin__taxonomy--color-vocabulary--grey-edit|358x500, 75%](upload://dIrOibHH8SybbqhEhLrPHuUjxUW.png) ![admin__taxonomy--color-vocabulary--grey-edit-1|690x365, 75%](upload://9fEEt5uojLqeXghql0KsL8X9aUv.png)
 
-## Vocabularies in Y USA Open Y
+## Vocabularies in YMCA Website Services
 Because Vocabularies are lists of categories, how they will show up depends on which Vocabulary you use.
 
 ### Amenities
@@ -61,12 +61,12 @@ As mentioned above, Color is a list of colors you can use across your site, prim
 ### Blog/News Category
 These taxonomies tag blog/news posts. Categories display in the sidebar and as filters in your [Blog Post Listing](https://community.openymca.org/t/blog-posts-listing-paragraphs-open-y-user-docs/705/2) and [News Posts Listing](https://community.openymca.org/t/news-posts-listing-paragraphs-open-y-user-docs/721) paragraphs, respectively.
 
-### Media Folders (Y USA Open Y 2.4 and later)
+### Media Folders (YMCA Website Services 2.4 and later)
 Creates folders for your images in the media browser.
 
 [View Media Folders tutorial ⇒](https://youtu.be/gcaBlhyPZEY)
 
 ### Media Tags
-Creates tags for filtering images (Y USA Open Y 2.3.3 and earlier), Documents and Videos in the media browser.
+Creates tags for filtering images (YMCA Website Services 2.3.3 and earlier), Documents and Videos in the media browser.
 
 https://community.openymca.org/t/video-tutorials-for-images-and-documents/738

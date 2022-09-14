@@ -2,7 +2,7 @@
 title: Activity, Class, and Session
 ---
 
-> These content types format data/content pulled from third parties, such as Daxko, Personify and ActiveNet, for display in Y USA Open Y.
+> These content types format data/content pulled from third parties, such as Daxko, Personify and ActiveNet, for display in YMCA Website Services.
 
 Content editors rarely, if ever, enter information directly into these content types on a day-to-day basis. However, it is important to know how they work and how they relate to manually-entered content.
 

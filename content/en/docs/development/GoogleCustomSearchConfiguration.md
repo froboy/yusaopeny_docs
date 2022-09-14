@@ -2,7 +2,7 @@
 title: Google Custom Search Configuration
 ---
 
-The Y USA Open Y release **8.2.4** introduces Google Custom Search for the website out of the box.
+The YMCA Website Services release **8.2.4** introduces Google Custom Search for the website out of the box.
 
 ## Enabling the module
 
@@ -11,16 +11,16 @@ The Y USA Open Y release **8.2.4** introduces Google Custom Search for the websi
 The search feature is included in the `Extended` installation type.
 For `Standard` see the <a href="#existing-websites">Existing websites</a> section.
 
-If you are installing a fresh Y USA Open Y website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site's search feature is up.
+If you are installing a fresh YMCA Website Services website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site's search feature is up.
 
 ### Existing websites
 
-The search feature is not automatically enabled after upgrading an Y USA Open Y website. You have to manually enable it.
+The search feature is not automatically enabled after upgrading an YMCA Website Services website. You have to manually enable it.
 
 In order to do that:
 
 1. Log in as an admin (or a user with the `administrator` role).
-1. Go to the Y USA Open Y package install page (Admin menu > Y USA Open Y > Extend > Install, or `/admin/openy/extend/list`)
+1. Go to the YMCA Website Services package install page (Admin menu > YMCA Website Services > Extend > Install, or `/admin/openy/extend/list`)
 1. Find the `SEARCH` package there, tick the checkbox and submit the form.
 
 Now the search modules are enabled and the header of the website should have a search field.
@@ -28,7 +28,7 @@ Upon installation, the modules create a Landing page for search results and poin
 
 ## Configuring the Google Search modules
 
-1. Go to the Google Search settings form (Admin menu > Y USA Open Y > Settings > Google Search settings, or `/admin/openy/settings/google-search`).
+1. Go to the Google Search settings form (Admin menu > YMCA Website Services > Settings > Google Search settings, or `/admin/openy/settings/google-search`).
 1. Set the value of the `Google Search ID` field (see the following <a href="#obtaining-search-engine-id">section</a> for details) and submit the form.
 
 ### Obtaining Search Engine ID
@@ -39,7 +39,7 @@ Upon installation, the modules create a Landing page for search results and poin
    1. Specify the domain of your website (e.g. `www.openymca.org`).
    1. Specify the name of the Search Engine (e.g. `openymca.org`).
    1. Click "Create".
-1. On the newly created Search Engine page there is the `Search engine ID` field. Use this value in the Y USA Open Y Google Search configuration form.
+1. On the newly created Search Engine page there is the `Search engine ID` field. Use this value in the YMCA Website Services Google Search configuration form.
 
 ## Configuring the Search Engine look and feel
 
@@ -110,7 +110,7 @@ drush en openy_google_search
 
 ### Configuring the module via Drush
 
-Use the following snippet when you install Y USA Open Y via Drush to set the Search Engine ID:
+Use the following snippet when you install YMCA Website Services via Drush to set the Search Engine ID:
 ```
 drush site-install openy \
    --account-pass=password \
