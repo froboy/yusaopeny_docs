@@ -4,7 +4,7 @@
 ## List of migrated repositories/projects
 
 - YMCA Website Services ( formerly Open Y )  https://github.com/YCloudYUSA/yusaopeny
-- YMCA Virtuak Experience ( formerly Virtual Y ) https://github.com/YCloudYUSA/yusaopeny_gated_content
+- YMCA Virtual Experience ( formerly Virtual Y ) https://github.com/YCloudYUSA/yusaopeny_gated_content
 - Activity Finder https://github.com/YCloudYUSA/yusaopeny_activity_finder
 - Membership Framework https://github.com/YCloudYUSA/yusaopeny_memberships
 - YMCA Digital Services Docs https://github.com/YCloudYUSA/yusaopeny_docs
