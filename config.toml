@@ -115,7 +115,7 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/open-y-subprojects/openy_docs"
+github_repo = "https://github.com/ycloudyusa/yusaopeny_docs"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 github_project_repo = "https://github.com/YCloudYUSA/yusaopeny"
 
@@ -136,7 +136,7 @@ algolia_docsearch = false
 offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
-prism_syntax_highlighting = false
+prism_syntax_highlighting = true
 
 # User interface configuration
 [params.ui]
@@ -179,7 +179,7 @@ enable = false
         desc = "Main YMCA Website Services site and updates."
 [[params.links.user]]
 	name ="LinkedIn"
-	url = "https://www.linkedin.com/company/open-y"
+	url = "https://www.linkedin.com/company/ymcausa/"
 	icon = "fab fa-linkedin"
         desc = "Connect with us!"
 [[params.links.user]]
@@ -200,7 +200,7 @@ enable = false
         desc = "Chat with developers and community members"
 [[params.links.developer]]
 	name = "Message Board"
-	url = "https://https://community.ycloud.y.org//"
+	url = "https://community.ycloud.y.org"
 	icon = "fa fa-user-friends"
         desc = "Connect with the community and ask for help and support."
 
