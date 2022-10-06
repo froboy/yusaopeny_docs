@@ -29,3 +29,7 @@ https://community.openymca.org/t/adding-images-open-y-2-3-5-and-earlier-text-edi
 
 ### Embedding Documents on a Web Page
 {{< youtube 5w-_bpHtTLI >}}
+
+### Bulk upload
+To use bulk media upload please install **Media Library Bulk Upload** module at **Manage** > **Extend** admin menu screen. Then please navigate to `/admin/config/media/media-library-bulk-upload-config` and select Media entities that should support Bulk upload.
+After that you will be able to upload multiple files via Media Browser (`/admin/content/browser`)
