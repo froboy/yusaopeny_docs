@@ -1,6 +1,5 @@
 ---
 title: "Image Guidelines"
-weight: 1
 ---
 
 Virtual Y uses Drupal's [Image Styles](https://www.drupal.org/docs/user_guide/en/structure-image-styles.html) concept to "allow you to upload a single image but display it in several ways." Because of this, there are not specific image dimensions required for images in your Virtual Y site.
