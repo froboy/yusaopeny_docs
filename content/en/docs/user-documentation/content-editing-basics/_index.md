@@ -4,7 +4,7 @@ title: Content Editing Basics
 
 {{< youtube CHFXTW5B93Y >}}
 
-## 1. Adding New Content
+## Adding New Content
 To add a new piece of content, select the content tab in the administration toolbar at the top left. 
 
 ![The content link in the admin menu](./basics-content.png) 
@@ -19,7 +19,7 @@ If this is a page that you do not want to be published, deselect the checkbox at
 
 To save your new content, click the blue “Save” button at the bottom of the page.
 
-## 2. Search for a Piece of Content
+## Search for a Piece of Content
 
 {{< youtube YcXGfWfRTv8 >}}
 
@@ -51,7 +51,7 @@ Click the edit button on the right side of the row to make changes.
 
 If you’re in the results of your search, still not sure which piece of content is the correct one, you can click on the title of the content in the left side of each results to view it.
 
-## 3. Deleting Content
+## Deleting Content
 
 You can delete a content three ways:
 
@@ -63,7 +63,7 @@ You can also delete “in bulk” by ticking the checkmarks next to multiple row
 
 This should only be done if you’re sure of which content you’re selecting to delete.
 
-## 4. How to Use Open Y Fields
+## How to Use Open Y Fields
 
 Each content type will have different fields based on the information you need to enter, but they will generally fall into one of the following categories.
 
@@ -120,3 +120,17 @@ You can also search for the title of a piece of content on your website and sele
 You can add, edit and upload images any time you see a tab with Image in the title. To use the media browser, click the button in the image field.
 
 [More on Using the Image Library ⇒](../text-editor/adding-images.md)
+
+## Cloning Content
+
+You can clone content using the "Clone" button on many pages... ![](./basics-clone-tabs.png)
+
+or on the Content list in the site administration. 
+
+![](./basics-clone-content.png)
+
+Once you choose to clone a piece of content you will be presented with a complex screen asking which entities you would like to clone. In general, you can leave all of the checkboxes as they are. Changing the options could result in unintended consequences.
+
+![](./basics-clone-options.png)
+
+Scroll to the bottom of the checkbox options, choose **Take ownership** if you would like your user to own the new content, then **Save**.
