@@ -20,7 +20,7 @@ Once enabled, the module enables granular configuration to messages that users w
 
 Once the module is enabled, members will be presented with the appropriately titled field to log in to Virtual Y.
 
-![The Virtual Y login page with Daxko Barcode authentication and ReCAPCHA enabled](./daxko-barcode-login.png)
+![The Virtual Y login page with Daxko Barcode authentication and reCAPCHA enabled](./daxko-barcode-login.png)
 
 Upon success the user will be logged in to Virtual Y. Upon failure the failure state will be returned along with a help message provided by the association.
 
