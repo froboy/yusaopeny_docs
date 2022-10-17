@@ -12,7 +12,7 @@ title: Software Requirements
 
 * Ubuntu Server (local or Cloud environment) with 2CPU and 2GB of RAM minimum.
 *  Server configured with LAMP stack (Linux/Apache/MySQL/PHP).
-* PHP 7.3+
+* PHP 7.4+ ( PHP 8.1+ is recommended)
 * Composer
 
 **Recommended Hosting Solutions**
