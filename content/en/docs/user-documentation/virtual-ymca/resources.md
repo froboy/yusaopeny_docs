@@ -33,7 +33,7 @@ title: "Resources"
 # Further Learning
 
 - [<i class="fa fa-globe" title="Web page"></i> Y-USA Virtual Y FAQs](https://ycloud.y.org/y-cloud-faq) 
-- [<i class="fa fa-globe" title="Web page"></i> Virtual Y sandboxes](https://virtual-y-sandboxes.openy.org/)
+- [<i class="fa fa-globe" title="Web page"></i> Virtual Y sandboxes](https://virtual-y-sandboxes.y.org/)
 - Visit our [<i class="fa fa-video" title="Video"></i> YouTube channel](https://www.youtube.com/channel/UC4hp3K9JFptqPZyNjJLvkJg) for even more!
 
 (Resources to be migrated)
