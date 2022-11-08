@@ -2,7 +2,7 @@
 title: Virtual Y Configuration
 ---
 
-# Virtual Y predefined pages
+## Virtual Y predefined pages
 
 Once Virtual Y installed system creates set of required Landing pages with predefined URLs. These pages are:
 * Virtual Y Landing page - `/virtual-ymca`
@@ -12,8 +12,17 @@ URLs to pages above then set as configuration values at `/admin/openy/virtual-ym
 
 Admin user is obligated to keep pages in the system or properly update configuration with new values to keep Virtual Y functionality working correctly. 
 
+## Protecting Virtual Y Pages
 
-# Virtual Y Log module
+If content editors modify the alias or remove the Virtual Y pages above, the VY site may break. Site administrators may want to add additional protections to the site to prevent editors from making those changes. We recommend [Node Keep](https://www.drupal.org/project/node_keep) for this purpose:
+
+- Add `node_keep` to your repo with `composer require 'drupal/node_keep'
+- Enable the module in Drupal
+- Edit each of the pages above and set the Node Keep options as you wish to protect the pages
+
+![Screenshot displaying Node Keep options](./vy-node-keep.png)
+
+## Virtual Y Log module
 
 Virtual Y Log module can be configured via configuration files. Available settings:
 
