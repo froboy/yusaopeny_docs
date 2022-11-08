@@ -66,7 +66,8 @@ Go to the `docroot` folder of your codebase and run:
 drush updatedb
 ```
 
-If you have issues, the only way to avoid errors is to use Drupal's `hook_update_dependencies` API to change the order of running updates to eliminate issues. [See this example](https://github.com/YCloudYUSA/yusaopeny/pull/1560/files).
+#### If updatedb fails... 
+you can use Drupal's `hook_update_dependencies` API to change the order of running updates to eliminate issues. [See this example](https://github.com/YCloudYUSA/yusaopeny/pull/1560/files).
 
 Ensure commands above have finished with no error messages. The best way to check it is to run them one more time. If the next run shows:
 
@@ -77,6 +78,19 @@ No database updates required                                                    
 
 You have almost 100% proven updates were executed correctly.
 
+#### If loading the site fails...
+you may receive an error like this:
+
+> Error: Class ... not found in ... 
+
+This happens due to Drupal not finding the renamed modules. To resolve this, manually clear the Drupal caches:
+
+```
+drush ev "drupal_flush_all_caches();"
+drush cr
+```
+
+which should clear up the errors.
 
 ### Visit OpenY upgrade tool dashboard
 
