@@ -29,8 +29,8 @@ Expandable pairs of question/answer or header/section fields.
 
 | Label | Machine Name | Type | Required | Cardinality | Help text | Field Settings | Notes |
 | ----- | ------------ | ---- | -------- | ----------- | --------- | -------------- | ----- |
-| Title | field_title | Text (plain) |
-| Body | field_body | Text (formatted, long, with summary) |
+| Title | field_title | Text (plain) | yes | 1 |
+| Body | field_body | Text (formatted, long, with summary) | no | 1 |
 
 ## Cards
 
@@ -43,7 +43,7 @@ Flexible card-style components that allow up to 4 cards to display across the pa
 | Section title | (inherit) | 
 | Section subtitle | (inherit) | 
 | Section CTA/Link | field_cta | Link | no | 1 |
-| # of columns | field_columns | List (text) | no | 1 | Choose "none" for one-column. | 
+| # of columns | field_columns | List (text) | no | 1 | Choose "none" for one-column layout. | 
 | Cards | field_cards | Entity reference revisions | no | 4 | | Bundle: Card
 
 ### Card
@@ -114,7 +114,7 @@ Usually paired sets of full-width page components that include media, header, de
 | Item Description | field_item_description | Text (formatted, long) | no | 1 |
 | Item CTA\Link | field_item_cta | Link | no | 2 | The first will use the primary style and the second, secondary. |
 | Item Image | field_item_image | Entity reference | no | 1 |
-| Item Image Position | field_item_image_position | List (text) | yes | 1 | Places the image on this side of the page in the full-width display. Image will always be above Description on at narrow widths. 
+| Item Image Position | field_item_image_position | List (text) | yes | 1 | Places the image on this side of the page in the full-width display. Image will stack above text at narrow widths.
 
 ## Promo Card
 
