@@ -22,6 +22,13 @@ Internal links should be made with Markdown and page-relative locations, like:
 
 [Blocks](../user-documentation/blocks)
 
+Internal paths with spaces in them should have their destination wrapped in angle brackets:
+
+```markdown
+[Accordion Desktop](<../assets/designs/lb/Accordion Desktop.png>)
+```
+[Accordion Desktop](<../assets/designs/lb/Accordion Desktop.png>)
+
 ## Images
 
 Image files should be placed in the `/assets/img` directory at the root of the project, then they can be embedded with relative paths with Markdown:
