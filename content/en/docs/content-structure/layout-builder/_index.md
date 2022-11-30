@@ -15,7 +15,8 @@ These fields are reused across many of the below components.
 
 ## Accordion
 
-**Machine name:** `lb_accordion`
+- **Machine name:** `lb_accordion`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Accordion Desktop.png>)
 
 Expandable pairs of question/answer or header/section fields.
 
@@ -25,7 +26,7 @@ Expandable pairs of question/answer or header/section fields.
 
 ### Accordion Item
 
-**Machine name:** `lb_accordion_item`
+- **Machine name:** `lb_accordion_item`
 
 | Label | Machine Name | Type | Required | Cardinality | Help text | Field Settings | Notes |
 | ----- | ------------ | ---- | -------- | ----------- | --------- | -------------- | ----- |
@@ -34,7 +35,8 @@ Expandable pairs of question/answer or header/section fields.
 
 ## Cards
 
-**Machine name:** `lb_cards`
+- **Machine name:** `lb_cards`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Cards Mobile.png>)
 
 Flexible card-style components that allow up to 4 cards to display across the page depending on the chosen layout.
 
@@ -62,7 +64,8 @@ The Card paragraph is referenced by the Cards block.
 
 ## Grid CTA
 
-**Machine name:** `lb_grid_cta`
+- **Machine name:** `lb_grid_cta`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Grid Content Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Grid Content Desktop.png>)
 
 Sets of content with a headline, description, and link displayed in 2 to 4-item wide rows, with the option to include icons or images.
 
@@ -89,7 +92,8 @@ The Grid Item paragraph is referenced by the Grid CTA component.
 
 ## Hero Banner
 
-**Machine name:** `lb_hero`
+- **Machine name:** `lb_hero`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Hero Banner Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Hero Banner Desktop.png>)
 
 A full-width, almost full-height display with a header, description, and call to action overlaid on an image.
 
@@ -102,7 +106,8 @@ A full-width, almost full-height display with a header, description, and call to
 
 ## Ping-pong
 
-**Machine name:** `lb_ping_pong`
+- **Machine name:** `lb_ping_pong`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
 
 Usually paired sets of full-width page components that include media, header, description, and call to action arranged horizontally.
 
@@ -118,7 +123,8 @@ Usually paired sets of full-width page components that include media, header, de
 
 ## Promo Card
 
-**Machine name:** `lb_promo`
+- **Machine name:** `lb_promo`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Promo Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Promo Cards Desktop.png>)
 
 A title, headline, description, and link that usually display in the right or left sidebar.
 
@@ -131,7 +137,8 @@ A title, headline, description, and link that usually display in the right or le
 
 ## Simple Menu
 
-**Machine name:** `lb_simple_menu`
+- **Machine name:** `lb_simple_menu`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Simple Menu Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Simple Menu Desktop.png>)
 
 A simple 1-level sidebar menu that can display in either the right or left sidebar area.
 
@@ -142,7 +149,8 @@ A simple 1-level sidebar menu that can display in either the right or left sideb
 
 ## Tabs
 
-**Machine name:** `lb_tabs`
+- **Machine name:** `lb_tabs`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tabs Desktop.png>)
 
 Gives users the ability to switch page views by selecting tabs across the top of the page instead of having to navigate to a new page.
 
