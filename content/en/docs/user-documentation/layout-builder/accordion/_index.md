@@ -3,7 +3,7 @@ title: Accordion
 description: Expandable pairs of question/answer or header/section fields.
 ---
 
-**Designs:** [Mobile](<../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Accordion Desktop.png>)
+**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Accordion Desktop.png>)
 
 To use the Accordion block:
 
