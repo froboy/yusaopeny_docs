@@ -2,35 +2,35 @@
 title: Layout Builder
 ---
 
-Layout Builder is a powerful new page-building addition to your YMCA website. 
+Layout Builder is a powerful new page-building addition to your YMCA website.
 
-> Drupal's Layout Builder allows content editors and site builders to easily and quickly create visual layouts for displaying content. Users can customize how content is arranged on a single page, or across types of content, or even create custom landing pages with an easy to use drag-and-drop interface.
+> Drupal's Layout Builder allows content editors and site builders to easily and quickly create visual layouts for displaying content. Users can customize how content is arranged on a single page, across types of content, or even create custom landing pages with an easy-to-use drag-and-drop interface.
 
 ## Getting Started with Layout Builder
 
-YMCA Website Services 9.2.12 introduces a new Content Type: **Landing Page (Layout Builder)**. This new page will allow you to utilize "Custom Blocks" in "Sections" with different "Layouts" to build pages. If you need assistance updating to the latest version, please contact your development partner.
+YMCA Website Services 9.2.12 introduces a new Content Type: **Landing Page (Layout Builder)**. This new page will allow you to utilize "Custom Blocks" in "Sections" with different "Layouts" to build pages. Please contact your development partner if you need assistance updating the latest version.
 
 ### Creating a new page
 
-To use Layout Builder, you'll first have to create a new page: 
+To use Layout Builder, you'll first have to create a new page:
 
-- Go to **Content** > **Add Content** > **Landing Page (Layout Builder)**. 
+- Go to **Content** > **Add Content** > **Landing Page (Layout Builder)**.
 
-This creation page will look different than others—there are no fields! 
+This creation page will look different than others—there are no fields!
 
-- Set a page **Title** and configure any **Menu settings** or **URL alias** that you'd like. 
+- Set a page **Title** and configure any **Menu settings** or **URL alias** that you'd like.
 - Ensure that **Published** is unchecked.
 - Then **Save** the page.
 
 Once you've saved, you will see an empty page. Click the **Layout** tab to enter Layout Builder.
 
-![Drupal admin tabs with an arrow pointing to "Layout"](layout_builder_tab.png)
+![Drupal admin tabs with an arrow pointing to "Layout"](lb_layout_tab.png)
 
 ### Updating an existing page
 
 Navigate to the page you'd like to update, then click the **Layout** tab, like above.
 
-Once you are in the Layout editor you will be able to create, edit, rearrange, and delete sections and blocks, all while viewing the page in a what-you-see-is-what-you-get preview mode. 
+Once you are in the Layout editor, you can create, edit, rearrange, and delete sections and blocks while viewing the page in a what-you-see-is-what-you-get preview mode.
 
 ### Saving and publishing
 
@@ -40,7 +40,7 @@ When in the **Layout** editor, you will have these options at the top of the pag
 
 - **Save Layout**
 - **Discard Changes**
-- **Revert to Defaults** - This will reset your page to an empty Header and Body section.
+- **Revert to Defaults** will reset your page to an empty Header and Body section.
 
 After saving your changes, be sure your page is published:
 
@@ -74,11 +74,11 @@ Some options in this configuration may not yet be fully supported.
 
 While **Sections** contain the page's **structure**, **Blocks** contain its **content**.
 
-To create a block, click Add Block in any section of the page, then Create Custom Block. 
+To create a block, click Add Block in any section of the page, then Create Custom Block.
 
 ![A screenshot showing the Add Block and Create Custom Block buttons.](lb_add_block.png)
 
-Your YMCA website has a wide array of blocks to choose from. In this section you will find detailed descriptions of those blocks.
+Your YMCA website has a wide array of blocks to choose from. In this section, you will find detailed descriptions of those blocks.
 
 ## Tips and Tricks
 
@@ -90,7 +90,7 @@ The Content Editing Pane—the sidebar where you edit blocks —can sometimes be
 
 ### Rearrange blocks easily
 
-When rearranging large blocks on the page it can often be challenging to drag them around. To make this easier, uncheck **Show content preview** at the top of the page. This will substitute the "WYSIWYG" preview for block titles, making the content much more compact. 
+When rearranging large blocks on the page it can often be challenging to drag them around. To make this easier, uncheck **Show content preview** at the top of the page. This will substitute the "WYSIWYG" preview for block titles, making the content much more compact.
 
 ![Animation showing the show content preview checkbox being unchecked and a block being moved.](lb_show_content_preview.gif)
 
