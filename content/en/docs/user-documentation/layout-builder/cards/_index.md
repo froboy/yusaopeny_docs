@@ -21,7 +21,7 @@ Fill in the content fields:
 - **Cards**: Add up to 4. Each card has:
   - **Title** (required)
   - **Image**: Chose from the library or add a new image to be displayed behind the card text.
-  - **Description**: Allows plain-text only.
+  - **Description**: A full text editor to add card content.
   - **Topic Tag**: This is displayed at the top of the card and can be used to group cards visually.
   - **CTA**: A link at the bottom of the card.
 
