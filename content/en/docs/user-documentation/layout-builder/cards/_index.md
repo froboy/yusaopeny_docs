@@ -17,7 +17,7 @@ Fill in the content fields:
 - **Section title**: Displayed as a heading above the cards.
 - **Section subtitle**: Displayed below the heading.
 - **Section CTA/link**: A link button displayed below the list of cards.
-- **# of columns**: Allows 1- to 4-columns of cards. Choose "None" for 1-column.
+- **# of columns**: Allows 1- to 4-columns of cards.
 - **Cards**: Add up to 4. Each card has:
   - **Title** (required)
   - **Image**: Chose from the library or add a new image to be displayed behind the card text.
