@@ -16,6 +16,7 @@ These fields are reused across many of the below components.
 ## Accordion
 
 - **Machine name:** `lb_accordion`
+- **Project:** [lb_accordion](https://www.drupal.org/project/lb_accordion)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Accordion Desktop.png>)
 
 Expandable pairs of question/answer or header/section fields.
@@ -36,6 +37,7 @@ Expandable pairs of question/answer or header/section fields.
 ## Cards
 
 - **Machine name:** `lb_cards`
+- **Project:** [lb_cards](https://www.drupal.org/project/lb_cards)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Cards Mobile.png>)
 
 Flexible card-style components that allow up to 4 cards to display across the page depending on the chosen layout.
@@ -65,6 +67,7 @@ The Card paragraph is referenced by the Cards block.
 ## Carousel
 
 - **Machine name:** `lb_carousel`
+- **Project:** [lb_carousel](https://www.drupal.org/project/lb_carousel)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Carousels Desktop.png>)
 
 A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
@@ -89,6 +92,7 @@ A full-width display with multiple sets of a header, description, and call to ac
 ## Grid CTA
 
 - **Machine name:** `lb_grid_cta`
+- **Project:** [lb_grid_cta](https://www.drupal.org/project/lb_grid_cta)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Grid Content Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Grid Content Desktop.png>)
 
 Sets of content with a headline, description, and link displayed in 2 to 4-item wide rows, with the option to include icons or images.
@@ -117,6 +121,7 @@ The Grid Item paragraph is referenced by the Grid CTA component.
 ## Hero Banner
 
 - **Machine name:** `lb_hero`
+- **Project:** [lb_hero](https://www.drupal.org/project/lb_hero)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Hero Banner Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Hero Banner Desktop.png>)
 
 A full-width, almost full-height display with a header, description, and call to action overlaid on an image.
@@ -131,6 +136,7 @@ A full-width, almost full-height display with a header, description, and call to
 ## Ping-pong
 
 - **Machine name:** `lb_ping_pong`
+- **Project:** [lb_ping_pong](https://www.drupal.org/project/lb_ping_pong)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
 
 Usually paired sets of full-width page components that include media, header, description, and call to action arranged horizontally.
@@ -148,6 +154,7 @@ Usually paired sets of full-width page components that include media, header, de
 ## Promo Card
 
 - **Machine name:** `lb_promo`
+- **Project:** [lb_promo](https://www.drupal.org/project/lb_promo)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Promo Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Promo Cards Desktop.png>)
 
 A title, headline, description, and link that usually display in the right or left sidebar.
@@ -162,6 +169,7 @@ A title, headline, description, and link that usually display in the right or le
 ## Simple Menu
 
 - **Machine name:** `lb_simple_menu`
+- **Project:** [lb_simple_menu](https://www.drupal.org/project/lb_simple_menu)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Simple Menu Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Simple Menu Desktop.png>)
 
 A simple 1-level sidebar menu that can display in either the right or left sidebar area.
@@ -174,6 +182,7 @@ A simple 1-level sidebar menu that can display in either the right or left sideb
 ## Statistics
 
 - **Machine name:** `lb_statistics`
+- **Project:** [lb_statistics](https://www.drupal.org/project/lb_statistics)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Statistics Desktop.png>)
 
 Infographic-like display that highlights relevant statistics to users.
@@ -198,6 +207,7 @@ Infographic-like display that highlights relevant statistics to users.
 ## Table
 
 - **Machine name:** `lb_table`
+- **Project:** [lb_table](https://www.drupal.org/project/lb_table)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tables Desktop.png>)
 
 Allows users to be able to view responsive tables within a page.
@@ -211,6 +221,7 @@ Allows users to be able to view responsive tables within a page.
 ## Tabs
 
 - **Machine name:** `lb_tabs`
+- **Project:** [ws_lb_tabs](https://www.drupal.org/project/ws_lb_tabs)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tabs Desktop.png>)
 
 Gives users the ability to switch page views by selecting tabs across the top of the page instead of having to navigate to a new page.
@@ -235,6 +246,7 @@ The Tab paragraph is referenced by the Tabs block.
 ## Webform
 
 - **Machine name:** `lb_webform`
+- **Project:** [lb_webform](https://www.drupal.org/project/lb_webform)
 - **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Webforms Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Webforms Desktop.png>)
 
 Embed an existing webform on a page.
