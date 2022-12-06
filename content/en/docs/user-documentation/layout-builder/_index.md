@@ -62,7 +62,7 @@ You can remove sections by clicking the small "X" link at the top left of the se
 
 #### Layouts
 
-Layouts define the structure of a section. YMCA Website Services comes with 1-, 2-, 3-, and 4-column layouts, and each layout has additional configuration options once it's created. See [advanced options]() for more details.
+Layouts define the structure of a section. YMCA Website Services comes with 1-, 2-, 3-, and 4-column layouts, and each layout has additional configuration options once it's created. See [advanced options](advanced-options) for more details.
 
 ![A screenshot of the "Choose a layout for this section" dialog with options for 1 to 4 columns.](lb_choose_layout.png "Choose a layout")
 
