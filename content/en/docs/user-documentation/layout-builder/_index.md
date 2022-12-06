@@ -16,7 +16,7 @@ To use Layout Builder, you'll first have to create a new page:
 
 - Go to **Content** > **Add Content** > **Landing Page (Layout Builder)**.
 
-This creation page will look different than others—there are no fields!
+This creation page will look different from others—there are no fields!
 
 - Set a page **Title** and configure any **Menu settings** or **URL alias** that you'd like.
 - Ensure that **Published** is unchecked.

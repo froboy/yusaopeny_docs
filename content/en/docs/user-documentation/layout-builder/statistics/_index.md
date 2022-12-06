@@ -17,7 +17,7 @@ Fill in the content fields:
 - **# of columns**: Allows 1- to 4-columns of items.
 - **Section CTA/Link**: Add a link below the statistics items.
 - **Statistics Items**: Add as many items as you like using the **Add Statistics Item** button. Each item contains:
-  - **Number value**: The number value for the statistic. Can include a prefix ("$100) and/or suffix ("$100M").
+  - **Number value**: The number value for the statistic. Can include a prefix ("$100") and/or suffix ("$100M").
   - **Description**: A description of the statistic.
 
 Add an image or change the color of the block using the [Styles tab](../advanced-options).

@@ -1,13 +1,13 @@
 ---
-title: Ping Pong
+title: Ping-Pong
 description: Usually paired sets of full-width page components that include media, header, description, and call to action arranged horizontally.
 ---
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
 
-To use the Ping Pong block:
+To use the Ping-Pong block:
 
-- Click **Add block** > **Create custom block** > **Ping Pong**
+- Click **Add block** > **Create custom block** > **Ping-Pong**
 
 Fill in the content fields:
 
