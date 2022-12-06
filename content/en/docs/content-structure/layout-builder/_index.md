@@ -62,6 +62,30 @@ The Card paragraph is referenced by the Cards block.
 | Description | field_card_description | Text (plain, long) | no | 1 |
 | CTA/Link | field_card_cta | Link | no | 1 |
 
+## Carousel
+
+- **Machine name:** `lb_carousel`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Carousels Desktop.png>)
+
+A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
+
+| Label             | Machine Name         | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
+|-------------------|----------------------|----------------------------|----------|-------------|-----------|----------------|-------|
+| Carousel title    | field_section_title  | Text (plain)               | no       | 1           |
+| Carousel subtitle | field_subtitle       | Text (plain)               | no       | 1           |
+| Carousel Items    | field_carousel_items | Entity reference revisions | no       | unlimited   |
+
+### Carousel Item
+
+**Machine name:** `lb_carousel_item`
+
+| Label       | Machine Name               | Type                   | Required | Cardinality | Help text | Field Settings | Notes |
+|-------------|----------------------------|------------------------|----------|-------------|-----------|----------------|-------|
+| Title       | field_title                | Text (plain)           | no       | 1           |
+| Image       | field_carousel_image       | Entity reference       | no       | 1           |
+| Description | field_carousel_description | Text (formatted, long) | no       | 1           |
+| CTA \ Link  | field_carousel_cta         | Link                   | no       | 1           |
+
 ## Grid CTA
 
 - **Machine name:** `lb_grid_cta`
@@ -147,6 +171,43 @@ A simple 1-level sidebar menu that can display in either the right or left sideb
 | Icon | field_icon | Entity reference | no | 1 | | Bundle: Image |
 | Links | field_lb_simple_menu_links | Link | yes | unlimited |
 
+## Statistics
+
+- **Machine name:** `lb_statistics`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Statistics Desktop.png>)
+
+Infographic-like display that highlights relevant statistics to users.
+
+| Label              | Machine Name  | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
+|--------------------|---------------|----------------------------|----------|-------------|-----------|----------------|-------|
+| Section title      | (inherit)     |
+| Section subtitle   | (inherit)     |
+| # of columns       | field_columns | List (text)                | yes      | 1           |
+| Section CTA / Link | field_cta     | Link                       | no       | 1           |
+| Statistics Items   | field_items   | Entity reference revisions | no       | unlimited   |
+
+### Statistics Item
+
+**Machine name:** `statistics_item`
+
+| Label        | Machine Name      | Type         | Required | Cardinality | Help text | Field Settings | Notes |
+|--------------|-------------------|--------------|----------|-------------|-----------|----------------|-------|
+| Number value | field_number      | Text (plain) | yes      | 1           |
+| Description  | field_description | Text (plain) | no       | 1           |
+
+## Table
+
+- **Machine name:** `lb_table`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tables Desktop.png>)
+
+Allows users to be able to view responsive tables within a page.
+
+| Label            | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
+|------------------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
+| Section title	   | (inherit)    |
+| Section subtitle | (inherit)    |
+| Body             | body         | Text (formatted, long, with summary) | no       | 1           |
+
 ## Tabs
 
 - **Machine name:** `lb_tabs`
@@ -170,3 +231,16 @@ The Tab paragraph is referenced by the Tabs block.
 | ----- | ------------ | ---- | -------- | ----------- | --------- | -------------- | ----- |
 | Title | field_title | Text (plain) | yes | 1 |
 | Body | field_body | Text (formatted, long, with summary) | no | 1 |
+
+## Webform
+
+- **Machine name:** `lb_webform`
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Webforms Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Webforms Desktop.png>)
+
+Embed an existing webform on a page.
+
+| Label         | Machine Name  | Type    | Required | Cardinality | Help text | Field Settings | Notes |
+|---------------|---------------|---------|----------|-------------|-----------|----------------|-------|
+| Form title    | (inherit)     |
+| Form subtitle | (inherit)     | 
+| Webform       | field_webform | Webform | yes      | 1           |
