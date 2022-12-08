@@ -28,4 +28,4 @@ _Promotion_: YMCA Website Services encourages Members to share their expertise a
 
 **Reporting Problems**
 
-If you believe someone has violated the YMCA Website Services Community Guidelines, or have any questions or concerns, please contact YUSA at http://openy.org.
+If you believe someone has violated the YMCA Website Services Community Guidelines, or have any questions or concerns, please contact YUSA at https://ymca.org.
