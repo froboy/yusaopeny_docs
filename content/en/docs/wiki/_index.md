@@ -35,8 +35,8 @@ This wiki is the primary location for developer documentation for [YMCA Website 
 
 ### Legal
 
-- [Participant Agreement]({{< relref "Open-Y-Participant-Agreement.md" >}})
-- [Terms of Use]({{< relref "Open-Y-Terms-of-Use.md" >}})
+- [Participant Agreement]({{< relref "WS-Participant-Agreement.md" >}})
+- [Terms of Use]({{< relref "WS-Terms-of-Use.md" >}})
 
 ## Getting Started with YMCA Website Services Development
 
