@@ -4,10 +4,26 @@
 {{ $link := .Destination }}
 {{ $isRemote := strings.HasPrefix $link "http" }}
 {{- if not $isRemote -}}
-{{ $url := urls.Parse .Destination }}
-{{- if $url.Path -}}
-{{ $fragment := "" }}
-{{- with $url.Fragment }}{{ $fragment = printf "#%s" . }}{{ end -}}
-{{- with .Page.GetPage $url.Path }}{{ $link = printf "%s%s" .RelPermalink $fragment }}{{ end }}{{ end -}}
+    {{ $url := urls.Parse .Destination }}
+    <!-- If we're linking to an image, rewrite it similar to render-image -->
+    {{- $img := .Page.Resources.GetMatch .Destination -}}
+    {{- if and (not $img) .Page.File -}}
+        <!-- We have to hardcode content/en below because of docsy's mounting -->
+        <!-- it'd be nice not to but... I tried.-->
+        {{ $path := path.Join "content/en" .Page.File.Dir .Destination }}
+        {{ $path := trim $path "/assets" }}
+        {{- $img = resources.Get $path -}}
+        {{ if $img }}
+            {{ $link = $img.RelPermalink }}
+        {{ end }}
+    {{- else if $url.Path -}}
+        {{ $fragment := "" }}
+        {{- with $url.Fragment }}
+            {{ $fragment = printf "#%s" . }}
+        {{ end -}}
+        {{- with .Page.GetPage $url.Path }}
+            {{ $link = printf "%s%s" .RelPermalink $fragment }}
+        {{ end }}
+    {{ end -}}
 {{- end -}}
 <a href="{{ $link | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isRemote }} target="_blank"{{ end }}>{{ .Text | safeHTML }}</a>

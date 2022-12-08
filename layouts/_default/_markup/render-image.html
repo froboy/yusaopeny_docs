@@ -23,7 +23,7 @@
         {{ $small.RelPermalink }} 458w,
         {{ $medium.RelPermalink }} 726w,
         {{ $large.RelPermalink }} 1200w" sizes="50vw" src="{{ $small.RelPermalink }}" />
-    <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
+    <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }} <a href="{{ $img.RelPermalink }}" class="fa-solid fa-external-link fa-fw" title="View original image"></a></figcaption>
 </figure>
 {{ end }}
 {{- else -}}
