@@ -6,7 +6,7 @@ The YMCA Website Services community aims to build from the methods and best prac
 
 # Bylaws
 
-For the OpenY distribution we have [Terms of Use]({{< relref "Open-Y-Terms-of-Use" >}}) and [Participant Agreement]({{< relref "Open-Y-Participant-Agreement" >}}).
+For the OpenY distribution we have [Terms of Use]({{< relref "WS-Terms-of-Use" >}}) and [Participant Agreement]({{< relref "WS-Participant-Agreement" >}}).
 
 # Development
 
