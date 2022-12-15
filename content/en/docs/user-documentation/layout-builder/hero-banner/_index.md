@@ -3,6 +3,10 @@ title: Hero Banner
 description: A full-width, almost full-height display with a header, description, and call to action overlaid on an image.
 ---
 
+{{< youtube kerfY3EBESA >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Hero Banner Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Hero Banner Desktop.png>)
 
 To use the Hero Banner block:

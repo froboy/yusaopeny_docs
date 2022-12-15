@@ -3,6 +3,10 @@ title: Cards
 description: Flexible card-style components that allow up to 4 cards to display across the page depending on the chosen layout.
 ---
 
+{{< youtube vrtcxXl31f4 >}}
+
+-----
+
 The Cards block is similar to the [Grid CTA](../grid-cta) block, but has more fields and places the image behind the item content.
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Cards Desktop.png>)

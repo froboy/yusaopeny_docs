@@ -3,6 +3,10 @@ title: Tabs
 description: Gives users the ability to switch page views by selecting in-page tabs.
 ---
 
+{{< youtube I3GPm718hn8 >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tabs Desktop.png>)
 
 To use the Tabs block:

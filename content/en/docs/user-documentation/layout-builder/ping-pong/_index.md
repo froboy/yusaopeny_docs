@@ -3,6 +3,10 @@ title: Ping-Pong
 description: Usually paired sets of full-width page components that include media, header, description, and call to action arranged horizontally.
 ---
 
+{{< youtube BgEL_YU-DiA >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
 
 To use the Ping-Pong block:

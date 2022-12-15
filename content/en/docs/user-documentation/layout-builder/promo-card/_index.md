@@ -3,6 +3,10 @@ title: Promo Card
 description: A title, headline, description, and link that usually display in the right or left sidebar.
 ---
 
+{{< youtube dybusSNmTPc >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Promo Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Promo Cards Desktop.png>)
 
 To use the Promo Card block:

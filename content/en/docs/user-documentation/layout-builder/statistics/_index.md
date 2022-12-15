@@ -3,6 +3,10 @@ title: Statistics
 description: Infographic-like display that highlights relevant statistics to users.
 ---
 
+{{< youtube _RQcnMw4X5U >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Statistics Desktop.png>)
 
 To use the Statistics block:

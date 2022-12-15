@@ -3,6 +3,10 @@ title: Table
 description: Allows users to be able to view responsive tables within a page.
 ---
 
+{{< youtube buxLFLUhiMo >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tables Desktop.png>)
 
 To use the Table block:

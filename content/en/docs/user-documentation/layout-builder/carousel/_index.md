@@ -3,6 +3,10 @@ title: Carousel
 description: A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
 ---
 
+{{< youtube zVT1St0UXsk >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Carousels Desktop.png>)
 
 To use the Carousel block:

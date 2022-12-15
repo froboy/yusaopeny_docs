@@ -10,6 +10,8 @@ Layout Builder is a powerful new page-building addition to your YMCA website.
 
 YMCA Website Services 9.2.12 introduces a new Content Type: **Landing Page (Layout Builder)**. This new page will allow you to utilize "Custom Blocks" in "Sections" with different "Layouts" to build pages. Please contact your development partner if you need assistance updating the latest version.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL6Wo-UX6nhySupPRWKqy0BFlzYLzYR8rB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Creating a new page
 
 To use Layout Builder, you'll first have to create a new page:
