@@ -11,7 +11,7 @@ description: A full-width, almost full-height display with a header, description
 
 To use the Hero Banner block:
 
-- Click **Add block** > **Create custom block** > **Hero Banner**
+- Click the **Layout** tab at the top of your page **Hero Banner**
 
 Fill in the content fields:
 

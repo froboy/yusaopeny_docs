@@ -4,11 +4,13 @@ title: Layout Builder
 
 Layout Builder is a powerful new page-building addition to your YMCA website.
 
-> Drupal's Layout Builder allows content editors and site builders to easily and quickly create visual layouts for displaying content. Users can customize how content is arranged on a single page, across types of content, or even create custom landing pages with an easy-to-use drag-and-drop interface.
+> Drupal's Layout Builder allows content editors and site builders to easily and quickly create visual layouts for displaying content. Users can customize how content is arranged on a single page, across types of content, or even create custom landing pages with an easy-to-use drag-and-drop interface. 
+> 
+> \- [Layout Builder on Drupal.org](https://www.drupal.org/docs/8/core/modules/layout-builder)
 
 ## Getting Started with Layout Builder
 
-YMCA Website Services 9.2.12 introduces a new Content Type: **Landing Page (Layout Builder)**. This new page will allow you to utilize "Custom Blocks" in "Sections" with different "Layouts" to build pages. Please contact your development partner if you need assistance updating the latest version.
+YMCA Website Services 9.2.12 introduces a new Content Type: **Landing Page (Layout Builder)**. This new page will allow you to build pages using **[Sections](#sections)** with different **[Layouts](#layouts)** that contain **[Custom Blocks](#blocks)**. Please contact your development partner if you need assistance updating the latest version.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL6Wo-UX6nhySupPRWKqy0BFlzYLzYR8rB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

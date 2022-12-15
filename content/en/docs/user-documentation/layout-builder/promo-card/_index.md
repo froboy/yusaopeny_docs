@@ -11,7 +11,11 @@ description: A title, headline, description, and link that usually display in th
 
 To use the Promo Card block:
 
-- Click **Add block** > **Create custom block** > **Promo Card**
+- Click the **Layout** tab at the top of your page
+- Scroll to the location on the page where you want to add a block
+- Click **Add block**
+- In the sidebar, click **Create custom block**
+- Choose  **Promo Card**
 
 Fill in the content fields:
 

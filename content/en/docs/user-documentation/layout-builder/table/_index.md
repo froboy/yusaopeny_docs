@@ -7,15 +7,21 @@ description: Allows users to be able to view responsive tables within a page.
 
 -----
 
+The Table block also allows users to add simple content to the Landing Page (Layout Builder) content type.
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tables Desktop.png>)
 
 To use the Table block:
 
-- Click **Add block** > **Create custom block** > **Table**
+- Click the **Layout** tab at the top of your page
+- Scroll to the location on the page where you want to add a block
+- Click **Add block**
+- In the sidebar, click **Create custom block**
+- Choose  **Table**
 
 Fill in the content fields:
 
-- **Title** (required): Never displayed, even if "Display Title" is checked. For administrative use only.
+- **Title** (required): Never displayed, even if _Display Title_ is checked. For administrative use only.
 - **Section title**: Displayed as a heading above the item.
 - **Section subtitle**: Displayed below the heading.
 - **Body**: A full text editor to add tables or other content to the page. 

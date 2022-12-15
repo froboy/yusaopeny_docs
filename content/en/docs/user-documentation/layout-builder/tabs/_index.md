@@ -11,7 +11,11 @@ description: Gives users the ability to switch page views by selecting in-page t
 
 To use the Tabs block:
 
-- Click **Add block** > **Create custom block** > **Tabs**
+- Click the **Layout** tab at the top of your page
+- Scroll to the location on the page where you want to add a block
+- Click **Add block**
+- In the sidebar, click **Create custom block**
+- Choose  **Tabs**
 
 Fill in the content fields:
 

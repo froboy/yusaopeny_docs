@@ -13,7 +13,7 @@ The Grid CTA block is similar to the [Cards](../cards) block, but allows for mor
 
 To use the Grid CTA block:
 
-- Click **Add block** > **Create custom block** > **Grid CTA**
+- Click the **Layout** tab at the top of your page **Grid CTA**
 
 Fill in the content fields:
 

@@ -13,7 +13,7 @@ The Cards block is similar to the [Grid CTA](../grid-cta) block, but has more fi
 
 To use the Cards block:
 
-- Click **Add block** > **Create custom block** > **Cards**
+- Click the **Layout** tab at the top of your page **Cards**
 
 Fill in the content fields:
 

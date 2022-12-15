@@ -11,7 +11,7 @@ description: A full-width display with multiple sets of a header, description, a
 
 To use the Carousel block:
 
-- Click **Add block** > **Create custom block** > **Carousel**
+- Click the **Layout** tab at the top of your page **Carousel**
 
 Fill in the content fields:
 

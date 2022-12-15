@@ -11,7 +11,7 @@ description: Expandable pairs of question/answer or header/section fields.
 
 To use the Accordion block:
 
-- Click **Add block** > **Create custom block** > **Accordion**
+- Click the **Layout** tab at the top of your page **Accordion**
 
 Fill in the content fields:
 
