@@ -3,11 +3,19 @@ title: Statistics
 description: Infographic-like display that highlights relevant statistics to users.
 ---
 
+{{< youtube _RQcnMw4X5U >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Statistics Desktop.png>)
 
 To use the Statistics block:
 
-- Click **Add block** > **Create custom block** > **Statistics**
+- Click the **Layout** tab at the top of your page
+- Scroll to the location on the page where you want to add a block
+- Click **Add block**
+- In the sidebar, click **Create custom block**
+- Choose  **Statistics**
 
 Fill in the content fields:
 

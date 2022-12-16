@@ -3,11 +3,15 @@ title: Accordion
 description: Expandable pairs of question/answer or header/section fields.
 ---
 
+{{< youtube QczjkFL23W0 >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Accordion Desktop.png>)
 
 To use the Accordion block:
 
-- Click **Add block** > **Create custom block** > **Accordion**
+- Click the **Layout** tab at the top of your page **Accordion**
 
 Fill in the content fields:
 

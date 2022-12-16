@@ -3,11 +3,15 @@ title: Carousel
 description: A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
 ---
 
+{{< youtube zVT1St0UXsk >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Carousels Desktop.png>)
 
 To use the Carousel block:
 
-- Click **Add block** > **Create custom block** > **Carousel**
+- Click the **Layout** tab at the top of your page **Carousel**
 
 Fill in the content fields:
 

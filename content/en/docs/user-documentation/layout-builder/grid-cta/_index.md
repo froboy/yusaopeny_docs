@@ -3,13 +3,17 @@ title: Grid CTA
 description: Sets of content with a headline, description, and link displayed in 2 to 4-item wide rows, with the option to include icons or images.
 ---
 
+{{< youtube TtABGaClzPw >}}
+
+-----
+
 The Grid CTA block is similar to the [Cards](../cards) block, but allows for more flexible items with a slightly more freeform design. 
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Grid Content Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Grid Content Desktop.png>)
 
 To use the Grid CTA block:
 
-- Click **Add block** > **Create custom block** > **Grid CTA**
+- Click the **Layout** tab at the top of your page **Grid CTA**
 
 Fill in the content fields:
 

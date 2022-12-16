@@ -3,11 +3,15 @@ title: Simple Menu
 description: A simple 1-level sidebar menu that can display in either the right or left sidebar area.
 ---
 
+{{< youtube UZVurubBti8 >}}
+
+-----
+
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Simple Menu Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Simple Menu Desktop.png>)
 
 To use the Simple Menu block:
 
-- Click **Add block** > **Create custom block** > **Simple Menu**
+- Click the **Layout** tab at the top of your page **Simple Menu**
 
 Fill in the content fields:
 
