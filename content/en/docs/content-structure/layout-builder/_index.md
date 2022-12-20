@@ -11,7 +11,7 @@ These fields are reused across many of the below components.
 | Label            | Machine Name           | Type               | Required | Cardinality | Help text | Field Settings | Notes |
 |------------------|------------------------|--------------------|----------|-------------|-----------|----------------|-------|
 | Section title    | field_section_title    | Text (plain)       | no       | 1           |
-| Section subtitle | field_section_subtitle | Text (plain, long) | no       | 1           |
+| Section subtitle | field_section_subtitle | Text (plain, long) | no       | 1           | 
 
 ## Accordion
 
@@ -150,6 +150,18 @@ Usually paired sets of full-width page components that include media, header, de
 | Item CTA\Link       | field_item_cta            | Link                   | no       | 2           | The first will use the primary style and the second, secondary.                                                    |
 | Item Image          | field_item_image          | Entity reference       | no       | 1           |
 | Item Image Position | field_item_image_position | List (text)            | yes      | 1           | Places the image on this side of the page in the full-width display. Image will stack above text at narrow widths. |
+
+## Partners
+
+- **Machine name:** `lb_partners`
+- **Project:** [lb_]
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+List of multiple partner / sponsor logos.
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+
 
 ## Promo Card
 
