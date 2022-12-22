@@ -13,7 +13,7 @@ To learn more:
 
 ## Stable Sandboxes
 
-https://sandboxes.openy.org/
+https://sandboxes.y.org/
 
 These sandboxes are set to rebuild completely overnight and clear their database and files every 2 hours. To get access visit [How can I try or get a demo of YMCA Website Services?](https://community.openymca.org/t/how-can-i-try-or-get-a-demo-of-open-y/318)
 
@@ -35,7 +35,7 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 ## Development Sandboxes
 
-https://sandboxes-dev.openy.org/
+https://sandboxes-dev.y.org/
 
 These usually contain the latest development version of YMCA Website Services (the master branch of [openy](https://github.com/YCloudYUSA/yusaopeny).
 
@@ -49,7 +49,7 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 ## Membership Framework Sandboxes
 
-https://membership-framework-sandboxes-d9.openy.org/
+https://membership-framework-sandboxes-d9.y.org/
 
 These are based on the YMCA Website Services stable Standard profile and the development version of the [Membership Framework](https://github.com/YCloudYUSA/yusaopeny_memberships).
 
@@ -67,9 +67,9 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory13097841656330601319.ini
 
 | Theme | Link | YMCA Website Services | Profile | Activity Finder | Theme | Bootstrap |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Carnation | https://sandbox-carnation-cus-d9.openy.org/activity-finder-v4 | stable | Custom | v4 dev | v4 |
-| Rose | https://sandbox-rose-cus-d9.openy.org/activity-finder-v4 | stable |  Custom | v4 dev | v3 |
-| Lily | https://sandbox-lily-cus-d9.openy.org/activity-finder-v4 | stable | Custom | v4 dev | v3 |
+| Carnation | https://sandbox-carnation-cus-d9.y.org/activity-finder-v4 | stable | Custom | v4 dev | v4 |
+| Rose | https://sandbox-rose-cus-d9.y.org/activity-finder-v4 | stable |  Custom | v4 dev | v3 |
+| Lily | https://sandbox-lily-cus-d9.y.org/activity-finder-v4 | stable | Custom | v4 dev | v3 |
 
 To rebuild the sandbox, CI is running:
 
