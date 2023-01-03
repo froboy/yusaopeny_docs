@@ -10,8 +10,8 @@ These fields are reused across many of the below components.
 
 | Label            | Machine Name           | Type               | Required | Cardinality | Help text | Field Settings | Notes |
 |------------------|------------------------|--------------------|----------|-------------|-----------|----------------|-------|
-| Section title    | field_section_title    | Text (plain)       | no       | 1           |
-| Section subtitle | field_section_subtitle | Text (plain, long) | no       | 1           | 
+| Section heading (H2)    | field_section_heading    | Text (plain)       | no       | 1           |
+| Section subheading (H3) | field_section_subheading | Text (plain, long) | no       | 1           | 
 
 ## Accordion
 
@@ -31,8 +31,22 @@ Expandable pairs of question/answer or header/section fields.
 
 | Label | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
 |-------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Title | field_title  | Text (plain)                         | yes      | 1           |
-| Body  | field_body   | Text (formatted, long, with summary) | no       | 1           |
+| Heading (H4) | field_accordion_heading  | Text (plain)                         | yes      | 1           |
+| Body  | field_accordion_body   | Text (formatted, long, with summary) | no       | 1           |
+
+## Branch Amenities
+
+- **Machine name:** `lb_branch_amenities`
+- **Project:** [lb_branch_amenities]
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+Display of all amenities available at a branch location.
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     |
+| Amenity name | Text (plain) | Entity reference (amenities taxonomy?) | yes | unlimited |  |  | Taxonomy? |
 
 ## Cards
 
@@ -44,25 +58,25 @@ Flexible card-style components that allow up to 4 cards to display across the pa
 
 | Label            | Machine Name  | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
 |------------------|---------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section title    | (inherit)     | 
-| Section subtitle | (inherit)     | 
-| Section CTA/Link | field_cta     | Link                       | no       | 1           |
-| # of columns     | field_columns | List (text)                | yes      | 1           |           | 
-| Cards            | field_cards   | Entity reference revisions | no       | 4           |           | Bundle: Card   |
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     | 
+| Section CTA / Link | field_card_section_link     | Link                       | no       | 1           |
+| # of columns     | field_card_section_columns | List (text)                | yes      | 1           |           | 
+| Card Item            | field_card_items   | Entity reference revisions | no       | 4           |           | Bundle: Card   |
 
-### Card
+### Card Item
 
-**Machine name:** `lb_card`
+**Machine name:** `lb_card_item`
 
 The Card paragraph is referenced by the Cards block.
 
 | Label       | Machine Name           | Type               | Required | Cardinality | Help text | Field Settings | Notes                   |
 |-------------|------------------------|--------------------|----------|-------------|-----------|----------------|-------------------------|
-| Title       | field_card_title       | Text (plain)       | yes      | 1           |
-| Image       | field_card_image       | Entity reference   | no       | 1           |
-| Topic Tag   | field_card_topic_tag   | Text (plain)       | no       | 1           |           |                | May be changed to term. |
-| Description | field_card_description | Text (plain, long) | no       | 1           |
-| CTA/Link    | field_card_cta         | Link               | no       | 1           |
+| Heading (H4)       | field_card_item_heading       | Text (plain)       | yes      | 1           |
+| Image       | field_card_item_image       | Entity reference   | no       | 1           |
+| Topic Tag   | field_card_item_topic_tag   | Text (plain)       | no       | 1           |           |                | May be changed to term. |
+| Description | field_card_item_description | Text (plain, long) | no       | 1           |
+| CTA / Link    | field_card_item_link         | Link               | no       | 1           |
 
 ## Carousel
 
@@ -74,8 +88,8 @@ A full-width display with multiple sets of a header, description, and call to ac
 
 | Label             | Machine Name         | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
 |-------------------|----------------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Carousel title    | field_section_title  | Text (plain)               | no       | 1           |
-| Carousel subtitle | field_subtitle       | Text (plain)               | no       | 1           |
+| Section heading (H2)    | (inherit)  |                |        |            |
+| Section subheading (H3) | (inherit)       |                |        |            |
 | Carousel Items    | field_carousel_items | Entity reference revisions | no       | unlimited   |
 
 ### Carousel Item
@@ -84,10 +98,10 @@ A full-width display with multiple sets of a header, description, and call to ac
 
 | Label       | Machine Name               | Type                   | Required | Cardinality | Help text | Field Settings | Notes |
 |-------------|----------------------------|------------------------|----------|-------------|-----------|----------------|-------|
-| Title       | field_title                | Text (plain)           | no       | 1           |
-| Image       | field_carousel_image       | Entity reference       | no       | 1           |
-| Description | field_carousel_description | Text (formatted, long) | no       | 1           |
-| CTA \ Link  | field_carousel_cta         | Link                   | no       | 1           |
+| Heading (H4)       | field_carousel_item_heading                | Text (plain)           | no       | 1           |
+| Image       | field_carousel_item_image       | Entity reference       | no       | 1           |
+| Description | field_carousel_item_description | Text (formatted, long) | no       | 1           |
+| CTA \ Link  | field_carousel_item_link         | Link                   | no       | 1           |
 
 ## Grid CTA
 
@@ -99,24 +113,24 @@ Sets of content with a headline, description, and link displayed in 2 to 4-item 
 
 | Label                 | Machine Name                | Type             | Required | Cardinality | Help text                                            | Field Settings    | Notes                              |
 |-----------------------|-----------------------------|------------------|----------|-------------|------------------------------------------------------|-------------------|------------------------------------|
-| Section title         | (inherit)                   |
-| Section subtitle      | (inherit)                   |
-| Grid section CTA/link | field_grid_section_cta_link | Link             | no       | 1           | A link button to be displayed below the grid content |
-| # of columns          | field_columns               | List (text)      | yes      | 1           |                                                      |                   | Allows 2-4 columns, defaults to 4. |
+| Section heading (H2)         | (inherit)                   |
+| Section subheading (H3)      | (inherit)                   |
+| Grid section CTA/link | field_grid_cta_section_link | Link             | no       | 1           | A link button to be displayed below the grid content |
+| # of columns          | field_grid_cta_section_columns               | List (text)      | yes      | 1           |                                                      |                   | Allows 2-4 columns, defaults to 4. |
 | Grid Items            | field_grid_items            | Entity Reference | yes      | unlimited   |                                                      | Bundle: Grid Item |
 
-### Grid Item
+### Grid CTA Item
 
-**Machine name:** `lb_cta_item`
+**Machine name:** `lb_grid_cta_item`
 
 The Grid Item paragraph is referenced by the Grid CTA component.
 
 | Label                 | Machine Name                | Type                   | Required | Cardinality | Help text | Field Settings | Notes |
 |-----------------------|-----------------------------|------------------------|----------|-------------|-----------|----------------|-------|
-| Grid item title       | field_grid_item_title       | Text (plain)           | no       | 1           |
-| Grid item description | field_grid_item_description | Text (formatted, long) | no       | 1           |
-| Grid item media       | field_grid_item_icon        | Entity reference       | no       | 1           |
-| Grid item CTA/link    | field_grid_item_cta_link    | Link                   | no       | 1           |
+| Heading (H4)       | field_grid_cta_item_heading       | Text (plain)           | no       | 1           |
+| Description | field_grid_cta_item_description | Text (formatted, long) | no       | 1           |
+| Media       | field_grid_cta_item_icon        | Entity reference       | no       | 1           |
+| CTA/link    | field_grid_cta_item_cta_link    | Link                   | no       | 1           |
 
 ## Hero Banner
 
@@ -128,10 +142,32 @@ A full-width, almost full-height display with a header, description, and call to
 
 | Label       | Machine Name      | Type                   | Required | Cardinality | Help text | Field Settings                    | Notes |
 |-------------|-------------------|------------------------|----------|-------------|-----------|-----------------------------------|-------|
-| Title       | field_title       | Text (plain)           | yes      | 1           |
-| Description | field_description | Text (formatted, long) | no       | 1           | 
-| Media       | field_media       | Entity reference       | no       | 1           |           | Bundle: Image, Local Video, Video |
-| CTA\Link    | field_hero_cta    | Link                   | no       | 1           |
+| Heading (H2)       | field_hero_heading       | Text (plain)           | yes      | 1           |
+| Description | field_hero_description | Text (formatted, long) | no       | 1           | 
+| Media       | field_hero_media       | Entity reference       | no       | 1           |           | Bundle: Image, Local Video, Video |
+| CTA \ Link    | field_hero_link    | Link                   | no       | 1           |
+
+## Partners
+
+- **Machine name:** `lb_partners`
+- **Project:** [lb_partner]
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+List of multiple partner / sponsor logos.
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     | 
+| Partner Items | field_partners | Entity reference revisions | no | unlimited? |  | Bundle: Partner | 
+### Partner Item
+
+**Machine Name:** `lb_partner_item`
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Heading (H4) | field_partner_item_heading | Text (plain)  | Yes |
+| Logo / Image | field_partner_item_image | Entity reference | No | 
+
 
 ## Ping-pong
 
@@ -143,24 +179,13 @@ Usually paired sets of full-width page components that include media, header, de
 
 | Label               | Machine Name              | Type                   | Required | Cardinality | Help text                                                                                                          | Field Settings | Notes |
 |---------------------|---------------------------|------------------------|----------|-------------|--------------------------------------------------------------------------------------------------------------------|----------------|-------|
-| Section subtitle    | field_subtitle            | (inherit)              |
-| Section Title       | field_title               | (inherit)              |
-| Item title          | field_item_title          | Text (plain)           | no       | 1           |
-| Item Description    | field_item_description    | Text (formatted, long) | no       | 1           |
-| Item CTA\Link       | field_item_cta            | Link                   | no       | 2           | The first will use the primary style and the second, secondary.                                                    |
-| Item Image          | field_item_image          | Entity reference       | no       | 1           |
-| Item Image Position | field_item_image_position | List (text)            | yes      | 1           | Places the image on this side of the page in the full-width display. Image will stack above text at narrow widths. |
-
-## Partners
-
-- **Machine name:** `lb_partners`
-- **Project:** [lb_]
-- **Designs:** [Mobile](<>) | [Desktop](<>)
-
-List of multiple partner / sponsor logos.
-
-| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
-|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section Heading (H2)    | (inherit)            |               |
+| Section Subheading (H3)      |  (inherit)              |              |
+| Heading (H4)          | field_ping_pong_item_heading          | Text (plain)           | no       | 1           |
+| Description    | field_ping_pong_item_description    | Text (formatted, long) | no       | 1           |
+| CTA \ Link       | field_ping_pong_item_link            | Link                   | no       | 2           | The first will use the primary style and the second, secondary.                                                    |
+| Image          | field_ping_pong_item_image          | Entity reference       | no       | 1           |
+| Image Position | field_ping_pong_item_image_position | List (text)            | yes      | 1           | Places the image on this side of the page in the full-width display. Image will stack above text at narrow widths. |
 
 
 ## Promo Card
@@ -173,10 +198,36 @@ A title, headline, description, and link that usually display in the right or le
 
 | Label        | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
 |--------------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Title        | field_title  | Text (plain)                         | yes      | 1           |
-| Body         | body         | Text (formatted, long, with summary) | no       | 1           | 
-| Icon / Image | field_image  | Entity reference                     | no       | 1           |           | Bundle: Image  |
-| CTA / Link   | field_cta    | Link                                 | no       | 1           |
+| Title        | field_promo_title  | Text (plain)                         | yes      | 1           |
+| Body         | field_promo_body         | Text (formatted, long, with summary) | no       | 1           | 
+| Icon / Image | field_promo_image  | Entity reference                     | no       | 1           |           | Bundle: Image  |
+| CTA / Link   | field_promo_link    | Link                                 | no       | 1           |
+
+## Related Articles
+
+- **Machine name:** `lb_related_articles`
+- **Project:** [lb_related_articles](<>)
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+Component for displaying related articles within a page.
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     | 
+
+## Related Events
+
+- **Machine name:** `lb_related_events`
+- **Project:** [lb_related_events](<>)
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+Component for displaying related events within a page.
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     | 
 
 ## Simple Menu
 
@@ -188,8 +239,33 @@ A simple 1-level sidebar menu that can display in either the right or left sideb
 
 | Label | Machine Name               | Type             | Required | Cardinality | Help text | Field Settings | Notes |
 |-------|----------------------------|------------------|----------|-------------|-----------|----------------|-------|
-| Icon  | field_icon                 | Entity reference | no       | 1           |           | Bundle: Image  |
-| Links | field_lb_simple_menu_links | Link             | yes      | unlimited   |
+| Icon  | field_simple_menu_icon                 | Entity reference | no       | 1           |           | Bundle: Image  |
+| Links | field_simple_menu_links | Link             | yes      | unlimited   |
+
+## Staff
+
+- **Machine name:** `lb_staff`
+- **Project:** [lb_staff](<>)
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+Displays simple staff member info cards with image, name, title, email
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     | 
+| Staff | field_staff | Entity reference revisions | no | unlimited? |  | Bundle: Staff |
+
+### Staff Item
+
+**Machine name:** `lb_staff_item`
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Name | field_staff_item_name | Text (plain) | Yes | 1 |  | Firstname, Lastname |
+| Image | field_staff_item_image | Entity reference | No | 1 |  |  | If no image uploaded, utilize default |
+| Title | field_staff_item_title | Text (plain) | Yes | 1 | 
+| Email | field_staff_item_email | Text (formatted, mailto) | Yes | 1 |  |  | Clicking on email should open users default email client |
 
 ## Statistics
 
@@ -201,20 +277,20 @@ Infographic-like display that highlights relevant statistics to users.
 
 | Label              | Machine Name  | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
 |--------------------|---------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section title      | (inherit)     |
-| Section subtitle   | (inherit)     |
-| # of columns       | field_columns | List (text)                | yes      | 1           |
-| Section CTA / Link | field_cta     | Link                       | no       | 1           |
-| Statistics Items   | field_items   | Entity reference revisions | no       | unlimited   |
+| Section heading (H2)      | (inherit)     |
+| Section subheading (H3)   | (inherit)     |
+| # of columns       | field_statistics_columns | List (text)                | yes      | 1           |
+| Section CTA / Link | field_statistics_link     | Link                       | no       | 1           |
+| Statistics Items   | field_statistics_items   | Entity reference revisions | no       | unlimited   |
 
-### Statistics Item
+### Statistic Item
 
-**Machine name:** `statistics_item`
+**Machine name:** `lb_statistics_item`
 
 | Label        | Machine Name      | Type         | Required | Cardinality | Help text | Field Settings | Notes |
 |--------------|-------------------|--------------|----------|-------------|-----------|----------------|-------|
-| Number value | field_number      | Text (plain) | yes      | 1           |
-| Description  | field_description | Text (plain) | no       | 1           |
+| Number value | field_statistic_item_number      | Text (plain) | yes      | 1           |
+| Description  | field_statistic_item_description | Text (plain) | no       | 1           |
 
 ## Table
 
@@ -226,9 +302,9 @@ Allows users to be able to view responsive tables within a page.
 
 | Label            | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
 |------------------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Section title	   | (inherit)    |
-| Section subtitle | (inherit)    |
-| Body             | body         | Text (formatted, long, with summary) | no       | 1           |
+| Section heading (H2)	   | (inherit)    |
+| Section subheading (H3) | (inherit)    |
+| Body             | field_table_body         | Text (formatted, long, with summary) | no       | 1           |
 
 ## Tabs
 
@@ -240,20 +316,44 @@ Gives users the ability to switch page views by selecting tabs across the top of
 
 | Label            | Machine Name | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
 |------------------|--------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section title    | (inherit)    | 
-| Section subtitle | (inherit)    | 
+| Section heading (H2)   | (inherit)    | 
+| Section subheading (H3) | (inherit)    | 
 | Tabs             | field_tabs   | Entity reference revisions | no       | unlimited   |           | Bundle: Tab    |
 
-### Tab
+### Tab Item
 
-**Machine name:** `tab`
+**Machine name:** `lb_tab_item`
 
 The Tab paragraph is referenced by the Tabs block.
 
 | Label | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
 |-------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Title | field_title  | Text (plain)                         | yes      | 1           |
-| Body  | field_body   | Text (formatted, long, with summary) | no       | 1           |
+| Heading (H4) | field__tab_heading  | Text (plain)                         | yes      | 1           |
+| Body  | field_tab_body   | Text (formatted, long, with summary) | no       | 1           |
+
+## Testimonials
+
+- **Machine name:** `lb_testimonials`
+- **Project:** [lb_testimonial]
+- **Designs:** [Mobile](<>) | [Desktop](<>)
+
+Display of short testimonials or quotes from Y members.
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Section heading (H2)    | (inherit)     | 
+| Section subheading (H3) | (inherit)     | 
+| Testimonials | field_testimonials | Entity reference revisions | no | unlimited? |  | Bundle: Testimonial | 
+
+### Testimonial Item
+
+**Machine Name:** `lb_testimonial_item`
+
+| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
+|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
+| Name | field_testimonial_item_name | Text (plain) | Yes | 1 |  | Firstname, Lastname
+| Image | field_testimonial_item_image | Entity reference | no | 1 |  |  | If no image uploaded, utilize default
+| Quote | field_testimonial_item_quote | Text (plain) | Yes | 1 | 
 
 ## Webform
 
