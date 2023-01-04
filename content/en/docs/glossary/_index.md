@@ -1,5 +1,9 @@
 ---
 title: Glossary
+weight: 99
+menu:
+    main:
+        weight: 50
 ---
 
 ACTIVENet
