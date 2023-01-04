@@ -37,3 +37,8 @@ figcaption {
 figcaption, iframe {
   @extend .td-max-width-on-larger-screens;
 }
+
+// Reset the reset for definition list description.
+dd {
+  margin-left: revert;
+}
