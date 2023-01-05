@@ -343,7 +343,7 @@ Display of short testimonials or quotes from Y members.
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Section heading    | (inherit)     |  |  |  |  |  | H2 |
 | Section subheading | (inherit)     |  |  |  |  |  | H3 |
-| Testimonials | field_testimonial_item | Entity reference revisions | no | unlimited? |  | Bundle: testimonial_item | 
+| Testimonials | field_testimonial_item | Entity reference revisions | no | 4 |  | Bundle: testimonial_item | 
 
 ### Testimonial Item
 
