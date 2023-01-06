@@ -160,6 +160,7 @@ List of multiple partner / sponsor logos.
 | Section heading    | (inherit)     |  |  |  |  |  | H2 |
 | Section subheading  | (inherit)     |  |  |  |  |  | H3 |
 | Partner items | field_partner_items | Entity reference revisions | no | unlimited? |  | Bundle: lb_partner_item | 
+
 ### Partner Item
 
 **Machine Name:** `lb_partner_item`
