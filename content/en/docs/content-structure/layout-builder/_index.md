@@ -74,7 +74,7 @@ The Card paragraph is referenced by the Cards block.
 |-------------|------------------------|--------------------|----------|-------------|-----------|----------------|-------------------------|
 | Heading       | field_item_heading       | Text (plain)       | yes      | 1           |  |  | H4 |
 | Image       | field_item_image       | Entity reference   | no       | 1           |
-| Topic Tag   | field_item_topic_tag   | Text (plain)       | no       | 1           |           |                | May be changed to term. |
+| Topic Tag   | field_item_topic_tag   | Entity reference       | no       | 1           |           | Bundle: blog_category, news_category |  |
 | Description | field_item_description | Text (plain, long) | no       | 1           |
 | CTA / Link    | field_item_link         | Link               | no       | 1           |
 
