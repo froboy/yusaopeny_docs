@@ -46,7 +46,7 @@ Display of all amenities available at a branch location.
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Section heading     | (inherit)     |  |  |  |  |  | H2
 | Section subheading  | (inherit)     |  |  |  |  |  | H3
-| Amenity name | Text (plain) | Entity reference (amenities taxonomy?) | yes | unlimited |  |  | Taxonomy? |
+| Amenity name | Text (plain) | Entity reference | yes | unlimited |  |  | Taxonomy |
 
 ## Cards
 
@@ -160,15 +160,14 @@ List of multiple partner / sponsor logos.
 | Section heading    | (inherit)     |  |  |  |  |  | H2 |
 | Section subheading  | (inherit)     |  |  |  |  |  | H3 |
 | Partner items | field_partner_items | Entity reference revisions | no | unlimited? |  | Bundle: lb_partner_item | 
-
 ### Partner Item
 
 **Machine Name:** `lb_partner_item`
-
 | Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Heading | field_item_heading | Text (plain)  | Yes |  |  |  | H4 |
 | Image | field_item_image | Entity reference | No | 
+
 
 ## Ping-pong
 
@@ -187,6 +186,7 @@ Usually paired sets of full-width page components that include media, header, de
 | Link       | field_item_link            | Link                   | no       | 2           | The first will use the primary style and the second, secondary.                                                    |
 | Image          | field_item_image          | Entity reference       | no       | 1           |
 | Image position | field_item_image_position | List (text)            | yes      | 1           | Places the image on this side of the page in the full-width display. Image will stack above text at narrow widths. |
+
 
 ## Promo Card
 
