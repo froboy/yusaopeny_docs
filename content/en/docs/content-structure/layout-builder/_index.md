@@ -164,6 +164,7 @@ List of multiple partner / sponsor logos.
 ### Partner Item
 
 **Machine Name:** `lb_partner_item`
+
 | Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Heading | field_item_heading | Text (plain)  | Yes |  |  |  | H4 |
