@@ -170,7 +170,6 @@ List of multiple partner / sponsor logos.
 | Heading | field_item_heading | Text (plain)  | Yes |  |  |  | H4 |
 | Image | field_item_image | Entity reference | No | 
 
-
 ## Ping-pong
 
 - **Machine name:** `lb_ping_pong`
