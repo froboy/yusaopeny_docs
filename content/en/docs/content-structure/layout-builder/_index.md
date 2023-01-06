@@ -189,7 +189,6 @@ Usually paired sets of full-width page components that include media, header, de
 | Image          | field_item_image          | Entity reference       | no       | 1           |
 | Image position | field_item_image_position | List (text)            | yes      | 1           | Places the image on this side of the page in the full-width display. Image will stack above text at narrow widths. |
 
-
 ## Promo Card
 
 - **Machine name:** `lb_promo`
