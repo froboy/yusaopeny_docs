@@ -160,13 +160,14 @@ List of multiple partner / sponsor logos.
 | Section heading    | (inherit)     |  |  |  |  |  | H2 |
 | Section subheading  | (inherit)     |  |  |  |  |  | H3 |
 | Partner items | field_partner_items | Entity reference revisions | no | unlimited? |  | Bundle: lb_partner_item | 
+
 ### Partner Item
 
 **Machine Name:** `lb_partner_item`
 | Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Heading | field_item_heading | Text (plain)  | Yes |  |  |  | H4 |
-| Image | field_item_image | Entity reference | No | 
+| Image | field_item_image | Entity reference | Yes | 
 
 
 ## Ping-pong
@@ -263,7 +264,7 @@ Displays simple staff member info cards with image, name, title, email
 | Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Name | field_item_name | Text (plain) | Yes | 1 |  |  | H4 |
-| Image | field_item_image | Entity reference | No | 1 |  |  | If no image uploaded, utilize default |
+| Image | field_item_image | Entity reference | Yes | 1 |  |  | If no image uploaded, utilize default |
 | Job title | field_item_job_title | Text (plain) | Yes | 1 | 
 | Email | field_item_email | Text (formatted, mailto) | Yes | 1 |  |  | Clicking on email should open users default email client |
 
@@ -352,7 +353,7 @@ Display of short testimonials or quotes from Y members.
 | Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
 |----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
 | Name | field_item_name | Text (plain) | Yes | 1 |  | Firstname, Lastname | H4 |
-| Image | field_item_image | Entity reference | no | 1 |  |  | If no image uploaded, utilize default
+| Image | field_item_image | Entity reference | Yes | 1 |  |  | If no image uploaded, utilize default
 | Quote | field_item_quote | Text (plain) | Yes | 1 | 
 
 ## Webform
