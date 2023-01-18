@@ -2,8 +2,8 @@
 title: Glossary
 weight: 99
 menu:
-    main:
-        weight: 50
+main:
+weight: 50
 ---
 
 ACTIVENet
@@ -67,7 +67,7 @@ Open Y
 : The original name of the distribution currently known as YMCA Website Services. In 2016 a group of YMCA digital, marketing, and technology experts recognized the digital opportunities that exist if we work together as a community and established Open Y. The original core team was led by a small group of YMCAs including the YMCA North, Greater Seattle and YMCA of Greater Houston.
 
 Paragraph
-: A Drupal data structure that allows content editors to create sections of content on a page using preset groups of fields. See [Paragraphs](https://www.drupal.org/project/paragraphs). 
+: A Drupal data structure that allows content editors to create sections of content on a page using preset groups of fields. See [Paragraphs](https://www.drupal.org/project/paragraphs).
 
 Personify
 : A service provider that offers member management systems and more. Integrates with a number of features of the distribution. [Personify](https://personifycorp.com/).
@@ -89,6 +89,24 @@ Theme
 
 Y North
 : Formerly YMCA of the Twin Cities. One of the founding associations of Open Y. Lovers of llamas.
+
+YMCA’s Cloud Hosting Service
+: An enterprise-grade platform that enables Associations (Y’s) to create, host and personalize digital experiences. A product of YMCA's Digital Services. Formerly _YCloud Hosting_. See [ds.ymca.org](https://ds.ymca.org/ymcas-cloud-hosting-service).
+
+YMCA‘s Digital Content Hub
+: A submodule of YMCA's Website Service enabling content sharing across YMCA websites. Formerly known as _Y Content Hub_ A product of YMCA's Digital Services.
+
+YMCA's Digital Services
+: The collection of mostly open-source cloud-based services maintained in collaboration between YUSA, the movement, and agency partners. Formerly known as the _YCloud Ecosystem_. See [ds.ymca.org](https://ds.ymca.org).
+
+YMCA’s Mobile Experience Platform
+: A mobile app to engage YMCA associations' members across the USA. A product of YMCA's Digital Services. Formerly known as the _Universal App_. See [ds.ymca.org](https://ds.ymca.org/ymcas-mobile-experience-platform).
+
+YMCA’s Virtual Experience Platform
+: A gated and secure digital space created to provide content, programming, and other resources to YMCA Association members. A product of YMCA's Digital Services. Formerly known as _Virtual Y_. See [ds.ymca.org](https://ds.ymca.org/ymcas-virtual-experience-platform).
+
+YMCA’s Website Service
+: A collection of Drupal modules, themes, configuration, and content bundled together in a "distribution" to enable digital transformation for YMCAs across the country. A product of YMCA's Digital Services. Formerly known as _Open Y_. See [ds.ymca.org](https://ds.ymca.org/ymcas-website-service).
 
 YNAN
 : The "YMCA North American Network", representing the largest YMCA associations in the country.
