@@ -2,8 +2,8 @@
 title: Glossary
 weight: 99
 menu:
-main:
-weight: 50
+    main:
+        weight: 50
 ---
 
 ACTIVENet
@@ -24,6 +24,9 @@ Cachet
 Carnation
 : The newest and most widely used of the distribution themes. "Carnation offers image-rich page layouts and simple, mobile-optimized menus." See [Sandboxes](../wiki/sandboxes).
 
+Content type
+: An item of content data with shared fields, like an image, text, and address. Content types have different purposes (Branch, Event, Landing Page) and are displayed in different ways on the site. See the [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/planning-data-types.html#s-what-is-a-content-entity) and [Content Types in the distribution](/docs/user-documentation/content-types/).
+
 Daxko
 : A service provider offering member management, facility management, and more. Integrates with most features of the distribution that have integrations. [Daxko](https://www.daxko.com/).
 
@@ -32,6 +35,9 @@ Distribution
 
 Drupal
 : The Content Management System that powers the distribution. [Drupal](https://www.drupal.org/).
+
+EGYM
+: A service provider offering cloud-connected equipment and services to YMCAs. See [EGYM](https://egym.com/us).
 
 Five Jars
 : A partner agency that works on the distribution and provides services directly to YMCAs. Also "5J". [Five Jars](https://fivejars.com/).
@@ -67,7 +73,7 @@ Open Y
 : The original name of the distribution currently known as YMCA Website Services. In 2016 a group of YMCA digital, marketing, and technology experts recognized the digital opportunities that exist if we work together as a community and established Open Y. The original core team was led by a small group of YMCAs including the YMCA North, Greater Seattle and YMCA of Greater Houston.
 
 Paragraph
-: A Drupal data structure that allows content editors to create sections of content on a page using preset groups of fields. See [Paragraphs](https://www.drupal.org/project/paragraphs).
+: A Drupal data structure that allows content editors to create sections of content on a page using preset groups of fields. See [Paragraphs on Drupal.org](https://www.drupal.org/project/paragraphs) and [Paragraphs in the distribution](/docs/user-documentation/paragraphs/).
 
 Personify
 : A service provider that offers member management systems and more. Integrates with a number of features of the distribution. [Personify](https://personifycorp.com/).
@@ -87,8 +93,22 @@ SSO
 Theme
 : A set of templates, styles, and code that define the presentation layer of a site. See [Theming Drupal](https://www.drupal.org/docs/theming-drupal).
 
+YMCA Canada
+Y Canada
+: The Canadian YMCA Federation is made up of a national office and Member Associations across the country. See [ymca.ca](https://www.ymca.ca/).
+
+YMCA North American Network
+YNAN
+: The organization representing the largest YMCA associations in the country.
+
+YMCA of the North
 Y North
-: Formerly YMCA of the Twin Cities. One of the founding associations of Open Y. Lovers of llamas.
+: Formerly _YMCA of the Twin Cities_. One of the founding associations of Open Y. Lovers of llamas. See [ynorth.org](https://www.ymcanorth.org/).
+
+YMCA of the USA
+YUSA
+Y-USA
+: The central office for YMCAs in the USA. Headquartered in Chicago. [YMCA of the USA](https://ymca.org/).
 
 YMCA’s Cloud Hosting Service
 : An enterprise-grade platform that enables Associations (Y’s) to create, host and personalize digital experiences. A product of YMCA's Digital Services. Formerly _YCloud Hosting_. See [ds.ymca.org](https://ds.ymca.org/ymcas-cloud-hosting-service).
@@ -107,9 +127,3 @@ YMCA’s Virtual Experience Platform
 
 YMCA’s Website Service
 : A collection of Drupal modules, themes, configuration, and content bundled together in a "distribution" to enable digital transformation for YMCAs across the country. A product of YMCA's Digital Services. Formerly known as _Open Y_. See [ds.ymca.org](https://ds.ymca.org/ymcas-website-service).
-
-YNAN
-: The "YMCA North American Network", representing the largest YMCA associations in the country.
-
-YUSA
-: YMCA of the USA or Y-USA. The central office for YMCAs in the USA. Headquartered in Chicago. [YMCA of the USA](https://ymca.org/).
