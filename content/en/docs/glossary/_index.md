@@ -108,7 +108,7 @@ Y North
 YMCA of the USA
 YUSA
 Y-USA
-: The central office for YMCAs in the USA. Headquartered in Chicago. [YMCA of the USA](https://ymca.org/).
+: The national resource office, supporting thousands of YMCAs, tens of thousands of staff, and hundreds of thousands of volunteers in 10,000 communities across the USA. Headquartered in Chicago. [YMCA of the USA](https://ymca.org/).
 
 YMCA’s Cloud Hosting Service
 : An enterprise-grade platform that enables Associations (Y’s) to create, host and personalize digital experiences. A product of YMCA's Digital Services. Formerly _YCloud Hosting_. See [ds.ymca.org](https://ds.ymca.org/ymcas-cloud-hosting-service).
