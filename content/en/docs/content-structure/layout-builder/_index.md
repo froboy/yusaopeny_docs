@@ -230,6 +230,20 @@ Component for displaying related events within a page.
 | Section heading     | (inherit)     |  |  |  |  |  | H2 |
 | Section subheading  | (inherit)     |  |  |  |  |  | H3
 
+## Simple Content
+
+- **Machine name:** `lb_simple_content`
+- **Project:** [lb_simple_content]()
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tables Desktop.png>)
+
+Allows users to be able to view responsive tables within a page.
+
+| Label            | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
+|------------------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
+| Section heading	   | (inherit)    |  |  |  |  |  | H2 |
+| Section subheading | (inherit)    |  |  |  |  |  | H3 |
+| Body             | body         | Text (formatted, long, with summary) | no       | 1           |  |  | Allows for responsive tables to be placed in the body. |
+
 ## Simple Menu
 
 - **Machine name:** `lb_simple_menu`
@@ -317,20 +331,7 @@ The Tab paragraph is referenced by the Tabs block.
 |-------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
 | Heading | field_heading  | Text (plain)                         | yes      | 1           |  |  | H4 |
 | Body  | body   | Text (formatted, long, with summary) | no       | 1           |  |  | WYSIWYG |
-
-## Table
-
-- **Machine name:** `lb_table`
-- **Project:** [lb_table](https://www.drupal.org/project/lb_table)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tables Desktop.png>)
-
-Allows users to be able to view responsive tables within a page.
-
-| Label            | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
-|------------------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Section heading	   | (inherit)    |  |  |  |  |  | H2 |
-| Section subheading | (inherit)    |  |  |  |  |  | H3 |
-| Body             | body         | Text (formatted, long, with summary) | no       | 1           |
+ 
 
 ## Testimonials
 

@@ -174,7 +174,7 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name = "YMCA Website Services"
-	url = "https://ycloud.y.org/open-y-association-websites"
+	url = "https://ds.ymca.org/"
 	icon = "fa fa-globe"
         desc = "Main YMCA Website Services site and updates."
 [[params.links.user]]
@@ -184,9 +184,14 @@ enable = false
         desc = "Connect with us!"
 [[params.links.user]]
 	name = "YouTube"
+	url = "https://www.youtube.com/@ymcasdigitalservices"
+	icon = "fab fa-youtube"
+        desc = "Learn all about YMCA Website Services and catch up on our monthly calls."
+[[params.links.user]]
+	name = "YouTube (Archive)"
 	url = "https://www.youtube.com/channel/UC4hp3K9JFptqPZyNjJLvkJg"
 	icon = "fab fa-youtube"
-        desc = "Learn all about YMCA Website Services."
+        desc = "Older Open Y community meetings and training videos."
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
@@ -195,9 +200,9 @@ enable = false
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "https://community.openymca.org/t/access-to-openy-slack-com-channel/197"
+	url = "mailto:ycloud@ymca.net?subject=Slack Access Request"
 	icon = "fab fa-slack"
-        desc = "Chat with developers and community members"
+        desc = "Chat with developers and community members. Email us to request access."
 [[params.links.developer]]
 	name = "Message Board"
 	url = "https://community.ycloud.y.org"

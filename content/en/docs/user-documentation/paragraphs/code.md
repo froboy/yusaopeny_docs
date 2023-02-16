@@ -10,11 +10,11 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 
 ### YMCA of Central Kentucky / Daxko Schedules iframe
 
-![y-example--code__daxko-iframe|690x362, 75%](upload://xWdxyZdejraNn7ve3qOLYxRGEbc.png)
+![y-example--code__daxko-iframe](../../../../../assets/img/paragraphs-code-yck-daxko.png)
 
 ### YMCA of Middle Tennessee / GroupEx Pro Script
 
-![y-example--code__gxp-iframe|690x327, 75%](upload://3QLx1QiF1ggw1xkbfc6djWPLUQM.png)
+![y-example--code__gxp-iframe](../../../../../assets/img/paragraphs-code-ymt-gxp.png)
 
 
 ## Areas it Should Be Used
@@ -27,18 +27,18 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 
 * Select “Add Code” from the paragraphs dropdown.
 
-  ![admin--code__paragraph-dropdown|690x309, 50%](upload://2v8ZmDflbxvdTdQfQkJCmbQrtFK.png)
+  ![admin--code__paragraph-dropdown](../../../../../assets/img/paragraphs-code-dropdown.png)
 * You will see two buttons - one to add a custom block, the other to search for a custom block.
 
 * To search for an existing custom block, type the name of the block in the autocomplete field and click on an option that appears to embed that block.
 
 * To add a new block, click the “Add New Custom Block” button.
 
-[Learn more about blocks ⇒](../blocks/_index.md)
+[Learn more about blocks ⇒](../../blocks)
 
 * When you add your block, you will see a blank, unformatted text field. Type your HTML text into this field.
 
-![admin--code__block|690x422, 75%](upload://5KrrpvVIFZVDrt4zrsoASTkTenJ.png)
+![admin--code__block](../../../../../assets/img/paragraphs-code-form-fields.png)
 
 > ***To use code, you must add HTML tags.***
 >
@@ -56,14 +56,14 @@ Once you’re done, click the button that either says *Add custom block* or *Upd
 
 ## Content Types that Support Code
 
-* [Landing Page](../content-types/landing-page.md)
-* [Branch](../content-types/branch.md)
-* [Camp](../content-types/camp.md)
+* [Landing Page](../../content-types/landing-page)
+* [Branch](../../content-types/branch)
+* [Camp](../../content-types/camp)
 * Facility
 * Event
-* [Activity](../content-types/activity-class-session.md)
-* [Program](../content-types/program.md)
-* [Program Subcategory](../content-types/program-subcategory.md)
-* [Class](../content-types/activity-class-session.md)
-* [Blog Post](../content-types/blog-post.md)
-* [News Post](../content-types/news-post.md)
+* [Activity](../../content-types/activity-class-session)
+* [Program](../../content-types/program)
+* [Program Subcategory](../../content-types/program-subcategory)
+* [Class](../../content-types/activity-class-session)
+* [Blog Post](../../content-types/blog-post)
+* [News Post](../../content-types/news-post)
