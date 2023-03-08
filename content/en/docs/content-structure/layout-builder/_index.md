@@ -37,16 +37,16 @@ Expandable pairs of question/answer or header/section fields.
 ## Branch Amenities
 
 - **Machine name:** `lb_branch_amenities`
-- **Project:** [lb_branch_amenities]
-- **Designs:** [Mobile](<>) | [Desktop](<>)
+- **Project:** [lb_branch_amenities_blocks](https://www.drupal.org/project/lb_branch_amenities_blocks)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Branch Amenities Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Branch Amenities Desktop.png>)
 
 Display of all amenities available at a branch location.
 
-| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
-|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
-| Section heading     | (inherit)     |  |  |  |  |  | H2
-| Section subheading  | (inherit)     |  |  |  |  |  | H3
-| Amenity name | Text (plain) | Entity reference | yes | unlimited |  |  | Taxonomy |
+| Label              | Machine Name | Type             | Required | Cardinality | Help text | Field Settings | Notes    |
+|--------------------|--------------|------------------|----------|-------------|-----------|----------------|----------|
+| Section heading    | (inherit)    |                  |          |             |           |                | H2       |
+| Section subheading | (inherit)    |                  |          |             |           |                | H3       |
+| Amenity name       | Text (plain) | Entity reference | yes      | unlimited   |           |                | Taxonomy |
 
 ## Cards
 
@@ -150,8 +150,8 @@ A full-width, almost full-height display with a header, description, and call to
 ## Partners
 
 - **Machine name:** `lb_partners`
-- **Project:** [lb_partners]
-- **Designs:** [Mobile](<>) | [Desktop](<>)
+- **Project:** [lb_partners_blocks](https://www.drupal.org/project/lb_partners_blocks)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Sponsors Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Sponsors Desktop.png>)
 
 List of multiple partner / sponsor logos.
 
@@ -207,8 +207,8 @@ A title, headline, description, and link that usually display in the right or le
 ## Related Articles
 
 - **Machine name:** `lb_related_articles`
-- **Project:** [lb_related_articles](<>)
-- **Designs:** [Mobile](<>) | [Desktop](<>)
+- **Project:** [lb_related_articles_blocks](https://www.drupal.org/project/lb_related_articles_blocks)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Article Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Article Desktop.png>)
 
 Component for displaying related articles within a page.
 
@@ -220,15 +220,15 @@ Component for displaying related articles within a page.
 ## Related Events
 
 - **Machine name:** `lb_related_events`
-- **Project:** [lb_related_events](<>)
-- **Designs:** [Mobile](<>) | [Desktop](<>)
+- **Project:** [lb_related_events_blocks](https://www.drupal.org/project/lb_related_events_blocks)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Events Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Event Desktop.png>)
 
 Component for displaying related events within a page.
 
-| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
-|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
-| Section heading     | (inherit)     |  |  |  |  |  | H2 |
-| Section subheading  | (inherit)     |  |  |  |  |  | H3
+| Label              | Machine Name | Type | Required | Cardinality | Help text | Field Settings | Notes |
+|--------------------|--------------|------|----------|-------------|-----------|----------------|-------|
+| Section heading    | (inherit)    |      |          |             |           |                | H2    |
+| Section subheading | (inherit)    |      |          |             |           |                | H3    |
 
 ## Simple Content
 
@@ -260,8 +260,8 @@ A simple 1-level sidebar menu that can display in either the right or left sideb
 ## Staff
 
 - **Machine name:** `lb_staff`
-- **Project:** [lb_staff](<>)
-- **Designs:** [Mobile](<>) | [Desktop](<>)
+- **Project:** [lb_staff_members_blocks](https://www.drupal.org/project/lb_staff_members_blocks)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Staff Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Staff Desktop.png>)
 
 Displays simple staff member info cards with image, name, title, email
 
@@ -290,13 +290,13 @@ Displays simple staff member info cards with image, name, title, email
 
 Infographic-like display that highlights relevant statistics to users.
 
-| Label              | Machine Name  | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
-|--------------------|---------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section heading       | (inherit)     |  |  |  |  |  | H2 |
-| Section subheading    | (inherit)     |  |  |  |  |  | H3 |
-| # of columns       | field_columns | List (text)                | yes      | 1           |
-| Section link | field_link     | Link                       | no       | 1           |
-| Statistics items   | field_statistics_ items   | Entity reference revisions | no       | unlimited   |  | Bundle: lb_statistics_item
+| Label              | Machine Name            | Type                       | Required | Cardinality | Help text | Field Settings             | Notes |
+|--------------------|-------------------------|----------------------------|----------|-------------|-----------|----------------------------|-------|
+| Section heading    | (inherit)               |                            |          |             |           |                            | H2    |
+| Section subheading | (inherit)               |                            |          |             |           |                            | H3    |
+| # of columns       | field_columns           | List (text)                | yes      | 1           |           |                            |       |
+| Section link       | field_link              | Link                       | no       | 1           |           |                            |       |
+| Statistics items   | field_statistics_ items | Entity reference revisions | no       | unlimited   |           | Bundle: lb_statistics_item |       |
 
 ### Statistics Item
 
@@ -336,8 +336,8 @@ The Tab paragraph is referenced by the Tabs block.
 ## Testimonials
 
 - **Machine name:** `lb_testimonials`
-- **Project:** [lb_testimonial]
-- **Designs:** [Mobile](<>) | [Desktop](<>)
+- **Project:** [lb_testimonial_blocks](https://www.drupal.org/project/lb_testimonial_blocks)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Testimonials Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Testimonials Desktop.png>)
 
 Display of short testimonials or quotes from Y members.
 
@@ -351,11 +351,11 @@ Display of short testimonials or quotes from Y members.
 
 **Machine Name:** `lb_testimonial_item`
 
-| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
-|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
-| Name | field_item_name | Text (plain) | Yes | 1 |  | Firstname, Lastname | H4 |
-| Image | field_item_image | Entity reference | Yes | 1 |  |  | If no image uploaded, utilize default
-| Quote | field_item_quote | Text (plain) | Yes | 1 | 
+| Label | Machine Name     | Type             | Required | Cardinality | Help text | Field Settings      | Notes                                 |
+|-------|------------------|------------------|----------|-------------|-----------|---------------------|---------------------------------------|
+| Name  | field_item_name  | Text (plain)     | Yes      | 1           |           | Firstname, Lastname | H4                                    |
+| Image | field_item_image | Entity reference | Yes      | 1           |           |                     | If no image uploaded, utilize default |
+| Quote | field_item_quote | Text (plain)     | Yes      | 1           |           |                     |                                       |
 
 ## Webform
 
