@@ -11,9 +11,7 @@ The Cards block is similar to the [Grid CTA](../grid-cta) block, but has more fi
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Cards Desktop.png>)
 
-To use the Cards block:
-
-- Click the **Layout** tab at the top of your page **Cards**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -29,6 +27,4 @@ Fill in the content fields:
   - **Topic Tag**: This is displayed at the top of the card and can be used to group cards visually.
   - **CTA**: A link at the bottom of the card.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

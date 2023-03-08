@@ -11,9 +11,7 @@ The Grid CTA block is similar to the [Cards](../cards) block, but allows for mor
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Grid Content Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Grid Content Desktop.png>)
 
-To use the Grid CTA block:
-
-- Click the **Layout** tab at the top of your page **Grid CTA**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -28,6 +26,4 @@ Fill in the content fields:
   - **Grid item media**: Chose from the library or add a new image or icon to be displayed above the item text.
   - **Grid item CTA**: A link at the bottom of the item.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

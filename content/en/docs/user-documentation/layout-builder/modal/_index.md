@@ -16,13 +16,11 @@ description: A simple pop-up dialog that is triggered when a page loads.
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Modals Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Modals Desktop.png>)
 
-To use the Modal block:
+{{< readfile "../lb-add-block.partial" >}}
 
-- Click the **Layout** tab at the top of your page
-- Scroll to the location on the page where you want to add a block
-- Click **Add block**
-- In the sidebar, click **Create custom block**
-- Choose **Modal**
+{{% alert color=warning title=Note: %}}
+The position on the page does not matter for the Modal block. It will always display as a popup in the center of the page and be completely hidden when dismissed.
+{{% /alert %}}
 
 Fill in the content fields:
 
@@ -32,6 +30,4 @@ Fill in the content fields:
 - **Modal CTA/Link** (required): A link at the bottom of the popup.
 - **Modal Dismissible**: If "Yes" the modal will be shown to the user once on first load. If "No" the modal will be shown on every page load.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

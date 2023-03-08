@@ -9,13 +9,7 @@ description: Infographic-like display that highlights relevant statistics to use
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Statistics Desktop.png>)
 
-To use the Statistics block:
-
-- Click the **Layout** tab at the top of your page
-- Scroll to the location on the page where you want to add a block
-- Click **Add block**
-- In the sidebar, click **Create custom block**
-- Choose  **Statistics**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -30,6 +24,4 @@ Fill in the content fields:
 
 Add an image or change the color of the block using the [Styles tab](../advanced-options).
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

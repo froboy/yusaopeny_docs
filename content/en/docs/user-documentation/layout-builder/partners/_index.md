@@ -28,5 +28,4 @@ Fill in the content fields:
   - **Image**: The logo or image.
   - After filling in the fields for an item, click **Create custom block** to save the item.
 
-
 {{< readfile "../lb-save-block.partial" >}}

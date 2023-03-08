@@ -9,9 +9,7 @@ description: A full-width, almost full-height display with a header, description
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Hero Banner Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Hero Banner Desktop.png>)
 
-To use the Hero Banner block:
-
-- Click the **Layout** tab at the top of your page **Hero Banner**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -21,6 +19,4 @@ Fill in the content fields:
 - **Media**: Chose from the library or add a new image or icon to be displayed behind the banner text.
 - **CTA/Link**: A link at the bottom of the banner text.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

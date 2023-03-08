@@ -11,13 +11,7 @@ The Table block also allows users to add simple content to the Landing Page (Lay
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tables Desktop.png>)
 
-To use the Table block:
-
-- Click the **Layout** tab at the top of your page
-- Scroll to the location on the page where you want to add a block
-- Click **Add block**
-- In the sidebar, click **Create custom block**
-- Choose  **Table**
+{{< readfile "../lb-save-block.partial" >}}
 
 Fill in the content fields:
 
@@ -28,6 +22,4 @@ Fill in the content fields:
   - To add a table in the editor, click the **Table** icon, then configure the table options in the popup. ![A screenshot of the table icon and properties popup.](lb_table_icon.png)
   - To edit an existing table properties, right click in the table and then choose an option from the menu. ![A screenshot of the table operations menu.](lb_table_menu.png)
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}
