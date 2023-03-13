@@ -9,9 +9,7 @@ description: Expandable pairs of question/answer or header/section fields.
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Accordion Desktop.png>)
 
-To use the Accordion block:
-
-- Click the **Layout** tab at the top of your page **Accordion**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -20,6 +18,4 @@ Fill in the content fields:
   - **Title**: The heading that will be used to expand/contract the accordion.
   - **Body**: The content of the accordion.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

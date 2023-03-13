@@ -9,13 +9,7 @@ description: Usually paired sets of full-width page components that include medi
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
 
-To use the Ping-Pong block:
-
-- Click the **Layout** tab at the top of your page
-- Scroll to the location on the page where you want to add a block
-- Click **Add block**
-- In the sidebar, click **Create custom block**
-- Choose  **Ping-Pong**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -28,6 +22,4 @@ Fill in the content fields:
 - **Item image position**: Places the image on the left/right side of the page in full-width (desktop) displays. 
 - **Item CTA/Link**: Add up to two links. The first will be displayed with "primary" (solid) styling, the second will be "secondary" (outline) styling.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

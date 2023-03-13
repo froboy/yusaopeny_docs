@@ -9,9 +9,7 @@ description: A full-width display with multiple sets of a header, description, a
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Carousels Desktop.png>)
 
-To use the Carousel block:
-
-- Click the **Layout** tab at the top of your page **Carousel**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -24,6 +22,4 @@ Fill in the content fields:
   - **Description**
   - **CTA**: A link at the bottom of the carousel item.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}

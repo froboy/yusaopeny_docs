@@ -9,13 +9,7 @@ description: Gives users the ability to switch page views by selecting in-page t
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tabs Desktop.png>)
 
-To use the Tabs block:
-
-- Click the **Layout** tab at the top of your page
-- Scroll to the location on the page where you want to add a block
-- Click **Add block**
-- In the sidebar, click **Create custom block**
-- Choose  **Tabs**
+{{< readfile "../lb-add-block.partial" >}}
 
 Fill in the content fields:
 
@@ -26,6 +20,4 @@ Fill in the content fields:
   - **Title**: The heading that will be used to select the tab.
   - **Body**: The content of the tab.
 
-Then save the block:
-
-- Click **Add block** in the editing pane.
+{{< readfile "../lb-save-block.partial" >}}
