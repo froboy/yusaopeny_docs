@@ -20,7 +20,7 @@ Fill in the content fields:
 - **Subtitle**
 - **Type**: Select "Blog", "News", or "Press Release". Each type has the same fields, but allows admins to group articles for display on different pages (i.e. Blog types will display on a Blog page, Press Releases on a Press Release page, etc.)
 - **Header image**: This image is displayed on the Article page and in listing views.
-- **Tags**: References terms in the Tags vocabulary. [Terms must be created](../../taxonomy) by an admin before being referenced.
+- **Tags**: References terms in the Tags vocabulary. See [Taxonomy](../../taxonomy) for more information on tags.
 - **Body** (required): Add text with the [WYSIWYG editor](../../text-editor)
 - **Locations**: If the Article relates to a [Branch](../branch) then select it here so that the Article shows in listings on the Branch page.
 - **Published Date** (required): Defaults to today. This is the date that will be displayed on the Article page, used for sorting, and in listings.
