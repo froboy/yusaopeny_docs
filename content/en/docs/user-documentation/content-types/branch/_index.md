@@ -1,106 +1,165 @@
 ---
 title: Branch
+description: One of the first places members go when they visit a Y website is to their local Y’s page.
 ---
 
-**One of the first places members go when they visit a Y website is to their local Y’s page. In YMCA Website Services, you create pages for a wellness facility with the Branch content type.**
+Branch pages contain multiple data fields that work together to help members find the right location, hours, and amenities that fits their needs. 
 
----
+**Designs:** 
+- Branch Page - [Mobile](<../../../../../../assets/img/designs/lb/Branch Location Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Location Desktop.png>)
+- Branch Amenities - [Mobile](<../../../../../../assets/img/designs/lb/Branch Amenities Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Amenities Desktop.png>)
+- Branch Hours - [Mobile](<../../../../../../assets/img/designs/lb/Branch Location Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Location Desktop.png>)
+- Branch Menu - [Mobile](<../../../../../../assets/img/designs/lb/Branch Menu Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Menu Desktop.png>)
+- Branch Social Links - [Mobile](<../../../../../../assets/img/designs/lb/Branch Social Links Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Social Links Desktop.png>)
+- [Legacy Branch Page (Carnation theme)](../../../../../../assets/img/branch-carnation-old.png)
+- [Legacy Branch Page (Lily theme)](../../../../../../assets/img/branch-lily-old.jpeg)
 
-![carnation--branch--tablet_1|375x500, 75%](upload://qaEmMaGxttuNKYSzZRH4IrVvTc5.png)
+## Creating a Branch
 
-![lily--branch--tablet.PNG|375x500, 75%](upload://iQD92lirDJvqK5np1vuQ0M2Ar4p.jpeg)
+Go to **Admin** > **Content** > **Add Content** > **Branch**
 
-## Collecting Standard Information for Your Branch
+Fill in the content fields:
 
-When you create a branch, you create a page for that branch, a card listing on your locations page, and a tag for blogs, sessions, events, membership types and news posts.
+### General Info
 
-Most of your general information will display in your header.
-
-Your branch amenities will only display if you add a “Branch Amenities with Icons” paragraph in your bottom or content Area
-
---- 
-## Branch Information Fields
-### General Information
-#### -> Title
-This is the name of your branch, which will display as your page title and the title in the location card.
-
-There is no separate field for the full name of your facility (e.g., Downtown Nashville YMCA Burkholder Center) versus the common name (Downtown YMCA). The best practice would be to use the shorter, more common name for readability.
-
-#### -> Neighborhood
-An optional reference to specify which neighborhood your Y is located in (e.g., “East Nashville” for the Margaret Maddox YMCA). Start typing and select from the list of neighborhoods that appear.
-
-To add a new neighborhood, add it to the “Area” vocabulary under Structure > Taxonomy.
-
----
+- **Title** (required): This is the name of your branch, which will display as your page title and the title in the location card. If your branch has a longer formal name we recommend using the shorter, more common name for readability.
+- **Neighborhood**: An optional reference to specify which neighborhood your Y is located in. Start typing and select from the list. To add a new neighborhood, add it to the “Area” vocabulary under **Structure** > **Taxonomy** (see [Taxonomy](../../taxonomy)).
+- **Coming Soon**: Use this flag to indicate a newly opening branch on the Locations page. ![Screenshot of a page showing "Downtown YMCA" with a "Coming Soon" flag.](branch-coming-soon.png)
+- **Temporary URL**: Overrides the "Branch info" link on the Locations page, allowing you to link to a different internal or external page.
 
 ### Contact Info
 
-#### -> Address:
-The physical address of your location. Be sure to include all address fields.
+- **Address**: The physical address of your location. Be sure to include all address fields.
+- **Branch Coordinates** (required): This field pins your branch on the locations map. <details><summary>To get your branch's coordinates ([with Google Maps](https://support.google.com/maps/answer/18539?hl=en&co=GENIE.Platform%3DDesktop)):</summary> 
 
-#### ->  Branch coordinates
-This field pins your branch on the locations map.
+  - Search for your Y location 
+  - Right-click the location in the map ![Screenshot of Google Maps showing the right-click menu with the latitude/longitude item selected.](branch-lat-long-copy.png)
+  - To copy the coordinates, left-click on the latitude and longitude.
+  - Paste the `lat, long` into one of the fields, then cut and paste to separate them. ![Screenshot of the Drupal Branch admin screen with the latitude and longitude separated into different fields.](branch-lat-long-paste.png)
+</details>
 
-> **How to Get Your Branch Coordinates from Google Maps**
-> * Right click on your Y and select “What’s here?” Click on the latitude/longitude number at the bottom of the card.
-    >
-    >   ![admin__google-maps--whats-here|573x500, 75%](upload://4KumwfEfMol8v7BE7kFXceiBGOH.png)
->
-> * Below the headline, copy the first number (the non-negative number) into the latitude field. Copy the second number (the negative number) into the longitude field.
-    >
-    >   ![admin__google-maps--geo|573x500, 75%](upload://hqLgdeW9w9ZEsDIxMm36NNZPjq8.png)
-#### -> Phone/Fax/Email
-The fax is optional, but add the main line for your branch in the phone field.
+- **Phone** (required): The main phone line for your branch. Will be displayed as it is entered and linked to allow mobile users to tap to call.
+- **Fax**: Optional.
+- **Email**: We recommend you use a main contact email, such as info@anytownymca.org, rather than the email for an individual staff member.
+- **Directions**: By default, a link with directions is auto-generated using the Address field. Use this field to substitute your own directions link.
 
-Add a main contact email, such as contactmyy@anytownymca.org, rather than the email for an individual staff member.
+### Branch Hours
 
-#### -> Directions
-Link to your Google Places. Add “Get Directions” in the Link Text section.
+Add the main hours for your facility. These are displayed in the header and on the Locations page. 
 
-#### -> Branch Hours
-Add the main hours for your facility. Use the 7am-5pm format to save space. Displays in the header and on the card.
+- **Custom hours label**: The title displayed in the "All hours" dropdown. Clearing this field will hide the section from the Branch page.
+- **Mon, Tue, ...**: Add the hours for each day of the current week. Use the format `7am-5pm` to save space.
+- **Branch Holiday Hours**: Add special hours for any upcoming holidays. These will be displayed on the site when the holiday is less than two weeks away. Add as many holiday entries as you like.
+  - **Holiday Title**: The displayed title of the holiday.
+  - **Holiday Hours**: The displayed hours for the holiday.
+  - **Date**: The date of the holiday. When this day is in the current week ...
+- **More Hours Link**: An link to show additional location hours information, like another page or a PDF.
 
-> **Note** - Some Ys have set up the branch hours field to include holiday hours, as well as hours for multiple parts of your facility. This is an advanced feature; talk to your agency partner if you would like this.
-
----
+![Screenshot of the Branch Hours popup in the Branch Header](branch-hours-fields.png)
 
 ### Header Area
+
+> This section is not displayed when "Use Layout Builder" is selected.
+
 There is no image field for the Branch content type, so you will need to add one of the following paragraphs to add an image and title at the top of your page:
 
-* [Banner](https://community.openymca.org/t/banner-open-y-paragraphs-user-documentation/665)
-* [Small Banner](https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725)
-* [Gallery](https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715)
+* [Banner](../../paragraphs/banner)
+* [Small Banner](../../paragraphs/small-banner)
+* [Gallery](../../paragraphs/gallery)
 
 ### Content Area
 
-The Branch Content Type only has one layout option—one column—and no description field. Add in almost any paragraph you want into the body of you page.
+> This section is not displayed when "Use Layout Builder" is selected.
+
+The Branch Content Type only has one layout option—one column—and no description field. Paragraphs will form the body of the page.
 
 The following paragraph types integrate directly with Branch:
 
-* [Latest Blog Posts (Branch)](https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717)
-* [Latest News Posts (Branch)](https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718)
+* [Latest Blog Posts (Branch)](../../paragraphs/latest-blog-posts)
+* [Latest News Posts (Branch)](../../paragraphs/latest-news-posts)
 * Branch Amenities with Icons (see Branch Amenities below)
 
 ### Bottom Area
+
+> This section is not displayed when "Use Layout Builder" is selected.
+
 Use the bottom area for anchoring elements on your page. The following paragraphs are great for this area:
 
-* [Small Banner](https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725)
-* [Gallery](https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715)
-* [Webform](https://community.openymca.org/t/webform-paragraph-open-y-user-docs/729)
-* [Limited Time Offer](https://community.openymca.org/t/limited-time-offer-paragraphs-open-y-user-docs/719)
+* [Small Banner](../../paragraphs/small-banner)
+* [Gallery](../../paragraphs/gallery)
+* [Webform](../../paragraphs/webform)
+* [Limited Time Offer](../../paragraphs/limited-time-offer)
 
----
 ### Branch Amenities
 
-Type in and select which amenities are available at your branch using the autocomplete field.
+- **Branch Amenities**
+- **Closed Amenities**
 
-![admin--branch__amenities|690x213, 75%](upload://y2bWNI9tEnxS53cfvzDcOKtXbVC.png)
+Type in and select which amenities are available or not available at your branch using the autocomplete field.
 
-If you embed a Branch Amenities with Icons paragraph on your page, the amenities will display in your content. The Amenities will also serve as filters for branches on your locations page.
+![Screenshot showing the Branch amenities field with autocomplete dropdown.](branch-select-amenities.png)
 
-If you don't see an option available or would like to rename a branch amenity, go to Structure > Taxonomy > Amenities.
+If you embed a Branch Amenities with Icons paragraph or Branch Amenities block on your page, the amenities will display in your content. The Amenities will also serve as filters for branches on your locations page.
 
-**####** Closed Amenities
-Ys with YMCA Website Services 2.5 or later can tag amenities at a branch that have closed. Content editors will see a "Closed Amenities" field.
+![Screenshot showing the branch amenities block with open emenities and closed amenities labeled.](branch-amenities-block.png)
 
-![carnation--branch--closed-amenities|442x499, 50%](upload://1H6H8xKzjCpEMYDKfZe7it4R40Y.png)   ![admin--branch__amenities--closed-amenities|690x341, 50%](upload://a4WrDjPoqlMgnP5OtobiCzpvrZg.png)
+If you don't see an option available or would like to rename a branch amenity, go to **Structure** > **Taxonomy** > **Amenities**. See [Taxonomy](../../taxonomy) for more info.
+
+### Menu
+
+The Branch Menu is a single level sub-menu that displays within a branch page (and sub-pages) that allows users to drill down to additional content specific to that branch. The Branch Menu always shows "Branch Home" as its first link.
+
+- **Menu links**: A list of menu links to be displayed in the menu. Allows unlimited items but we recommend a maximum of 6-8 depending on the Link text length.
+
+![Screenshot of the branch menu block.](branch-menu.png)
+
+## Customizing with Layout Builder
+
+Beginning in [Website Services 9.2.13]({{% relref "release-ds-9.2.13.md" %}}) content editors have the option of customizing the Branch page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a branch-by-branch basis in order to ease the transition.
+
+The **Use Layout Builder** checkbox on the Branch edit page non-destructively switches between Paragraphs and Layout Builder. 
+
+### Layout Builder Blocks
+
+Branch pages have a number of specialized components that utilize the structured data (fields) that already exist on your branch page in newly designed Layout Builder Blocks. 
+
+In addition to using many of the standard Layout Builder components, Branch pages also use a number of components that display fields described above:
+
+- **Branch Hours**: Combines the branch title, contact information, hours, and more into a dynamic page header.
+  - **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Branch Hours Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Hours Desktop.png>)
+  - An image can be added to the background of this block using [the Style tab](../../layout-builder/advanced-options#block-styles).
+- **Branch Amenities**: Displays [open and closed amenities](#branch-amenities) in an easy-to-read grid.
+  - **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Branch Amenities Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Amenities Desktop.png>)
+  - An image can be added to the background of this block using [the Style tab](../../layout-builder/advanced-options#block-styles).
+- **Branch Menu**: Displays the [Branch Menu](#menu) links.
+  - **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Branch Menu Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Menu Desktop.png>)
+
+One additional component is available that requires additional information:
+
+#### Branch Social Links
+
+**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Branch Social Links Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Social Links Desktop.png>)
+
+This component allows you to place up to 6 social media links on a branch page. 
+
+- Add the **Branch Social Links** block to the pre-configured **Social links** section of your page using [the standard process](../../layout-builder#blocks).
+- Add up to 6 links in the **Links** field. Icons for each social media platform will be populated automatically. 
+  - Currently supported platforms include: Facebook, Instagram, Linkedin, Twitter, and YouTube. [Request a new platform](https://www.drupal.org/node/add/project-issue/lb_branch_social_links_blocks) if you need.
+- After adding or updating the block, be sure to [save and publish your branch](../../layout-builder#saving-and-publishing).
+
+### Migrating to Layout Builder
+
+Migrating Branches to Layout builder involves recreating some content on the page. The process is similar to [building a new Landing Page with Layout Builder](../../layout-builder#creating-a-new-page), but with a lot of the work done for you! 
+
+Once you are ready to migrate a Branch:
+
+1. Either clone the page or open it in a separate tab so that it's easier to compare content.
+2. Prepare the Branch for Layout Builder:
+    - **Edit** the Branch, 
+    - Add links in the **Menu** section if you'd like,
+    - click **Use Layout Builder**,
+    - if you'd like, **uncheck Published** while you do the migration to temporarily hide the page, then
+    - **Save**. ![Screenshot of the Branch edit screen.](branch-migrate-use-lb.png)
+3. Your Branch will now display a set of default blocks: Hours (and header), Menu, Social Links, and Amenities.
+4. From here, you can [use Layout Builder](../../layout-builder#updating-an-existing-page) to move your old content from Paragraphs into Blocks. Review the [full list of designs](../../layout-builder/designs) or the [list of components]({{% relref "lb-2023-roadmap.md" %}}) if you need help deciding how to place things. Your old content will still be available to reference in the **Edit** tab in the old Header/Content/Footer sections.
+5. When you're finished, **Save** the layout and **Publish** the Branch!
