@@ -1,5 +1,6 @@
 ---
 title: Content Structure
+weight: 97
 ---
 
 Welcome to the Content Structure documentation.

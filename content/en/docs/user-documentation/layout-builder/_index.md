@@ -1,5 +1,6 @@
 ---
 title: Layout Builder
+weight: 3
 ---
 
 Layout Builder is a powerful new page-building addition to your YMCA website.
