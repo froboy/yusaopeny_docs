@@ -5,7 +5,7 @@ description: Component for displaying simple staff member info cards (with image
 
 {{< tabpane text=true >}}
     {{< tab header="Video" lang="vid" >}}
-        {{< youtube >}}
+        {{< youtube h2fq9FNdMco >}}
     {{< /tab >}}
     {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot showing the field titles overlaid on the design](lb-staff-fields.png)

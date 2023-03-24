@@ -5,7 +5,7 @@ description: A simple pop-up dialog that is triggered when a page loads.
 
 {{< tabpane text=true >}}
     {{< tab header="Video" lang="vid" >}}
-        {{< youtube >}}
+        {{< youtube 2vsqLGy-I8Q >}}
     {{< /tab >}}
     {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot showing the field titles overlaid on the design](lb-modal-fields.png)

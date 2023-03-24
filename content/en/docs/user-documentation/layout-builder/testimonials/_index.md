@@ -5,7 +5,7 @@ description: Component for displaying short testimonials or quotes from Y member
 
 {{< tabpane text=true >}}
 {{< tab header="Video" lang="vid" >}}
-{{< youtube >}}
+{{< youtube ZSbsro02ZrM >}}
 {{< /tab >}}
 {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot showing the field titles overlaid on the design](lb-testimonials-fields.png)
