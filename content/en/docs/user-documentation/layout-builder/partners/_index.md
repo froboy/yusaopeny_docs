@@ -5,7 +5,7 @@ description: Component for displaying logos / info of partners or sponsors withi
 
 {{< tabpane text=true >}}
     {{< tab header="Video" lang="vid" >}}
-        {{< youtube >}}
+        {{< youtube nHxIX6fuTAM >}}
     {{< /tab >}}
     {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot showing the field titles overlaid on the design](lb-partners-fields.png)

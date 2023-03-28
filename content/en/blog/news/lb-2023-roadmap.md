@@ -13,6 +13,7 @@ Released in [9.2.12](https://github.com/YCloudYUSA/yusaopeny/releases/tag/9.2.12
 
 Accordions
 : Expandable pairs of question/answer or header/section fields.
+: Maps to paragraphs: `accordion_section, faq, ymca_accordion`
 
 Cards (Horizontal & Vertical)
 : Flexible cards style components.
@@ -167,4 +168,6 @@ Location Amenities Filter (sidebar filter)
 
 Camp Video Banner
 : Hero banner that displays an auto-playing video in desktop views, and a video on-click in mobile views.
-Code Block	Need to move the Code Block into a Layout Builder component.
+
+Code Block	
+: Need to move the Code Block into a Layout Builder component.

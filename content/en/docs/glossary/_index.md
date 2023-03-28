@@ -1,6 +1,6 @@
 ---
 title: Glossary
-weight: 99
+weight: 0
 menu:
     main:
         weight: 50

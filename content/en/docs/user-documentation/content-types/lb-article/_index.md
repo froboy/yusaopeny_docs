@@ -10,6 +10,8 @@ Article also allows content editors to include Layout Builder components within 
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Article Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Article Desktop.png>)
 
+{{% youtube FBtQmfy9C7Q %}}
+
 ## Creating an Article
 
 Go to **Admin** > **Content** > **Add Content** > **Article (Layout Builder)**
