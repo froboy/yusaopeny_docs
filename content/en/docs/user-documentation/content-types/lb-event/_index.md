@@ -6,6 +6,8 @@ weight: -1
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Event Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Event Desktop.png>)
 
+{{% youtube cxRxuYkWy-4 %}}
+
 ## Creating an Event
 
 Go to **Admin** > **Content** > **Add Content** > **Event (Layout Builder)**

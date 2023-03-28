@@ -14,6 +14,8 @@ Branch pages contain multiple data fields that work together to help members fin
 - [Legacy Branch Page (Carnation theme)](../../../../../../assets/img/branch-carnation-old.png)
 - [Legacy Branch Page (Lily theme)](../../../../../../assets/img/branch-lily-old.jpeg)
 
+{{% youtube dspC2NopTj8 %}}
+
 ## Creating a Branch
 
 Go to **Admin** > **Content** > **Add Content** > **Branch**
