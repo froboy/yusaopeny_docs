@@ -28,6 +28,7 @@ These supplemental documents elaborate on a few specific cases:
 - `9.2.10.0` - Removed a bunch of unused modules from distribution.
 - `9.2.11.3` - Last Open Y Drupal core 9.3.* release
 - `9.2.11.4` - Technical release of YMCA Website Services ( no diff with 9.2.11.3 )
+- `9.2.13.0` - Pre Drupal 10 release, latest Drupal 9 release. Before going into Layout Builder era it is recommended to uninstall `geysir` and `openy_inline_editing` module.
 
 See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 
@@ -36,7 +37,7 @@ See [Version Constraints practices for YMCA Website Services]({{< relref "Compos
 If you are faced with an issue when `composer` installs an improper version of `drupal/core` for the chosen version of YMCA Website Services from the list above, please use this trick in order to downgrade:
 
 ```sh
-composer require drupal/core-recommended:9.2.8
+composer require drupal/core-recommended:9.5.9
 ```
 
-Run the above command where your `docroot` is. Use the current core version instead of `9.2.8`.
+Run the above command where your `docroot` is. Use the current core version instead of `9.5.9`.
