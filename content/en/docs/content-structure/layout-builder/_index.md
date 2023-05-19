@@ -103,6 +103,18 @@ A full-width display with multiple sets of a header, description, and call to ac
 | Description | field_item_description | Text (formatted, long) | no       | 1           |
 | Link  | field_item_link         | Link                   | no       | 1           |
 
+## Code
+
+- **Machine name:** `ws_code_block`
+- **Project:** [ws_code_block](https://www.drupal.org/project/ws_code_block)
+- **Designs:** This block provides no additional presentation outside of the embedded content.
+
+Embed unfiltered HTML code in a page.
+
+| Label | Machine Name | Type                   | Required | Cardinality | Help text | Field Settings      | Notes |
+|-------|--------------|------------------------|----------|-------------|-----------|---------------------|-------|
+| Code  | field_code   | Text (formatted, long) | yes      | 1           |           | Text format: "Code" |       |
+
 ## Grid CTA
 
 - **Machine name:** `lb_grid_cta`
