@@ -16,9 +16,9 @@ description: Components to feature, filter, and list events using Layout Builder
 
 -----
 
-**Designs:** [Mobile & Desktop](<../../../../../../assets/img/designs/lb-ui-kit/Event.jpg>)
+**Designs:** [Mobile & Desktop](<../../../../../../assets/img/designs/lb-ui-kit/Event List.jpg>)
 
-The distribution provides a few blocks to highlight events. The blocks are meant to be flexible, but we recommend adding them in this order: 
+The distribution provides a few blocks to highlight events. 
 
 - Featured Events
 - Events Filter
