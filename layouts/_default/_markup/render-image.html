@@ -18,13 +18,15 @@
 {{- $large := $img.Fit "1200x664" -}}
 {{ $medium := $large.Fit "726x402" -}}
 {{ $small := $medium.Fit "458x254" -}}
+<a href="{{ $img.RelPermalink }}" title="View original image">
 <figure class="image-caption">
     <img alt="{{ $.Text }}" srcset="
         {{ $small.RelPermalink }} 458w,
         {{ $medium.RelPermalink }} 726w,
         {{ $large.RelPermalink }} 1200w" sizes="50vw" src="{{ $small.RelPermalink }}" />
-    <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }} <a href="{{ $img.RelPermalink }}" class="fa-solid fa-external-link fa-fw" title="View original image"></a></figcaption>
+    <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }} <i class="fa-solid fa-external-link fa-fw"></i></figcaption>
 </figure>
+</a>
 {{ end }}
 {{- else -}}
 <img src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" />{{- end -}}
