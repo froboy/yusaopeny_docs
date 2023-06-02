@@ -4,6 +4,42 @@ description: Configuration for Layout Builder Sections and Blocks.
 weight: -5
 ---
 
+A huge amount of configuration is available with Layout Builder components using the contributed [Layout Builder Blocks](https://www.drupal.org/project/layout_builder_blocks) module, which is included with the distribution. In addition to those configuration options, we provide an extra layer of "Y Styles" that help site builders customize their sites in an accessible and brand-compliant manner.
+
+## Y Styles
+
+These options provide customizations of Layout Builder-enabled pages at the Content Type, Page, and Component level.
+
+### Content Type Styles
+
+**Note:** This configuration may not be accessible to all content editors. Ask an administrator for assistance if necessary.
+
+<details><summary>The default values for page-level Y Styles options are set in the Content Type display options.</summary>
+
+To access them:
+
+- Go to **Admin** > **Structure** > **Content types** > **Landing Page (Layout Builder)** (or another LB-enabled content type) > **Manage display**
+- Ensure you're acting on the **Default** display, then click **Manage layout**.![A screenshot of the "Manage display" administration screen.](lb-advanced--manage-layout.png)
+- Expand the **Y Styles** section
+- Choose your default configuration options. These will set the defaults for **every _new_ node of this Content Type**. Existing content will _not_ be effected.
+- Click **Save layout**
+</details>
+
+### Page Styles
+
+Every Layout Builder-enabled page that you create will allow you to override the default settings. 
+
+![A screenshot displayinf the "Y Styles" configuration section.](lb--advanced--y-styles.png)
+ 
+- Edit the **Layout** on a page
+- Expand the **Y Styles** section
+- Choose your configuration options.
+- Click **Save layout**
+
+### Y Block Styles
+
+Some blocks have additional styles that can be configured per-block. For these blocks (e.g. Banner, Cards), look for the **Y Styles** section in the [block styles section](#block-styles) and set the options accordingly.
+
 ## Layout styles
 
 When creating or editing a **Section** you have the option of configuring **Layout**, **Style**, and **Settings**.
