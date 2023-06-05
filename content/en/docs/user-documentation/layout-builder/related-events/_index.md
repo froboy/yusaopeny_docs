@@ -5,7 +5,7 @@ description: Component for displaying related events within an event node page a
 
 {{< tabpane text=true >}}
 {{< tab header="Video" lang="vid" >}}
-{{< youtube >}}
+{{< youtube "cxRxuYkWy-4?start=183" >}}
 {{< /tab >}}
 {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot showing the field titles overlaid on the design](lb-related-events-fields.png)
