@@ -16,6 +16,9 @@ enableMissingTranslationPlaceholders = true
 # Comment out to enable taxonomies in Docsy
 # disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# Increase timeout so gh-pages doesn't fail
+timeout = '60000'
+
 # You can add your own taxonomies
 [taxonomies]
 tag = "tags"
