@@ -68,8 +68,10 @@ id = "UA-00000000-0"
 [languages]
 [languages.en]
 title = "YMCA Website Services"
-description = "The YMCA Website Services Documentation"
 languageName ="English"
+[languages.en.params]
+description = "The YMCA Website Services Documentation"
+
 # Weight used for sorting.
 weight = 1
 
