@@ -1,0 +1,1288 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YMCA Website Services – Development</title><link>/docs/development/</link><description>Recent content in Development on YMCA Website Services</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Onboarding</title><link>/docs/development/onboarding_to_yusa_openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/onboarding_to_yusa_openy/</guid><description>
+&lt;h2 id="list-of-migrated-repositoriesprojects">List of migrated repositories/projects&lt;/h2>
+&lt;p>In 2022, maintenance of the distribution moved from Open Y LLC to Y-USA. With this, repository locations have changed:&lt;/p>
+&lt;ul>
+&lt;li>YMCA Website Services (formerly Open Y):
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny" target="_blank">YCloudYUSA/yusaopeny&lt;/a>&lt;/li>
+&lt;li>YMCA Virtual Experience (formerly Virtual Y):
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_gated_content" target="_blank">YCloudYUSA/yusaopeny_gated_content&lt;/a>&lt;/li>
+&lt;li>Activity Finder:
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_activity_finder" target="_blank">YCloudYUSA/yusaopeny_activity_finder&lt;/a>&lt;/li>
+&lt;li>Membership Framework:
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_memberships" target="_blank">YCloudYUSA/yusaopeny_memberships&lt;/a>&lt;/li>
+&lt;li>YMCA Digital Services Docs:
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_docs" target="_blank">YCloudYUSA/yusaopeny_docs&lt;/a>&lt;/li>
+&lt;li>YMCA Website Services distribution (formerly Open Y project)
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project" target="_blank">YCloudYUSA/yusaopeny-project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-start-developing-open-y">How to start developing Open Y&lt;/h2>
+&lt;p>In order to get a copy of the latest development version of the distribution, please follow steps from
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny#latest-development-version-drupal-9-2x" target="_blank">YUSA OpenY README&lt;/a>.&lt;/p>
+&lt;p>Pay attention Open Y has a modular structure, so if you plan changes to specific component - create Pull Request/Merge Request in respective project or repository, based on component&amp;rsquo;s composer.json data.&lt;/p>
+&lt;p>In order to test specific component, create a PR to
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/pulls" target="_blank">yusaopeny&lt;/a> and add a reference in composer.json of Open Y in order for the build system to start using updated component.&lt;/p>
+&lt;h3 id="qa-sandboxes-for-open-y">QA sandboxes for Open Y&lt;/h3>
+&lt;p>The YMCA Website Services core team manages
+&lt;a href="../../wiki/sandboxes">sandboxes&lt;/a> for various configurations of the distribution to facilitate evaluation, to help with QA, and enable investigation of issues.&lt;/p>
+&lt;h2 id="how-to-start-developing-virtual-y">How to start developing Virtual Y&lt;/h2>
+&lt;p>
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_gated_content#development" target="_blank">Get started with the README&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="../../wiki/sandboxes/#virtual-y-sandboxes">QA sandboxes for Virtual Y&lt;/a>&lt;/p>
+&lt;h2 id="how-to-start-developing-membership-framework">How to start developing Membership Framework&lt;/h2>
+&lt;p>
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_memberships#installation" target="_blank">Get started with the README&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="../../wiki/sandboxes/#membership-framework-sandboxes">QA sandboxes for Membership Framework&lt;/a>&lt;/p>
+&lt;h2 id="how-to-start-developing-activity-finder">How to start developing Activity Finder&lt;/h2>
+&lt;p>Activity Finder is installed with the distribution by default.&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny_activity_finder#open-y-activity-finder" target="_blank">Get started with the README&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="../../wiki/sandboxes/#activity-finder-sandboxes">QA Sandboxes for Activity Finder&lt;/a>&lt;/p></description></item><item><title>Docs: Acceptance Testing</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
+&lt;p>YMCA Website Services is a big distribution with a large amount of modules, components, subsystems, and business
+processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
+&lt;p>For the automated tests we have created
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md" target="_blank">General Checks template&lt;/a>
+on GitHub every developer should follow to get review approval from YMCA Website Services core team.
+However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.&lt;/p>
+&lt;p>For regression testing,
+&lt;a href="/docs/development/tests/#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by YMCA Website Services community.&lt;/p>
+&lt;p>Every pull request should include a testing plan prior to release into YMCA Website Services. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of YMCA Website Services, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of YMCA Website Services once this new code is implemented.&lt;/p>
+&lt;p>Example of testing plan: If the Drupal core is updated it is important to gather all Drupal core Release Notes since last release
+core upgrade for YMCA Website Services and analyze important issues fixed.
+Example - in case if you are doing upgrade from latest 8.4.0 to 8.4.4:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.4" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.4&lt;/a> (translations)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.3" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.3&lt;/a> (postgreSQL and migration)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.2" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.2&lt;/a> (migrations, taxonomy, ckeditor)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.1" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.1&lt;/a> (composer)&lt;/li>
+&lt;/ul>
+&lt;p>This means the list of systems should be tested are&lt;/p>
+&lt;ul>
+&lt;li>multilingual&lt;/li>
+&lt;li>postgreSQL support&lt;/li>
+&lt;li>migration&lt;/li>
+&lt;li>taxonomy&lt;/li>
+&lt;li>ckeditor&lt;/li>
+&lt;li>composer&lt;/li>
+&lt;/ul>
+&lt;p>This list could be extended by analyzing some highly important parts of YMCA Website Services distributions that depends from the above
+subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associated Behat test.&lt;/p>
+&lt;p>How to choose which modules to test: These can be a random selection from the list of systems impacted, or one of the oldest modules in a system impacted. This is because there is a higher chance that a minor change could cause a regression issue for the modules that have not received recent or regular updates.&lt;/p>
+&lt;p>The oldest modules(contrib modules) that have dependencies from the above list should also be updated, but
+to improve productivity, these updates should only be initiated if there is a security issue or a module stopped working because of
+the subsystems getting updated within an upcoming release. In case if a respective module update creates more issues
+that the older version of said module - then it is better to keep the old module and fix an associated regression bug.
+Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the YMCA Website Services distribution is preferred to get distribution
+released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.&lt;/p>
+&lt;p>After creating list of modules that could introduce regression issues it is highly recommended to follow
+Quick-start section of the module&amp;rsquo;s readme files, that usually is shipped with modules.
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart" target="_blank">Example for the location_finder&lt;/a>.
+In case if a module has no Quick-start or Acceptance testing section in readme - it is important to test at least one place
+where functionality of the module should be working. It is highly recommended to add this manual test steps as
+a follow-up task,
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/issues/new" target="_blank">new issue&lt;/a> or even better - create Pull Request
+with changes to readme into YMCA Website Services repository. For the sake of performance, adding step by step how-to to the respective
+module&amp;rsquo;s README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.&lt;/p>
+&lt;p>Optional, but greatly appreciated: Add a Drupal tour for the how-to, created in README will benefit future YMCA Website Services users and developers.
+Having a tour for the business functionality is highly recommended to ship with the component - it creates an in-site visual guided documentation and helps to decrease time for the Acceptance testing.&lt;/p>
+&lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
+request, on every CI build in the future.&lt;/p>
+&lt;h3 id="rule">Rule&lt;/h3>
+&lt;p>Every release of YMCA Website Services since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
+&lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
+&lt;p>YMCA Website Services AddThis module allow you easy add Social icons to any node.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Go to &lt;code>http://www.addthis.com&lt;/code> and create your account and get public id.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go to &lt;code>admin/openy/settings/openy-addthis&lt;/code> add public id
+&lt;img src="../../assets/addthis.png" alt="Enter Public id" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the content type for which to show the social icons and save.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-addthis-paragraph">How to use AddThis paragraph&lt;/h2>
+&lt;p>You can add AddThis to specific node use &amp;lsquo;Social share icons&amp;rsquo; paragraph&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Edit&amp;rsquo; any node&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
+&lt;img src="../../assets/addthis_paragraph.png" alt="Enter Public id" />&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
+&lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
+You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>composer update drupal/metatag
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;p>Please check official composer documentation for details:
+&lt;a href="https://getcomposer.org/doc/01-basic-usage.md" target="_blank">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
+&lt;h2 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h2>
+&lt;p>&lt;strong>Given:&lt;/strong>
+As an YMCA Website Services site developer, I want to be able import posts from company&amp;rsquo;s accounts form social networks (Twitter, Facebook, Instagram) and save them as content on the site.&lt;/p>
+&lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
+&lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
+&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
+&lt;h2 id="issues">Issues&lt;/h2>
+&lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
+&lt;ul>
+&lt;li>Search through known issues/requests
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/issues" target="_blank">https://github.com/YCloudYUSA/yusaopeny/issues&lt;/a>&lt;/li>
+&lt;li>Create new issue
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/issues/new" target="_blank">https://github.com/YCloudYUSA/yusaopeny/issues/new&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pull-requests">Pull Requests&lt;/h2>
+&lt;p>If you have some time to make a contribution to the project, here are the steps that will help you:&lt;/p>
+&lt;ul>
+&lt;li>Create fork of
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny" target="_blank">main project&lt;/a>.
+&lt;a href="https://help.github.com/articles/fork-a-repo/" target="_blank">How to create fork&lt;/a>.&lt;/li>
+&lt;li>Commit &amp;amp; push changes into your fork&lt;/li>
+&lt;li>Create new Pull Request.
+&lt;a href="https://help.github.com/articles/creating-a-pull-request/" target="_blank">How to create Pull Request&lt;/a>.&lt;/li>
+&lt;li>Write steps for review. In this way maintainers can go through steps on build to verify your fix/feature.&lt;/li>
+&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sense to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart" target="_blank">see in Quickstart section of location_finder module&lt;/a>, please.&lt;/li>
+&lt;li>Create Drupal tour module, based on steps for review and ship it with the module which provides a functionality.&lt;/li>
+&lt;li>Wait for a CI build and ask maintainers for review.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Important:&lt;/strong> make sure your git email is associated with account on drupal.org, otherwise you won&amp;rsquo;t get commits there.&lt;/p>
+&lt;h2 id="drupalorg-credits">Drupal.org credits&lt;/h2>
+&lt;p>If you would like to get drupal.org credits for your contribution:&lt;/p>
+&lt;ul>
+&lt;li>Create issue on
+&lt;a href="https://www.drupal.org/project/issues/openy?categories=All" target="_blank">drupal.org&lt;/a>&lt;/li>
+&lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
+&lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
+&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Create &amp; Use New View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
+&lt;p>As with any other entity in Drupal, when it comes to render the rendering it in different contexts, you might want to have specific view modes.&lt;/p>
+&lt;p>Here you can find instructions how you can add new view modes into embedded entity form on YMCA Website Services distribution.&lt;/p>
+&lt;h3 id="create-a-new-view-mode">Create a new View Mode&lt;/h3>
+&lt;ol>
+&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: &lt;code>/admin/structure/display-modes/view&lt;/code>
+&lt;img src="../../assets/view_mode_in_menu.png" alt="Configuration project add/update form" />&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;img src="../../assets/view_mode_types.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;ol start="2">
+&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: &lt;code>/admin/structure/display-modes/view/add&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;img src="../../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
+&lt;img src="../../assets/view_mode_seond_way.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new view mode (or visit the URL: /&lt;code>admin/structure/display-modes/view/add/media&lt;/code>
+&lt;img src="../../assets/view_mode_creating.png" alt="Configuration project add/update form" />&lt;/li>
+&lt;/ol>
+&lt;h3 id="use-the-view-mode">Use the View Mode&lt;/h3>
+&lt;ol>
+&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: &lt;code>/admin/config/content/embed&lt;/code>
+&lt;img src="../../assets/view_mode_using.png" alt="Configuration project add/update form" />&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;img src="../../assets/view_mode_using_list.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;ol start="2">
+&lt;li>Then make sure you enable the new view mode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
+&lt;img src="../../assets/view_mode_enable.png" alt="Configuration project add/update form" />&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Data Layer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
+&lt;p>See also the
+&lt;a href="https://git.drupalcode.org/project/datalayer/-/blob/8.x-1.x/README.md" target="_blank">Data Layer module README&lt;/a>.&lt;/p>
+&lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
+&lt;p>A limited set of properties are available via the Data Layers configuration form at &lt;code>/admin/config/search/datalayer&lt;/code> (langcode, vid, name, uid, created, status, roles).&lt;/p>
+&lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be added to the page as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">&amp;#34;entityProperty&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;whatever the value is&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Altering which properties will be output can be done via hook_datalayer_meta_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Override module norm in all cases.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityUid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Specific situation alteration...
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">false&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$obj&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">_datalayer_menu_get_any_object&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">in_array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_bundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_nodetype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span> &lt;span style="color:#000">$obj&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Remove author names on some content type.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">elseif&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_entity_type&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Remove some property on some entity type.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding additional data can be done using datalayer_add().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">_my_module_myevent_func&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">FALSE&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">datalayer_add&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;drupalMyProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;userAnotherProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">_my_module_other_funct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To alter the data to be output use hook_datalayer_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Make the title lowercase on some node type.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;mytype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
+&lt;p>Relates to:
+&lt;a href="/docs/content-structure/paragraphs/program-registration-daxko/">Program Registration (Daxko)&lt;/a>&lt;/p>
+&lt;p>Configuration setting at &lt;code>/admin/config/development/daxko&lt;/code>&lt;/p>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.&lt;/p>
+&lt;h2 id="groupex-pro">GroupEx Pro&lt;/h2>
+&lt;p>There are three methods of integrating GroupEx Pro with your YMCA Website Services site. In order from most to least complex/customizable:&lt;/p>
+&lt;ul>
+&lt;li>API integration&lt;/li>
+&lt;li>Embedded schedules&lt;/li>
+&lt;li>Responsive schedule link&lt;/li>
+&lt;/ul>
+&lt;h3 id="groupex-pro-apis">GroupEx PRO APIs&lt;/h3>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Deprecation Notice&lt;/h4>
+On February 28, 2023, Daxko is planning to sunset the GroupEx PRO Public API in favor of their Daxko Group API v1.
+&lt;/div>
+&lt;p>YMCA Digital Services with the help of YMCA of the North have developed and adopted a Syncer for Repeat Application which helps to migrate from the GroupEx PRO Public API to the Daxko Group API v1 and pulls data from GroupEx PRO to Program Event Framework.&lt;/p>
+&lt;p>See
+&lt;a href="https://github.com/open-y-subprojects/openy_daxko_gxp_syncer" target="_blank">open-y-subprojects/openy_daxko_gxp_syncer&lt;/a> for how to configure the Syncer.&lt;/p>
+&lt;h3 id="embedded-schedules">Embedded schedules&lt;/h3>
+&lt;p>This replaces the deprecated
+&lt;a href="/docs/user-documentation/paragraphs/embedded-gxp-schedule/">Embedded GroupEx Pro Schedule Paragraph&lt;/a>.&lt;/p>
+&lt;p>Embed code for GroupEx Pro schedules can be found in your GroupEx Pro admin interface.&lt;/p>
+&lt;ul>
+&lt;li>Look for the &amp;ldquo;New embed&amp;rdquo; toggle.
+&lt;a href="/docs/development/daxko/gxp-embed-toggle-new.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot showing &amp;amp;ldquo;New Schedule&amp;amp;rdquo; and other options in the GroupEx Pro admin." srcset="
+/docs/development/daxko/gxp-embed-toggle-new_hu0ff6f1e76e34483a20984fa0fbb73352_173792_7de7ad911710d52538ca3f87b31d2cb7.png 458w,
+/docs/development/daxko/gxp-embed-toggle-new_hu0ff6f1e76e34483a20984fa0fbb73352_173792_df0559da15f35f60ee98ecb695a9a312.png 726w,
+/docs/development/daxko/gxp-embed-toggle-new_hu0ff6f1e76e34483a20984fa0fbb73352_173792_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/development/daxko/gxp-embed-toggle-new_hu0ff6f1e76e34483a20984fa0fbb73352_173792_7de7ad911710d52538ca3f87b31d2cb7.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;li>Expand the options and choose any filters or colors that you prefer.&lt;/li>
+&lt;li>Disable the &amp;ldquo;Fixed Header&amp;rdquo; option.
+&lt;a href="/docs/development/daxko/gxp-embed-settings.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot showing &amp;amp;ldquo;Schedule Hosting LInk / Embedded Code for New Schdule&amp;amp;rdquo; from Daxko" srcset="
+/docs/development/daxko/gxp-embed-settings_hu27165d478c2d50a118be45bb9ad8e2ec_183448_338bc17c433ab7fc297169f328ea8f2e.png 458w,
+/docs/development/daxko/gxp-embed-settings_hu27165d478c2d50a118be45bb9ad8e2ec_183448_03410041c0dc60ce110978d134963fc3.png 726w,
+/docs/development/daxko/gxp-embed-settings_hu27165d478c2d50a118be45bb9ad8e2ec_183448_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/development/daxko/gxp-embed-settings_hu27165d478c2d50a118be45bb9ad8e2ec_183448_338bc17c433ab7fc297169f328ea8f2e.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;li>Copy the resulting code, that will look something like this, substituting &lt;code>000&lt;/code> for your own account number, and adding any location or category filters as needed:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#204a87;font-weight:bold">script&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">acct&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;000&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">loc&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">cat&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">stylesheet&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">hideLastnames&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">true&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">jsHost&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">((&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;https:&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#204a87">document&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">location&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">protocol&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">?&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;https://&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;http://&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">document&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">write&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;&amp;lt;scr&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ipt src=&amp;#39;&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">jsHost&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js&amp;#39; type=&amp;#39;text/javascript&amp;#39;&amp;gt;&amp;lt;/scr&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ipt&amp;gt;&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">document&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">write&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;&amp;lt;scr&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ipt&amp;gt;var jQuery = jQuery.noConflict(true);&amp;lt;/scr&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ipt&amp;gt;&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">document&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">write&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;&amp;lt;scr&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ipt src=&amp;#39;&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">jsHost&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;www.groupexpro.com/schedule/embed/schedule_embed_responsive.2.js.php?a=&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">acct&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;&amp;#39; type=&amp;#39;text/javascript&amp;#39;&amp;gt;&amp;lt;/scr&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;ipt&amp;gt;&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;lt;/&lt;/span>&lt;span style="color:#204a87;font-weight:bold">script&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Navigate to your YMCA website.&lt;/li>
+&lt;li>Follow the directions to add a
+&lt;a href="/docs/user-documentation/paragraphs/code/">Code Paragraph&lt;/a> or a
+&lt;a href="/docs/user-documentation/layout-builder/">Code Block&lt;/a>.&lt;/li>
+&lt;li>Paste the embed code into your block.&lt;/li>
+&lt;li>Save the paragraph/block and the page.&lt;/li>
+&lt;/ul>
+&lt;p>If the pasted code does not appear on the page, ensure your site is updated with
+&lt;a href="https://github.com/open-y-subprojects/openy_features/pull/29" target="_blank">this change&lt;/a> to enable direct copy/pasting of embed codes.&lt;/p>
+&lt;p>While the incoming code is controlled by Daxko/GroupEx Pro, many changes can be made with CSS. Try the
+&lt;a href="https://www.drupal.org/project/css_editor" target="_blank">CSS Editor module (≥2.0.1)&lt;/a> which is bundled with the distribution, or work with your development partner to make customizations.&lt;/p>
+&lt;h3 id="responsive-schedule-link">Responsive schedule link&lt;/h3>
+&lt;p>GroupEx Pro also provides direct links to the schedule page. These can be found in the &amp;ldquo;New Embed&amp;rdquo; section. Simply copy the link and add it to any link field or button on your site.&lt;/p></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
+&lt;p>From
+&lt;a href="https://link.ymca.net/mlink/post/ODI2MA" target="_blank">YMCA Link&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Typography is an important element of our brand identity. Cachet and Verdana, the only two fonts used on YMCA collateral, help provide our words with a distinctive look and welcoming feel. And Cachet, as our primary font, should be used for all internal and external materials whenever possible.&lt;/p>
+&lt;p>To help Ys incorporate the Cachet font into their online applications, &lt;strong>Y-USA is now licensing the web font version of Cachet for all YMCAs.&lt;/strong> Previously, Ys could only access the desktop version of the font from the Brand Resource Center (BRC).&lt;/p>
+&lt;p>Visit the BRC to:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://theybrand.org/wordpress/cachet" target="_blank">Download Cachet as a Web Font &lt;/a> (requires YMCA Link login)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Once you&amp;rsquo;ve downloaded the WOFF files, you&amp;rsquo;ll need to add them to your site. These instructions mirror the
+&lt;a href="https://www.youtube.com/watch?v=Kl1lwYSg3ww&amp;amp;feature=youtu.be" target="_blank">walkthrough in this video&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Visit &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Extend&lt;/strong> and ensure the &amp;ldquo;@fontyourface&amp;rdquo; and &amp;ldquo;@fontyourface - Local Fonts&amp;rdquo; modules are enabled.&lt;/li>
+&lt;li>Visit &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Appearance&lt;/strong> &amp;gt; &lt;strong>@font-your-face&lt;/strong> &amp;gt; &lt;strong>Custom Fonts&lt;/strong>&lt;/li>
+&lt;li>Click &lt;strong>+ Add Custom Font&lt;/strong> and add each of the Cachet font files you downloaded above with the following settings:&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Label&lt;/th>
+&lt;th>Font Family&lt;/th>
+&lt;th>Font Style&lt;/th>
+&lt;th>Font Weight&lt;/th>
+&lt;th>Font Classification&lt;/th>
+&lt;th>Font File&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cachet Extra Light&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>300&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-ExtraLight.woff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cachet Book&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>400&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-Book.woff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cachet Medium&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>500&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-Medium.woff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cachet Bold&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>700&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-Bold.woff&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;img src="../../assets/Add_custom_font.png" alt="Add_custom_font|591x500" />&lt;/p>
+&lt;ul>
+&lt;li>After you&amp;rsquo;ve added each font, &lt;strong>Enable&lt;/strong> them.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="../../assets/Custom_Font.png" alt="Custom_Font|690x156, 100%" />&lt;/p>
+&lt;ul>
+&lt;li>Your site should now use the Cachet font in headers and other areas. Usage is dependent on the YMCA Website Services theme you choose.&lt;/li>
+&lt;/ul>
+&lt;p>This content was originally
+&lt;a href="https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894" target="_blank">published on the YMCA Website Services Message Board&lt;/a>.&lt;/p></description></item><item><title>Docs: Google Analytics</title><link>/docs/development/google_analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics/</guid><description>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>YMCA Website Services uses the Drupal contrib
+&lt;a href="https://www.drupal.org/project/google_analytics" target="_blank">Google Analytics module&lt;/a> to enable
+&lt;a href="https://marketingplatform.google.com/about/analytics/" target="_blank">Google Analytics&lt;/a> tracking on your YMCA Website Services site.&lt;/p>
+&lt;p>To get started, you should first create a GA property. Use the
+&lt;a href="https://support.google.com/analytics/#topic=10737980" target="_blank">Analytics Help&lt;/a> for assistance.&lt;/p>
+&lt;h2 id="configuration">Configuration&lt;/h2>
+&lt;p>Configuration is done at the standard module configuration page: &lt;code>/admin/config/services/google-analytics&lt;/code>.&lt;/p>
+&lt;h3 id="google-analytics-version-compatibility">Google Analytics Version Compatibility&lt;/h3>
+&lt;p>In the
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/releases/tag/9.2.11" target="_blank">9.2.11&lt;/a> release in November 2021, YMCA Website Services
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/pull/2400" target="_blank">added support for Google Analytics 4&lt;/a>. If your site has been updated to YMCA Website Services 9.2.11 or greater AND the &lt;code>google_analytics&lt;/code> module has been updated to 4.x you should be able to use GA4. Otherwise you&amp;rsquo;ll need to stick with GA3.&lt;/p>
+&lt;p>See this
+&lt;a href="https://community.openymca.org/t/about-google-analytics-compatibility/917" target="_blank">community post&lt;/a> for more information.&lt;/p></description></item><item><title>Docs: Google Custom Search Configuration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
+&lt;p>The YMCA Website Services release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
+&lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
+&lt;h3 id="fresh-installations">Fresh installations&lt;/h3>
+&lt;p>The search feature is included in the &lt;code>Extended&lt;/code> installation type.
+For &lt;code>Standard&lt;/code> see the &lt;a href="#existing-websites">Existing websites&lt;/a> section.&lt;/p>
+&lt;p>If you are installing a fresh YMCA Website Services website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site&amp;rsquo;s search feature is up.&lt;/p>
+&lt;h3 id="existing-websites">Existing websites&lt;/h3>
+&lt;p>The search feature is not automatically enabled after upgrading an YMCA Website Services website. You have to manually enable it.&lt;/p>
+&lt;p>In order to do that:&lt;/p>
+&lt;ol>
+&lt;li>Log in as an admin (or a user with the &lt;code>administrator&lt;/code> role).&lt;/li>
+&lt;li>Go to the YMCA Website Services package install page (Admin menu &amp;gt; YMCA Website Services &amp;gt; Extend &amp;gt; Install, or &lt;code>/admin/openy/extend/list&lt;/code>)&lt;/li>
+&lt;li>Find the &lt;code>SEARCH&lt;/code> package there, tick the checkbox and submit the form.&lt;/li>
+&lt;/ol>
+&lt;p>Now the search modules are enabled and the header of the website should have a search field.
+Upon installation, the modules create a Landing page for search results and point the header search form to the page.&lt;/p>
+&lt;h2 id="configuring-the-google-search-modules">Configuring the Google Search modules&lt;/h2>
+&lt;ol>
+&lt;li>Go to the Google Search settings form (Admin menu &amp;gt; YMCA Website Services &amp;gt; Settings &amp;gt; Google Search settings, or &lt;code>/admin/openy/settings/google-search&lt;/code>).&lt;/li>
+&lt;li>Set the value of the &lt;code>Google Search ID&lt;/code> field (see the following &lt;a href="#obtaining-search-engine-id">section&lt;/a> for details) and submit the form.&lt;/li>
+&lt;/ol>
+&lt;h3 id="obtaining-search-engine-id">Obtaining Search Engine ID&lt;/h3>
+&lt;ol>
+&lt;li>Go to
+&lt;a href="https://cse.google.com/" target="_blank">https://cse.google.com/&lt;/a>, register if you haven&amp;rsquo;t yet, log in if you aren&amp;rsquo;t logged in.&lt;/li>
+&lt;li>Create the Search Engine (this process is explained in Google documentation
+&lt;a href="https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742%29" target="_blank">https://support.google.com/customsearch/answer/4513882?hl=en&amp;ref_topic=4513742)&lt;/a>:
+&lt;ol>
+&lt;li>Click &amp;ldquo;New Search Engine&amp;rdquo;.&lt;/li>
+&lt;li>Specify the domain of your website (e.g. &lt;code>www.openymca.org&lt;/code>).&lt;/li>
+&lt;li>Specify the name of the Search Engine (e.g. &lt;code>openymca.org&lt;/code>).&lt;/li>
+&lt;li>Click &amp;ldquo;Create&amp;rdquo;.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>On the newly created Search Engine page there is the &lt;code>Search engine ID&lt;/code> field. Use this value in the YMCA Website Services Google Search configuration form.&lt;/li>
+&lt;/ol>
+&lt;h2 id="configuring-the-search-engine-look-and-feel">Configuring the Search Engine look and feel&lt;/h2>
+&lt;ol>
+&lt;li>Go to &lt;code>Look and feel&lt;/code> section of the Search Engine&lt;/li>
+&lt;li>In the &lt;code>Layout&lt;/code> tab, select &lt;code>Full width&lt;/code> option and click &lt;code>Save&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>If this change hasn&amp;rsquo;t made, the search results on the website are shown in a popup window.&lt;/p>
+&lt;h3 id="dealing-with-ads">Dealing with ads&lt;/h3>
+&lt;p>By default, newly created Search engines use Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to switch to Non-profit Edition of the CSE, where it is possible to disable ads.&lt;/p>
+&lt;p>Take a look here
+&lt;a href="https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic" target="_blank">https://support.google.com/customsearch/answer/4542102?hl=en&amp;ctx=topic&lt;/a>&lt;/p>
+&lt;p>If you are already registered as a Non-profit in Google:&lt;/p>
+&lt;ol>
+&lt;li>From the
+&lt;a href="https://cse.google.com" target="_blank">CSE Control Panel&lt;/a>, select the search engine you want to change.&lt;/li>
+&lt;li>Click &lt;strong>Setup&lt;/strong> then &lt;strong>Make Money&lt;/strong>&lt;/li>
+&lt;li>Toggle the &lt;strong>Show Ads&lt;/strong> option to off.&lt;/li>
+&lt;/ol>
+&lt;h2 id="advanced-setup">Advanced setup&lt;/h2>
+&lt;p>Official Google documentation
+&lt;a href="https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868" target="_blank">https://support.google.com/customsearch/topic/4542213?hl=en&amp;ref_topic=4513868&lt;/a>&lt;/p>
+&lt;h3 id="mutli-site-search">Mutli-site search&lt;/h3>
+&lt;p>You can add not only your website&amp;rsquo;s domain but other domains as well if you have other websites dedicated to your Association but split from the main website.&lt;/p>
+&lt;p>You can also add not only the whole websites but their parts by specifying patterns like &lt;code>example.com/blog/*&lt;/code>.&lt;/p>
+&lt;h3 id="refinements-and-facets">Refinements and facets&lt;/h3>
+&lt;p>
+&lt;a href="https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1" target="_blank">https://support.google.com/customsearch/answer/4542637?hl=en&amp;ctx=topic&amp;topic=2642564&amp;visit_id=637166170019174137-3540762397&amp;rd=1&lt;/a>&lt;/p>
+&lt;p>Refinements let users filter results according to categories you provide.&lt;/p>
+&lt;p>Refinements appear in the search results page as tabs. The content of each tab is configured in Search features &amp;gt; Refinement section of the Custom Search Control panel.&lt;/p>
+&lt;p>To set up a dedicated tab in search results for Blog posts do the following:&lt;/p>
+&lt;ol>
+&lt;li>In Control panel, go to &lt;code>Search features&lt;/code> &amp;gt; &lt;code>Refinements&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Add&lt;/code>
+&lt;ol>
+&lt;li>Set the name of the refinement to &lt;code>Blog&lt;/code>&lt;/li>
+&lt;li>Select &lt;code>Search only the sites with this label&lt;/code> for &lt;code>How to search sites with this label?&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Ok&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Go to &lt;code>Setup&lt;/code>&lt;/li>
+&lt;li>Find &lt;code>Sites to search&lt;/code>, click &lt;code>Add&lt;/code>
+&lt;ol>
+&lt;li>Add the &lt;code>yourymcadomain.org/blog/*&lt;/code> in the text field&lt;/li>
+&lt;li>Select &lt;code>Blog&lt;/code> in the Label dropdown&lt;/li>
+&lt;li>Select &lt;code>Include just this specific page or URL pattern I have entered&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Save&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>The search results page now shows the &lt;code>Blog&lt;/code> tab that only shows blog entries relevant to the search term.&lt;/p>
+&lt;h3 id="promotions">Promotions&lt;/h3>
+&lt;p>Official Google documentation
+&lt;a href="https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213" target="_blank">https://support.google.com/customsearch/answer/4542640?hl=en&amp;ref_topic=4542213&lt;/a>&lt;/p>
+&lt;h2 id="information-for-developers">Information for developers&lt;/h2>
+&lt;p>
+&lt;a href="https://developers.google.com/custom-search/docs/overview" target="_blank">Google Custom Search Developers documentation &lt;/a>&lt;/p>
+&lt;h3 id="enabling-via-drush">Enabling via Drush&lt;/h3>
+&lt;p>Use the following snippet to enable the package on existing websites:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush en openy_google_search
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
+&lt;p>Use the following snippet when you install YMCA Website Services via Drush to set the Search Engine ID:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush site-install openy \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --account-pass=password \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --root=/var/www/docroot \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> openy_configure_profile.preset=extended \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> openy_theme_select.theme=openy_rose \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789:abcedefgh&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
+&lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush config-set openy_google_search.settings google_engine_id &amp;#34;01234567890123456789:abcedefgh&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Installation With Drush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
+&lt;p>Use
+&lt;a href="https://drushcommands.com/drush-8x/core/site-install/" target="_blank">drush site-install&lt;/a> command.&lt;/p>
+&lt;p>Basically you use something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Complete YMCA Website Services profile preset and YMCA Website Services Rose theme is used in this case.&lt;/p>
+&lt;p>You can set which preset must be installed by specifying it with &lt;code>openy_configure_profile.preset&lt;/code> variable, and theme with
+&lt;code>openy_theme_select.theme&lt;/code>variable e.g.:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Map Settings &amp; Configuration</title><link>/docs/development/map-settings-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/map-settings-config/</guid><description>
+&lt;p>YMCA Website Services includes robust mapping functionality defined in the
+&lt;a href="https://github.com/open-y-subprojects/openy_map" target="_blank">openy_map subproject&lt;/a>. Maps typically are displayed on the &lt;code>/locations&lt;/code> page and are highly customizable.&lt;/p>
+&lt;p>These are a few common customizations:&lt;/p>
+&lt;h2 id="changing-map-options">Changing Map Options&lt;/h2>
+&lt;p>By default, content types have these labels on the map:&lt;/p>
+&lt;ul>
+&lt;li>Branch = YMCAs&lt;/li>
+&lt;li>Camp = Camps&lt;/li>
+&lt;li>Facility = Facilities&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="./map-labels.png" alt="Screenshot showing map labels" />&lt;/p>
+&lt;p>These labels can be customized in the Drupal administration pages to better suit your YMCA&amp;rsquo;s more member-focused terminology. To do so:&lt;/p>
+&lt;ul>
+&lt;li>In the Admin Menu, go to &lt;strong>YMCA Website Services&lt;/strong> (or &lt;strong>Open Y&lt;/strong> on prior versions) &amp;gt; &lt;strong>Settings&lt;/strong> &amp;gt; &lt;strong>Map Settings&lt;/strong>&lt;/li>
+&lt;li>In the &lt;strong>Branch/Camp/Facility Content Type&lt;/strong> sections you can:
+&lt;ul>
+&lt;li>edit the label names,&lt;/li>
+&lt;li>show or hide the content type on the Locations page,&lt;/li>
+&lt;li>set the filter to be on or off by default, and&lt;/li>
+&lt;li>set the map icon.
+&lt;a href="/docs/development/map-settings-config/branch-content-type-map-settings.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Branch content type settings" srcset="
+/docs/development/map-settings-config/branch-content-type-map-settings_hu208caf786b9a37d078a724c84ce0a14a_56698_f4cb3315bb9bed861be1e35b0e233c44.png 458w,
+/docs/development/map-settings-config/branch-content-type-map-settings_hu208caf786b9a37d078a724c84ce0a14a_56698_682278bea94c1f4ab9b152c9b0334747.png 726w,
+/docs/development/map-settings-config/branch-content-type-map-settings_hu208caf786b9a37d078a724c84ce0a14a_56698_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/development/map-settings-config/branch-content-type-map-settings_hu208caf786b9a37d078a724c84ce0a14a_56698_f4cb3315bb9bed861be1e35b0e233c44.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Edit each content type as needed then &lt;strong>Save&lt;/strong> the form.&lt;/li>
+&lt;li>Reload &lt;code>/locations&lt;/code> and you should see your changes.&lt;/li>
+&lt;/ul>
+&lt;h2 id="adding-additional-location-types">Adding Additional Location Types&lt;/h2>
+&lt;p>You can add new content types to the map with a few steps. This may require some trial and error, so be sure to work in a testing environment first. You will need to have the &lt;strong>Field UI&lt;/strong> module enabled to do this through the Drupal admin UI.&lt;/p>
+&lt;ul>
+&lt;li>Create a new content type via &lt;strong>Structure&lt;/strong> &amp;gt; &lt;strong>Content types&lt;/strong> &amp;gt; &lt;strong>Add content type&lt;/strong>&lt;/li>
+&lt;li>Add these existing fields to the content type:
+&lt;ul>
+&lt;li>&lt;code>field_location_coordinates&lt;/code> - required&lt;/li>
+&lt;li>&lt;code>field_location_address&lt;/code> and &lt;code>field_location_phone&lt;/code> - suggested for display on the map and location teasers.&lt;/li>
+&lt;li>&lt;code>field_location_amenities&lt;/code> - if the location should be searchable with the Amenities search.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Set up the Teaser display on the new content type:
+&lt;ul>
+&lt;li>Navigate to &lt;strong>Manage display&lt;/strong> then &lt;strong>Teaser&lt;/strong>&lt;/li>
+&lt;li>Update these settings to match the Branch Teaser display at &lt;code>/admin/structure/types/manage/branch/display/teaser&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Go back to the Map Settings at &lt;code>admin/openy/settings/openy_map&lt;/code> and configure the options for your new location type.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Module Development</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
+&lt;h3 id="module-content-removal">Module content removal&lt;/h3>
+&lt;p>When deleting an entity, where plugins or services of removing module are used,
+then content removal should be done in the hook_uninstall() of that module.
+See openy_prgf_camp_menu.install as example.&lt;/p></description></item><item><title>Docs: Patch YMCA Website Services</title><link>/docs/development/patch-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/patch-openy/</guid><description>
+&lt;p>Here you can find instructions how you can patch YMCA Website Services distribution used on
+your project.&lt;/p>
+&lt;h2 id="when-you-need-to-patch-ymca-website-services">When you need to patch YMCA Website Services&lt;/h2>
+&lt;ul>
+&lt;li>In case you found a bug and prepared a patch for YMCA Website Services on github.&lt;/li>
+&lt;li>In case you developed a new feature that will be good to have in YMCA Website Services and
+created Pull Request to YMCA Website Services repository&lt;/li>
+&lt;li>In case you want to add a feature that added to YMCA Website Services but not included yet to
+YMCA Website Services release.&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-to-patch-ymca-website-services-via-composer">How to patch YMCA Website Services via composer?&lt;/h3>
+&lt;p>If you followed instructions
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny/blob/8.x-1.x/docs/Development/Start%20new%20OpenY%20project.md" target="_blank">docs/Development/Start new YMCA Website Services project&lt;/a>
+and you have configured &lt;code>composer.json&lt;/code> you need just to do a few simple steps:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Build a link to a patch using pull request ID&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>https://patch-diff.githubusercontent.com/raw/YCloudYUSA/yusaopeny/pull/XXX.patch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>Where XXX is a number of pull request you want to use.&lt;/p>
+&lt;ol start="2">
+&lt;li>
+&lt;p>Add a new section &lt;code>patches&lt;/code> to the section &lt;code>extra&lt;/code> and add a patch to YMCA Website Services
+repository, as on this example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;extra&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;enable-patching&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;patches&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;YCloudYUSA/yusaopeny&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;Patch description&amp;#34;: &amp;#34;https://patch-diff.githubusercontent.com/raw/YCloudYUSA/yusaopeny/pull/XXX.patch&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Verify you can see added changes in YMCA Website Services&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enjoy!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Search Tracking with Google Analytics</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ul>
+&lt;li>Google Analytics account to track you site should be created.&lt;/li>
+&lt;li>Google Analytics contrib module should be enabled and configured to use existing GA account.&lt;/li>
+&lt;/ul>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Log in to Google Analytics account that configured to track your YMCA Website Services site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Admin button in bottom right corner of main screen
+&lt;img src="../../assets/ga_search_1.png" alt="Google Analytics Main Screen" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click View Settings
+&lt;img src="../../assets/ga_search_2.png" alt="Google Analytics View Settings" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Scroll to “Site Search Settings” section and enable “Site Search Tracking” switch
+&lt;img src="../../assets/ga_search_3.png" alt="Google Analytics Site Search Settings" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill query parameter field with &lt;code>q, query&lt;/code> values and click Save&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reports about the search tracking you can find at main screen in Behavior → Site Search Section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
+(see
+&lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency" target="_blank">Google&amp;rsquo;s support doc&lt;/a>).&lt;/p></description></item><item><title>Docs: Server Requirements</title><link>/docs/development/server-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/server-requirements/</guid><description>
+&lt;p>If you need to prepare server for the YMCA Website Services instance, here below you should find all needed software to meet its requirements.&lt;/p>
+&lt;h3 id="list-of-requirements">List of requirements&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Ubuntu LTS (14 or 16) is preferred. CentOS is ok as well. Or even any other Linux distribution, but was not tested by YMCA Website Services team so far.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>(Drupal 8 server requirements should be met)[https://www.drupal.org/docs/system-requirements/php-requirements].&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>PHP 5.6+ (PHP 7 is better in terms of performance)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="list-of-php-modules-server-should-have">List of PHP modules server should have:&lt;/h3>
+&lt;ul>
+&lt;li>php{{ php_version }}&lt;/li>
+&lt;li>php{{ php_version }}-mcrypt&lt;/li>
+&lt;li>php{{ php_version }}-cli&lt;/li>
+&lt;li>php{{ php_version }}-common&lt;/li>
+&lt;li>php{{ php_version }}-curl&lt;/li>
+&lt;li>php{{ php_version }}-dev&lt;/li>
+&lt;li>php{{ php_version }}-fpm&lt;/li>
+&lt;li>php{{ php_version }}-gd&lt;/li>
+&lt;li>php{{ php_version }}-mysql&lt;/li>
+&lt;li>php{{ php_version }}-memcached&lt;/li>
+&lt;li>php{{ php_version }}-imagick&lt;/li>
+&lt;li>php{{ php_version }}-xml&lt;/li>
+&lt;li>php{{ php_version }}-xdebug&lt;/li>
+&lt;li>php{{ php_version }}-mbstring&lt;/li>
+&lt;li>php{{ php_version }}-soap&lt;/li>
+&lt;li>php{{ php_version }}-zip&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>MySQL 5.5+ . Here are the best settings
+&lt;a href="https://github.com/cibox/cibox/blob/master/core/facade-mysql/defaults/main.yml" target="_blank">https://github.com/cibox/cibox/blob/master/core/facade-mysql/defaults/main.yml&lt;/a> to get it fast and furious&lt;/li>
+&lt;li>Apache 2 with mod-php (preffered for stability) or nginx with php-fpm (better for speed and scalability)&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>libapache2-mod-php{{ php_version }}&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
+&lt;li>
+&lt;p>Memcache server (optional)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Server tools&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Ansible (optional)&lt;/li>
+&lt;li>Docker (optional)&lt;/li>
+&lt;li>SOLR 4.x (if there will be requirement for SOLR search support)&lt;/li>
+&lt;li>Varnish (optional)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Start new YMCA Website Services project</title><link>/docs/development/start-new-openy-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/start-new-openy-project/</guid><description>
+&lt;p>Here you can find instructions how you can start project based on YMCA Website Services distribution.&lt;/p>
+&lt;h2 id="new-project-from-scratch-based-on-ymca-website-services">New project from scratch based on YMCA Website Services&lt;/h2>
+&lt;p>In order to start new project from scratch, you can use
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project#installation" target="_blank">installation instructions&lt;/a> that will build your project and even add development environment.&lt;/p>
+&lt;h2 id="add-ymca-website-services-to-existing-drupal-8-project">Add YMCA Website Services to existing Drupal 8 project&lt;/h2>
+&lt;p>Please take a look at the full &lt;code>composer.json&lt;/code> file below that you should eventually get.&lt;/p>
+&lt;details>
+ &lt;summary>&lt;strong>Example composer.json (Drupal 8.3.2 + YMCA Website Services 1.2)&lt;/strong>&lt;/summary>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;drupal/drupal&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;description&amp;#34;: &amp;#34;Drupal is an open source content management platform powering millions of websites and applications.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;project&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;license&amp;#34;: &amp;#34;GPL-2.0+&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;require&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;composer/installers&amp;#34;: &amp;#34;^1.0.24&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;wikimedia/composer-merge-plugin&amp;#34;: &amp;#34;~1.4&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;YCloudYUSA/yusaopeny&amp;#34;: &amp;#34;8.*.*&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;cweagans/composer-patches&amp;#34;: &amp;#34;~1.0&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;minimum-stability&amp;#34;: &amp;#34;dev&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;prefer-stable&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;config&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;preferred-install&amp;#34;: &amp;#34;dist&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;autoloader-suffix&amp;#34;: &amp;#34;Drupal8&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;secure-http&amp;#34;: false
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;extra&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;_readme&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;By default Drupal loads the autoloader from ./vendor/autoload.php.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;To change the autoloader you can edit ./autoload.php.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;This file specifies the packages.drupal.org repository.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;You can read more about this composer repository at:&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;https://www.drupal.org/node/2718229&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;merge-plugin&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;include&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;core/composer.json&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;recurse&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;replace&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;merge-extra&amp;#34;: false
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;enable-patching&amp;#34;: true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;autoload&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;psr-4&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;Drupal\Core\Composer\&amp;#34;: &amp;#34;core/lib/Drupal/Core/Composer&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;scripts&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;pre-autoload-dump&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::preAutoloadDump&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-autoload-dump&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;Drupal\Core\Composer\Composer::ensureHtaccess&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-package-install&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-package-update&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-install-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-update-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;repositories&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;composer&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://packages.drupal.org/8&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-kenwheeler/slick&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.6.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/kenwheeler/slick&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;1.6.0&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-dinbror/blazy&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.8.2&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/dinbror/blazy&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;1.8.2&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-gdsmith/jquery.easing&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.4.1&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/gdsmith/jquery.easing&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;1.4.1&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-enyo/dropzone&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.3.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/enyo/dropzone&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;v4.3.0&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-jaypan/jquery_colorpicker&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.0.1&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/jaypan/jquery_colorpicker&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;da978ae124c57817021b3166a31881876882f5f9&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/panelbutton&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colorbutton&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colordialog&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/glyphicons&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;2.2&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/glyphicons/releases/glyphicons_2.2.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/details>
+&lt;ol>
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;YCloudYUSA/yusaopeny&amp;quot;: &amp;quot;8.*.*&amp;quot;&lt;/code> to the &lt;code>require&lt;/code> section in your &lt;code>composer.json&lt;/code>, like
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L7" target="_blank">here&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add all required repositories that are
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L31" target="_blank">listed here&lt;/a> to your &lt;code>composer.json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add installer path as here to your &lt;code>composer json&lt;/code>. See
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L165" target="_blank">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>composer.json&lt;/code> &lt;strong>inside&lt;/strong> of docroot
+Installer path will look like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>composer.json&lt;/code> &lt;strong>outside&lt;/strong> of docroot
+Installer path will look like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;cweagans/composer-patches&amp;quot;: &amp;quot;~1.0&amp;quot;&lt;/code> to the &lt;code>require&lt;/code> section in you &lt;code>composer.json&lt;/code>. See
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L10" target="_blank">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;enable-patching&amp;quot;: true&lt;/code> to the &lt;code>extra&lt;/code> section in your &lt;code>composer.json&lt;/code> See
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L173" target="_blank">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;secure-http&amp;quot;: false&lt;/code> to the &lt;code>config&lt;/code> section in your &lt;code>composer.json&lt;/code> See
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/composer.json#L177" target="_blank">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Remove &lt;code>composer.lock&lt;/code> and &lt;code>vendor&lt;/code> folder from the project if they are exist in your folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Remove &lt;code>&amp;quot;replace&amp;quot;&lt;/code> section from your &lt;code>composer.json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>(Optional) If you keep &lt;code>vendor&lt;/code> folder in your git repository, we recommend to clean up project from &lt;code>.git&lt;/code> folder inside modules and libraries. To do so&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>Add cleaner script to your project from
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh" target="_blank">YMCA Website Services composer package&lt;/a>. You can just copy it and paste onto your project.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="https://github.com/YCloudYUSA/yusaopeny-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh#L4" target="_blank">Adjust folders&lt;/a> that you would like to cleanup&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Execute it in &lt;code>post-install-cmd&lt;/code> and &lt;code>post-update-cmd&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;post-install-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;#34;post-update-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;ol start="9">
+&lt;li>Run &lt;code>composer install&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h1 id="ciboxhttpsgithubcomciboxcibox">
+&lt;a href="https://github.com/cibox/cibox" target="_blank">CIBox&lt;/a>&lt;/h1>
+&lt;p>In this section you can learn how to configure development environment and CI server using Open Source product
+&lt;a href="https://github.com/cibox/cibox" target="_blank">CIBox&lt;/a>.&lt;/p>
+&lt;h3 id="create-project">Create project&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Generate project based on
+&lt;a href="http://docs.cibox.tools/en/latest/Quickstart/#prepare-github-project" target="_blank">this quickstart&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add YMCA Website Services to the project using (Add YMCA Website Services to already existing Drupal 8 project)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Init git and add initial commit&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">cd&lt;/span> OPENY_PROJECT
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git init
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -m &lt;span style="color:#4e9a06">&amp;#34;Init YMCA Website Services project&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote add origin git@github.com:NAMESPACE/PROJECT.git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push -u origin master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Spin up your local vagrant machine&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>vagrant up --provision
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Setup CI server for new project based on
+&lt;a href="https://github.com/cibox/cibox#provision-new-ci-server" target="_blank">CIBox documentation&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Follow quick start starting from Jenkins Provisioning Step
+&lt;a href="http://docs.cibox.tools/en/latest/Quickstart/#jenkins-provisioning" target="_blank">http://docs.cibox.tools/en/latest/Quickstart/#jenkins-provisioning&lt;/a> (Here we will get PR builds and DEMO site (DEV environment) with credentials to it )&lt;/li>
+&lt;li>Setup hosting STAGE environment (it should be a 1:1 copy of existing or expected hosting account for ability to provide performance testing there)&lt;/li>
+&lt;li>Setup deployment plans for CI by reusing DEMO builder job&lt;/li>
+&lt;/ul>
+&lt;h1 id="install-ymca-website-services-on-digitaloceanhttpbitlycibox-digitalocean">Install YMCA Website Services on
+&lt;a href="http://bit.ly/cibox-digitalocean" target="_blank">DigitalOcean&lt;/a>&lt;/h1>
+&lt;ol>
+&lt;li>Create new Droplet using &amp;ldquo;One-click apps&amp;rdquo; image &lt;code>Drupal 8.*.* on 14.04&lt;/code>&lt;/li>
+&lt;li>Login to server
+&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh" target="_blank">via SSH&lt;/a> or
+&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-console-to-access-your-droplet" target="_blank">web console&lt;/a>&lt;/li>
+&lt;li>Run command&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>bash &amp;lt;&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>curl -s https://raw.githubusercontent.com/YCloudYUSA/yusaopeny/8.x-1.x/build/openy-digital-ocean.sh&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Open link(e.g. http://IP/core/install.php) from console output and finish YMCA Website Services installation&lt;/li>
+&lt;/ol>
+&lt;h2 id="video-tutorial">Video tutorial&lt;/h2>
+&lt;p>
+&lt;a href="https://youtu.be/RCvsLANsbm8" target="_blank">
+&lt;img src="https://img.youtube.com/vi/RCvsLANsbm8/0.jpg" alt="YMCA Website Services v1.0b - Install Tutorial" />&lt;/a>&lt;/p>
+&lt;h2 id="end-to-end-installation">End to end installation&lt;/h2>
+&lt;p>
+&lt;a href="https://youtu.be/RT6kC38zgvo" target="_blank">
+&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="YMCA Website Services install - in 16 minutes end to end, no tutorial" />&lt;/a>&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
+&lt;p>These instructions explain how you can run tests.&lt;/p>
+&lt;h2 id="behat">Behat&lt;/h2>
+&lt;h3 id="requirements">Requirements&lt;/h3>
+&lt;ul>
+&lt;li>Ansible 1.9.4+
+&lt;a href="http://docs.ansible.com/ansible/intro_installation.html" target="_blank">http://docs.ansible.com/ansible/intro_installation.html&lt;/a>&lt;/li>
+&lt;li>Docker
+&lt;a href="https://docs.docker.com/engine/installation/" target="_blank">https://docs.docker.com/engine/installation/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="run-full-test-suite">Run full test suite&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Execute command&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Open
+&lt;a href="http://site.com/profiles/contrib/openy/build/reports/behat" target="_blank">http://site.com/profiles/contrib/openy/build/reports/behat&lt;/a> in browser.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="run-selenium-container--behat-tests-in-usual-way">Run selenium container + Behat tests in usual way&lt;/h3>
+&lt;p>In order to run only selenium container + behat in usual way:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh --tags run_selenium
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ bin/behat
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="stop-selenium-container">Stop selenium container&lt;/h3>
+&lt;p>In order to stop selenium container:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh --tags stop_selenium
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If necessary, edit behat.local.yml to match your environment.&lt;/p>
+&lt;h3 id="visual-debugging---videohttpsyoutubeqytpia1clvc">Visual debugging -
+&lt;a href="https://youtu.be/qYtpiA1ClVc" target="_blank">Video&lt;/a>&lt;/h3>
+&lt;p>When you develop JS tests, it&amp;rsquo;s important to see what&amp;rsquo;s going on the Selenium screen. You can easily see this during development.&lt;/p>
+&lt;ol>
+&lt;li>Install
+&lt;a href="https://www.realvnc.com/download/viewer" target="_blank">https://www.realvnc.com/download/viewer&lt;/a>&lt;/li>
+&lt;li>Run selenium using command&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh --tags run_selenium
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Open installed VNC Viewer and connect to the server with IP &lt;code>192.168.56.132:5901&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Password = secret&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Run tests and you should see everything that is performed by behat tests in VNC client&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ bin/behat
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;a href="https://youtu.be/RSsQLVVhldc" target="_blank">
+&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests" />&lt;/a>&lt;/p>
+&lt;h3 id="custom-behat-functionality">Custom Behat functionality&lt;/h3>
+&lt;ul>
+&lt;li>Create entities in table forms, with key to use in reference and reference entities by key.
+&lt;ul>
+&lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
+&lt;li>Taxonomy
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;taxonomy_term&amp;#34; of type &amp;#34;color&amp;#34; with key for reference:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | name | field_color |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | Blue | Blue | 0000FF |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | Red | Red | FF0000 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Paragraphs
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;paragraph&amp;#34; of type &amp;#34;small_banner&amp;#34; with key for reference:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | field_prgf_headline | field_prgf_color |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | banner1 | Headline 1 | Blue |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | banner2 | Headline 2 | Red |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Media entities
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;media&amp;#34; of type &amp;#34;image&amp;#34; with key for reference:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | name | file |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | gallery_1 | Gallery image 1 | gallery.png |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | gallery_2 | Gallery image 2 | gallery2.png |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | gallery_3 | Gallery image 3 | gallery3.png |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Create nodes in table forms, with key to use in reference and reference entities by key.
+&lt;ul>
+&lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
+&lt;li>Basic create
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | title | field_lp_layout | field_content |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | landing_1 | Test Landing 01 | one_column | banner1 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | landing_2 | Test Landing 02 | one_column | banner2 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Vertical field table
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create large &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | landing_3 | landing_4 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Test Landing 03 | Test Landing 04 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_lp_layout | one_column | one_column |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_content | banner1 | banner2 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Create &amp;amp; view immediately
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I view a &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | landing_5 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Test Landing 05 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_lp_layout | one_column |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_content | banner1 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Multiple referenced entities by key on a field.
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | title | field_lp_layout | field_content |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | landing_6 | Test Landing 06 | one_column | banner1, banner2 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="example-address-and-latitude--longitude">Example Address and Latitude + Longitude&lt;/h4>
+&lt;p>Fields with sub field/columns:
+The machine name and columns can be found in the form markup in the field name property.
+&lt;img src="../../assets/complex_field_machine_names.png" alt="Inspect form field name depicted" />
+The first portion, &lt;code>field_location_address&lt;/code> represents the Drupal field machine name, while the second array key &lt;code>address_line1&lt;/code> represents the column.&lt;/p>
+&lt;ul>
+&lt;li>Add Address
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I view a &amp;#34;branch&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Branch Example |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_location_address:country_code | US |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :address_line1 | Main road 10 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :locality | Seattle |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :administrative_area | WA |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :postal_code | 98101 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Add Latitude and Longitude
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I view a &amp;#34;branch&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Branch Example 2 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_location_coordinates:lat | 47.293433 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :lng | -122.238717 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_location_phone | +1234567890 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Theming and Design</title><link>/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/theming_and_design/</guid><description>
+&lt;p>Welcome to YMCA Website Services Theming and Design documentation.&lt;/p>
+&lt;h3 id="how-to-change-styles-on-content-type-level">How to change styles on content type level&lt;/h3>
+&lt;p>&lt;strong>Given:&lt;/strong>
+As an YMCA Website Services site developer, I want to be able to easily change the CSS for a Camp page
+independently from a Location page, so I can better customize the site to meet the needs of my customers.&lt;/p>
+&lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>If you need to change CSS on some pages independently, you should enable Custom CSS functionality on
+the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable custom CSS&amp;rdquo;.&lt;/li>
+&lt;li>Input CSS code into the textarea.&lt;/li>
+&lt;/ul>
+&lt;p>In order to change CSS on each particular page you should use the following selectors:&lt;/p>
+&lt;ul>
+&lt;li>.page-node-type-{node type};&lt;/li>
+&lt;li>.node-id-{node ID};&lt;/li>
+&lt;li>.path-frontpage.&lt;/li>
+&lt;/ul>
+&lt;p>The existing node types are: &lt;em>activity&lt;/em>, &lt;em>alert&lt;/em>, &lt;em>blog&lt;/em>, &lt;em>branch&lt;/em>, &lt;em>camp&lt;/em>, &lt;em>class&lt;/em>, &lt;em>facility&lt;/em>, &lt;em>landing-page&lt;/em>, &lt;em>membership&lt;/em>, &lt;em>news&lt;/em>, &lt;em>program&lt;/em>, &lt;em>program-subcategory&lt;/em>, &lt;em>session&lt;/em>.&lt;/p></description></item><item><title>Docs: Tour</title><link>/docs/development/tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tour/</guid><description>
+&lt;h3 id="how-to-use-ymca-website-services-tour-token-with-tour">How to use YMCA Website Services Tour Token with Tour&lt;/h3>
+&lt;p>In someone modules have tour tips and for more interactivity, you can add a token with a click to any selector.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>In the module open tour yml file.
+&lt;img src="../../assets/openy_tour_place.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the tip for edit and in body add token like this [openy_tour:click:button_name:selector]
+&lt;img src="../../assets/openy_tour_add_to_tip.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create hook update for you changes and in command line run drush updb -y&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h4 id="token-components">Token components:&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>[openy_tour:click:button_name:selector]*
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>openy_tour - token name;&lt;/p>
+&lt;p>click - command in the token;&lt;/p>
+&lt;p>button_name - name of button when show in a tip;&lt;/p>
+&lt;p>selector - selector to be clicked.&lt;/p>
+&lt;p>Please see and use
+&lt;a href="https://www.w3schools.com/jquery/jquery_ref_selectors.asp" target="_blank">jQuery selectors&lt;/a>.&lt;/p></description></item><item><title>Docs: Upgrade path</title><link>/docs/development/upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/upgrade-path/</guid><description>
+&lt;p>All changes in configurations should be added to appropriate hook_update_N in order to update already existing environments. We suggest to use
+&lt;a href="https://www.drupal.org/project/confi" target="_blank">https://www.drupal.org/project/confi&lt;/a> for working with hook_update_N.&lt;/p>
+&lt;h3 id="openyinstall-in-profile">&lt;code>openy.install&lt;/code> in profile&lt;/h3>
+&lt;p>In this file we should put updates that are related to the distribution in general and don&amp;rsquo;t fit into any feature.&lt;/p>
+&lt;ul>
+&lt;li>Enable/Disable module&lt;/li>
+&lt;li>General configs&lt;/li>
+&lt;/ul>
+&lt;h3 id="openy_install-in-modules">&lt;code>openy_*.install&lt;/code> in modules&lt;/h3>
+&lt;p>In case if you update some configuration for specific feature, make sure that you put updates into appropriate module.&lt;/p>
+&lt;h3 id="revert-only-specific-property-from-config">Revert only specific property from config&lt;/h3>
+&lt;p>With
+&lt;a href="https://www.drupal.org/project/confi" target="_blank">config_import module&lt;/a> help we can update only part from full config.&lt;/p>
+&lt;p>For updating specific property in config (use service &amp;lsquo;openy_upgrade_tool.param_updater&amp;rsquo;):&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>go to related to this config module&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>create new hook_update_N in openy_*.install file&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>in update add next code (this is example):&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$config = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install/views.view.images_library.yml&amp;#39;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.param_updater&amp;#39;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;update($config, &amp;#39;views.view.images_library&amp;#39;, &amp;#39;display.default.display_options.pager&amp;#39;);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
+&lt;ul>
+&lt;li>$config variable contains path to config with config name&lt;/li>
+&lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
+&lt;li>&amp;ldquo;display.default.display_options.pager&amp;rdquo; - config specific property (you can set value from a nested array with variable depth)&lt;/li>
+&lt;/ul>
+&lt;h3 id="revert-full-configs">Revert full configs&lt;/h3>
+&lt;p>For updating full config or several configs from directory use service &amp;lsquo;openy_upgrade_tool.importer&amp;rsquo;.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$config_dir = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install&amp;#39;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.importer&amp;#39;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;setDirectory($config_dir);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;importConfigs([&amp;#39;views.view.images_library&amp;#39;]);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
+&lt;ul>
+&lt;li>$config_dir - path to directory with config&lt;/li>
+&lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
+&lt;/ul>
+&lt;p>Also you can update several configs from directory:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;importConfigs([
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#39;views.view.images_library&amp;#39;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#39;views.view.example_view&amp;#39;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>]);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

@@ -1,0 +1,913 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YMCA Website Services – Page/Content Types</title><link>/docs/user-documentation/content-types/</link><description>Recent content in Page/Content Types on YMCA Website Services</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/user-documentation/content-types/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Article (Layout Builder)</title><link>/docs/user-documentation/content-types/lb-article/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/lb-article/</guid><description>
+&lt;p>This gives content editors the ability to vary the layout and views display depending on the type of article created (news item, blog post, or press release). This way, if an association wants to display news items on a news page, and blog posts on a blog page, they can differentiate based on where they would like the article to display on the site.&lt;/p>
+&lt;p>Article also allows content editors to include Layout Builder components within the page.&lt;/p>
+&lt;p>&lt;strong>Designs:&lt;/strong>
+&lt;a href="/img/designs/lb/Article%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Article%20Desktop.png">Desktop&lt;/a>&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/FBtQmfy9C7Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="creating-an-article">Creating an Article&lt;/h2>
+&lt;p>Go to &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Content&lt;/strong> &amp;gt; &lt;strong>Add Content&lt;/strong> &amp;gt; &lt;strong>Article (Layout Builder)&lt;/strong>&lt;/p>
+&lt;p>Fill in the content fields:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Title&lt;/strong> (required)&lt;/li>
+&lt;li>&lt;strong>Subtitle&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Type&lt;/strong>: Select &amp;ldquo;Blog&amp;rdquo;, &amp;ldquo;News&amp;rdquo;, or &amp;ldquo;Press Release&amp;rdquo;. Each type has the same fields, but allows admins to group articles for display on different pages (i.e. Blog types will display on a Blog page, Press Releases on a Press Release page, etc.)&lt;/li>
+&lt;li>&lt;strong>Header image&lt;/strong>: This image is displayed on the Article page and in listing views.&lt;/li>
+&lt;li>&lt;strong>Tags&lt;/strong>: References terms in the Tags vocabulary. See
+&lt;a href="../../taxonomy">Taxonomy&lt;/a> for more information on tags.&lt;/li>
+&lt;li>&lt;strong>Body&lt;/strong> (required): Add text with the
+&lt;a href="../../text-editor">WYSIWYG editor&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Locations&lt;/strong>: If the Article relates to a
+&lt;a href="../branch">Branch&lt;/a> then select it here so that the Article shows in listings on the Branch page.&lt;/li>
+&lt;li>&lt;strong>Published Date&lt;/strong> (required): Defaults to today. This is the date that will be displayed on the Article page, used for sorting, and in listings.&lt;/li>
+&lt;/ul>
+&lt;h2 id="customizing-articles">Customizing Articles&lt;/h2>
+&lt;p>Once you create an Article you can customize the layout with
+&lt;a href="../../layout-builder">Layout Builder&lt;/a>. These components are built specifically to work with the Article content type:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="../../layout-builder/related-articles">Related Articles&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Event (Layout Builder)</title><link>/docs/user-documentation/content-types/lb-event/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/lb-event/</guid><description>
+&lt;p>&lt;strong>Designs:&lt;/strong>
+&lt;a href="../../../../../../assets/img/designs/lb/Event%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Event%20Desktop.png">Desktop&lt;/a>&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/cxRxuYkWy-4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="creating-an-event">Creating an Event&lt;/h2>
+&lt;p>Go to &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Content&lt;/strong> &amp;gt; &lt;strong>Add Content&lt;/strong> &amp;gt; &lt;strong>Event (Layout Builder)&lt;/strong>&lt;/p>
+&lt;p>Fill in the content fields:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Title&lt;/strong> (required)&lt;/li>
+&lt;li>&lt;strong>Subtitle&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Location info&lt;/strong>: Select the event location either by choosing from your list of locations or adding the address manually. You must either fill out the &lt;strong>Event location&lt;/strong> OR &lt;strong>Address&lt;/strong> fields.
+&lt;ul>
+&lt;li>&lt;strong>Event Location&lt;/strong>: A list of Branch, Camp, and Facilities. Select any number of these.&lt;/li>
+&lt;li>&lt;strong>Address&lt;/strong>: If your event does not happen at an existing location, you can add the address directly. Any content in this field will cause the &lt;strong>Event Location&lt;/strong> to be overridden. To clear out the field, reset &lt;strong>Country&lt;/strong> to &amp;ldquo;- None -&amp;rdquo;.&lt;/li>
+&lt;li>&lt;strong>Directions&lt;/strong>: By default, a link with directions is auto-generated using the address field of either the Event Location or Address. Use this field to substitute your own directions link.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Event Date(s)&lt;/strong>: Add a start and end date and time for the event. If the event does not have an end time, choose the start time for both the start and end.&lt;/li>
+&lt;li>&lt;strong>Header image&lt;/strong>: This image is displayed on the Article page and in listing views.&lt;/li>
+&lt;li>&lt;strong>Tags&lt;/strong>: References terms in the Tags vocabulary. See
+&lt;a href="../../taxonomy">Taxonomy&lt;/a> for more information on tags.&lt;/li>
+&lt;li>&lt;strong>Body&lt;/strong> (required): Add text with the
+&lt;a href="../../text-editor">WYSIWYG editor&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Locations&lt;/strong>: If the event relates to a
+&lt;a href="../branch">Branch&lt;/a> then select it here so that the event shows in listings on the Branch page.&lt;/li>
+&lt;/ul>
+&lt;h2 id="customizing-events">Customizing Events&lt;/h2>
+&lt;p>Once you create an Event you can customize the layout with
+&lt;a href="../../layout-builder">Layout Builder&lt;/a>. These components are built specifically to work with the Event content type:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="../../layout-builder/related-events">Related Events&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Activity, Class, and Session</title><link>/docs/user-documentation/content-types/activity-class-session/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/activity-class-session/</guid><description>
+&lt;blockquote>
+&lt;p>These content types format data/content pulled from third parties, such as Daxko, Personify and ActiveNet, for display in YMCA Website Services.&lt;/p>
+&lt;/blockquote>
+&lt;p>Content editors rarely, if ever, enter information directly into these content types on a day-to-day basis. However, it is important to know how they work and how they relate to manually-entered content.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Example - Swim Lessons&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Swimming and Aquatics (Program Page, manually entered)&lt;/li>
+&lt;li>Swim Lessons (Program Subcategory Page, manually entered)&lt;/li>
+&lt;li>Youth Group Swim Lessons (Activity, mapped from CRM or custom automation)&lt;/li>
+&lt;li>Stage 3 (Class, mapped from CRM)&lt;/li>
+&lt;li>Monday/Wednesday/Friday 9:30-10 a.m. at Franklin Family YMCA (Session, mapped from CRM)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Note: This is an example only. Depending on your CRM and any customizations you make, your setup for Swim Lessons or any program may look different that the example listed above.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="activity">Activity&lt;/h2>
+&lt;p>Often used as the top-level filter in Activity Finder and Repeat Schedules, Activity consists of three fields:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Title&lt;/strong>: The name of the Activity (and the filter in Activity Finder).&lt;/li>
+&lt;li>&lt;strong>Program subcategory&lt;/strong>: An &lt;em>entity reference&lt;/em> to or tag for a
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Program Subcategory&lt;/a>. Maps the Activity to higher-levels of user-entered content.
+*&lt;strong>Description:&lt;/strong> A description for the Activity. Usually pulled from a description in a CRM through an API.&lt;/li>
+&lt;/ul>
+&lt;h2 id="class">Class&lt;/h2>
+&lt;p>A narrower selection of Program Offerings. Not an individual instance, but a smaller selection of instances.&lt;/p>
+&lt;p>Classes have three ields that map into Activity Finder and Repeat Schedules: a &lt;em>description&lt;/em>, a &lt;em>title&lt;/em> and &lt;em>entity reference/tag&lt;/em> to an Activity.&lt;/p>
+&lt;blockquote>
+&lt;p>Class also contains Areas for content editors to add paragraphs; however, depending on how your CRM and the number of programs your Y runs, it may not be practical use these fields.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="session">Session&lt;/h2>
+&lt;p>An individual program offering. Contains fields for pricing, session date/time, instructor, ages and a registration link. This are the individual rows/instances in Repeat Schedules and
+&lt;a href="https://community.openymca.org/t/activity-finder-activity-finder-search-paragraphs-open-y-user-docs/702" target="_blank">Activity Finder&lt;/a>.&lt;/p></description></item><item><title>Docs: Alert</title><link>/docs/user-documentation/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/alert/</guid><description>
+&lt;blockquote>
+&lt;p>Alerts display timely information in a thin banner across your site, just below the header or above the footer.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;img src="upload://4xCXyDaACMFdZrLgm2X88iV7AEY.png" alt="Screen Shot 2020-03-24 at 10.07.11 PM|690x67" />&lt;/p>
+&lt;p>Unlike most content types in YMCA Website Services, you don&amp;rsquo;t use Alert to create pages. Instead, Alerts display as a &lt;em>rendered entity&lt;/em> or a section of content on other pages.&lt;/p>
+&lt;p>Alerts also don&amp;rsquo;t use paragraphs. By design, the layout of Alerts are rigid; however, text editor and the the color options listed below allow content editors some flexibility.&lt;/p>
+&lt;h2 id="when-should-you-use-an-alert">When Should You Use an Alert?&lt;/h2>
+&lt;ul>
+&lt;li>Timely updates for centers, such as when your hours change or facilities close.&lt;/li>
+&lt;li>Marketing promotions, such as for membership campaigns or even promotions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-use-an-alert">How to Use an Alert&lt;/h2>
+&lt;p>Click on &amp;ldquo;Content&amp;rdquo; from your admin toolbar, and then click on the blue &amp;ldquo;Add Content&amp;rdquo; button.&amp;quot; Select &amp;ldquo;Alert&amp;rdquo; on the next page.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: Displays as the headline for your alert.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>: The main body of your alert. Sentences should be short and minimally styled in this section. Uses
+&lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">the YMCA Website Services Text Editor&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Color Fields&lt;/strong>: These three dropdown fields control different aspects of color in your alert. All three dropdowns reference the
+&lt;a href="http://#" target="_blank">the YMCA Website Services color vocabulary&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>&lt;strong>Background Color&lt;/strong>&lt;/em>: The color of your alert.&lt;/li>
+&lt;li>&lt;em>&lt;strong>Text Color&lt;/strong>&lt;/em>: Stick to using either black or white for accessibility.&lt;/li>
+&lt;li>&lt;em>&lt;strong>Icon Color&lt;/strong>&lt;/em>: Changes the appearance of the icon to the left of the title.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Link&lt;/strong>: Adds a button with a call to action to the alert on the right. Button color defaults to black.
+&lt;a href="http://#" target="_blank">Learn more about the link field ⇒&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Placement&lt;/strong>: Choose &amp;ldquo;Header&amp;rdquo; to show your alert above your main content or &amp;ldquo;Footer&amp;rdquo; to show below your main content.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="upload://akUU32T0jawWJ1Q3y5ez8zDaQfT.gif" alt="admin__alert&amp;amp;ndash;dropdowns|662x396, 75%" />&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Visibility pages&lt;/strong>: This is where you control where the alert displays on your site. In the large text field, you write the relative path of the pages where you want this to appear or not appear. Enter each path on a new line.&lt;/p>
+&lt;p>You also have the option to use an asterisk character &lt;code>*&lt;/code> as a wildcard so you don&amp;rsquo;t have to enter in a large number of relative paths. For example, if you wanted to add an alert to a &lt;code>/health-and-fitness&lt;/code> section, you would enter &lt;code>/health-and-fitness*&lt;/code> in the text area.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="upload://epmNM8LN0t7cT4thANWpfOP0mge.gif" alt="admin__alert&amp;amp;ndash;visibility-pages|320x191" />&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>What is a relative path?&lt;/strong>
+A &lt;em>relative path&lt;/em> is the part of your url after your &lt;em>domain name.&lt;/em>&lt;/p>
+&lt;p>At
+&lt;a href="https://ycloud.y.org/open-y-association-websites/community" target="_blank">https://ycloud.y.org/open-y-association-websites/community&lt;/a>, for example, the &lt;em>domain name&lt;/em> is &lt;strong>&lt;code>openy.org&lt;/code>&lt;/strong>, while the &lt;em>relative path&lt;/em> is &lt;strong>&lt;code>/community&lt;/code>&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;p>Using the &lt;strong>Alert visibility state&lt;/strong> radio buttons at the bottom, you can either show or hide your alert from the page paths listed in the text area above.&lt;/p></description></item><item><title>Docs: Blog Post</title><link>/docs/user-documentation/content-types/blog-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/blog-post/</guid><description>
+&lt;blockquote>
+&lt;p>Designed for timely content, articles and news pieces tagged with one or more physical locations.&lt;/p>
+&lt;p>&lt;em>Note: This Content Type is
+&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">similar to the News Post content type&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;img src="upload://Rkgdb0hjyEt9lLUjFxWtTDGmZE.jpeg" alt="carnation&amp;amp;ndash;blog&amp;amp;ndash;desktop|690x479, 75%" />&lt;/p>
+&lt;p>Blog posts in YMCA Website Services allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.&lt;/p>
+&lt;h2 id="when-should-i-use-a-blog-post">When Should I Use a Blog Post?&lt;/h2>
+&lt;p>When you decide to use a blog post
+&lt;a href="https://www.youtube.com/watch?v=myGNK_qUGDM" target="_blank">depends greatly on your Association&amp;rsquo;s content strategy&lt;/a>. However, blog posts are designed so you can post timely pages and list them throughout your site. Examples of blogs may include:&lt;/p>
+&lt;ul>
+&lt;li>Member Stories&lt;/li>
+&lt;li>Workouts and Recipes&lt;/li>
+&lt;li>Updates about a Center/Branch&lt;/li>
+&lt;li>Promotions and Contests&lt;/li>
+&lt;li>Press Releases&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-do-i-use-a-blog-post">How Do I Use a Blog Post?&lt;/h2>
+&lt;p>There are three fields that appear above the accordion tabs below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: The name of the blog. Displays in the header area on your blog post and in
+&lt;a href="https://community.openymca.org/t/blog-posts-paragraphs-open-y-user-docs/705" target="_blank">the cards that display in a list of blogs&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Locations&lt;/strong>: An &lt;em>option select&lt;/em> for you to tag a post with one or more locations (Camp or Branch). Use Ctrl+Click (Windows) or Cmd⌘+Click (Mac) to select multiple locations.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Each time you create a new Branch Page or Camp Page it populates into the locations field automatically&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;strong>Category&lt;/strong>: An &lt;em>entity reference&lt;/em> to
+&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734" target="_blank">the Blog Category vocabulary&lt;/a>. Type in the name of the category and select from the options that appear, or create a new category/term by typing in a new one.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="upload://jwO81z5xCJqqZQwPTRIoyRgNmwW.gif" alt="admin&amp;amp;ndash;blog-posts__category|662x204, 75%" />&lt;/p>
+&lt;h3 id="style">Style&lt;/h3>
+&lt;p>This dropdown changes the style of the post&amp;rsquo;s card when it appears in a listing format. This dropdown does not affect any layouts on the page.&lt;/p>
+&lt;p>
+&lt;img src="upload://cPN5q42rJ6WDOnkaQJ9eLyTdlZO.png" alt="admin&amp;amp;ndash;blog-post__style|564x434, 50%" />
+&lt;strong>####&lt;/strong> Story Card
+&lt;img src="upload://oJLrZIvtwSuBB7Jpu5nB8zki5X9.png" alt="carnation&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;story-card|610x500, 50%" />
+&lt;img src="upload://i3yBTJgILl00OKqXi5fWd6VAmT8.png" alt="lily&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;story-card|394x500, 50%" />&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> Photo Card
+&lt;img src="upload://tCqVbj1a1LnF1vt47REP84d7LYA.png" alt="carnation&amp;amp;ndash;landing-page__blog-listing&amp;amp;ndash;photo-card|590x500, 50%" />
+&lt;img src="upload://5FmyMqI53U1GhHWF7ehlqyQq8hg.png" alt="lily&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;photo-card|434x500, 50%" />&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> News Card
+&lt;img src="upload://z5Ez1sNgStJPfGzD6lKSzwLFeii.png" alt="carnation&amp;amp;ndash;landing-page__blog-listing&amp;amp;ndash;news-card|590x500, 50%" />&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> Color Card
+When choosing color card, you are presented with two styling options in dropdowns. Both are &lt;em>entity references&lt;/em> to
+&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734" target="_blank">the Color vocabulary&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Background color&lt;/strong>: Changes the color of the card.&lt;/li>
+&lt;li>&lt;strong>Text color&lt;/strong>: Changes the color of the text. It&amp;rsquo;s recommended you only use white or black.&lt;/li>
+&lt;/ul>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The content area is the main body of your page. You can use the default fields entered below for a simple block post or build a more robust layout using paragraphs.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Image&lt;/strong>: Displays above your description and inside a Photo Card. Not required. Uses the
+&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">media browser and image field.&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>:
+&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Using the YMCA Website Services text editor&lt;/a>, you can enter anything from a brief summary to the entire body of your text.
+&lt;img src="upload://zhby7Do2LGR6ZscauU8bVJdUB8h.png" alt="carnation&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;color-card&amp;amp;ndash;green|590x500, 50%" />
+&lt;img src="upload://48cFIYzzKbvW4UQushKjT8etmSS.png" alt="lily&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;color-card&amp;amp;ndash;green|434x500, 50%" />&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="sidebar-area">Sidebar Area&lt;/h3>
+&lt;p>The sidebar area also allows you embed paragraphs below a section that links to the centers tagged in the post, the categories and a &lt;em>Related Content field&lt;/em> that allows you to promote other Blog Posts by tagging them with the autocomplete widget.&lt;/p>
+&lt;h3 id="layouts">Layouts&lt;/h3>
+&lt;p>While you have the option to build layouts in blog posts using paragraphs, all blog posts are strictly two-column layouts. The Content Area displays on the left while the Sidebar Area displays on the right.&lt;/p></description></item><item><title>Docs: Branch</title><link>/docs/user-documentation/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/branch/</guid><description>
+&lt;p>Branch pages contain multiple data fields that work together to help members find the right location, hours, and amenities that fits their needs.&lt;/p>
+&lt;p>&lt;strong>Designs:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Branch Page -
+&lt;a href="/img/designs/lb/Branch%20Location%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Location%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>Branch Amenities -
+&lt;a href="/img/designs/lb/Branch%20Amenities%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Amenities%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>Branch Hours -
+&lt;a href="/img/designs/lb/Branch%20Location%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Location%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>Branch Menu -
+&lt;a href="/img/designs/lb/Branch%20Menu%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Menu%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>Branch Social Links -
+&lt;a href="/img/designs/lb/Branch%20Social%20Links%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Social%20Links%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../../../../../assets/img/branch-carnation-old.png">Legacy Branch Page (Carnation theme)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../../../../../assets/img/branch-lily-old.jpeg">Legacy Branch Page (Lily theme)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/dspC2NopTj8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="creating-a-branch">Creating a Branch&lt;/h2>
+&lt;p>Go to &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Content&lt;/strong> &amp;gt; &lt;strong>Add Content&lt;/strong> &amp;gt; &lt;strong>Branch&lt;/strong>&lt;/p>
+&lt;p>Fill in the content fields:&lt;/p>
+&lt;h3 id="general-info">General Info&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Title&lt;/strong> (required): This is the name of your branch, which will display as your page title and the title in the location card. If your branch has a longer formal name we recommend using the shorter, more common name for readability.&lt;/li>
+&lt;li>&lt;strong>Neighborhood&lt;/strong>: An optional reference to specify which neighborhood your Y is located in. Start typing and select from the list. To add a new neighborhood, add it to the “Area” vocabulary under &lt;strong>Structure&lt;/strong> &amp;gt; &lt;strong>Taxonomy&lt;/strong> (see
+&lt;a href="../../taxonomy">Taxonomy&lt;/a>).&lt;/li>
+&lt;li>&lt;strong>Coming Soon&lt;/strong>: Use this flag to indicate a newly opening branch on the Locations page.
+&lt;a href="/docs/user-documentation/content-types/branch/branch-coming-soon.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot of a page showing &amp;amp;ldquo;Downtown YMCA&amp;amp;rdquo; with a &amp;amp;ldquo;Coming Soon&amp;amp;rdquo; flag." srcset="
+/docs/user-documentation/content-types/branch/branch-coming-soon_hu29ed1d2969befb5f9f9f9237ddcf79cc_8255_774cb96088e27eedb5df0d0ff040809e.png 458w,
+/docs/user-documentation/content-types/branch/branch-coming-soon_hu29ed1d2969befb5f9f9f9237ddcf79cc_8255_24b4eb395a68131939be91960693e4d5.png 726w,
+/docs/user-documentation/content-types/branch/branch-coming-soon_hu29ed1d2969befb5f9f9f9237ddcf79cc_8255_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-coming-soon_hu29ed1d2969befb5f9f9f9237ddcf79cc_8255_774cb96088e27eedb5df0d0ff040809e.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;strong>Temporary URL&lt;/strong>: Overrides the &amp;ldquo;Branch info&amp;rdquo; link on the Locations page, allowing you to link to a different internal or external page.&lt;/li>
+&lt;/ul>
+&lt;h3 id="contact-info">Contact Info&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Address&lt;/strong>: The physical address of your location. Be sure to include all address fields.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Branch Coordinates&lt;/strong> (required): This field pins your branch on the locations map. &lt;details>&lt;summary>To get your branch&amp;rsquo;s coordinates (
+&lt;a href="https://support.google.com/maps/answer/18539?hl=en&amp;amp;co=GENIE.Platform%3DDesktop" target="_blank">with Google Maps&lt;/a>):&lt;/summary>&lt;/p>
+&lt;ul>
+&lt;li>Search for your Y location&lt;/li>
+&lt;li>Right-click the location in the map
+&lt;a href="/docs/user-documentation/content-types/branch/branch-lat-long-copy.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot of Google Maps showing the right-click menu with the latitude/longitude item selected." srcset="
+/docs/user-documentation/content-types/branch/branch-lat-long-copy_hu50e3cebd0e20c17a7f104431ff738902_20828_ffe19008376c90c2fdceee2f38339b39.png 458w,
+/docs/user-documentation/content-types/branch/branch-lat-long-copy_hu50e3cebd0e20c17a7f104431ff738902_20828_66946b5729e93638378a09503165e89f.png 726w,
+/docs/user-documentation/content-types/branch/branch-lat-long-copy_hu50e3cebd0e20c17a7f104431ff738902_20828_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-lat-long-copy_hu50e3cebd0e20c17a7f104431ff738902_20828_ffe19008376c90c2fdceee2f38339b39.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;li>To copy the coordinates, left-click on the latitude and longitude.&lt;/li>
+&lt;li>Paste the &lt;code>lat, long&lt;/code> into one of the fields, then cut and paste to separate them.
+&lt;a href="/docs/user-documentation/content-types/branch/branch-lat-long-paste.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot of the Drupal Branch admin screen with the latitude and longitude separated into different fields." srcset="
+/docs/user-documentation/content-types/branch/branch-lat-long-paste_hu7e1215fb132a919b602eba944b1eefa0_29921_6c2a7e265fc64c304178fd6458fab40b.png 458w,
+/docs/user-documentation/content-types/branch/branch-lat-long-paste_hu7e1215fb132a919b602eba944b1eefa0_29921_f6f8852d55d6cb95a1baa7e766ab342f.png 726w,
+/docs/user-documentation/content-types/branch/branch-lat-long-paste_hu7e1215fb132a919b602eba944b1eefa0_29921_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-lat-long-paste_hu7e1215fb132a919b602eba944b1eefa0_29921_6c2a7e265fc64c304178fd6458fab40b.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;ul>
+&lt;li>&lt;strong>Phone&lt;/strong> (required): The main phone line for your branch. Will be displayed as it is entered and linked to allow mobile users to tap to call.&lt;/li>
+&lt;li>&lt;strong>Fax&lt;/strong>: Optional.&lt;/li>
+&lt;li>&lt;strong>Email&lt;/strong>: We recommend you use a main contact email, such as
+&lt;a href="mailto:info@anytownymca.org">info@anytownymca.org&lt;/a>, rather than the email for an individual staff member.&lt;/li>
+&lt;li>&lt;strong>Directions&lt;/strong>: By default, a link with directions is auto-generated using the Address field. Use this field to substitute your own directions link.&lt;/li>
+&lt;/ul>
+&lt;h3 id="branch-hours">Branch Hours&lt;/h3>
+&lt;p>Add the main hours for your facility. These are displayed in the header and on the Locations page.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Custom hours label&lt;/strong>: The title displayed in the &amp;ldquo;All hours&amp;rdquo; dropdown. Clearing this field will hide the section from the Branch page.&lt;/li>
+&lt;li>&lt;strong>Mon, Tue, &amp;hellip;&lt;/strong>: Add the hours for each day of the current week. Use the format &lt;code>7am-5pm&lt;/code> to save space.&lt;/li>
+&lt;li>&lt;strong>Branch Holiday Hours&lt;/strong>: Add special hours for any upcoming holidays. These will be displayed on the site when the holiday is less than two weeks away. Add as many holiday entries as you like.
+&lt;ul>
+&lt;li>&lt;strong>Holiday Title&lt;/strong>: The displayed title of the holiday.&lt;/li>
+&lt;li>&lt;strong>Holiday Hours&lt;/strong>: The displayed hours for the holiday.&lt;/li>
+&lt;li>&lt;strong>Date&lt;/strong>: The date of the holiday. When this day is in the current week &amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>More Hours Link&lt;/strong>: An link to show additional location hours information, like another page or a PDF.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/branch/branch-hours-fields.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot of the Branch Hours popup in the Branch Header" srcset="
+/docs/user-documentation/content-types/branch/branch-hours-fields_hudde2d0a4918ab851bb052266789fa24b_39518_6af88f6fcfe77300f749107a05c2f5c7.png 458w,
+/docs/user-documentation/content-types/branch/branch-hours-fields_hudde2d0a4918ab851bb052266789fa24b_39518_26b271099f0eef4c484afff9eac71788.png 726w,
+/docs/user-documentation/content-types/branch/branch-hours-fields_hudde2d0a4918ab851bb052266789fa24b_39518_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-hours-fields_hudde2d0a4918ab851bb052266789fa24b_39518_6af88f6fcfe77300f749107a05c2f5c7.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p>
+&lt;h3 id="header-area">Header Area&lt;/h3>
+&lt;blockquote>
+&lt;p>This section is not displayed when &amp;ldquo;Use Layout Builder&amp;rdquo; is selected.&lt;/p>
+&lt;/blockquote>
+&lt;p>There is no image field for the Branch content type, so you will need to add one of the following paragraphs to add an image and title at the top of your page:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="../../paragraphs/banner">Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../paragraphs/small-banner">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../paragraphs/gallery">Gallery&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;blockquote>
+&lt;p>This section is not displayed when &amp;ldquo;Use Layout Builder&amp;rdquo; is selected.&lt;/p>
+&lt;/blockquote>
+&lt;p>The Branch Content Type only has one layout option—one column—and no description field. Paragraphs will form the body of the page.&lt;/p>
+&lt;p>The following paragraph types integrate directly with Branch:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="../../paragraphs/latest-blog-posts">Latest Blog Posts (Branch)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../paragraphs/latest-news-posts">Latest News Posts (Branch)&lt;/a>&lt;/li>
+&lt;li>Branch Amenities with Icons (see Branch Amenities below)&lt;/li>
+&lt;/ul>
+&lt;h3 id="bottom-area">Bottom Area&lt;/h3>
+&lt;blockquote>
+&lt;p>This section is not displayed when &amp;ldquo;Use Layout Builder&amp;rdquo; is selected.&lt;/p>
+&lt;/blockquote>
+&lt;p>Use the bottom area for anchoring elements on your page. The following paragraphs are great for this area:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="../../paragraphs/small-banner">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../paragraphs/gallery">Gallery&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../paragraphs/webform">Webform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="../../paragraphs/limited-time-offer">Limited Time Offer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="branch-amenities">Branch Amenities&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Branch Amenities&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Closed Amenities&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Type in and select which amenities are available or not available at your branch using the autocomplete field.&lt;/p>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/branch/branch-select-amenities.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot showing the Branch amenities field with autocomplete dropdown." srcset="
+/docs/user-documentation/content-types/branch/branch-select-amenities_hu7a9a4bec6c25eb13ee66e3c4d53209ff_22605_252e9e5ba0ec8189a4490a83b1c97f17.png 458w,
+/docs/user-documentation/content-types/branch/branch-select-amenities_hu7a9a4bec6c25eb13ee66e3c4d53209ff_22605_240b258e01b68e3eb7fba97cfefdf1ba.png 726w,
+/docs/user-documentation/content-types/branch/branch-select-amenities_hu7a9a4bec6c25eb13ee66e3c4d53209ff_22605_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-select-amenities_hu7a9a4bec6c25eb13ee66e3c4d53209ff_22605_252e9e5ba0ec8189a4490a83b1c97f17.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p>
+&lt;p>If you embed a Branch Amenities with Icons paragraph or Branch Amenities block on your page, the amenities will display in your content. The Amenities will also serve as filters for branches on your locations page.&lt;/p>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/branch/branch-amenities-block.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot showing the branch amenities block with open emenities and closed amenities labeled." srcset="
+/docs/user-documentation/content-types/branch/branch-amenities-block_hu761b89c7cff04c3110690d7ef321025a_52830_f96b2f443e50ed78e0e93519d65ac711.png 458w,
+/docs/user-documentation/content-types/branch/branch-amenities-block_hu761b89c7cff04c3110690d7ef321025a_52830_f22a0dec7f791800249d6857aa515796.png 726w,
+/docs/user-documentation/content-types/branch/branch-amenities-block_hu761b89c7cff04c3110690d7ef321025a_52830_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-amenities-block_hu761b89c7cff04c3110690d7ef321025a_52830_f96b2f443e50ed78e0e93519d65ac711.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p>
+&lt;p>If you don&amp;rsquo;t see an option available or would like to rename a branch amenity, go to &lt;strong>Structure&lt;/strong> &amp;gt; &lt;strong>Taxonomy&lt;/strong> &amp;gt; &lt;strong>Amenities&lt;/strong>. See
+&lt;a href="../../taxonomy">Taxonomy&lt;/a> for more info.&lt;/p>
+&lt;h3 id="menu">Menu&lt;/h3>
+&lt;p>The Branch Menu is a single level sub-menu that displays within a branch page (and sub-pages) that allows users to drill down to additional content specific to that branch. The Branch Menu always shows &amp;ldquo;Branch Home&amp;rdquo; as its first link.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Menu links&lt;/strong>: A list of menu links to be displayed in the menu. Allows unlimited items but we recommend a maximum of 6-8 depending on the Link text length.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/branch/branch-menu.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot of the branch menu block." srcset="
+/docs/user-documentation/content-types/branch/branch-menu_hub24de2972b9bf2adac3b3b635c15a0f8_6366_cb0ffd049ca467681a92b16a7cffb8e2.png 458w,
+/docs/user-documentation/content-types/branch/branch-menu_hub24de2972b9bf2adac3b3b635c15a0f8_6366_5de4af058805b1ba32845754685d3a34.png 726w,
+/docs/user-documentation/content-types/branch/branch-menu_hub24de2972b9bf2adac3b3b635c15a0f8_6366_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-menu_hub24de2972b9bf2adac3b3b635c15a0f8_6366_cb0ffd049ca467681a92b16a7cffb8e2.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p>
+&lt;h2 id="customizing-with-layout-builder">Customizing with Layout Builder&lt;/h2>
+&lt;p>Beginning in
+&lt;a href="/blog/2023/03/14/digital-services-release-9.2.13/">Website Services 9.2.13&lt;/a> content editors have the option of customizing the Branch page with
+&lt;a href="../../layout-builder">Layout Builder&lt;/a>. You can migrate from using Paragraphs to using Layout Builder on a branch-by-branch basis in order to ease the transition.&lt;/p>
+&lt;p>The &lt;strong>Use Layout Builder&lt;/strong> checkbox on the Branch edit page non-destructively switches between Paragraphs and Layout Builder.&lt;/p>
+&lt;h3 id="layout-builder-blocks">Layout Builder Blocks&lt;/h3>
+&lt;p>Branch pages have a number of specialized components that utilize the structured data (fields) that already exist on your branch page in newly designed Layout Builder Blocks.&lt;/p>
+&lt;p>In addition to using many of the standard Layout Builder components, Branch pages also use a number of components that display fields described above:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Branch Hours&lt;/strong>: Combines the branch title, contact information, hours, and more into a dynamic page header.
+&lt;ul>
+&lt;li>&lt;strong>Designs:&lt;/strong>
+&lt;a href="/img/designs/lb/Branch%20Hours%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Hours%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>An image can be added to the background of this block using
+&lt;a href="../../layout-builder/advanced-options#block-styles">the Style tab&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Branch Amenities&lt;/strong>: Displays
+&lt;a href="#branch-amenities">open and closed amenities&lt;/a> in an easy-to-read grid.
+&lt;ul>
+&lt;li>&lt;strong>Designs:&lt;/strong>
+&lt;a href="/img/designs/lb/Branch%20Amenities%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Amenities%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;li>An image can be added to the background of this block using
+&lt;a href="../../layout-builder/advanced-options#block-styles">the Style tab&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Branch Menu&lt;/strong>: Displays the
+&lt;a href="#menu">Branch Menu&lt;/a> links.
+&lt;ul>
+&lt;li>&lt;strong>Designs:&lt;/strong>
+&lt;a href="/img/designs/lb/Branch%20Menu%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Menu%20Desktop.png">Desktop&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>One additional component is available that requires additional information:&lt;/p>
+&lt;h4 id="branch-social-links">Branch Social Links&lt;/h4>
+&lt;p>&lt;strong>Designs:&lt;/strong>
+&lt;a href="/img/designs/lb/Branch%20Social%20Links%20Mobile.png">Mobile&lt;/a> |
+&lt;a href="/img/designs/lb/Branch%20Social%20Links%20Desktop.png">Desktop&lt;/a>&lt;/p>
+&lt;p>This component allows you to place up to 6 social media links on a branch page.&lt;/p>
+&lt;ul>
+&lt;li>Add the &lt;strong>Branch Social Links&lt;/strong> block to the pre-configured &lt;strong>Social links&lt;/strong> section of your page using
+&lt;a href="../../layout-builder#blocks">the standard process&lt;/a>.&lt;/li>
+&lt;li>Add up to 6 links in the &lt;strong>Links&lt;/strong> field. Icons for each social media platform will be populated automatically.
+&lt;ul>
+&lt;li>Currently supported platforms include: Facebook, Instagram, Linkedin, Twitter, and YouTube.
+&lt;a href="https://www.drupal.org/node/add/project-issue/lb_branch_social_links_blocks" target="_blank">Request a new platform&lt;/a> if you need.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>After adding or updating the block, be sure to
+&lt;a href="../../layout-builder#saving-and-publishing">save and publish your branch&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="migrating-to-layout-builder">Migrating to Layout Builder&lt;/h3>
+&lt;p>Migrating Branches to Layout builder involves recreating some content on the page. The process is similar to
+&lt;a href="../../layout-builder#creating-a-new-page">building a new Landing Page with Layout Builder&lt;/a>, but with a lot of the work done for you!&lt;/p>
+&lt;p>Once you are ready to migrate a Branch:&lt;/p>
+&lt;ol>
+&lt;li>Either clone the page or open it in a separate tab so that it&amp;rsquo;s easier to compare content.&lt;/li>
+&lt;li>Prepare the Branch for Layout Builder:
+&lt;ul>
+&lt;li>&lt;strong>Edit&lt;/strong> the Branch,&lt;/li>
+&lt;li>Add links in the &lt;strong>Menu&lt;/strong> section if you&amp;rsquo;d like,&lt;/li>
+&lt;li>click &lt;strong>Use Layout Builder&lt;/strong>,&lt;/li>
+&lt;li>if you&amp;rsquo;d like, &lt;strong>uncheck Published&lt;/strong> while you do the migration to temporarily hide the page, then&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong>.
+&lt;a href="/docs/user-documentation/content-types/branch/branch-migrate-use-lb.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="Screenshot of the Branch edit screen." srcset="
+/docs/user-documentation/content-types/branch/branch-migrate-use-lb_huf96ddf16c3fd7759c6bf2c5588225bfd_17981_249620ba76697c99541b52ed997575a4.png 458w,
+/docs/user-documentation/content-types/branch/branch-migrate-use-lb_huf96ddf16c3fd7759c6bf2c5588225bfd_17981_01277b04f28b0d10da3f32c4acca6fd4.png 726w,
+/docs/user-documentation/content-types/branch/branch-migrate-use-lb_huf96ddf16c3fd7759c6bf2c5588225bfd_17981_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/branch/branch-migrate-use-lb_huf96ddf16c3fd7759c6bf2c5588225bfd_17981_249620ba76697c99541b52ed997575a4.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Your Branch will now display a set of default blocks: Hours (and header), Menu, Social Links, and Amenities.&lt;/li>
+&lt;li>From here, you can
+&lt;a href="../../layout-builder#updating-an-existing-page">use Layout Builder&lt;/a> to move your old content from Paragraphs into Blocks. Review the
+&lt;a href="../../layout-builder/designs">full list of designs&lt;/a> or the
+&lt;a href="/blog/2023/03/09/layout-builder-roadmap/">list of components&lt;/a> if you need help deciding how to place things. Your old content will still be available to reference in the &lt;strong>Edit&lt;/strong> tab in the old Header/Content/Footer sections.&lt;/li>
+&lt;li>When you&amp;rsquo;re finished, &lt;strong>Save&lt;/strong> the layout and &lt;strong>Publish&lt;/strong> the Branch!&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Camp</title><link>/docs/user-documentation/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/camp/</guid><description>
+&lt;blockquote>
+&lt;p>Camps in YMCA Website Services are physical locations where outdoor camp programming takes place.&lt;/p>
+&lt;p>&lt;em>Note: Camp is similar to the
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch content type&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>While
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">YMCA Branches&lt;/a> may offer some form of summer day camp, they differ from facilities that primarily host programs related to outdoor camps.&lt;/p>
+&lt;p>
+&lt;img src="upload://6BYympxpxhtqF8I7QdaDdbr9s3X.jpeg" alt="carnation&amp;amp;ndash;camp&amp;amp;ndash;tablet.PNG|375x500, 100%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="when-should-i-use-camp">When Should I Use Camp?&lt;/h2>
+&lt;p>If you are an independent YMCA camp or you&amp;rsquo;re an Association with one or more locations dedicated to outdoor camp, the Camp Content Type serves well as a landing page for those locations.&lt;/p>
+&lt;blockquote>
+&lt;h3 id="-what-about-branch-day-camps">// What about Branch Day Camps?&lt;/h3>
+&lt;p>There are several considerations for Branches that host Day Camps in the center:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The &lt;em>Branch content type&lt;/em> is intended to be &lt;strong>the home page for branches&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Adding a Branch listing &lt;em>and&lt;/em> a Camp listing for the same &lt;strong>physical location&lt;/strong> creates duplicate listings for your center and could have search implications.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Camp pages don&amp;rsquo;t have fields for operating hours or amenities.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Branch Day Camps, unlike outdoor camps, tend to be listed in the same CRM as other branch-based programs, and therefore could integrate into Activity Finder, provided the CRM&amp;rsquo;s compatibility.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Recommended Content Types for Branch Day Camps&lt;/strong>
+-&amp;gt;
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Learn how to use the Program Subcategory content type ⇒&lt;/a>
+-&amp;gt;
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Read about Landing Pages ⇒&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="how-do-i-use-camp">How Do I Use Camp?&lt;/h2>
+&lt;h3 id="general-info">General Info&lt;/h3>
+&lt;h4 id="--title">-&amp;gt; Title&lt;/h4>
+&lt;p>This is the name of your branch, which will display as your page title and the title in the location card.&lt;/p>
+&lt;p>There is no separate field for the full name of your facility (e.g., Joe C. Davis YMCA Outdoor Center) versus the common name (Camp Widjiwagan). The best practice would be to use the shorter, more common name for readability.&lt;/p>
+&lt;h4 id="--menu-links">-&amp;gt; Menu Links&lt;/h4>
+&lt;p>Add in the URL or name of the content you want to link your
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">Camp Menu&lt;/a> to (must use
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">Camp Menu&lt;/a> for this to work).&lt;/p>
+&lt;p>
+&lt;img src="upload://5mbjiHKdjq05hhVSvVIpFPVYbxu.png" alt="camp__camp-menu&amp;amp;ndash;menu-links|450x500, 75%" />&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">Read more about Camp Menu ⇒&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="contact-info">Contact Info&lt;/h3>
+&lt;h4 id="--address">-&amp;gt; Address:&lt;/h4>
+&lt;p>The physical address of your location. Be sure to include all address fields.&lt;/p>
+&lt;h4 id="---camp-coordinates">-&amp;gt; Camp coordinates&lt;/h4>
+&lt;p>This field pins your camp on the locations map.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>How to Get Your Camp Coordinates from Google Maps&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Right click on your camp and select “What’s here?” Click on the latitude/longitude number at the bottom of the card.
+&amp;gt;
+&amp;gt;
+&lt;img src="upload://4KumwfEfMol8v7BE7kFXceiBGOH.png" alt="admin__google-maps&amp;amp;ndash;whats-here|573x500, 50%" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Below the headline, copy the first number (the non-negative number) into the latitude field. Copy the second number (the negative number) into the longitude field.
+&amp;gt;
+&amp;gt;
+&lt;img src="upload://hqLgdeW9w9ZEsDIxMm36NNZPjq8.png" alt="admin__google-maps&amp;amp;ndash;geo|573x500, 75%" />&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="--phonefaxemail">-&amp;gt; Phone/Fax/Email&lt;/h4>
+&lt;p>The fax is optional, but add the main line for your branch in the phone field.&lt;/p>
+&lt;p>Add a main contact email, such as
+&lt;a href="mailto:contactmyy@anytownymca.org">contactmyy@anytownymca.org&lt;/a>, rather than the email for an individual staff member.&lt;/p>
+&lt;h4 id="--directions">-&amp;gt; Directions&lt;/h4>
+&lt;p>Link to your Google Places. Add “Get Directions” in the Link Text section.&lt;/p>
+&lt;h3 id="header-area">Header Area&lt;/h3>
+&lt;p>There is no image field for the Camp content type, so you will need to add one of the following paragraphs to add an image and title at the top of your page:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/banner-open-y-paragraphs-user-documentation/665" target="_blank">Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715" target="_blank">Gallery&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Below your header image,
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">add in a Camp Menu paragraph&lt;/a> for a secondary, full-width navigation.&lt;/p>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The Camp Content Type only has one layout option—one column—and no description field. Add in almost any paragraph you want into the body of you page.&lt;/p>
+&lt;p>The following paragraph types integrate directly with Camp:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717" target="_blank">Latest Blog Posts (Camp)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718" target="_blank">Latest News Posts (Camp)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="bottom-area">Bottom Area&lt;/h3>
+&lt;p>Use the bottom area for anchoring elements on your page. The following paragraphs are great for this area:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715" target="_blank">Gallery&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/webform-paragraph-open-y-user-docs/729" target="_blank">Webform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/limited-time-offer-paragraphs-open-y-user-docs/719" target="_blank">Limited Time Offer&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Facility</title><link>/docs/user-documentation/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/facility/</guid><description/></item><item><title>Docs: Landing Page</title><link>/docs/user-documentation/content-types/landing-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/landing-page/</guid><description>
+&lt;h4 id="landing-pages-are-the-most-flexible-content-type-in-ymca-website-services-with-no-unique-fields-other-than-a-layout-selector">Landing pages are the most flexible content type in YMCA Website Services, with no unique fields other than a layout selector.&lt;/h4>
+&lt;h3 id="fields-in-landing-page">Fields in Landing Page&lt;/h3>
+&lt;h4 id="---title-required">&amp;ndash;&amp;gt; Title (Required)&lt;/h4>
+&lt;p>This is what you will see in your admin portal as your content&amp;rsquo;s name. it will also show as the page title in the Header unless you add a paragraph in the &lt;em>Header Area&lt;/em>.&lt;/p>
+&lt;h4 id="---layout-required">&amp;ndash;&amp;gt; Layout (Required)&lt;/h4>
+&lt;p>Landing Pages come with four basic layouts for desktop. For mobile, all layouts display in a single column, with the &lt;em>Sidebar Area&lt;/em> stacking below the &lt;em>Content Area&lt;/em>.&lt;/p>
+&lt;h4 id="-one-column-layout">=&amp;gt; One Column Layout&lt;/h4>
+&lt;p>
+&lt;img src="upload://kNN6D8N7DjXh5hsXeZLjLd3wpXP.jpeg" alt="landing-page-layouts__one-column|690x431, 50%" />&lt;/p>
+&lt;h4 id="-one-column-full-width">=&amp;gt; One Column (Full Width)&lt;/h4>
+&lt;p>
+&lt;img src="upload://jxhHeBWOxvP7ibjnNHxZxxdPyT5.jpeg" alt="landing-page-layout__one-column-full|690x431, 50%" />&lt;/p>
+&lt;h3 id="-two-columns">=&amp;gt; Two Columns&lt;/h3>
+&lt;p>
+&lt;img src="upload://k3lf061BcM99Fyyh7N3oMrhfN6i.jpeg" alt="landing-page-layout__two-columns|690x431, 50%" />&lt;/p>
+&lt;h3 id="-two-columns-fixed-sidebar">=&amp;gt; Two Columns (Fixed Sidebar)&lt;/h3>
+&lt;p>
+&lt;img src="upload://nqve5I4p7xiw2bTQZPcFgBYuyrD.jpeg" alt="landing-page-layout__two-columns-fixed|690x431, 50%" />&lt;/p>
+&lt;h3 id="---paragraph-areas">&amp;ndash;&amp;gt; Paragraph Areas&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Header Area&lt;/strong>: Used for inserting banners, small banners and galleries. Date blocks are also great in this area for scheduled content.&lt;/li>
+&lt;li>&lt;strong>Content Area&lt;/strong>: The main body of your content.&lt;/li>
+&lt;li>&lt;strong>Sidebar Area&lt;/strong> [i](Two Column Layouts Only)[/i]: For aside pieces of content, such as side navigations, promotional cards and content related to the main part of your page.&lt;/li>
+&lt;li>&lt;strong>Bottom Area&lt;/strong>: Add an anchoring element to your page, such as a promotional banner or webform.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Membership Content Type</title><link>/docs/user-documentation/content-types/membership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/membership/</guid><description>
+&lt;hr>
+&lt;h2 id="membership-fields">Membership Fields&lt;/h2>
+&lt;h3 id="general-information">General Information&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Title:&lt;/strong> The title of the membership type to be displayed on the first step of the Membership Calculator.&lt;/li>
+&lt;li>&lt;strong>Description:&lt;/strong> A short description to be displayed on the first step of the Membership Calculator.&lt;/li>
+&lt;li>&lt;strong>Image:&lt;/strong> A reusable image field to be displayed on the first step of the Membership Calculator.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/membership/membership--general-info.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="A screenshot with the Membership content title, image, and description." srcset="
+/docs/user-documentation/content-types/membership/membership--general-info_hu4de17496cf5b37a0095c933c6a10d36c_41760_2313a79ca0647c2d22a9311881133dd0.png 458w,
+/docs/user-documentation/content-types/membership/membership--general-info_hu4de17496cf5b37a0095c933c6a10d36c_41760_fd88c57983d91bdc6fd81a5d67bbfe73.png 726w,
+/docs/user-documentation/content-types/membership/membership--general-info_hu4de17496cf5b37a0095c933c6a10d36c_41760_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/membership/membership--general-info_hu4de17496cf5b37a0095c933c6a10d36c_41760_2313a79ca0647c2d22a9311881133dd0.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p>
+&lt;h3 id="membership-info">Membership Info&lt;/h3>
+&lt;p>The Membership Info Paragraph lists detailed membership information per location. Add one &amp;ldquo;Membership Info&amp;rdquo; section for each location that your membership applies to. If a location does not offer a membership type, you can leave it out.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Location:&lt;/strong> A reference to an already-existing
+&lt;a href="../branch">Branch&lt;/a>. If the branch does not exist, you&amp;rsquo;ll need to create it first.&lt;/li>
+&lt;li>&lt;strong>Link:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>URL:&lt;/strong> The link a member should be taken to to sign up for this membership at this location. See below for tips on finding this URL.&lt;/li>
+&lt;li>&lt;strong>Link Text:&lt;/strong> This field is not used.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Join Fee:&lt;/strong> Dollar value for how much someone has to pay to join.&lt;/li>
+&lt;li>&lt;strong>Monthly Rate:&lt;/strong> Dollar value for the monthly fee of the membership.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/membership/membership--membership-info.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="A screenshot labeling the membership info section fields." srcset="
+/docs/user-documentation/content-types/membership/membership--membership-info_hu0bea3810850a9696a70cdb050ed3354a_76278_a700f99b7e596907129d548ffb5e090f.png 458w,
+/docs/user-documentation/content-types/membership/membership--membership-info_hu0bea3810850a9696a70cdb050ed3354a_76278_9179827759db4355fd6000a26d4858b8.png 726w,
+/docs/user-documentation/content-types/membership/membership--membership-info_hu0bea3810850a9696a70cdb050ed3354a_76278_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/membership/membership--membership-info_hu0bea3810850a9696a70cdb050ed3354a_76278_a700f99b7e596907129d548ffb5e090f.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p>
+&lt;h2 id="finding-your-registration-link">Finding your registration link&lt;/h2>
+&lt;p>Every membership management system will have different ways of linking in for members to complete their registration. Here are a few we know about. If you have tips for a MMS not listed here, feel free to leave them in the comments.&lt;/p>
+&lt;h3 id="daxko-operations">Daxko Operations&lt;/h3>
+&lt;p>Navigate to: &lt;strong>Membership&lt;/strong> &amp;gt; &lt;strong>Membership Types&lt;/strong> &amp;gt; &lt;strong>Edit&lt;/strong> &amp;gt; &lt;strong>Online Settings&lt;/strong>. This provides the deep link to the specific membership types.&lt;/p>
+&lt;p>
+&lt;a href="/docs/user-documentation/content-types/membership/membership--daxko-link.png" title="View original image">
+&lt;figure class="image-caption">
+&lt;img alt="A screenshot showing the General Information screen of Daxko Operations" srcset="
+/docs/user-documentation/content-types/membership/membership--daxko-link_hud78bda0d6b71cc1c70b0148a32a407a8_209211_bb874d96a8ad0c3eda20ecaddf33bd0c.png 458w,
+/docs/user-documentation/content-types/membership/membership--daxko-link_hud78bda0d6b71cc1c70b0148a32a407a8_209211_4474bce5768bce57f23e086d5eb19f6c.png 726w,
+/docs/user-documentation/content-types/membership/membership--daxko-link_hud78bda0d6b71cc1c70b0148a32a407a8_209211_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/docs/user-documentation/content-types/membership/membership--daxko-link_hud78bda0d6b71cc1c70b0148a32a407a8_209211_bb874d96a8ad0c3eda20ecaddf33bd0c.png" />
+&lt;figcaption> &lt;i class="fa-solid fa-external-link fa-fw">&lt;/i>&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;/p></description></item><item><title>Docs: News Post</title><link>/docs/user-documentation/content-types/news-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/news-post/</guid><description>
+&lt;blockquote>
+&lt;p>Designed for timely content, articles and news pieces tagged with one or more physical locations.&lt;/p>
+&lt;p>&lt;em>Note: This Content Type is
+&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">similar to the Blog Post content type&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;img src="upload://s0DLIEjlMW9Tt8s68bV3168YsnA.png" alt="carnation&amp;amp;ndash;news&amp;amp;ndash;desktop|690x479, 75%" />&lt;/p>
+&lt;p>News posts in YMCA Website Services allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.&lt;/p>
+&lt;h2 id="when-should-i-use-a-news-post">When Should I Use a News Post?&lt;/h2>
+&lt;p>When you decide to use a news post
+&lt;a href="https://www.youtube.com/watch?v=myGNK_qUGDM" target="_blank">depends greatly on your Association&amp;rsquo;s content strategy&lt;/a>. However, news posts are designed so you can post timely pages and list them throughout your site. Examples of news posts may include:&lt;/p>
+&lt;ul>
+&lt;li>Member Stories&lt;/li>
+&lt;li>Workouts and Recipes&lt;/li>
+&lt;li>Updates about a Center/Branch&lt;/li>
+&lt;li>Promotions and Contests&lt;/li>
+&lt;li>Press Releases&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-do-i-use-a-news-post">How Do I Use a News Post?&lt;/h2>
+&lt;p>
+&lt;img src="upload://nFeEVZi9ubWFFBqOwNT6iJQnQ5N.gif" alt="admin&amp;amp;ndash;news-posts__category|662x204, 75%" />&lt;/p>
+&lt;p>There are three fields that appear above the accordion tabs below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: The name of the news post. Displays in the header area on your news post and in
+&lt;a href="https://community.openymca.org/t/news-posts-listing-paragraphs-open-y-user-docs/721" target="_blank">a list view of news posts&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Locations&lt;/strong>: An &lt;em>option select&lt;/em> for you to tag a post with one or more locations (Camp or Branch). Use Ctrl+Click (Windows) or Cmd⌘+Click (Mac) to select multiple locations.&lt;/p>
+&lt;blockquote>
+&lt;p>Each time you create a new
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch Page&lt;/a> or
+&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp Page&lt;/a>, that location&amp;rsquo;s name populates into the locations field automatically&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Category&lt;/strong>: An &lt;em>entity reference&lt;/em> to
+&lt;a href="http://#" target="_blank">the News Category vocabulary&lt;/a>. Type in the name of the category and select from the options that appear, or create a new category/term by typing in a new one.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The content area is the main body of your page. You can use the default fields entered below for a simple block post or build a more robust layout using paragraphs.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Image&lt;/strong>: Displays above your description and inside a News Post listing. Not required. Uses the
+&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734" target="_blank">media browser and image field.&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>:
+&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Using the YMCA Website Services text editor&lt;/a>, you can enter anything from a brief summary to the entire body of your text.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="sidebar-area">Sidebar Area&lt;/h3>
+&lt;p>The sidebar area also allows you embed paragraphs below a section that links to the centers tagged in the post, the categories and a &lt;em>Related Content field&lt;/em> that allows you to promote other News Posts by tagging them with the autocomplete widget.&lt;/p>
+&lt;h3 id="layouts">Layouts&lt;/h3>
+&lt;p>While you have the option to build layouts in news posts using paragraphs, all bnews posts are strictly two-column layouts. The Content Area displays on the left while the Sidebar Area displays on the right.&lt;/p>
+&lt;h3 id="other-settings">Other Settings&lt;/h3>
+&lt;p>In the right column, make sure the &amp;ldquo;promoted to front page&amp;rdquo; item is checked so it will appear in any listings.&lt;/p></description></item><item><title>Docs: Program</title><link>/docs/user-documentation/content-types/program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/program/</guid><description>
+&lt;blockquote>
+&lt;p>In YMCA Website Services, a Program doesn&amp;rsquo;t refer to specific offering or format, but to a content type that serves as a large, generic category page for program offerings.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;img src="upload://bpcGydlHcEsAnc6KAQpcR3Xou4i.jpeg" alt="lily&amp;amp;ndash;program&amp;amp;ndash;desktop|690x454, 75%" />&lt;/p>
+&lt;p>The Program content type is a high-level page that directs people to more specific program offerings.&lt;/p>
+&lt;p>An example of a Program in YMCA Website Services would be a Swimming &amp;amp; Aquatics page that directs people to more specific offerings, such as swim lessons or clinics.&lt;/p>
+&lt;hr>
+&lt;h2 id="when-should-i-use-a-program">When Should I Use a Program?&lt;/h2>
+&lt;p>Programs are pages that should link to more specific offering pages. Most often in YMCA Website Services sites, they are the main program pages in an YMCA Website Services mega menu setup.&lt;/p>
+&lt;p>
+&lt;img src="upload://wFIrGVZ4jOvjo2BCVy4bqrdjKyO.png" alt="carnation__mega-menu&amp;amp;ndash;desktop|684x500, 75%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-program">How to Use Program&lt;/h2>
+&lt;h3 id="header-area">Header Area&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Icon&lt;/strong>: An image field that displays an icon (jpg/png) inline with the title.&lt;/li>
+&lt;li>&lt;strong>Image&lt;/strong>: An optional image field for a picture to display in the header.&lt;/li>
+&lt;li>&lt;strong>Color&lt;/strong>: A background color for the header.&lt;/li>
+&lt;li>&lt;strong>Paragraph Section&lt;/strong>: Area to enter paragraphs in the Header, such as a Gallery, Small Banner or Microsites menu. Paragraphs entered in this area replace the image/background color&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;h4 id="-standard-title-with-light-blue">/// Standard Title with Light Blue&lt;/h4>
+&lt;p>
+&lt;img src="upload://xo1lSNZJvORKlmD9QgjomMPFCWy.png" alt="carnation&amp;amp;ndash;program&amp;amp;ndash;light-blue-color|690x135, 75%" />&lt;/p>
+&lt;h4 id="-standard-title-with-purple">/// Standard Title with Purple&lt;/h4>
+&lt;p>
+&lt;img src="upload://zlRi8HDlsPa4VR8z7sr06qWfxpS.png" alt="carnation&amp;amp;ndash;program&amp;amp;ndash;purple-color|690x135, 75%" />&lt;/p>
+&lt;h4 id="-small-banner">/// Small Banner&lt;/h4>
+&lt;p>
+&lt;img src="upload://AoohqAs6zBpZQlr0IBMosmAs0xS.jpeg" alt="carnation&amp;amp;ndash;program__small-banner|690x135, 75%" />&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>: Displays above the main body of your content and serves as a tease for your Program page when it&amp;rsquo;s displayed as part of a list on another page. Minimal styling and short lengths are recommended.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Content&lt;/strong>: The main body of your content. Use paragraphs to build your page layout. Designed to integrate
+&lt;a href="https://community.openymca.org/t/categories-listing-paragraphs-open-y-user-docs/707" target="_blank">with the Categories Listing&lt;/a> paragraph, but that is not required.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="sidebar-area">Sidebar Area&lt;/h3>
+&lt;p>For aside pieces of content, such as side navigations, promotional cards and content related to the main part of your page.&lt;/p>
+&lt;h3 id="layouts">Layouts&lt;/h3>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Similar to landing pages&lt;/a>, Program pages are designed for flexible layouts, with a couple key differences:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Program pages are designed for
+&lt;a href="https://community.openymca.org/t/categories-listing-paragraphs-open-y-user-docs/707" target="_blank">integration with the Categories Listing&lt;/a> paragraph type.
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Program subcategory pages&lt;/a> are tagged with a Program, and those subcategories are displayed as long cards on that Program page.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There is no layout dropdown. How your content displays depends on your theme.&lt;/p>
+&lt;ul>
+&lt;li>Lily/Rose will always display Programs in a two-column layout in desktop.&lt;/li>
+&lt;li>Carnation will display desktop in One Column without content in the &lt;em>Sidebar Area&lt;/em> and in Two Columns with content in the &lt;em>Sidebar Area.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;h4 id="-carnation-without-content-in-the-sidebar">/// Carnation: Without Content in the Sidebar&lt;/h4>
+&lt;p>
+&lt;img src="upload://yPi6qeCY9ICWIhTC3SR6OZt6bpR.jpeg" alt="carnation&amp;amp;ndash;program__one-column&amp;amp;ndash;desktop|690x406, 75%" />&lt;/p>
+&lt;hr>
+&lt;h4 id="-carnation-desktop-with-content-in-the-sidebar">/// Carnation: Desktop With Content in the Sidebar&lt;/h4>
+&lt;p>
+&lt;img src="upload://hfK8xJyzFInKkcwKWSrmXEeXwfi.jpeg" alt="carnation&amp;amp;ndash;program&amp;amp;ndash;desktop|690x399, 75%" />&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>The &lt;em>Description&lt;/em> field always displays above the paragraphs you enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There is no bottom area for you to add an anchoring element.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Program Subcategory</title><link>/docs/user-documentation/content-types/program-subcategory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/program-subcategory/</guid><description>
+&lt;blockquote>
+&lt;p>A subset of a
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>, Program Subcategory pages list different types of program offerings, grouped into
+&lt;a href="https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697" target="_blank">Activities&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>Subcategory pages refine broad Programs into more concrete options.&lt;/p>
+&lt;p>
+&lt;img src="upload://fqRl8unsXpobHOHKoKbipntV3n2.jpeg" alt="Screen Shot 2020-04-07 at 10.31.43 AM|690x338, 75%" />&lt;/p>
+&lt;p>Whereas a Program page would describe a Y&amp;rsquo;s Health &amp;amp; Fitness offerings in general, a Program Subcategory would break that down into subcategories such as &amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>Personal Training&lt;/li>
+&lt;li>Group Exercise Classes&lt;/li>
+&lt;li>Pilates&lt;/li>
+&lt;/ul>
+&lt;h2 id="when-should-i-use-subcategory">When Should I Use Subcategory?&lt;/h2>
+&lt;p>Most Ys have opted to use Program pages as the top-level categories in their Programs mega menu. Subcategories are then the items underneath each category.&lt;/p>
+&lt;p>
+&lt;img src="upload://7X9KZ8emLieSg38c0ZK49aeG4Bd.png" alt="rose__menu&amp;amp;ndash;subcategories|690x363, 75%" />&lt;/p>
+&lt;p>Subcategories, likewise, appear as horizontal cards on Program pages.&lt;/p>
+&lt;p>
+&lt;img src="upload://8Io8pXHVcadphB2D0Rd3ukiWMAq.jpeg" alt="lily&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/categories-listing-paragraphs-open-y-user-docs/707?u=dwells" target="_blank">Learn about the Categories Listing Paragraph ⇒&lt;/a>&lt;/p>
+&lt;h2 id="how-do-i-use-the-program-subcategory-content-type">How Do I Use the Program Subcategory Content Type?&lt;/h2>
+&lt;p>Start by adding a &lt;em>Title&lt;/em> for your Program Subcategory and tag it with a &lt;em>Program.&lt;/em>&lt;/p>
+&lt;p>
+&lt;img src="upload://AqDdtacgdgOIZNS7a7OszXvDk6.gif" alt="admin&amp;amp;ndash;program-subcategory__program-select|662x204, 75%" />&lt;/p>
+&lt;p>The Program tag will pull your Program Subcategory in as a horizontal card on a Program page. &lt;strong>You can only tag a Subcategory with &lt;strong>one&lt;/strong> Program.&lt;/strong>&lt;/p>
+&lt;h3 id="header-area">Header Area&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Image&lt;/strong>: Using an image field, select an image from the media browser. Displays in the header and as a thumbnail in
+&lt;a href="https://community.openymca.org/t/categories-listing-paragraphs-open-y-user-docs/707?u=dwells" target="_blank">Categories Listing&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Color&lt;/strong>: A dropdown to select a background color for your header.&lt;/p>
+&lt;p>-&amp;gt; &lt;em>Note: The background color does not display on desktop in Carnation unless you do not have an image selected.&lt;/em>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>You have the option to add paragraphs in the Header Area. However, these paragraphs display below the below the image and title you enter above.&lt;/p>
+&lt;p>For example, if you add a banner in the Header Area, it will display below the title and image entered in those Header Area fields.&lt;/p>
+&lt;blockquote>
+&lt;p>Subcategory was originally designed to work with the &lt;em>Classes Listing Filters&lt;/em> paragraph in the Header Area and the &lt;em>Classes Listing&lt;/em> paragraph in the Content Area.&lt;/p>
+&lt;p>&lt;strong>
+&lt;a href="https://sandbox-rose-cus.openy.org/programs/health-and-fitness/small-group-specialty-training?location=All" target="_blank">View Subcategory Demo on YMCA Website Services Sandbox ⇒&lt;/a>&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>With the integration of Activity Finder into YMCA Website Services, Classes Listing and Classes Listing Filters are becoming less popular among YMCA Website Services sites.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The Content Area includes a &lt;em>Description&lt;/em> that displays full-width just below the Header Area.&lt;/p>
+&lt;p>When your Subcategory is showed in a &lt;em>Categories Listing&lt;/em> on a Program page, the &lt;em>Description&lt;/em> is the text inside the card.&lt;/p>
+&lt;p>You can embed content inside the Content Area, all of which will display below the Description.&lt;/p>
+&lt;h4 id="ymca-of-greater-brandywine-examplehttpsymcagbworgprogramschildcare-education-programs-ymcapreschool-childcare">
+&lt;a href="https://ymcagbw.org/programs/childcare-education-programs-ymca/preschool-childcare" target="_blank">YMCA of Greater Brandywine Example&lt;/a>&lt;/h4>
+&lt;p>
+&lt;img src="upload://1wajdheW6mntjgaUe3nFZqraI1A.png" alt="Screen Shot 2020-04-07 at 10.34.22 AM|690x324, 75%" />&lt;/p>
+&lt;h3 id="sidebar-area">Sidebar Area&lt;/h3>
+&lt;p>The Sidebar Area will change the layout of the page into two columns once you enter content.&lt;/p>
+&lt;h3 id="bottom-area">Bottom Area&lt;/h3>
+&lt;p>Use the Bottom Area for anchoring elements, such as
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">small banners&lt;/a> and
+&lt;a href="https://community.openymca.org/t/webform-paragraph-open-y-user-docs/729" target="_blank">webforms.&lt;/a>&lt;/p></description></item></channel></rss>
