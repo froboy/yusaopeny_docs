@@ -39,7 +39,7 @@ Y's with many amenities may choose to group them in categories. Once any Ameniti
 
 To nest terms:
 
-- Go to the Amenities administration page.
+- Go to the Amenities administration page at **Administration** > **Structure** > **Taxonomy** > **Amenities**.
 - **Add term** to create new parent terms if necessary.
 - Use the drag handle [✥] to arrange terms into nested groups.
 

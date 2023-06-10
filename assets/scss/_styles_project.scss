@@ -42,3 +42,12 @@ figcaption, iframe {
 dd {
   margin-left: revert;
 }
+
+@media (min-width: 768px) {
+  @supports (position: sticky) {
+    .td-sidebar-nav {
+      max-height: calc(100vh - 4rem);
+      padding-top: 15px;
+    }
+  }
+}

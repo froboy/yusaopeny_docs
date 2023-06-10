@@ -33,7 +33,7 @@ If your provider is not listed you can add the form by selecting the **Code** Cu
 
 ## Donate Block
 
-The Donate Block can be placed in a full-width container.
+The Donate Block can be placed in an [edge-to-edge container](../advanced-options#layout-styles).
 
 {{< readfile "../lb-add-block.partial" >}}
 
