@@ -14,7 +14,9 @@ description: Component for displaying logos / info of partners or sponsors withi
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Sponsors Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Sponsors Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Sponsors.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Sponsors Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Sponsors Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

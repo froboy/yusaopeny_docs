@@ -7,7 +7,9 @@ description: Embed an existing webform on a page.
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Webforms Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Webforms Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Forms.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Webforms Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Webforms Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

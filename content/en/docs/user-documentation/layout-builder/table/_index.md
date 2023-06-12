@@ -9,7 +9,9 @@ description: Allows users to be able to view responsive tables within a page.
 
 The Table block also allows users to add simple content to the Landing Page (Layout Builder) content type.
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tables Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Table.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Tables Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tables Desktop.png>)
 
 {{< readfile "../lb-save-block.partial" >}}
 

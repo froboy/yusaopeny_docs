@@ -14,7 +14,9 @@ description: Component for displaying related articles within an Article node pa
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Related Articles Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Related Articles Desktop.png>)
+**Designs:**
+- [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Article CT.jpg>)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Related Articles Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Related Articles Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

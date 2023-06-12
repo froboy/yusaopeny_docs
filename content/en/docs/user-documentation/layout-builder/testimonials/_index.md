@@ -14,7 +14,9 @@ description: Component for displaying short testimonials or quotes from Y member
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Testimonials Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Testimonials Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Testimonials.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Testimonials Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Testimonials Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

@@ -9,7 +9,9 @@ description: Sets of content with a headline, description, and link displayed in
 
 The Grid CTA block is similar to the [Cards](../cards) block, but allows for more flexible items with a slightly more freeform design. 
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Grid Content Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Grid Content Desktop.png>)
+**Designs:**
+- [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Grid Content.jpg>)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Grid Content Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Grid Content Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

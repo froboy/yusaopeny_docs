@@ -9,7 +9,9 @@ description: Flexible card-style components that allow up to 4 cards to display 
 
 The Cards block is similar to the [Grid CTA](../grid-cta) block, but has more fields and places the image behind the item content.
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Cards Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Card.jpg) | [Variations](<../../../../../../assets/img/designs/lb-ui-kit/Card - Column Variations.jpg>)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Cards Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

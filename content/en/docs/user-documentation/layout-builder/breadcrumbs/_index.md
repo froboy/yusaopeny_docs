@@ -14,7 +14,9 @@ description: Secondary navigation that allows users to understand where they are
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Breadcrumbs Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Breadcrumbs Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Breadcrumbs.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Breadcrumbs Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Breadcrumbs Desktop.png>)
 
 To use Breadcrumbs:
 

@@ -1,5 +1,5 @@
 ---
-title: Hero Banner
+title: Banner
 description: A full-width, almost full-height display with a header, description, and call to action overlaid on an image.
 ---
 
@@ -7,7 +7,9 @@ description: A full-width, almost full-height display with a header, description
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Hero Banner Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Hero Banner Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Banner.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Hero Banner Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Hero Banner Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

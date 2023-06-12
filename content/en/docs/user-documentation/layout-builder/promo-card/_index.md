@@ -7,7 +7,9 @@ description: A title, headline, description, and link that usually display in th
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Promo Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Promo Cards Desktop.png>)
+**Designs:**
+- [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Promo Cards.jpg>)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Promo Cards Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Promo Cards Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

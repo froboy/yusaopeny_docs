@@ -14,7 +14,9 @@ description: Component for displaying simple staff member info cards (with image
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Staff Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Staff Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Staff.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Staff Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Staff Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

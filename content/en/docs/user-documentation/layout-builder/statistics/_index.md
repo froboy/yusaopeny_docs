@@ -7,7 +7,9 @@ description: Infographic-like display that highlights relevant statistics to use
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Statistics Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Statistics.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Statistics Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

@@ -14,7 +14,9 @@ description: A simple pop-up dialog that is triggered when a page loads.
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Modals Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Modals Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Modal.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Modals Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Modals Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

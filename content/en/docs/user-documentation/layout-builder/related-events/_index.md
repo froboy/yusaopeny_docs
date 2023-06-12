@@ -14,7 +14,9 @@ description: Component for displaying related events within an event node page a
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Related Events Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Related Events Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Event.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Related Events Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Related Events Desktop.png>)
 
 
 {{< readfile "../lb-add-block.partial" >}}
