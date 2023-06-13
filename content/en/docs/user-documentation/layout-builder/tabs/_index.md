@@ -7,7 +7,9 @@ description: Gives users the ability to switch page views by selecting in-page t
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tabs Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Tabs.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Tabs Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

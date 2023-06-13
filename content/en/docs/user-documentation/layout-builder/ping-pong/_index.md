@@ -7,7 +7,9 @@ description: Usually paired sets of full-width page components that include medi
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
+**Designs:**
+- [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Ping Pong.jpg>)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Ping Pong Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Ping Pong Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

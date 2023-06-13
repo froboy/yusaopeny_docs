@@ -7,7 +7,9 @@ description: Expandable pairs of question/answer or header/section fields.
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Accordion Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Accordion.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Accordion Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

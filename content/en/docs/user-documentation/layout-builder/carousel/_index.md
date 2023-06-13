@@ -7,7 +7,9 @@ description: A full-width display with multiple sets of a header, description, a
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Carousels Desktop.png>)
+**Designs:**
+- [Design System](../../../../../../assets/img/designs/lb-ui-kit/Carousel.jpg)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Carousels Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 

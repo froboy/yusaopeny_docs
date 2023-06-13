@@ -7,7 +7,9 @@ description: A simple 1-level sidebar menu that can display in either the right 
 
 -----
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Simple Menu Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Simple Menu Desktop.png>)
+**Designs:**
+- [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Side Menu.jpg>)
+- Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Simple Menu Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Simple Menu Desktop.png>)
 
 {{< readfile "../lb-add-block.partial" >}}
 
