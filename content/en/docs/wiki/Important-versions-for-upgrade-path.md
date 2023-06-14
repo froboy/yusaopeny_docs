@@ -29,6 +29,15 @@ These supplemental documents elaborate on a few specific cases:
 - `9.2.11.3` - Last Open Y Drupal core 9.3.* release
 - `9.2.11.4` - Technical release of YMCA Website Services ( no diff with 9.2.11.3 )
 - `9.2.13.0` - Pre Drupal 10 release, latest Drupal 9 release. Before going into Layout Builder era it is recommended to uninstall `geysir` and `openy_inline_editing` module.
+- `10.2.14` - Drupal 10|9 release, where you may follow generic recommendations below:
+
+1 do upgrade to latest Drupal 9 core ( use 10.2.14 of profile, released yesterday )
+2 upgrade all contribs/vendors to latest versions, ready for Drupal 9 ( composer )
+3 Use drupal/rector and PHPCS for upgrading custom/legacy code ready for Drupal 10
+4 upgrade to Drupal 10 core and run regression testing to chase for hard-to-find bugs ( composer )
+5 upgrade all contribs on Drupal 10 upgraded site to latest versions ( composer )
+
+
 
 See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 
