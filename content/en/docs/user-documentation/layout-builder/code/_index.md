@@ -5,7 +5,7 @@ description: Embed unfiltered HTML code in a page.
 
 {{< tabpane text=true >}}
   {{< tab header="Video" lang="vid" >}}
-    {{< youtube  >}}
+    {{< youtube YVjg-0PjsOM >}}
   {{< /tab >}}
   {{% tab header="Diagram" lang="pic" %}}
 ![](lb-code.png)

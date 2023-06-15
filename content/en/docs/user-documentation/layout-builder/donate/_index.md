@@ -5,7 +5,7 @@ description: A call to action with donation buttons linking to an embedded form.
 
 {{< tabpane text=true >}}
   {{< tab header="Video" lang="vid" >}}
-    {{< youtube  >}}
+    {{< youtube wPHimaZOprw >}}
   {{< /tab >}}
   {{% tab header="Diagram" lang="pic" %}}
 ![A screenshot of the Donate block.](lb-donate--block.png)

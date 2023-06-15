@@ -5,7 +5,7 @@ description: Components to feature, filter, and list events using Layout Builder
 
 {{< tabpane text=true >}}
 {{< tab header="Video" lang="vid" >}}
-{{< youtube "cxRxuYkWy-4?start=183" >}}
+{{< youtube "LGW0oPOnKVw" >}}
 {{< /tab >}}
 {{% tab header="Diagram" lang="pic" %}}
 ![A screenshot showing the Featured events block.](event-views--featured.png)

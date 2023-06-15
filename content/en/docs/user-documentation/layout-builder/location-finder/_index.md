@@ -5,7 +5,7 @@ description: A set of components to view and search YMCA locations.
 
 {{< tabpane text=true >}}
   {{< tab header="Video" lang="vid" >}}
-    {{< youtube  >}}
+    {{< youtube UyOI3ubns8k >}}
   {{< /tab >}}
   {{% tab header="Diagram" lang="pic" %}}
 ![A screenshot of the Locations block filters and map.](lb-location-finder--filters-map.png)

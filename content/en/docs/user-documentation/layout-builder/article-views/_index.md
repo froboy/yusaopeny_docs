@@ -5,7 +5,7 @@ description: Components to feature, filter, and list articles using Layout Build
 
 {{< tabpane text=true >}}
 {{< tab header="Video" lang="vid" >}}
-{{< youtube >}}
+{{< youtube LGW0oPOnKVw >}}
 {{< /tab >}}
 {{% tab header="Diagram" lang="pic" %}}
 ![A screenshot showing the Featured articles block.](article-views--featured.png)
