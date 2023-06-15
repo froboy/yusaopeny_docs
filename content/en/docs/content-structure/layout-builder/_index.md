@@ -52,7 +52,7 @@ Display of all amenities available at a branch location.
 
 - **Machine name:** `lb_cards`
 - **Project:** [lb_cards](https://www.drupal.org/project/lb_cards)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Cards Mobile.png>)
+- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Cards Desktop.png>)
 
 Flexible card-style components that allow up to 4 cards to display across a page depending on the chosen layout.
 
