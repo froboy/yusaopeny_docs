@@ -3,7 +3,14 @@ title: Promo Card
 description: A title, headline, description, and link that usually display in the right or left sidebar.
 ---
 
-{{< youtube dybusSNmTPc >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube dybusSNmTPc >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Promo Card component with block labels](lb-promo-card.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

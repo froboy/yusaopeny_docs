@@ -3,7 +3,14 @@ title: Webform
 description: Embed an existing webform on a page.
 ---
 
-{{< youtube dsHpcLDjLEo >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube dsHpcLDjLEo >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Webform component with block labels](lb-webform.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

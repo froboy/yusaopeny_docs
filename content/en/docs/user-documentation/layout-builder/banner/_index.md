@@ -1,9 +1,16 @@
 ---
 title: Banner
-description: A full-width, almost full-height display with a header, description, and call to action overlaid on an image.
+description: A full-width, almost full-height display with a header, description, and call to action overlaid on an image. Also known as "Hero Banner".
 ---
 
-{{< youtube kerfY3EBESA >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube kerfY3EBESA >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Banner component with block labels](lb--banner.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

@@ -3,7 +3,14 @@ title: Accordion
 description: Expandable pairs of question/answer or header/section fields.
 ---
 
-{{< youtube QczjkFL23W0 >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube QczjkFL23W0 >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Accordion component with block labels](lb-accordion.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

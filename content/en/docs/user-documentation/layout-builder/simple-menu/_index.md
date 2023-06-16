@@ -3,7 +3,14 @@ title: Simple Menu
 description: A simple 1-level sidebar menu that can display in either the right or left sidebar area.
 ---
 
-{{< youtube UZVurubBti8 >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube UZVurubBti8 >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Simple Menu component with block labels](lb-simple-menu.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

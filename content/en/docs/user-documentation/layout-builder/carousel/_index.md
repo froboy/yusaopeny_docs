@@ -3,7 +3,14 @@ title: Carousel
 description: A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
 ---
 
-{{< youtube zVT1St0UXsk >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube zVT1St0UXsk >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Carousel component with block labels](lb-carousel.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 
