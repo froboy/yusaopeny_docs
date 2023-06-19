@@ -5,7 +5,7 @@ description: Many blocks come together to create a configurable header and foote
 
 {{< tabpane text=true >}}
   {{< tab header="Video" lang="vid" >}}
-    {{< youtube  >}}
+    {{< youtube Z_-ZbGz8Suk >}}
   {{< /tab >}}
   {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot of the Header Section with block labels](lb-header-footer--header.png)

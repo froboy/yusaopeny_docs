@@ -3,7 +3,14 @@ title: Tabs
 description: Gives users the ability to switch page views by selecting in-page tabs.
 ---
 
-{{< youtube I3GPm718hn8 >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube I3GPm718hn8 >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Tabs component with block labels](lb-tabs.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

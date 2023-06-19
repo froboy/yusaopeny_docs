@@ -3,7 +3,14 @@ title: Cards
 description: Flexible card-style components that allow up to 4 cards to display across the page depending on the chosen layout.
 ---
 
-{{< youtube vrtcxXl31f4 >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube vrtcxXl31f4 >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Cards component with block labels](lb-cards.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

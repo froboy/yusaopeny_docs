@@ -3,7 +3,14 @@ title: Grid CTA
 description: Sets of content with a headline, description, and link displayed in 2 to 4-item wide rows, with the option to include icons or images.
 ---
 
-{{< youtube TtABGaClzPw >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube TtABGaClzPw >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Grid CTA component with block labels](lb-grid-cta.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

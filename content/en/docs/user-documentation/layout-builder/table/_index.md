@@ -3,7 +3,14 @@ title: Table
 description: Allows users to be able to view responsive tables within a page.
 ---
 
-{{< youtube buxLFLUhiMo >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube buxLFLUhiMo >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Table component with block labels](lb-table.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 

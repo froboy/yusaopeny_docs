@@ -3,7 +3,14 @@ title: Ping-Pong
 description: Usually paired sets of full-width page components that include media, header, description, and call to action arranged horizontally.
 ---
 
-{{< youtube BgEL_YU-DiA >}}
+{{< tabpane text=true >}}
+  {{< tab header="Video" lang="vid" >}}
+    {{< youtube BgEL_YU-DiA >}}
+  {{< /tab >}}
+  {{% tab header="Diagram" lang="pic" %}}
+![Screenshot of the Ping-pong component with block labels](lb-ping-pong.png)
+  {{% /tab %}}
+{{< /tabpane >}}
 
 -----
 
