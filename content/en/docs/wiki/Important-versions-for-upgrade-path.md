@@ -28,7 +28,7 @@ These supplemental documents elaborate on a few specific cases:
 - `9.2.10.0` - Removed a bunch of unused modules from distribution.
 - `9.2.11.3` - Last Open Y Drupal core 9.3.* release
 - `9.2.11.4` - Technical release of YMCA Website Services ( no diff with 9.2.11.3 )
-- `9.2.13.0` - Pre Drupal 10 release, latest Drupal 9 release. Before going into Layout Builder era it is recommended to uninstall `geysir` and `openy_inline_editing` module.
+- `9.2.13.0` - Pre Drupal 10 release, latest Drupal 9 release. Before going into Layout Builder era it is recommended to uninstall `geysir`, `openy_inline_editing`, `quickedit`, `rdf` modules.
 - `10.2.14` - Drupal 10|9 release, where you may follow the recommendations below:
 
   1. Upgrade to the latest Drupal 9 core (using [version 10.2.14](https://github.com/YCloudYUSA/yusaopeny/releases/tag/10.2.14) of the distribution, released in June 2023).
