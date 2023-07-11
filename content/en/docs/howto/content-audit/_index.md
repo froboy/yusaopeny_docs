@@ -4,7 +4,7 @@ linkTitle: "... perform a content audit"
 description: Content audits help get an overview of how your site is structured and can assist with migrations, SEO analysis, and more.
 ---
 
-Doing a content audit is a useful first step to planning a migration. You can use our [content audit template](https://docs.google.com/spreadsheets/d/1kP4JuXEKP6SFZHzqkUmv1KoTGECFOYaTPzgOc0Lyo-c/edit#gid=0) to get started, then follow these steps:
+Doing a content audit is a useful first step to planning a migration. You can use our [content audit template](https://docs.google.com/spreadsheets/d/1kP4JuXEKP6SFZHzqkUmv1KoTGECFOYaTPzgOc0Lyo-c/edit#gid=0) and watch our walkthrough on the [May Monthly Call](https://youtu.be/Dtaeo9Mf6Ac?t=251) to get started, then follow these steps:
 
 ## Audit
 
