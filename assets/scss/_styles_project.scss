@@ -51,3 +51,19 @@ dd {
     }
   }
 }
+
+// Override Bootstrap's kbd styles
+kbd {
+  display: inline-block;
+  background: #f5f5f5;
+  border: solid 1px #b5c6d2;
+  border-bottom-color: #97afbf;
+  box-shadow: inset 0 -1px 0 #97afbf;
+  font-family: Monaco,Menlo,Consolas,"Roboto Mono","Courier New","Ubuntu Mono",monospace;
+  font-size: .8em;
+  padding: .25em .5em;
+  line-height: 1em;
+  vertical-align: middle;
+  border-radius: 3px;
+  color: inherit;
+}

@@ -1,6 +1,11 @@
 ---
-title: 'Adding Images'
+title: 'CKEditor 4: Adding Images'
+weight: 99
 ---
+
+{{< alert color="warning" >}}
+This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Media](../adding-media/) for updated instructions.
+{{< /alert >}}
 
 ### NOTE TO USERS OF YMCA Website Services 2.4+
 

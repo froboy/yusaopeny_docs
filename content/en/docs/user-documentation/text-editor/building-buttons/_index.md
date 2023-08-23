@@ -1,19 +1,22 @@
 ---
 title: 'Building Buttons'
+weight: 1
 ---
 
 {{< youtube id=lJmhRo99uuM >}}
 
-[As an alternate to using the link tool](https://community.openymca.org/t/adding-links-in-the-text-editor/645), you can easily create buttons with YMCA Website Services using the button editor. When you click on the button icon, it will open a pop-up.
+-----
 
-![WYSIWYG Editor options with the button tab highlighted in green.](../../../../../assets/img/d5736f5507428b99030d5c88620d3f226f154cfc.png)
+[As an alternate to using the link tool](../adding-links), you can easily create buttons with YMCA Website Services using the button editor. When you click on the button icon, it will open a pop-up.
+
+![WYSIWYG Editor options with the button tab highlighted in green.](buttons--toolbar.png)
 >You can also edit a button you've created previously by clicking on the link in the text editor.
 
-![blog-description__text-editor-edit-button|640x295,75%](../../../../../assets/img/6930bf01e47b767579dcde7536d2f3353947e310.gif)
+![blog-description__text-editor-edit-button|640x295,75%](buttons--popup.gif)
 
 There are three tabs for creating your button: an info tab, a target tab, and an icon tab.
 
-![blog-description__text-editor-button-tabs|690x137,50%](../../../../../assets/img/2564a2a399f57c0b0a1cffd8e69b4e4174a9fbaf.png)
+![blog-description__text-editor-button-tabs|690x137,50%](buttons--tabs.png)
 
 ---
 ## Info Tab
@@ -31,18 +34,18 @@ This screen gives you basic options to style your link or button. On the top lef
 
 The top right “Size” dropdown four options for your button size. If you chose “Link” style option, the Size option will not affect your link.
 
-![blog-destiption__text-editor-button_style|166x500,50%](../../../../../assets/img/450d40d931e05bc00fe0d3b6d15d951b0062793d.png)  
-![blog-destiption__text-editor-button_size|282x200,50%](../../../../../assets/img/a27170cb92cff52b1a9bd2590993d413b62350c7.png)
+![blog-destiption__text-editor-button_style|166x500,50%](buttons--style.png)
+![blog-destiption__text-editor-button_size|282x200,50%](buttons--size.png)
 
 Add the text for your link/button in the bottom left. Enter your link in the URL field on the bottom right.
 
 * For links on your website, don’t use the full URL. Highlight everything beginning with the `/` after your `.com`, `.org`, etc.
-  * For example, for openy.org/about, you would choose `/about`. This is called the relative path, and it will help your analytics tracking.
+  * For example, for example.org/about, you would choose `/about`. This is called the relative path, and it will help your analytics tracking.
 * For links on other websites, grab the full URL, including the `https://`.
-  * For example, for openy.org/about, you would choose https://ycloud.y.org/open-y-association-websites/about.
+  * For example, for example.org/about, you would choose https://example.org/about.
 * For email links, add `mailto:example@exampleymca.org.`
 
-https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/
+[More on absolute vs relative links](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/).
 
 ---
 
@@ -63,13 +66,13 @@ This tab gives you the ability to change the behavior of your link. By default, 
 
 ## Icons Tab
 
-![blog-destiption__text-editor-button_icons|388x500,50%](../../../../../assets/img/4a18583fc355305c5175fe6333e5a5a4638bd07e.png)
+![blog-destiption__text-editor-button_icons|388x500,50%](buttons--icons.png)
 
 You can add icons to your buttons or links in the icons tab. On the right, you will have fields that integrate with the Font Awesome library. To have an icon show up on the left, use the Left Icon text field. For the right, use the Right Icon text field.
 
 *Example:* For a Right Chevron, type `fa-chevron-right`.
 
-**View free font awesome icons at fontawesome.com**
+**View free font awesome icons at [fontawesome.com](https://fontawesome.com/v5/search?m=free)**
 
 >**Note:** The left field makes reference to the Bootstrap Glyphicons library. As of this documentation, this icon library has been deprecated, and the Glyphicons fields will not work in YMCA Website Services.
 >

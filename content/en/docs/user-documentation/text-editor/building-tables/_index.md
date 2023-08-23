@@ -1,17 +1,24 @@
 ---
 title: 'Building Tables'
+description: Display contact information, pricing tables, and more using flexible, responsive tables.
+weight: 1
 ---
 
-> The tables tool in the YMCA Website Services text editor provides the ability to create flexible tables for a number of different use cases, including displaying contact information, pricing tables, and more.
+## Tables in CKEditor 5
+
+The table editor has been drastically improved in CKEditor 5 and is described in detail [in their documentation](https://ckeditor.com/docs/ckeditor5/latest/features/tables/tables.html).
+
+## Tables in CKEditor 4
 
 {{< youtube id=eUNj3ipaF58 >}}
 
 ---
 
-## Adding a New Table
+### Adding a New Table
 To add a table, click on the table icon. A popup will appear with your initial setup options:
 
-![landing-page-simple-content__table|586x176, 50%](../../../../../assets/img/4f4624d31c5ac550174bb49165287c9d93698ead.png)    ![paragraph-simple-content__table-options|320x469, 50%](../../../../../assets/img/29d8b4d51f19d6ddcb056a169c597a9e2901d53f.gif)
+![The table icon in the CKEditor 4 toolbar.](tables--cke4-toolbar.png)    
+![The table properties dialog.](tables--cke4-properties.gif)
 
 * Set the number of rows and columns by typing numbers into those fields
 * The headers field dropdown gives you options to create a header column, row, or both.
@@ -27,31 +34,31 @@ To add a table, click on the table icon. A popup will appear with your initial s
   * Captions display below the table in Carnation.
 * The summary field provides a brief description for your table for screen readers and accessibility devices. It does not print out visible text.
 
-## Editing the Table
+### Editing the Table
 
 To edit a table after you’ve built one, right click on the table. To access the basic table options, click on “Table Properties.”
 
-![landing-page-|296x500, 50%](../../../../../assets/img/a0d80e4672ca10fedb2a4c3bbf53f2a439c8229f.png)
+![The table properties option in the CKEditor 4 menu.](tables--cke4-menu.png)
 
 You can also double-click inside a table cell.
 
-## Adding Rows/Columns
+### Adding Rows/Columns
 
 To add a row or column, right-click and go to either “Row” or “Column” in the options that appear. You can insert a row or column before or after the current row/column.
 
-## Deleting Rows/Columns
+### Deleting Rows/Columns
 
 Both the row and column options allow you to delete from the right-click options as well. Just right-click > Row or Column > Delete Row OR Delete Column.
 
 To delete multiple rows or column, just highlight the rows or columns you want to delete.
 
-## Formatting Individual Cells/Groups of Cells
+### Formatting Individual Cells/Groups of Cells
 
 The “Cell” option from the right-click menu gives you same options as Row and Column, including inserting cells and deleting cells. You can also merge cells or split cells as you would in an excel table by selecting those options from the right-click menu.
 
 However, there is another option called “Cell Properties” that allows you to style your cells as well. Just right-click > Cell > Cell Properties.
 
-![A sample of the available cell options when you right click on a cell, 75%](../../../../../assets/img/f6a82a1957f81cf57cba0e863bbe47044377e602.png)
+![A sample of the available cell options when you right click on a cell](tables--cke4-cell.png)
 
 This opens a dialogue box similar to the table properties. You can set the width/height for your cell (pixels only for height; pixels or percentages for your width) in the fields on the left.
 
@@ -61,7 +68,7 @@ You can also use dropdowns to set your vertical and horizontal alignments for yo
 
 On the bottom right, you can set your border and background colors for your cells. These field support hexadecimal (#FFF) and rgba (256,256,256,1.0) color formats.
 
-https://www.pluralsight.com/blog/tutorials/understanding-hexadecimal-colors-simple
+[Understanding hex colors](https://www.pluralsight.com/blog/tutorials/understanding-hexadecimal-colors-simple).
 
 Finally, you can edit your cells to “span” two or more rows or columns. For example, if you have a header cell you want to span two columns, you can set the “Columns Span” field to 2.
 
@@ -69,12 +76,12 @@ If you would like to apply these styling options to multiple cells, just highlig
 
 ---
 
-## Table Examples
+### Table Examples
 To see an example of what a table might look like on your site, open the "Source" tab on your text editor and insert the HTML. You can then edit the content inside using the WYSIWYG text editor.
 
-### // Pricing Table
+#### // Pricing Table
 
-![landing-page-simple-content__pricing-example|690x426, 75%](../../../../../assets/img/f917638b631b58e8faa0fc9dd6824b9e6d19b4a0.png)
+![An example table with Registration and Pricing information.](tables--cke4-example-pricing.png)
 
 ```html
     <h2>Registration and Pricing</h2>
@@ -111,8 +118,8 @@ To see an example of what a table might look like on your site, open the "Source
     </table>
 ```
 
-### // Camp Locations
-![landing-page-simple-content__camp-locations-example|690x386](../../../../../assets/img/609efb274c09d0d2635e57f376a68b3fa372eb76.png)
+#### // Camp Locations
+![An example table with Camp Location data.](tables--cke4-example-camps.png)
 
 ```html
     <style>

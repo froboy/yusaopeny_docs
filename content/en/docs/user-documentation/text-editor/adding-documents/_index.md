@@ -1,6 +1,11 @@
 ---
-title: 'Adding/Embedding Documents'
+title: 'CKEditor 4: Adding/Embedding Documents'
+weight: 99
 ---
+
+{{< alert color="warning" >}}
+This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Media](../adding-media/) for updated instructions.
+{{< /alert >}}
 
 YMCA Website Services allows you to upload and embed documents directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
 
