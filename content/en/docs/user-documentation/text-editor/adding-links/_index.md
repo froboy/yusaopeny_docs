@@ -33,7 +33,7 @@ In the Advanced options of the link dialog, you can add attributes to links, inc
 ![The advanced link options in CKEditor 5.](adding-links--cke5-advanced.png "The advanced link options in CKEditor 5.")
 {{% /tab %}}
 {{% tab header="CKEditor 4" lang="cke4" %}}
-![The advanced link options in CKEditor 4.](adding-links--cke4-advanced.png "The advanced link options in  CKEditor 4.")
+![The advanced link options in CKEditor 4.](adding-links--cke4-advanced.png "The advanced link options in CKEditor 4.")
 {{% /tab %}}
 {{< /tabpane >}}
 
@@ -43,7 +43,7 @@ In the Advanced options of the link dialog, you can add attributes to links, inc
   * For example, for ymca.org/about, you would choose /about. This is called the relative path, and it will help your analytics tracking.
 * For links on other websites, grab the full URL, including the `https://`.
   * For example, for example.org/about, you would choose https://example.org/about.
-* For email links, add `"mailto:example@exampleymca.org."`
+* For email links, add `"mailto:example@example.org."`
 
 To update/change a link, click on the link text then click the link icon or use the popup options (in CKEditor 5).
 
