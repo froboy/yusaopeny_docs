@@ -1,6 +1,11 @@
 ---
-title: 'Adding and Embedding Videos'
+title: 'CKEditor 4: Adding and Embedding Videos'
+weight: 99
 ---
+
+{{< alert color="warning" >}}
+This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Media](../adding-media/) for updated instructions.
+{{< /alert >}}
 
 # Adding/Embedding Videos with the YMCA Website Services Text Editor
 YMCA Website Services allows you to upload and embed images directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
