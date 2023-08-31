@@ -1,6 +1,6 @@
 ---
 title: Featured Blog Posts
-description: Create a standalone page with a curated listing of [Blog Posts](../../content-types/blog-post).
+description: Create a standalone page with a curated listing of Blog Posts.
 ---
 
 ## Examples

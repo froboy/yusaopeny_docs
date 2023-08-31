@@ -59,12 +59,12 @@ Content editors who want to edit this CSS can ask their developers to install th
 
 ## Content Types that Support This Paragraph
 
-* [Landing Page](../content-types/landing-page.md)
-* [Branch](../content-types/branch.md)
-* [Camp](../content-types/camp.md)
+* [Landing Page](../../content-types/landing-page)
+* [Branch](../../content-types/branch)
+* [Camp](../../content-types/camp)
 * Facility
-* [Blog Post](../content-types/blog-post.md)
-* [News Post](../content-types/news-post.md)
+* [Blog Post](../../content-types/blog-post)
+* [News Post](../../content-types/news-post)
 * Event
-* [Program](../content-types/program.md)
-* [Program Subcategory](../content-types/program-subcategory.md)
+* [Program](../../content-types/program)
+* [Program Subcategory](../../content-types/program-subcategory)

@@ -1,6 +1,6 @@
 ---
 title: Featured News Posts
-description: Create a standalone page listing curated [News Posts](../../content-types/news-post).
+description: Create a standalone page listing curated News Posts.
 ---
 
 ## Examples
