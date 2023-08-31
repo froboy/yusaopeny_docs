@@ -19,7 +19,7 @@ description: Add two equal-width, reusable blocks of content, side-by-side. The 
 
 ---
 
-## Areas it Can Be Used:
+## Areas it Can Be Used
 
 * Content Area
 * Bottom Area

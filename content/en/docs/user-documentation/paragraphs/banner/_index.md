@@ -5,7 +5,7 @@ description: Add large, full width images to the top of your page, along with a 
 
 ![Landing page in Carnation on desktop](paragraphs--banner-carnation.jpeg)
 
-### How to Use a Banner:
+### How to Use a Banner
 
 In the Header Area of your content, select “Add Banner” from the dropdown. Then, fill out the following fields:
 
@@ -31,7 +31,7 @@ In the Header Area of your content, select “Add Banner” from the dropdown. T
 
 * **Link/Button:** Add a URL and a link to the button on the page. The button on your banner cannot be styled without custom CSS/code. [Using link/button fields ⇒](../../text-editor/building-buttons)
 
-  > **Note:** If you know a little CSS, you can have your agency partner [install the CSS Editor ](https://www.drupal.org/project/css_editor)module, and you can target `.btn.banner-btn` to change the default button.
+  > **Note:** If you know a little CSS, you can have your agency partner [install the CSS Editor](https://www.drupal.org/project/css_editor)module, and you can target `.btn.banner-btn` to change the default button.
 
 ### Content Types that Support Banner
 

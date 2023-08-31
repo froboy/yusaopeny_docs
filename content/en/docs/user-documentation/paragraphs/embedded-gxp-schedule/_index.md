@@ -16,7 +16,9 @@ description: Embed the out-of-box GroupEx Pro schedule script on a page with a s
 ---
 
 ## How it Works
+>
 > ***Prerequisite: Requires integration with third-party tool [GroupEx Pro](http://groupexpro.com).***
+>
 > * To integrate you GroupEx Pro account, go to the admin toolbar.
     >
     >   ![Navigating to the GroupEx Pro account settings](parargraphs--gxp--settings.png)
@@ -27,6 +29,7 @@ description: Embed the out-of-box GroupEx Pro schedule script on a page with a s
 > For information on where to find your GroupEx Pro account number, visit [groupexpro.com](https://groupexpro.com).
 
 ---
+
 ### Adding the Paragraph to Your Page
 
 Select *Embedded GroupEx Pro Schedule* from the paragraphs dropdown. Hit save.
@@ -39,6 +42,7 @@ Select *Embedded GroupEx Pro Schedule* from the paragraphs dropdown. Hit save.
 
 * [Landing Page](../../content-types/landing-page)
 * [Branch (Single-Branch Associations Only)](../../content-types/branch)
+
 ---
 
 ## Related Paragraphs

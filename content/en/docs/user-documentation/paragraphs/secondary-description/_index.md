@@ -19,7 +19,7 @@ description: Add a bottom area element with two columns of reusable content for 
 
 ![The secondary description and sidebar in Rose](paragraphs--secondary-description--rose.png)
 
-## Areas it Should Be Used:
+## Areas it Should Be Used
 
 * Bottom Area
 

@@ -13,7 +13,6 @@ description: Unformatted, unrestricted text that supports any HTML tag and can b
 
 ![y-example--code__gxp-iframe](paragraphs-code-ymt-gxp.png)
 
-
 ## Areas it Should Be Used
 
 * Content Area
@@ -45,7 +44,6 @@ description: Unformatted, unrestricted text that supports any HTML tag and can b
 >
 > ---
 >There is an option to change to a “Full HTML” text editor, which will allow you to make use of the default text editor; however, using this will strip “faulty” HTML out of your block and may prevent you from using certain tags.
-
 
 Once you’re done, click the button that either says *Add custom block* or *Update custom block*, depending on the option you had selected at first.
 

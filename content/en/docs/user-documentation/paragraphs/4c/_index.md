@@ -8,22 +8,26 @@ description: Add four equal-width, reusable blocks of content, side-by-side. Col
 > **This paragraph does not work out of the box in Carnation (see Advanced).**
 >
 >Content editors can use [Grid Content](../../paragraphs/grid-content) or [Featured Content](../../paragraphs/featured-content) paragraphs to achieve a similar layout.
-> 
+>
 ### Lily
+
 ![lily--landing-page__4-columns](paragraphs--4c--lily.png)
 
 ### Rose
+
 ![rose--landing-page__4-columns](paragraphs--4c--rose.png)
 
 ---
 
-## Areas it Can Be Used:
+## Areas it Can Be Used
 
 * Content Area
 * Bottom Area
 
 ---
+
 ## How it Works
+
 * Select 4 Columns from the Paragraphs dropdown
 * **Title**: Optional large, all-caps title at the top
 * **Line Above**: Adds a horizontal rule above each column.
@@ -47,7 +51,9 @@ If you want to add multiple rows of content with 4 columns, add a new 4 columns 
 [Learn more about the link field ⇒](../../text-editor/adding-links)
 
 ## Advanced
+
 ### Title Field Styling
+
 In all three themes currently in YMCA Website Services, the Title field displays in a font-size and color nearly identical to the body copy. To override, target `.field-sb-title`.
 
 ### Carnation -> Columns stack in desktop

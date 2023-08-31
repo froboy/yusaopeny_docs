@@ -4,6 +4,7 @@ description: A wide, short image with fields for a title, background color, desc
 ---
 
 ## Examples
+
 ### Carnation
 
 #### Desktop
@@ -53,7 +54,7 @@ Select *Add Small Banner* from the paragraphs dropdown. Then, fill out the follo
   > In Carnation, you will not see the background color unless you choose not to add an image.
 * **Description (optional):** Displays beneath your Title. You have the option to style your text using the text editor, but it’s not as consistent as other places where you typically see the editor..
 * **Image:**  Use the image library to embed an image. You can upload a new image from your computer or reuse an existing image from your library. The image field is optional, but recommended.
-    * *Note -> This does not work in Rose.*
+  * *Note -> This does not work in Rose.*
   For recommended image sizes for your YMCA Website Services site, talk to your agency partner.
 
   > *Note: Unlike [the Banner](../banner), Small Banners don’t come with a specific Link field for buttons without customization.

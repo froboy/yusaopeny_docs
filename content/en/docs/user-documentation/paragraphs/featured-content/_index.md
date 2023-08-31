@@ -6,19 +6,26 @@ description: Add a section of simple columns onto a page with an optional call-t
 ## Examples
 
 ### Carnation
+
 ![Featured content in Carnation](paragraphs--featured-content--carnation.png)
+
 ### Lily
+
 ![Featured content in Lily](paragraphs--featured-content--lily.png)
+
 ### Rose
+
 ![Featured content in Rose](paragraphs--featured-content--rose.png)
 
 ---
+
 ## Areas It Can Be Used
 
 * Content Area
 * Bottom Area
 
 ---
+
 ## How to Use Featured Content
 
 > *Note: The styling for Featured Content differs greatly by theme. This documentation notes the differences in styling between each theme.*

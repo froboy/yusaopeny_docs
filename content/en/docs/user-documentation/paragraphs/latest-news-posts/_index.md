@@ -12,9 +12,11 @@ These three paragraphs embed a listing of News posts, sorted by the most recent,
 ## Examples
 
 ### Carnation
+
 ![Latest blog posts in Carnation](paragraphs--latest-news-posts--carnation.png)
 
 ### Rose
+
 ![Latest blog posts in Rose](paragraphs--latest-news-posts--rose.png)
 
 ---
@@ -33,6 +35,7 @@ From the paragraphs dropdown, add the “Latest News Posts.” Enter a header ti
 ![Latest news posts admin fields](paragraphs--latest-news-posts--admin.png)
 
 ---
+
 ## Content Types that Support Latest News Posts
 
 * [Landing Page](../../content-types/landing-page)

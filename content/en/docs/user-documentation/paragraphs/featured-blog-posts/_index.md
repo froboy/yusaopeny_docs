@@ -8,28 +8,35 @@ description: Create a standalone page with a curated listing of [Blog Posts](../
 ### Carnation
 
 #### Desktop
+
 ![Featured blog posts in Carnation on desktop](paragraphs--features-blogs--carnation.jpeg)
 
 #### Mobile
+
 ![Featured blog posts in Carnation on mobile](paragraphs--features-blogs--carnation-mobile.png)
 
 ### Lily
 
 #### Desktop
+
 ![Featured blog posts in Lily on desktop](paragraphs--features-blogs--lily.jpeg)
 
 #### Mobile
+
 ![Featured blog posts in Lily on mobile](paragraphs--features-blogs--lily-mobile.png)
 
 ### Rose
 
 #### Desktop
+
 ![Featured blog posts in Rose on desktop](paragraphs--features-blogs--rose.jpeg)
 
 #### Mobile
+
 ![Featured blog posts in Rose on mobile](paragraphs--features-blogs--rose-mobile.png)
 
 ---
+
 ## Areas It Can Be Used
 
 * Content Area

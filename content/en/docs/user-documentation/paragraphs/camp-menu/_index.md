@@ -4,17 +4,22 @@ description: Add a horizontal menu beneath the Header Area on a camp page.
 ---
 
 ## Examples
+
 ### Carnation
+
 ![Carnation camp menu](paragraphs--camp-menu--carnation.jpeg)
 
 ### Lily
+
 ![Lily camp menu](paragraphs--camp-menu--lily.jpeg)
+
 ### Rose
+
 ![Rose camp menu](paragraphs--camp-menu--rose.jpeg)
 
 ---
 
-## Areas It Can Be Used:
+## Areas It Can Be Used
 
 * Header Area
 
@@ -47,6 +52,7 @@ It's recommended you limit your menu items to no more than 3 or 4 unless you opt
 ![Carnation camp menu mobile display](paragraphs--camp-menu--mobile.jpeg)
 
 ---
+
 ## Content Types That Support this Paragraph
 
 * [Camp](../../content-types/camp)

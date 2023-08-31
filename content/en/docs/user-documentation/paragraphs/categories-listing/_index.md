@@ -8,23 +8,30 @@ description: Embed horizontal cards for program subcategories on a programs page
 ### Carnation
 
 #### Desktop
+
 ![Categories listing in Carnation on desktop](paragraphs--categories-listing--carnation.jpeg)
 
 #### Mobile
+
 ![Categories listing in Carnation on mobile](paragraphs--categories-listing--carnation-mobile.jpeg)
 
 ### Lily
+
 ![Categories listing in Lily](paragraphs--categories-listing--lily.jpeg)
 
 ### Rose
+
 ![Categories listing in Rose](paragraphs--categories-listing--rose.jpeg)
 
 ---
+
 ## Areas It Should Be Used
 
 * Content Area
+
 ---
-## How To Use It:
+
+## How To Use It
 
 * [On a Programs page](../../content-types/program), go to the content area and click to open it.
 * Select Categories listing.
@@ -38,6 +45,7 @@ description: Embed horizontal cards for program subcategories on a programs page
 [Learn more about programs subcategories content type ⇒](../../content-types/program-subcategory)
 
 ---
+
 ## Content Types that Support Categories Listing
 
 * [Program](../../content-types/program)

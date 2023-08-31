@@ -11,6 +11,7 @@ description: Add a section of basic text onto a page.
 ---
 
 ## How to Use Simple Content
+
 From the paragraphs dropdown, select *Add Simple Content*. standard text editor will appear, and you can style your text however you want.
 
 [Learn How to Use the Text Editor ⇒](../../text-editor)

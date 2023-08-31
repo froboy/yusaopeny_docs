@@ -6,22 +6,28 @@ description: Embed one or more rows of up to four columns of content - each with
 ## Examples
 
 ### Carnation
+
 ![Grid content in Carnation](paragraphs--grid-content--carnation.png)
 
 ### Lily
+
 ![Grid content in Lily](paragraphs--grid-content--lily.png)
 
 ### Rose
+
 ![Grid content in Rose](paragraphs--grid-content--rose.png)
 
 ---
 
-## Areas It Should Be Used:
+## Areas It Should Be Used
 
 * Content Area
 * Bottom Area
+
 ---
-## How to Use Grid Content:
+
+## How to Use Grid Content
+>
 > *Note on Grid Content: This paragraph’s style will vary greatly depending on your theme. The docs outline how to use the fields.*
 
 ![Select grid content from the list of paragraphs](paragraphs--grid-content--select.png)
@@ -37,11 +43,13 @@ Select a style to choose how wide you want each section to be; the more items pe
 ### Examples
 
 #### 2 items per row w/ 2 Grid Columns
+
 ![Grid content admin with 2 items selected](paragraphs--grid-content--admin.png)
 
 ![Grid content example with two items](paragraphs--grid-content--2-col.png)
 
 #### 3 items per row w/ 2 grid columns
+
 ![Grid content admin with 3 items selected](paragraphs--grid-content--admin-3col.png)
 ![Grid content example with 3 items selected](paragraphs--grid-content--3-col.png)
 
@@ -64,6 +72,7 @@ For each item you add, you will have the following fields:
 * **Link** - Two fields to add a URL and a link. Depending on your theme, the link will style either as a basic link or as a button.
 
   [How link fields work in YMCA Website Services ⇒](../../content-editing-basics/#linksbutton-fields)
+
 > Note: If you add more items than your selected style, you will create a new row. For example:
 >
 >* 2 items per row style, 3 items added -> two rows of content

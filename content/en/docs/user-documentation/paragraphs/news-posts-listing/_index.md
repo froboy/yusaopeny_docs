@@ -18,7 +18,6 @@ From the paragraphs dropdown, add the *News Posts Listing*. Enter a header title
 
 > ***Note:** Advanced users can make changes to the exposed fields using the Views module and the paragraphs settings.*
 
-
 ## Content Types that Support News Posts
 
 * [Landing Page](../../content-types/landing-page)

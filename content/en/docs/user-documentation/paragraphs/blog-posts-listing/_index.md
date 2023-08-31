@@ -6,12 +6,15 @@ description: Add a section with teaser cards that link to blog posts and dropdow
 ## Examples
 
 ### Carnation
+
 ![Carnation blog post listing](paragraphs--blog-posts-listing--carnation.jpeg)
 
 ### Lily
+
 ![Lily blog post listing](paragraphs--blog-posts-listing--lily.jpeg)
 
 ### Rose
+
 ![Rose blog post listing](paragraphs--blog-posts-listing--rose.jpeg)
 
 ## Areas it Should Be Used

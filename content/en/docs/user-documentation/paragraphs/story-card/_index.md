@@ -5,7 +5,7 @@ description: Add a simple card to the sidebar with a title, headline and call to
 
 > This Paragraph works best in Lily and Rose.
 
-## Areas it Can Be Used:
+## Areas it Can Be Used
 
 * Sidebar Area
 

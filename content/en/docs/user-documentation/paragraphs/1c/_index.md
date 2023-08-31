@@ -4,14 +4,17 @@ description: Embeds a single column of content into an container, with an option
 ---
 
 ## Examples
+
 ### Rose - Without Block
 
 ![rose--landing-page_1-column-no-block](paragraphs--1c--rose-without.png)
 
 ### Rose - With Block
+
 ![rose--landing-page__1-column-with-block](paragraphs--1c--rose-with.png)
 
 ### Carnation - With Custom Block
+
 ![carnation--landing-page_1-column-with-block|690x186](paragraphs--1c--carnation.png)
 
 ---

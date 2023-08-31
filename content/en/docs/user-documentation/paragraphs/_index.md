@@ -48,7 +48,7 @@ Sometimes you have one layout in your head and it doesn’t look as good when yo
 
 Need to fix a typo? Click the edit button next to each paragraph to open it back up and make edits.
 
-##  Deleting Paragraphs
+## Deleting Paragraphs
 
 Maybe you didn’t need that section. Don’t worry: you can easily delete a paragraph by clicking on the remove option from the dropdown next to where it says “Edit.”
 

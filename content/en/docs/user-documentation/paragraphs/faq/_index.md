@@ -4,6 +4,7 @@ description: Create an easy-to-read FAQ or policy section. FAQ adds an accordion
 ---
 
 ## Example
+
 ![An example of the FAQ paragraph](paragraphs--faq--example.png)
 
 ---
@@ -12,8 +13,10 @@ description: Create an easy-to-read FAQ or policy section. FAQ adds an accordion
 
 * Content Area
 * Sidebar Area
+
 ---
-## How it Works:
+
+## How it Works
 
 * Select *FAQ* from the paragraph dropdown
 
@@ -28,7 +31,9 @@ description: Create an easy-to-read FAQ or policy section. FAQ adds an accordion
   **[Learn how to use the text editor ⇒](../../text-editor)**
 
 ---
+
 ### Add Another Section
+
 To add another Question and Answer, click the *Add another item* button at the bottom of your paragraph.
 
 ![The "add another" button](paragraphs--faq--add-another.png)

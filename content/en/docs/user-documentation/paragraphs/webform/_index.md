@@ -3,7 +3,7 @@ title: Webform
 description: Add an existing Webform to a page.
 ---
 
-## Areas it Should be used:
+## Areas it Should be used
 
 * Content Area
 * Sidebar Area

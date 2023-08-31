@@ -12,20 +12,25 @@ You can have a gallery with a simple title, and you can also add a description b
 ### Carnation
 
 #### Desktop
+
 ![Gallery in Carnation on desktop](paragraphs--gallery--carnation.jpeg)
 
 #### Mobile
+
 ![Gallery in Carnation on mobile](paragraphs--gallery--carnation-mobile.jpeg)
 
 ### Lily
 
 #### Desktop
+
 ![Gallery in Lily on desktop](paragraphs--gallery--lily.jpeg)
 
 #### Mobile
+
 ![Gallery in Lily on mobile](paragraphs--gallery--lily-mobile.jpeg)
 
 ### Rose
+
 ![Gallery in Rose on desktop](paragraphs--gallery--rose.jpeg)
 
 ---
@@ -35,9 +40,10 @@ You can have a gallery with a simple title, and you can also add a description b
 * Header Area
 * Content Area
 * Bottom Area
+
 ---
 
-## How to Add/Edit a Gallery:
+## How to Add/Edit a Gallery
 
 Once you’ve selected a gallery from the paragraphs dropdown, enter a *Headline* for the gallery.
 

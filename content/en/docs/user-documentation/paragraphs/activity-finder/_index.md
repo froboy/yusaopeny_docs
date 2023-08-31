@@ -18,16 +18,16 @@ There are three primary approaches to setting this up: a standard approach, a re
 
 ### Standard Approach
 
-- Create two Landing Pages. Title one “Find a Program” and the other “Program Search.”
-- On the “Find a Program” page, add the “Activity Finder” paragraph. Type in “Program Search” and select your Program Search in the “Activity Finder Search Results Page Reference” field.
-- At the bottom, you will see a field called “Title” Change the title to “Find a Program” Save the page.
-- Next, on the “Program Search” page, add the “Activity Finder Search Results” paragraph into the Content Area. Type in “Find a Program” on the “Activity Finder Page Reference” page.
+* Create two Landing Pages. Title one “Find a Program” and the other “Program Search.”
+* On the “Find a Program” page, add the “Activity Finder” paragraph. Type in “Program Search” and select your Program Search in the “Activity Finder Search Results Page Reference” field.
+* At the bottom, you will see a field called “Title” Change the title to “Find a Program” Save the page.
+* Next, on the “Program Search” page, add the “Activity Finder Search Results” paragraph into the Content Area. Type in “Find a Program” on the “Activity Finder Page Reference” page.
 
 ### Results-Only Approach
 
 If you plan on using deep-linking or want to forgo the guided search experience, you can use the “Activity Finder Search Results.” Create a Landing Page called “Program Search” using the One Column (Full Width) layout.
 
-- Add the “Activity Finder Search Results” paragraph into your content area and leave the “Activity Finder Page Reference” field blank. Save your page.
+* Add the “Activity Finder Search Results” paragraph into your content area and leave the “Activity Finder Page Reference” field blank. Save your page.
 
 ### Targeted Approach
 

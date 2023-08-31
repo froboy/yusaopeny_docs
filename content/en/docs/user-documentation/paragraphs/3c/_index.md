@@ -6,15 +6,20 @@ description: Add three equal-width, reusable blocks of content, side-by-side. Co
 ## Examples
 
 ### Carnation
+
 ![carnation--landing-page__3-columns](paragraphs--3c--carnation.png)
+
 ### Lily
+
 ![lily--landing-page__3-columns](paragraphs--3c--lily.png)
+
 ### Rose
+
 ![rose--landing-page__3-columns](paragraphs--3c--rose.png)
 
 ---
 
-## Areas it Can Be Used:
+## Areas it Can Be Used
 
 * Content Area
 * Bottom Area
@@ -22,15 +27,14 @@ description: Add three equal-width, reusable blocks of content, side-by-side. Co
 ---
 
 ## How it Works
-![landing-page__3-columns-dropdown](paragraphs--3c--dropdown.png)
 
+![landing-page__3-columns-dropdown](paragraphs--3c--dropdown.png)
 
 * Select 3 Columns from the Paragraphs dropdown.
 * **Title**: Optional large, all caps title at the top.
 * Add custom blocks to the *Left Column*, *Center Column*, and *Right Column* fields.
 
 [Learn more about custom blocks ⇒](../../blocks)
-
 
 ![landing-page__3-columns-options](paragraphs--3c--options.png)
 

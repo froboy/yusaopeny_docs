@@ -4,6 +4,7 @@ description: Embed a listing of blog posts with optional filtering by Camp/Branc
 ---
 
 These three paragraphs embed a listing of blog posts, sorted by the most recent, in a card design.
+
 * **Latest Blog Posts** shows all the most recent blog posts across your entire site.
 * **Latest Blog Posts (Branch)** filters your most recent blog posts by the branch the paragraph is embedded on (for example, if on a Downtown YMCA page, only Downtown YMCA blog posts will show up). Placed on a non-branch page, only the headline will show up.
 * **Latest Blog Posts (Camp)** filters blog posts by the branch the paragraph is embedded on (for example, if on a Camp Widjiwagan page, only Camp Widjiwagan YMCA blog posts will show up). Placed on a non-camp page, only the headline will show up.
