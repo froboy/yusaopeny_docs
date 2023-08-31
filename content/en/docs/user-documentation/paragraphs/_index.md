@@ -14,7 +14,7 @@ You can add a paragraph onto a page when you see the paragraphs dropdown field. 
 * *Sidebar Area* - Where you put related information, such as promotions and links to other content.
 * *Bottom Area* - The “anchoring” elements of your page, such as a call to action.
 
-![Choose a paragraph by selecting an area and picking an option from the dropdown., 75%](upload://nuI2Q27pR437LWvdUifiQg3nRJX.gif)
+![Choose a paragraph by selecting an area and picking an option from the dropdown.](paragraphs--select.gif)
 
 > Not all content types use all four regions. For example, a content type use its fields to put content inside the Sidebar Area, while another may have a sidebar area but use its Image field instead of a Header Area
 
@@ -42,7 +42,7 @@ If you've upgraded to YMCA Website Services 2.4 or later, you can add a paragrap
 
 Sometimes you have one layout in your head and it doesn’t look as good when you add it to your page. You can easily move around your sections by clicking on the cross icon to the left of your paragraphs. Drag around your paragraphs to rearrange.
 
-![Just drag your paragraphs to rearrange them](../../../../../assets/img/fc8d41e992ec8bbb3bbae6a9753fbebdbdecb661.gif)
+![Just drag your paragraphs to rearrange them](paragraphs--reorder.gif)
 
 ## Editing Paragraphs
 
