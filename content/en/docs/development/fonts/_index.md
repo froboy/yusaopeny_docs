@@ -12,6 +12,8 @@ From [YMCA Link](https://link.ymca.net/mlink/post/ODI2MA):
 >
 > * [Download Cachet as a Web Font ](https://theybrand.org/wordpress/cachet) (requires YMCA Link login)
 
+**Developers:** YMCA development partners can take advantage of a custom module which allows for automation of this process. [Get in touch](mailto:ycloud@ymca.net) or reach out in `#developers` on the YUSA Slack for more details.
+
 Once you've downloaded the WOFF files, you'll need to add them to your site. These instructions mirror the [walkthrough in this video](https://www.youtube.com/watch?v=Kl1lwYSg3ww&feature=youtu.be).
 
 - Visit **Admin** > **Extend** and ensure the "@fontyourface" and "@fontyourface - Local Fonts" modules are enabled.
@@ -25,13 +27,10 @@ Once you've downloaded the WOFF files, you'll need to add them to your site. The
 | Cachet Medium | Cachet | Normal | 500 | Sans Serif | CachetW05-Medium.woff |
 | Cachet Bold | Cachet | Normal | 700 | Sans Serif | CachetW05-Bold.woff |
 
-![Add_custom_font|591x500](../../assets/Add_custom_font.png)
-
+![Add_custom_font|591x500](Add_custom_font.png)
 
 - After you've added each font, **Enable** them.
 
-![Custom_Font|690x156, 100%](../../assets/Custom_Font.png)
+![Custom_Font|690x156, 100%](Custom_Font.png)
 
 - Your site should now use the Cachet font in headers and other areas. Usage is dependent on the YMCA Website Services theme you choose.
-
-This content was originally [published on the YMCA Website Services Message Board](https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894).
