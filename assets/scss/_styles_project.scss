@@ -71,3 +71,8 @@ kbd {
   border-radius: 3px;
   color: inherit;
 }
+
+// Fix Algolia DocSearch item scroll bug
+.DocSearch-Hit-content-wrapper {
+  overflow-y: hidden;
+}
