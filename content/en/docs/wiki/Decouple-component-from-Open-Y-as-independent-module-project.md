@@ -6,7 +6,7 @@ title: Decouple component from YMCA Website Services as independent module proje
 
 In 2019 the YMCA Website Services team started decoupling major components to streamline the distribution and simplify support.
 
-Communication started in the [Community Board - Ejecting modules from OpenY distro as independent projects](https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513).
+Communication started in the Community Board - Ejecting modules from OpenY distro as independent projects.
 
 The decoupling process is ongoing. See [the index of decoupled projects]({{< relref "Decoupled-(-external-)-projects-of-OpenY" >}}).
 

@@ -6,9 +6,9 @@ weight: 5
 Here are some things you should check before you go live with your Virtual Y site: 
 
 ## Review your content
-* [Disable any Virtual Y sections](https://community.openymca.org/t/virtual-y-0-14-update-flexible-virtual-y-content-types/834) that you’re not using.
+* [Disable any Virtual Y sections](https://github.com/ymcatwincities/openy_gated_content/releases/tag/1.4) that you’re not using.
   * Ensure that you’ve disabled links to those sections in your Main Navigation.
-* Review and click through Main Navigation and [Footer links](https://community.openymca.org/t/managing-footer-links-virtual-ymca-user-docs/843/2) to ensure they’re all valid.
+* Review and click through Main Navigation and [Footer links](../managing-footer-links) to ensure they’re all valid.
 * Visit `/admin/content` and ensure any demo content is deleted or unpublished.
 * Visit **Virtual Y** > **Event Series** and ensure any demo content is deleted.
 * Ensure that Virtual Y content is displaying as you expect.

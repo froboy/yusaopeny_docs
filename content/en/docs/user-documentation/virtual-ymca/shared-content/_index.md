@@ -4,7 +4,7 @@ title: "Shared Content"
 
 [Requirements](#requirements) | [Getting Started](#getting-started) | [Fetching Shared Content](#fetching) | [Publishing Shared Content](#publishing) | [FAQ](#faq)
 
-[Released in 0.12](https://community.openymca.org/t/virtual-y-shared-content/822), Virtual Y's Shared Content module allows Y's to share their content with other associations/branches and to pull shared content to use on their own site.
+[Released in 0.12](https://github.com/ymcatwincities/openy_gated_content/releases/tag/1.2), Virtual Y's Shared Content module allows Y's to share their content with other associations/branches and to pull shared content to use on their own site.
 
 <a name="requirements"></a>
 ## Requirements
@@ -29,8 +29,7 @@ To start sharing content, you need to get your site ready.
 
 On the Drupal **Extend** page (`/admin/modules`), enable **Virtual Y Shared Content**. If your site is hosted on a managed hosting environment, this step is either already done for you or will need to be done by your hosting partner.
 
-![A visual depiction of the sequence to install the Virtual Y Shared Content module](./shared_content_install.png) 
-
+![A visual depiction of the sequence to install the Virtual Y Shared Content module](./shared_content_install.png)
 
 Accept any other required modules if asked.
 
