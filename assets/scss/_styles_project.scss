@@ -6,6 +6,10 @@ a.navbar-brand span + span {
   display: none;
 }
 
+main a {
+  text-decoration: underline;
+}
+
 // Swap the sidebar nav and utility position
 aside.d-xl-block {
   @media (min-width: 1200px) {
