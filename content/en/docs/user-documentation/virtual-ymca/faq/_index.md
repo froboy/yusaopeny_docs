@@ -5,7 +5,7 @@ weight: 6
 
 For up to the minute conversations and info on Virtual Y and its content, join us in the YUSA Slack. [Request access to Slack](mailto:ycloud@ymca.net)
 
-For even more Virtual Y FAQs, [check out Y-USA’s post.](https://ycloud.y.org/y-cloud-faq)
+For even more Virtual Y FAQs, [check out Y-USA’s post.](https://ds.ymca.org/frequently-asked-questions)
 
 ## Evaluating VY 
 

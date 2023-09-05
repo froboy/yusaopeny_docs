@@ -36,8 +36,8 @@ Upon installation, the modules create a Landing page for search results and poin
 1. Go to https://cse.google.com/, register if you haven't yet, log in if you aren't logged in.
 1. Create the Search Engine (this process is explained in Google documentation https://support.google.com/customsearch/answer/4513882?hl=en&ref_topic=4513742):
    1. Click "New Search Engine".
-   1. Specify the domain of your website (e.g. `www.openymca.org`).
-   1. Specify the name of the Search Engine (e.g. `openymca.org`).
+   1. Specify the domain of your website (e.g. `www.example.com`).
+   1. Specify the name of the Search Engine (e.g. `example.com`).
    1. Click "Create".
 1. On the newly created Search Engine page there is the `Search engine ID` field. Use this value in the YMCA Website Services Google Search configuration form.
 

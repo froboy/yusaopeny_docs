@@ -96,7 +96,7 @@ section = ["HTML", "print", "RSS"]
 
 [params]
 copyright = 'YMCA Website Services'
-privacy_policy = "https://ycloud.y.org/open-y-association-websites/"
+privacy_policy = "https://ds.ymca.org/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]

@@ -10,6 +10,11 @@ main a {
   text-decoration: underline;
 }
 
+.td-box--dark p > a:hover {
+  color: #d9e5f8;
+  text-decoration: none;
+}
+
 // Swap the sidebar nav and utility position
 aside.d-xl-block {
   @media (min-width: 1200px) {
@@ -75,4 +80,8 @@ kbd {
 // Fix Algolia DocSearch item scroll bug
 .DocSearch-Hit-content-wrapper {
   overflow-y: hidden;
+}
+
+footer .text-center .ml-1 a {
+  color: white;
 }

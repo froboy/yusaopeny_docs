@@ -3,7 +3,7 @@ title: Wiki
 weight: 99
 ---
 
-This wiki is the primary location for developer documentation for [YMCA Website Services](https://ycloud.y.org/open-y-association-websites/) - a digital transformation platform for YMCAs.
+This wiki is the primary location for developer documentation for [YMCA Website Services](https://ds.ymca.org/ymcas-website-service) - a digital transformation platform for YMCAs.
 
 # Where to Start
 

@@ -48,7 +48,7 @@ These sandboxes are based on the latest [stable release](https://github.com/YClo
 ```sh
 composer create-project YCloudYUSA/yusaopeny-project buildnew --no-interaction --prefer-dist
 
-ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=sandbox_carnation_custom -e drupal_folder=/var/www/sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus.openy.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -e use_solr=false -i localhost, --connection=local -vvvv
+ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=sandbox_carnation_custom -e drupal_folder=/var/www/sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus.y.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -e use_solr=false -i localhost, --connection=local -vvvv
 ```
 
 </details>
@@ -67,7 +67,7 @@ These sandboxes are based on the [latest development version](https://github.com
 ```sh
 composer create-project YCloudYUSA/yusaopeny-project:dev-9.2.x-development buildnew --no-interaction --prefer-dist
 
-ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=sandbox_carnation_custom -e drupal_folder=/var/www/sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus.openy.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -e use_solr=false -i localhost, --connection=local -vvvv
+ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=sandbox_carnation_custom -e drupal_folder=/var/www/sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus.y.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -e use_solr=false -i localhost, --connection=local -vvvv
 ```
 
 </details>
@@ -79,14 +79,14 @@ We also maintain sandboxes with specific features enabled. Each of these builds
 ### Virtual Y Sandboxes
 
 - [virtual-y-sandboxes.y.org](https://virtual-y-sandboxes.y.org/): latest release
-- [virtual-y-sandboxes-d9.openy.org](https://virtual-y-sandboxes-d9.openy.org/): development version
+- [virtual-y-sandboxes-d9.y.org](https://virtual-y-sandboxes-d9.y.org/): development version
 
 These sandboxes are based on the YMCA Website Services stable Standard profile and the [Virtual Experience Platform](https://github.com/YCloudYUSA/yusaopeny_gated_content) (aka "Virtual Y", aka "Open Y Gated Content") project.
 
 ### Membership Framework Sandboxes
 
 - [membership-framework-sandboxes.y.org](https://membership-framework-sandboxes-d9.y.org/): latest release
-- [membership-framework-sandboxes-d9.y.org](https://membership-framework-sandboxes-d9.openy.org/): development version
+- [membership-framework-sandboxes-d9.y.org](https://membership-framework-sandboxes-d9.y.org/): development version
 
 These are based on the YMCA Website Services stable Standard profile and the development version of the [Membership Framework](https://github.com/YCloudYUSA/yusaopeny_memberships).
 
@@ -98,7 +98,7 @@ composer create-project YCloudYUSA/yusaopeny-project buildnew --no-interaction -
 cd buildnew
 composer config minimum-stability dev
 composer require "openy/openy_memberships":"dev-master as 1.0.0"
-ansible-playbook docroot/reinstall.yml -i /tmp/inventory13097841656330601319.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=d9_sandbox_carnation_std_membership_framework -e drupal_folder=/var/www/d9_sandbox_carnation_std_membership_framework -e site_url=https://sandbox-carnation-std-membership-framework-d9.openy.org -e pp_environment=membership_framework -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=standard openy_theme_select.theme=openy_carnation openy_select_content.content=0'" -e use_solr=false -i localhost, --connection=local -vvvv
+ansible-playbook docroot/reinstall.yml -i /tmp/inventory13097841656330601319.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=d9_sandbox_carnation_std_membership_framework -e drupal_folder=/var/www/d9_sandbox_carnation_std_membership_framework -e site_url=https://sandbox-carnation-std-membership-framework-d9.y.org -e pp_environment=membership_framework -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=standard openy_theme_select.theme=openy_carnation openy_select_content.content=0'" -e use_solr=false -i localhost, --connection=local -vvvv
 ```
 </details>
 
@@ -118,7 +118,7 @@ composer create-project YCloudYUSA/yusaopeny-project:dev-9.2.x-development-af4 b
 cd ${WORKSPACE}/build
 composer require YCloudYUSA/yusaopeny_activity_finder:"4.x-dev as 4.0"
 
-ansible-playbook docroot/reinstall.yml -i /tmp/inventory4660848605526222353.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=d9_sandbox_carnation_custom -e drupal_folder=/var/www/d9_sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus-d9.openy.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -i localhost, --connection=local -vvvv
+ansible-playbook docroot/reinstall.yml -i /tmp/inventory4660848605526222353.ini -f 5 -e php_env_vars=APP_ENV=dev -e mysql_user=*** -e mysql_password=*** -e mysql_db=d9_sandbox_carnation_custom -e drupal_folder=/var/www/d9_sandbox_carnation_custom -e site_url=https://sandbox-carnation-cus-d9.y.org -e pp_environment=demo -e run_reinstall=true -e "openy_profile_install_settings='openy_configure_profile.preset=complete openy_theme_select.theme=openy_carnation'" -i localhost, --connection=local -vvvv
 
 # Solr 4.5-4.9, Activity Finder v4
 drush en -y search_api_solr_legacy openy_prgf_activity_finder_4 || true
