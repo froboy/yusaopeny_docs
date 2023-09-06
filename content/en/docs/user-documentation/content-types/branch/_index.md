@@ -47,7 +47,7 @@ Fill in the content fields:
 
 - **Phone** (required): The main phone line for your branch. Will be displayed as it is entered and linked to allow mobile users to tap to call.
 - **Fax**: Optional.
-- **Email**: We recommend you use a main contact email, such as <info@anytownymca.org>, rather than the email for an individual staff member.
+- **Email**: We recommend you use a main contact email, such as `info@example.com`, rather than the email for an individual staff member.
 - **Directions**: By default, a link with directions is auto-generated using the Address field. Use this field to substitute your own directions link.
 
 ### Branch Hours
