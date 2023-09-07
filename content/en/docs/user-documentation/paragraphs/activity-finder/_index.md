@@ -1,6 +1,8 @@
 ---
 title: Activity Finder
 description: Embed the Activity Finder program search experience on your website, which helps users pre-filter the activities they want to search for.
+tags:
+  - "Activity Finder"
 ---
 
 **Areas It Should Be Used**

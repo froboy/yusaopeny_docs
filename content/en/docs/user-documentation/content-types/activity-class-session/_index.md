@@ -1,6 +1,8 @@
 ---
 title: Activity, Class, and Session
-description: Format data from third parties (e.g. Daxko, Personify, or ActiveNet), for display in Activity Finder. 
+description: Format data from third parties (e.g. Daxko, Personify, or ActiveNet), for display in Activity Finder.
+tags:
+  - "Activity Finder"
 ---
 
 Content editors rarely, if ever, enter information directly into these content types on a day-to-day basis. However, it is important to know how they work and how they relate to manually-entered content.
