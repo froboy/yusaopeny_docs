@@ -26,4 +26,4 @@ A core team led by a small group of YMCAs including the [YMCA of the North ( for
 YMCA Website Services is similar to the [Thunder Coalition](http://www.thunder.org) for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site.
 
 # Details
-For more details please visit [https://ycloud.y.org/open-y-association-websites](https://ycloud.y.org/open-y-association-websites).
+For more details please visit [ds.ymca.org](ds.ymca.org).

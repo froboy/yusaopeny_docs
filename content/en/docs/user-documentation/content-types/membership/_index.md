@@ -7,7 +7,8 @@ tags:
 
 
 
---- 
+---
+
 ## Membership Fields
 
 ### General Information
@@ -19,6 +20,7 @@ tags:
 ![A screenshot with the Membership content title, image, and description.](membership--general-info.png)
 
 ### Membership Info
+
 The Membership Info Paragraph lists detailed membership information per location. Add one "Membership Info" section for each location that your membership applies to. If a location does not offer a membership type, you can leave it out.
 
 - **Location:** A reference to an already-existing [Branch](../branch). If the branch does not exist, you'll need to create it first.

@@ -1,0 +1,5 @@
+# Skip github links on every page
+
+ https://github.com/ycloudyusa/yusaopeny_docs/.*
+ mailto
+ email-protection

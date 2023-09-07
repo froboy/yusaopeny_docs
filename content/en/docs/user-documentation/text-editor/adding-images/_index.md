@@ -9,7 +9,7 @@ This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Medi
 
 ### NOTE TO USERS OF YMCA Website Services 2.4+
 
-> This documentation is not up-to-date if you are using [YMCA Website Services 2.4](https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624) and later.
+> This documentation is not up-to-date if you are using [YMCA Website Services 2.4](https://github.com/ymcatwincities/openy/releases/tag/8.2.4.0) and later.
 >
 > [View video tutorial  for Open 2.4 and later ⇒](https://www.youtube.com/watch?v=gcaBlhyPZEY)
 
@@ -53,5 +53,5 @@ When you're ready to embed the image, just click "Embed." You can also click the
 
 ## More on Images
 
-* [View all image tutorial videos ⇒](https://community.openymca.org/t/video-tutorials-for-images-and-documents/738)
-* [Learn how to create media tags and folders with Taxonomies ⇒](https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734)
+* [View all image tutorial videos ⇒](../../media)
+* [Learn how to create media tags and folders with Taxonomies ⇒](../../taxonomy)

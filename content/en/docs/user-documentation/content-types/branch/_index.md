@@ -3,9 +3,10 @@ title: Branch
 description: One of the first places members go when they visit a Y website is to their local Y’s page.
 ---
 
-Branch pages contain multiple data fields that work together to help members find the right location, hours, and amenities that fits their needs. 
+Branch pages contain multiple data fields that work together to help members find the right location, hours, and amenities that fits their needs.
 
-**Designs:** 
+**Designs:**
+
 - Branch Page - [Mobile](<../../../../../../assets/img/designs/lb/Branch Location Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Location Desktop.png>)
 - Branch Amenities - [Mobile](<../../../../../../assets/img/designs/lb/Branch Amenities Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Amenities Desktop.png>)
 - Branch Hours - [Mobile](<../../../../../../assets/img/designs/lb/Branch Location Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Location Desktop.png>)
@@ -32,22 +33,26 @@ Fill in the content fields:
 ### Contact Info
 
 - **Address**: The physical address of your location. Be sure to include all address fields.
-- **Branch Coordinates** (required): This field pins your branch on the locations map. <details><summary>To get your branch's coordinates ([with Google Maps](https://support.google.com/maps/answer/18539?hl=en&co=GENIE.Platform%3DDesktop)):</summary> 
+- **Branch Coordinates** (required): This field pins your branch on the locations map.
+  <details><summary>To get your branch's coordinates:</summary>
 
-  - Search for your Y location 
+  ([with Google Maps](https://support.google.com/maps/answer/18539?hl=en&co=GENIE.Platform%3DDesktop))
+  
+  - [Search](https://www.google.com/maps) for your Y location
   - Right-click the location in the map ![Screenshot of Google Maps showing the right-click menu with the latitude/longitude item selected.](branch-lat-long-copy.png)
   - To copy the coordinates, left-click on the latitude and longitude.
   - Paste the `lat, long` into one of the fields, then cut and paste to separate them. ![Screenshot of the Drupal Branch admin screen with the latitude and longitude separated into different fields.](branch-lat-long-paste.png)
+
 </details>
 
 - **Phone** (required): The main phone line for your branch. Will be displayed as it is entered and linked to allow mobile users to tap to call.
 - **Fax**: Optional.
-- **Email**: We recommend you use a main contact email, such as info@anytownymca.org, rather than the email for an individual staff member.
+- **Email**: We recommend you use a main contact email, such as `info@example.com`, rather than the email for an individual staff member.
 - **Directions**: By default, a link with directions is auto-generated using the Address field. Use this field to substitute your own directions link.
 
 ### Branch Hours
 
-Add the main hours for your facility. These are displayed in the header and on the Locations page. 
+Add the main hours for your facility. These are displayed in the header and on the Locations page.
 
 - **Custom hours label**: The title displayed in the "All hours" dropdown. Clearing this field will hide the section from the Branch page.
 - **Mon, Tue, ...**: Add the hours for each day of the current week. Use the format `7am-5pm` to save space.
@@ -65,9 +70,9 @@ Add the main hours for your facility. These are displayed in the header and on t
 
 There is no image field for the Branch content type, so you will need to add one of the following paragraphs to add an image and title at the top of your page:
 
-* [Banner](../../paragraphs/banner)
-* [Small Banner](../../paragraphs/small-banner)
-* [Gallery](../../paragraphs/gallery)
+- [Banner](../../paragraphs/banner)
+- [Small Banner](../../paragraphs/small-banner)
+- [Gallery](../../paragraphs/gallery)
 
 ### Content Area
 
@@ -77,9 +82,9 @@ The Branch Content Type only has one layout option—one column—and no descrip
 
 The following paragraph types integrate directly with Branch:
 
-* [Latest Blog Posts (Branch)](../../paragraphs/latest-blog-posts)
-* [Latest News Posts (Branch)](../../paragraphs/latest-news-posts)
-* Branch Amenities with Icons (see Branch Amenities below)
+- [Latest Blog Posts (Branch)](../../paragraphs/latest-blog-posts)
+- [Latest News Posts (Branch)](../../paragraphs/latest-news-posts)
+- Branch Amenities with Icons (see Branch Amenities below)
 
 ### Bottom Area
 
@@ -87,10 +92,10 @@ The following paragraph types integrate directly with Branch:
 
 Use the bottom area for anchoring elements on your page. The following paragraphs are great for this area:
 
-* [Small Banner](../../paragraphs/small-banner)
-* [Gallery](../../paragraphs/gallery)
-* [Webform](../../paragraphs/webform)
-* [Limited Time Offer](../../paragraphs/limited-time-offer)
+- [Small Banner](../../paragraphs/small-banner)
+- [Gallery](../../paragraphs/gallery)
+- [Webform](../../paragraphs/webform)
+- [Limited Time Offer](../../paragraphs/limited-time-offer)
 
 ### Branch Amenities
 
@@ -119,11 +124,11 @@ The Branch Menu is a single level sub-menu that displays within a branch page (a
 
 Beginning in [Website Services 9.2.13]({{% relref "release-ds-9.2.13.md" %}}) content editors have the option of customizing the Branch page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a branch-by-branch basis in order to ease the transition.
 
-The **Use Layout Builder** checkbox on the Branch edit page non-destructively switches between Paragraphs and Layout Builder. 
+The **Use Layout Builder** checkbox on the Branch edit page non-destructively switches between Paragraphs and Layout Builder.
 
 ### Layout Builder Blocks
 
-Branch pages have a number of specialized components that utilize the structured data (fields) that already exist on your branch page in newly designed Layout Builder Blocks. 
+Branch pages have a number of specialized components that utilize the structured data (fields) that already exist on your branch page in newly designed Layout Builder Blocks.
 
 In addition to using many of the standard Layout Builder components, Branch pages also use a number of components that display fields described above:
 
@@ -142,22 +147,22 @@ One additional component is available that requires additional information:
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Branch Social Links Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Social Links Desktop.png>)
 
-This component allows you to place up to 6 social media links on a branch page. 
+This component allows you to place up to 6 social media links on a branch page.
 
 - Add the **Branch Social Links** block to the pre-configured **Social links** section of your page using [the standard process](../../layout-builder#blocks).
-- Add up to 6 links in the **Links** field. Icons for each social media platform will be populated automatically. 
+- Add up to 6 links in the **Links** field. Icons for each social media platform will be populated automatically.
   - Currently supported platforms include: Facebook, Instagram, Linkedin, Twitter, and YouTube. [Request a new platform](https://www.drupal.org/node/add/project-issue/lb_branch_social_links_blocks) if you need.
 - After adding or updating the block, be sure to [save and publish your branch](../../layout-builder#saving-and-publishing).
 
 ### Migrating to Layout Builder
 
-Migrating Branches to Layout builder involves recreating some content on the page. The process is similar to [building a new Landing Page with Layout Builder](../../layout-builder#creating-a-new-page), but with a lot of the work done for you! 
+Migrating Branches to Layout builder involves recreating some content on the page. The process is similar to [building a new Landing Page with Layout Builder](../../layout-builder#creating-a-new-page), but with a lot of the work done for you!
 
 Once you are ready to migrate a Branch:
 
 1. Either clone the page or open it in a separate tab so that it's easier to compare content.
 2. Prepare the Branch for Layout Builder:
-    - **Edit** the Branch, 
+    - **Edit** the Branch,
     - Add links in the **Menu** section if you'd like,
     - click **Use Layout Builder**,
     - if you'd like, **uncheck Published** while you do the migration to temporarily hide the page, then

@@ -2,7 +2,7 @@
 
 [Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **YMCA Website Services Docs Project** uses the
-Docsy theme to serve documentation for the [YMCA Website Services](https://ycloud.y.org/open-y-association-websites) distribution.
+Docsy theme to serve documentation for the [YMCA Website Services](https://ds.ymca.org/) distribution.
 
 You can find detailed theme instructions in the [Docsy user guide][].
 
@@ -13,14 +13,14 @@ To contribute to this repo:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/YCloudYUSA/yusaopeny_docs)
 
-OR (the old fashioned way)...
+OR (the old-fashioned way)...
 
 1. Fork this repo if you're not a maintainer.
 
 2. Clone the repo, being sure to include the submodules:
 
 ```bash
-git clone https://github.com/open-y-subprojects/openy_docs.git
+git clone https://github.com/YCloudYUSA/yusaopeny_docs.git
 ```
 
 You can now edit your own versions of the site’s source files.
@@ -37,7 +37,7 @@ Building and running the site locally requires a recent `extended` version of [H
 You can find out more about how to install Hugo for your environment in our
 [Getting started](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
 
-Once you've made your working copy of the site repo, from the repo root folder, run:
+Once you've made your working copy of the site repo, from the repo root folder, run [hugo server](https://gohugo.io/commands/hugo_server/):
 
 ```
 hugo server
