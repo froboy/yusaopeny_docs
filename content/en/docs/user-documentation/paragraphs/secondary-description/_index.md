@@ -3,7 +3,7 @@ title: Secondary Description and Sidebar
 description: Add a bottom area element with two columns of reusable content for anchoring a page.
 ---
 
-> Note: This element does not work properly in Carnation.
+> Note: This element does not work properly in Carnation and is considered deprecated.
 
 ## Example
 
