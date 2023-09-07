@@ -1,6 +1,6 @@
 ---
 title: Activity, Class, and Session
-description: Format data/content pulled from third parties, such as Daxko, Personify and ActiveNet, for display in YMCA Website Services. 
+description: Format data from third parties (e.g. Daxko, Personify, or ActiveNet), for display in Activity Finder. 
 ---
 
 Content editors rarely, if ever, enter information directly into these content types on a day-to-day basis. However, it is important to know how they work and how they relate to manually-entered content.
