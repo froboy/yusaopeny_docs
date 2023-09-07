@@ -20,6 +20,10 @@ These are our best practices for back-porting large features into YMCA Website S
 
 *Steps/process for back-porting code into YMCA Website Services*
 
+> Most problems have at least a generic component and can be approached in part through abstracted development.
+
+We recommend beginning development with an eye toward [these "abstracted" solutions](https://guidebook.civicactions.com/en/latest/practice-areas/engineering/drupal/most-important-decision-in-developing-a-drupal-site-contributed-vs-custom-development/) - providing configuration instead of static templates, solving root causes instead of using local patches, using generic language instead of client specific. This will ensure that your features are easily contributed even before you begin this process.
+
 1. List each customization/feature you want to contribute to YMCA Website Services
 
 * It's plausible that there are portions of your code that it might not make sense to put into the distribution, either because it's duplicative to what YMCA Website Services already has, or it might be cost prohibitive to decouple it from your site for back-porting.
