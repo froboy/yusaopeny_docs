@@ -48,3 +48,11 @@ In the Advanced options of the link dialog, you can add attributes to links, inc
 To update/change a link, click on the link text then click the link icon or use the popup options (in CKEditor 5).
 
 To remove a link, highlight the link text and click the unlink icon.
+
+## Improving internal linking with Linkit
+
+A community-contributed module, [Linkit](https://www.drupal.org/project/linkit)
+
+> provides an autocomplete interface for internal and external linking in rich-text editors. Linkit supports nodes, users, taxonomy terms, files, comments and basic support for all types of entities that define a canonical link template.
+
+Drupal core will [soon provide link autocomplete suggestions](https://www.drupal.org/project/drupal/issues/3317769) in CKEditor similar to what this module does. Until that issue is complete, developers may want to [install and configure Linkit](https://www.drupal.org/project/linkit) to improve the linking experience in the WYSIWYG editor.
