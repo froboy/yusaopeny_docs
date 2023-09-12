@@ -1,7 +1,8 @@
 ---
 title: Membership Framework
 description: This application is built on Drupal Commerce and provides advanced options for building a membership journey.
-tags: "Decoupled Applications"
+tags: 
+  - "Decoupled Applications"
 ---
 
 The Membership Framework is distributed in the [`openy_memberships` repository](https://github.com/YCloudYUSA/yusaopeny_memberships) and must be [added and installed](https://github.com/YCloudYUSA/yusaopeny_memberships#installation) on top of the base distribution. We recommend working with your development partner if you wish to go this route.
