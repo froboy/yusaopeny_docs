@@ -1,6 +1,6 @@
 ---
 title: How to integrate with social media
-linkTitle: "... integrate social media"
+linkTitle: "integrate social media"
 description: Embedded social feeds or posts can help share your message with users. 
 aliases:
   - /docs/development/addthis/

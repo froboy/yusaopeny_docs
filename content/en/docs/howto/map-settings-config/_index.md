@@ -1,6 +1,6 @@
 ---
 title: How to customize your locations map
-linkTitle: "... customize your map"
+linkTitle: "customize your map"
 aliases:
   - /docs/development/map-settings-config/
 ---

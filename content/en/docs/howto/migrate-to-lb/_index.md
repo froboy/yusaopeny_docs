@@ -1,6 +1,6 @@
 ---
 title: How to migrate content into Layout Builder
-linkTitle: "... migrate to Layout Builder"
+linkTitle: "migrate to Layout Builder"
 description: Making the leap to Layout Builder can seem daunting, but we have resources to help.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: How to perform a content audit
-linkTitle: "... perform a content audit"
+linkTitle: "perform a content audit"
 description: Content audits help get an overview of how your site is structured and can assist with migrations, SEO analysis, and more.
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: How to install Cachet (the official Y Font)
-linkTitle: "... install Cachet"
+description: Cachet, the Y's primary font, should be used for all internal and external materials whenever possible.
+linkTitle: "install Cachet"
 aliases:
   - /docs/development/fonts/
 ---
