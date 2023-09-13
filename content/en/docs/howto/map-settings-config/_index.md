@@ -1,8 +1,11 @@
 ---
-title: Map Settings & Configuration
+title: How to customize your locations map
+linkTitle: "... customize your map"
+aliases:
+  - /docs/development/map-settings-config/
 ---
 
-YMCA Website Services includes robust mapping functionality defined in the [openy_map subproject](https://github.com/open-y-subprojects/openy_map). Maps typically are displayed on the `/locations` page and are highly customizable.
+YMCA Website Services includes robust mapping functionality defined in the [openy_map subproject](https://github.com/open-y-subprojects/openy_map). Maps typically are displayed on the `/locations` page using the [Location Finder component](../../user-documentation/layout-builder/location-finder) and are highly customizable.
 
 These are a few common customizations:
 
@@ -14,7 +17,7 @@ By default, content types have these labels on the map:
 - Camp = Camps
 - Facility = Facilities
 
-![Screenshot showing map labels](./map-labels.png)
+![Screenshot showing map labels](map-labels.png)
 
 These labels can be customized in the Drupal administration pages to better suit your YMCA's more member-focused terminology. To do so:
 
