@@ -5,7 +5,7 @@ title: YMCA Website Services technology pipeline
 To deliver the best technologies for the YMCA movement, the YMCA Website Services development community maintains the following documents and best practices:
 
 1. [Development FAQ]({{< relref "Development-FAQ" >}})
-1. [YMCA Website Services Coding Standards]({{< relref "Code-Review-Quality-Best-Practices" >}})
+1. [YMCA Website Services Coding Standards]({{< relref "../Code-Review-Quality-Best-Practices" >}})
 1. [How new technologies and features are added to YMCA Website Services](./how-to-contribute-large-features-into-open-y-backporting-etc)
 1. [Sandboxes]({{< relref "Sandboxes.md" >}})
 1. Smoke Tests

@@ -16,7 +16,7 @@ To understand how we use and develop technologies, refer to the documents below:
 - [Conventional commits policy](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Drupal Coding Standards](https://www.drupal.org/docs/develop/standards)
 - [YMCA Website Services Development FAQ]({{< relref "Development-FAQ" >}})
-- [YMCA Website Services Development Best Practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
+- [YMCA Website Services Development Best Practices]({{< relref "../Code-Review-Quality-Best-Practices" >}})
 
 JavaScript Code Standards
 

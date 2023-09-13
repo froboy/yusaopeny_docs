@@ -9,7 +9,7 @@ For the automated tests we have created [General Checks template](https://github
 on GitHub every developer should follow to get review approval from YMCA Website Services core team.
 However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.
 
-For regression testing, [Behat tests]({{< relref "Tests.md#behat" >}}) in this flow are provided automatically on each build by YMCA Website Services community.
+For regression testing, [Behat tests]({{< relref "../Tests#behat" >}}) in this flow are provided automatically on each build by YMCA Website Services community.
 
 Every pull request should include a testing plan prior to release into YMCA Website Services. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of YMCA Website Services, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of YMCA Website Services once this new code is implemented.
 

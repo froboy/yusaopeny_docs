@@ -2,7 +2,7 @@
 title: YMCA Website Services Pull Requests review standard
 ---
 
-Check more [technical guidelines about our best practices for code quality]({{< relref "Code-Review-Quality-Best-Practices" >}}).
+Check more [technical guidelines about our best practices for code quality]({{< relref "../Code-Review-Quality-Best-Practices" >}}).
 
 # Adherence to Standards
 
@@ -16,7 +16,7 @@ The YMCA Website Services Core Team reserves the right to break these standards 
 
 ## Requirements for Pull Requests
 
-- Code in Pull Requests should follow our established [best practices]({{< relref "Code-Review-Quality-Best-Practices" >}})
+- Code in Pull Requests should follow our established [best practices]({{< relref "../Code-Review-Quality-Best-Practices" >}})
 - Submitters' profiles on GitHub or Drupal.org should be up to date and contain at least a name and organization.
 
 ## Template for the PR
