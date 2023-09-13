@@ -1,5 +1,8 @@
 ---
-title: Fonts
+title: How to install Cachet (the official Y Font)
+linkTitle: "... install Cachet"
+aliases:
+  - /docs/development/fonts/
 ---
 
 From [YMCA Link](https://link.ymca.net/mlink/post/ODI2MA):
@@ -12,7 +15,11 @@ From [YMCA Link](https://link.ymca.net/mlink/post/ODI2MA):
 >
 > * [Download Cachet as a Web Font ](https://theybrand.org/wordpress/cachet) (requires YMCA Link login)
 
-**Developers:** YMCA development partners can take advantage of a custom module which allows for automation of this process. [Get in touch](mailto:ycloud@ymca.net) or reach out in `#developers` on the YUSA Slack for more details.
+## For developers
+
+YMCA development partners can take advantage of a custom module which allows for automation of this process. [Get in touch](mailto:ycloud@ymca.net) or reach out in `#developers` on the YUSA Slack for more details.
+
+## For site builders
 
 Once you've downloaded the WOFF files, you'll need to add them to your site. These instructions mirror the [walkthrough in this video](https://www.youtube.com/watch?v=Kl1lwYSg3ww&feature=youtu.be).
 
