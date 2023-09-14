@@ -7,13 +7,6 @@ aliases:
 
 Welcome to the development corner of the YMCA Website Services distribution.
 
-Here you can find all needed documentation and how-to work with YMCA Website Services codebase from developer's point of view.)
-
-
-This wiki is the primary location for developer documentation for [YMCA Website Services](https://ds.ymca.org/ymcas-website-service) - a digital transformation platform for YMCAs.
-
-# Where to Start
-
 ## For YMCA Associations
 
 - [OpenY Release Schedule]({{< relref "Open-Y-Release-Schedule-and-Guidelines" >}})
@@ -30,8 +23,6 @@ This wiki is the primary location for developer documentation for [YMCA Website 
 - [YMCA Website Services Smoke Tests Index]({{< relref "Open-Y-Smoke-Tests-Index" >}})
 
 ---
-
-# Table of Contents
 
 ## Community Guidelines
 
