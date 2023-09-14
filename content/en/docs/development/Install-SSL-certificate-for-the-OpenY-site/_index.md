@@ -1,5 +1,5 @@
 ---
-title: Install SSL certificate for the OpenY site
+title: Install SSL certificate
 aliases:
   - /docs/wiki/install-ssl-certificate-for-the-openy-site/
 ---

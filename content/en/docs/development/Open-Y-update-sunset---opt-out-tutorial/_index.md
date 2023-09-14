@@ -1,5 +1,5 @@
 ---
-title: Open Y update sunset - opt out tutorial
+title: Open Y analytics sunset
 aliases:
   - /docs/wiki/open-y-update-sunset---opt-out-tutorial/
 ---

@@ -1,5 +1,5 @@
 ---
-title: OpenY security Drupal-SA-CORE-2018-004
+title: Drupal-SA-CORE-2018-004 security update
 aliases:
   - /docs/wiki/openy-security---drupal-sa-core-2018-004/
 ---

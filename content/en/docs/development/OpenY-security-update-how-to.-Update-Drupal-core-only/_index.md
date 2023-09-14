@@ -1,5 +1,5 @@
 ---
-title: OpenY security update how to - Update Drupal core only
+title: SA-CORE-2018-002 security update
 aliases:
   - /docs/wiki/openy-security-update-how-to.-update-drupal-core-only/
 ---

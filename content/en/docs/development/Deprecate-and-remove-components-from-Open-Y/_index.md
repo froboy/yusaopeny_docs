@@ -1,5 +1,5 @@
 ---
-title: Deprecate and remove components from YMCA Website Services
+title: Deprecating and removing components
 aliases:
   - /docs/wiki/deprecate-and-remove-components-from-open-y/
 ---

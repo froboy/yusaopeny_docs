@@ -1,5 +1,5 @@
 ---
-title: upgrade how to for Developers
+title: Upgrading to a new version of the distribution
 aliases:
   - /docs/wiki/openy-upgrade-how-to-for-developers/
 ---

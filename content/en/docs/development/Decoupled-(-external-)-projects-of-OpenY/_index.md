@@ -1,5 +1,5 @@
 ---
-title: Decoupled (external) projects of OpenY
+title: Decoupled (external) projects
 aliases:
   - /docs/wiki/decoupled--external--projects-of-openy/
 ---

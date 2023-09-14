@@ -1,5 +1,5 @@
 ---
-title: OpenY upgrade for developers - Upgrade to old OpenY 1.x version
+title: Upgrade to Open Y 1.x
 aliases:
   - /docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/
 ---

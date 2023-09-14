@@ -1,5 +1,5 @@
 ---
-title: How to contribute large features into YMCA Website Services (back-porting, etc)
+title: How to contribute large features (back-porting, etc)
 aliases:
   - /docs/wiki/how-to-contribute-large-features-into-open-y-backporting-etc/
 ---

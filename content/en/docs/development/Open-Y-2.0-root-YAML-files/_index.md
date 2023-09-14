@@ -1,5 +1,6 @@
 ---
-title: 2.0 root YAML files
+title: Profile custom configuration
+description: The distribution supplements the Drupal install process with a number of custom additions.
 aliases:
   - /docs/wiki/open-y-2.0-root-yaml-files/
 ---

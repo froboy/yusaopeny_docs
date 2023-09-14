@@ -1,5 +1,5 @@
 ---
-title: How we release OpenY distribution from code perspective
+title: Release processes
 aliases:
   - /docs/wiki/how-we-release-openy-distribution-from-code-perspective/
 ---

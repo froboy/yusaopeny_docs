@@ -1,5 +1,5 @@
 ---
-title: Decouple component from YMCA Website Services as independent module project
+title: Decoupling components as independent modules
 aliases:
   - /docs/wiki/decouple-component-from-open-y-as-independent-module-project/
 ---

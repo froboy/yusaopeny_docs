@@ -1,5 +1,5 @@
 ---
-title: Install Solr site search for YMCA Website Services
+title: Install Solr site search
 aliases:
   - /docs/wiki/install-solr-site-search-for-open-y/
 ---
