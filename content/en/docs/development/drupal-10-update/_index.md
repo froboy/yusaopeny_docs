@@ -94,12 +94,26 @@ If you run into an error like this:
 >
 > \> [error]  Configuration <em class="placeholder">core.entity_view_display.node.lb_event.featured</em> depends on the <em class="placeholder">core.entity_view_mode.node.featured</em> configuration that will not exist after import.
 
-you may be able to resolve it yourself:
+you may be able to resolve it yourself.
 
-1. Search the codebase for the missing config.
-2. Add an update hook to your own custom module [like this example](https://github.com/YCloudYUSA/yusaopeny/pull/108/files#diff-2b10287d954ae6b7c36a1af05970dc0f2ee602047b2215d60d9052a15a8819b5R1233-R1240):
+Breaking down the error message:
+
+- `core.entity_view_mode.node.featured` is missing, which is blocking [y_lb_update_9011](https://github.com/YCloudYUSA/y_lb/blob/main/y_lb.install#L199) from installing `core.entity_view_display.node.lb_event.featured`
+- We need to figure out where `core.entity_view_mode.node.featured` _should_ be coming from, so we can search our code for that.
+  - Use the "Find in files" command in your IDE to search `docroot/modules`, or
+  - from the command line:
+    ```shell
+    ╰─ grep -rI "core.entity_view_mode.node.featured"
+    ./contrib/ws_event/config/optional/core.entity_view_display.node.lb_event.featured.yml:    - core.entity_view_mode.node.featured
+    ./contrib/y_lb_article/config/optional/core.entity_view_display.node.article_lb.featured.yml:    - core.entity_view_mode.node.featured
+    ```
+  - Looking at those files in the codebase, they are identical, so we could manually import them from either module. Let's do it.
+
+1. Add an update hook to your own custom module [like this example](https://github.com/YCloudYUSA/yusaopeny/pull/108/files#diff-2b10287d954ae6b7c36a1af05970dc0f2ee602047b2215d60d9052a15a8819b5R1233-R1240).
 
     ```php
+   // This goes in mymodule.install as the next update hook.
+   // Increment the number accordingly.
     function mymodule_update_9000() {
         $path = \Drupal::service('extension.list.module')->getPath('ws_event') . '/config/optional';
         /** @var \Drupal\config_import\ConfigImporterService $config_importer */
@@ -111,9 +125,10 @@ you may be able to resolve it yourself:
     }
     ```
 
-3. Use [hook_update_dependencies](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_update_dependencies/10.0.x) to ensure this new update runs before the failing one.
+2. Use [hook_update_dependencies](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_update_dependencies/10.0.x) to ensure this new update runs before the failing one.
 
     ```php
+   // This also goes in mymodule.install.
     function mymodule_update_dependencies() {
       $dependencies['y_lb'][9011] = [
         'mymodule' => 9000,
@@ -121,4 +136,5 @@ you may be able to resolve it yourself:
     }
     ```
 
-4. Re-run `drush updb`.
+3. Re-run `drush updb`.
+4. If you run into other missing config, add them to the list to be imported in `update` hook and re-run `updb`.
