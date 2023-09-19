@@ -18,7 +18,7 @@ Based on the YMCA Brand Guide, the distribution contains four "colorways" that a
 
 ### Content Types
 
-The distribution provides new [Content Types](../../content-types) for use with Layout Builder components. 
+The distribution provides new [Content Types](../../content-types) for use with Layout Builder components.
 
 | [Article](../../content-types/lb-article)                                                    | [Branch](../../content-types/lb-branch)                                                    | [Camp](../../content-types/lb-branch)                                                   | [Event](../../content-types/lb-event)                                                  |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ The distribution provides new [Content Types](../../content-types) for use with 
 ### Components
 
 Each of these components is available on [Layout Builder](../) pages via the **Create custom block** selector.
-    
+
 | Component                | Design                                                                                                         |
 |--------------------------|----------------------------------------------------------------------------------------------------------------|
 | Accordion                | ![Accordion Design](<../../../../../assets/img/designs/lb-ui-kit/Accordion.jpg>)                               |
@@ -50,6 +50,7 @@ Each of these components is available on [Layout Builder](../) pages via the **C
 | Global Footer            | ![Global Footer Design](<../../../../../assets/img/designs/lb-ui-kit/Global Footer.jpg>)                       |
 | Global Header            | ![Global Header Design](<../../../../../assets/img/designs/lb-ui-kit/Global Header.jpg>)                       |
 | Grid Content             | ![Grid Content Design](<../../../../../assets/img/designs/lb-ui-kit/Grid Content.jpg>)                         |
+| Icon Grid                | ![Icon Grid Design](<../../../../../assets/img/designs/lb-ui-kit/Icon Grid.png>)                               |
 | Icons and Logos          | ![Icons and Logos Design](<../../../../../assets/img/designs/lb-ui-kit/Icons _ Other Branded Assets.jpg>)      |
 | Locations                | ![Locations Design](<../../../../../assets/img/designs/lb-ui-kit/Locations.jpg>)                               |
 | Menu and Search          | ![Menu and Search Design](<../../../../../assets/img/designs/lb-ui-kit/Menu and Search.jpg>)                   |
