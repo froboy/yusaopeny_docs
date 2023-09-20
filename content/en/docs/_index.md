@@ -23,7 +23,6 @@ A core team led by a small group of YMCAs including the [YMCA of the North ( for
 - Distributes communication about YMCA Website Services
 - Organizes events for the YMCA Website Services community—including an annual meeting each June
 
-YMCA Website Services is similar to the [Thunder Coalition](http://www.thunder.org) for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site.
+YMCA Website Services is similar to the [Thunder Coalition](http://www.thunder.org) for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site. For more details please visit [ds.ymca.org](https://ds.ymca.org).
 
-# Details
-For more details please visit [ds.ymca.org](ds.ymca.org).
+{{< recently-edited >}}
