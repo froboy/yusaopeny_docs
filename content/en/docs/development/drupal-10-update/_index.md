@@ -23,7 +23,7 @@ Step through the distribution's [important versions](../important-versions-for-u
 2. Dependency cleanup
     1. Modules not installed, but in composer.json should be cleaned up to prevent unwanted dependency issues in trying to update.
 3. Admin theme
-    1. If your website uses a [deprecated admin theme](https://www.drupal.org/docs/core-modules-and-themes/deprecated-and-obsolete#s-recommendations-for-deprecated-themes), you should migrate to Claro theme and test the admin experience. If necessary you can keep the deprecated theme as a contrib package but that is not recommended.
+    1. If your website uses a [deprecated admin theme](https://www.drupal.org/docs/core-modules-and-themes/deprecated-and-obsolete#s-recommendations-for-deprecated-themes), you should migrate to the Claro theme and test the admin experience. If necessary you can keep the deprecated theme as a contrib package but that is not recommended and won't be supported by the distribution.
 
 ## Upgrade Report
 
@@ -137,4 +137,5 @@ Breaking down the error message:
     ```
 
 3. Re-run `drush updb`.
-4. If you run into other missing config, add them to the list to be imported in `update` hook and re-run `updb`.
+4. If you run into other missing configs, add them to the list to be imported in `update` hook and re-run `updb`.
+5. Consider backporting your customization which led to the challenge of doing this upgrade in order for it to be covered and tested by distribution developers.
