@@ -13,7 +13,7 @@ description: Many blocks come together to create a configurable header and foote
   {{% /tab %}}
 {{< /tabpane >}}
 
-**Designs:** 
+**Designs:**
 
 - [Utility Menu Mobile & Desktop](<../../../../../../assets/img/designs/lb-ui-kit/Utility Menu.jpg>)
 - [Menu & Search Mobile & Desktop](<../../../../../../assets/img/designs/lb-ui-kit/Menu and Search.jpg>)
@@ -74,6 +74,12 @@ Each block has some specific configuration recommendations:
   - **White logo** uses a flat white logo. This option is recommended for the Footer.
 
 ### Main navigation
+
+The main navigation supports displaying up to three levels of menu items. When adding items, be sure to check **Show as expanded** for any parent item that should be expandable.
+
+![The menu with 3 levels of depth labeled.](lb-header-footer--menu-depth.png)
+
+The main navigation also supports an optional [nested CTA block](#main-menu-cta-block).
 
 **Configuration**
 
@@ -176,3 +182,29 @@ This menu is typically for a limited number of links such as "Privacy Policy" or
 **Content**
 
 - Menu items can be managed under **Structure** > **Menus** > **Footer**.
+
+## Main Menu CTA Block
+
+![The main menu with a CTA block](lb-header-footer--cta-block.png)
+
+The [Main navigation](#main-navigation) has an additional feature that allows for adding a nested call-to-action that takes the place of the third level of the menu.
+
+To use it:
+
+- Go to **Extend** (`admin/modules`) and enable the **Web Services Main Menu CTA Block** module (`y_lb_main_menu_cta_block`).
+- Edit a top-level menu item (like "Programs" or "Schedules") via one of these methods.
+  > CTA blocks will only be displayed on _first-level menu items_. Blocks on all other levels will be ignored.
+  1. Click the <kbd><i class="fas fa-pencil"></i></kbd> in the Main Menu section, then choose **Edit menu**. ![The Edit Menu item in the main menu contextual options](lb-header-footer--edit-menu.png)
+  2. Go to **Admin** > **Structure** > **Menus** > **Main navigation** then **Edit** a link.
+- In the **CTA block** section, click **Add new custom block**. ![The "Add new custom block" button](lb-header-footer--add-block.png)
+- Fill in the fields:
+  - Expand the **Media** section and choose or upload an image
+  - Add a short **Heading**
+  - Add a short 1-2 sentence **Description**
+  - Add a link and display text for the **Menu CTA Link**
+  - Add a **Block description** for administrative purposes only
+  - Click **Create custom block** to save the block.
+- **Save** the menu item.
+- Go back to a Layout Builder page with the menu and refresh. The menu CTA should now appear when the corresponding menu dropdown is open.
+
+> Menu CTA items will not appear on pages that use Paragraphs-based layout. CTAs also ony show on desktop and not mobile displays.

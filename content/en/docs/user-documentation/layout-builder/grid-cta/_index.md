@@ -14,7 +14,7 @@ description: Sets of content with a headline, description, and link displayed in
 
 -----
 
-The Grid CTA block is similar to the [Cards](../cards) block, but allows for more flexible items with a slightly more freeform design. 
+The Grid CTA block is similar to the [Cards](../cards) block, but allows for more flexible items with a slightly more freeform design.
 
 **Designs:**
 - [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Grid Content.jpg>)

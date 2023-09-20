@@ -19,7 +19,7 @@ Block
 : A Drupal data structure that contains a reusable set of content and can be placed on a page using the Block Layout or Layout Builder. [Blocks](https://www.drupal.org/docs/user_guide/en/block-concept.html).
 
 Cachet
-: The official font of YMCA-USA. See [Fonts](../development/fonts).
+: The official font of YMCA-USA. See [Fonts](../howto/install-cachet).
 
 Carnation
 : The newest and most widely used of the distribution themes. "Carnation offers image-rich page layouts and simple, mobile-optimized menus." See [Sandboxes](../wiki/sandboxes).
