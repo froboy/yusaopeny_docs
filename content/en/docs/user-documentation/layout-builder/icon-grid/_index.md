@@ -5,7 +5,7 @@ description: A simpler version of the Grid CTA component. Sets of content with a
 
 {{< tabpane text=true >}}
   {{< tab header="Video" lang="vid" >}}
-    {{< youtube  >}}
+    {{< youtube cYbSqcoOMWg >}}
   {{< /tab >}}
   {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot of the Icon Grid component with block labels](lb-icon-grid.png)

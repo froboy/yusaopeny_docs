@@ -5,7 +5,7 @@ description: Component for displaying related articles within an Article node pa
 
 {{< tabpane text=true >}}
     {{< tab header="Video" lang="vid" >}}
-        {{< youtube >}}
+        {{< youtube FBtQmfy9C7Q >}}
     {{< /tab >}}
     {{% tab header="Diagram" lang="pic" %}}
 ![Screenshot showing the field titles overlaid on the design](lb-related-articles-fields.png)
@@ -37,7 +37,7 @@ Fill in the content fields:
 - **Items count to display**: The maximum number of items to display in the list: 3, 6, 9, or 12.
 
 {{% alert color=info title=Note: %}}
-- Related Articles will always be sorted by the Published Date on the Article. 
+- Related Articles will always be sorted by the Published Date on the Article.
 - It may display in the preview, but the current page will not display in the list of Related Articles once published.
 {{% /alert %}}
 
