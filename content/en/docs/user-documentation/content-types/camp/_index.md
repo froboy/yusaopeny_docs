@@ -3,7 +3,7 @@ title: Camp
 description: Physical locations where outdoor camp programming takes place.
 ---
 
-While [YMCA Branches](../branch) may offer some form of summer day camp, they differ from facilities that primarily host programs related to outdoor camps. The Camp content type also enables editors to create sub-sites or "microsites" using a separate menu structure. 
+While [YMCA Branches](../branch) may offer some form of summer day camp, they differ from facilities that primarily host programs related to outdoor camps. The Camp content type also enables editors to create sub-sites or "microsites" using a separate menu structure.
 
 **Designs:**
 
@@ -92,7 +92,7 @@ The **Use Layout Builder** checkbox on the Camp edit page non-destructively swit
 
 The Camp page is often used as a landing page for a microsite with additional information - schedules, packing lists, and other camp-specific pages.
 
-We have two camp-specific menus that help build this structure. 
+We have two camp-specific menus that help build this structure.
 
 - **Camp Menus** allow you to provide a two-level menu in the header of each Camp page and subpage.![A screenshot of the Camp Menu design](camp--menu.png)
 - **Camp Quick Links** provide a single-level utility menu for additional camp information.![A screenshot of the Camp Quick Links design](camp--quick-links.png)
@@ -122,7 +122,7 @@ After setting **Use Layout Builder** for your Camp page, navigate to the **Layou
       - **Show as expanded** should be checked for any parent items. There is no harm in always checking this.
       - Other fields can be ignored.
       - **Save** when you are finished.
-    - Use the drag handles <kbd><i class="fas fa-arrows-up-down-left-right"></i></kbd> to rearrange or nest menu items. 
+    - Use the drag handles <kbd><i class="fas fa-arrows-up-down-left-right"></i></kbd> to rearrange or nest menu items.
       - _**Note:** Parent items must have **Show as expanded** checked in order to display child items._
   - When you are finished adding and rearranging menu links, **Save**.
 - Finally, save all the changes with **Update**.
@@ -176,3 +176,27 @@ In addition to using many of the standard [Layout Builder](../../layout-builder)
 #### Camp Info Block
 
 The **Camp Info Block** is automatically added to the Body section of each **Camp** page. It displays content from the Contact Info section. It can be rearranged on the page but is not otherwise configurable.
+
+### Camp Header Layout
+
+When you create a new Camp page or switch an existing one to use Layout Builder, it will come with a pre-set **Camp Header** Section, which enables the configuration steps above. If you find some of those blocks are missing, you can restore them manually.
+
+To completely start over, use the <kbd>x</kbd> to the left of **Configure Camp Header** to delete the section. Add a new Section and choose the **WS Camp Header** layout. Then, add the following blocks by selecting **Add block** in the corresponding region.
+
+![A screenshot of the Camp Header Layout Builder configuration with labels for the Utility menu at the top and the Main Menu in the center](camp--lb-header.png)
+
+The default configuration for a the Camp Header block should be:
+
+- Utility Menu
+  - Left
+    - All system blocks > Camp blocks > **Camp Back Link**
+  - Right
+    - Create custom block > **Camp Quick Links**
+    - All system blocks > OpenY > **Open Y Google Translate** (optional)
+- Main Menu
+  - Left
+    - All system blocks > Common blocks > **Site Logo Block**
+  - Right
+    - Create custom block > **Camp menu**
+    - Create custom block > **Camp quick links**
+
