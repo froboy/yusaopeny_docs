@@ -10,7 +10,7 @@ The YMCA Website Services platform is a content management system that uses Drup
 
 In 2016 a group of YMCA digital, marketing and technology experts recognized the digital opportunities that exist if we work together as a community and established YMCA Website Services.
 
-A core team led by a small group of YMCAs including the [YMCA of the North ( former Greater Twin Cities )](https://ymcanorth.org), [Greater Seattle](http://www.seattleymca.org) and [Greater Houston](https://www.ymcahouston.org):
+A core team led by a small group of YMCAs including the [YMCA of the North (formerly Greater Twin Cities)](https://ymcanorth.org), [Greater Seattle](http://www.seattleymca.org) and [Greater Houston](https://www.ymcahouston.org) guided the distribution until 2022, at which point ownership was transferred to [YMCA of the USA's Digital Services](https://ds.ymca.org). The core team of Y-USA, [ImageX](https://imagexmedia.com), and [Five Jars](https://fivejars.com) now:
 
 - Pays for expenses associated with managing YMCA Website Services
 - Maintains the YMCA Website Services content management system
@@ -21,9 +21,8 @@ A core team led by a small group of YMCAs including the [YMCA of the North ( for
 - Offers training for YMCA Website Services Specialists—digital partners that are very familiar with the platform
 - Offers certification for YMCA Website Services Integrators—digital partners that can install and work directly on the codebase
 - Distributes communication about YMCA Website Services
-- Organizes events for the YMCA Website Services community—including an annual meeting each June
+- Organizes events for the YMCA Website Services community
 
 YMCA Website Services is similar to the [Thunder Coalition](http://www.thunder.org) for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site.
 
-# Details
-For more details please visit [ds.ymca.org](ds.ymca.org).
+{{< recently-edited >}}

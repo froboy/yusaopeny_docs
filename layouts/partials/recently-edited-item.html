@@ -1,0 +1,7 @@
+<ul>
+  {{ range  . }}
+  <li>
+    <b><a href="{{ .Permalink }}">{{ .Title }}</a></b> changed on {{ .Lastmod.Format "January 2" }} <small>in <a href="https://github.com/YCloudYUSA/yusaopeny_docs/commit/{{.GitInfo.Hash}}" target="_blank">{{ with .GitInfo }}{{ .Subject }}{{ else }}[Commit description]{{ end }}</a></small>
+  </li>
+  {{ end }}
+</ul>
