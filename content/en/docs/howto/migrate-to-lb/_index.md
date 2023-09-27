@@ -45,6 +45,9 @@ It could be helpful to print or screenshot pages (Firefox can capture a [full-pa
 
 While the exact mappings are up to each site's content editors, here are some possible mappings from Paragraphs to Layout Builder
 
+> Paragraph
+> : the Layout Builder component it maps to.
+
 1 Column
 2 Columns
 3 Columns
@@ -96,7 +99,7 @@ Gallery
 : [Carousel](../../user-documentation/layout-builder/carousel)
 
 Grid Content
-: [Grid CTA](../../user-documentation/layout-builder/grid-cta)
+: [Grid CTA](../../user-documentation/layout-builder/grid-cta) or [Icon Grid](../../user-documentation/layout-builder/icon-grid)
 
 Limited Time Offer
 : None (or Alert?)
