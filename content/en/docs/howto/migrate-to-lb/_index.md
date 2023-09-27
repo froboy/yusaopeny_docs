@@ -4,13 +4,117 @@ linkTitle: "migrate to Layout Builder"
 description: Making the leap to Layout Builder can seem daunting, but we have resources to help.
 ---
 
-Before you start your migration, we recommend getting a better understanding of your current site with a [Content Audit](../content-audit).
+Before you start your migration, we recommend you:
+
+- understand your current site with a [Content Audit](../content-audit),
+- familiarize yourself with the [new Layout Builder Components](../../user-documentation/layout-builder/),
+- watch our [comparison of Paragraphs and Layout Builder](https://youtu.be/YdYaYE0bd6w?t=794&si=xPvRoLM0O-VxABDZ), and
+- see a side-by side demo of the [old vs new page building experiences](https://youtu.be/jrRY3q2lP4s).
 
 ## Plan your migration
 
-- Familiarize yourself with [new Layout Builder Components](../../user-documentation/layout-builder/)
-- Get organized - Write new content, complete audit spreadsheet, identify components you will need
-- Identify key pages - start with your home page and important top-level pages
-  - Programs, Locations (Branches, Camps, etc.), Memberships, Articles/Blogs, Events, Schedules, etc.
-- Create a plan - decide which pages you want to build first
-  - Most → Least complex
+The migration from Paragraphs to Layout Builder is not a small one, but it can be done in bite-sized pieces and spread out over a period of time if necessary. We recommend working with a [partner agency](https://ds.ymca.org/partners) to assist you through the process.
+
+> **TIP**: As you work through the migration, the new pieces of your site _will_ look different than others. Help members through the process with some messaging in an [Alert](../../user-documentation/content-types/alert) or news post letting them know that things will be changing.
+
+## Decide where to start
+
+If you're doing your migration throughout the course of your regular business, without starting from scratch (sometimes called a "lazy migration"), it helps to identify a strategy for planning the migration. These are a few possible strategies:
+
+### A campaign or goal
+
+If you have an upcoming marketing campaign you could build one or a few brand new Landing Pages with Layout Builder to try out the process. This way you're easing both your editors and members into the new designs without getting too deep.
+
+If you have a natural pause in events (maybe over a holiday) or a big series coming up you could use that as the break point for new events. Old events don't necessarily have to be converted to the new design as they're not often viewed after their date has passed.
+
+### A section of the site
+
+Maybe you want to ease into the process with some lesser-used pages, maybe you want to change the home page and top-level menu items to show off the new designs right from the outset. Either way, you can decide on a section and carve off a few pages at a time.
+
+### A content type
+
+Events or News articles are a good option to try out the new designs, although you'll need to ensure any Landing Pages that display lists of that content are also updated. Branch pages can be converted one-by-one without changing their listing on the Locations page.
+
+## Prepare your content
+
+Once you know what you're going to move, you'll want to get the content ready to migrate. Most text will need to be copy and pasted to the new pages (this is a great opportunity for review), but images and documents will be able to be re-used from the [Media Library](../../user-documentation/media).
+
+It could be helpful to print or screenshot pages (Firefox can capture a [full-page screenshot](https://support.mozilla.org/en-US/kb/take-screenshots-firefox)) and then annotate them to decide how each section of the page will map to its Layout Builder component.
+
+### Component mapping
+
+While the exact mappings are up to each site's content editors, here are some possible mappings from Paragraphs to Layout Builder
+
+1 Column
+2 Columns
+3 Columns
+4 Columns
+Secondary Description and Sidebar
+: These paragraphs can be replicated using 1-4 column [Layouts](../../user-documentation/layout-builder/#layouts)
+
+Activity Finder
+: [Activity Finder](../../user-documentation/layout-builder/activity-finder)
+
+All Amenities
+: [Branch Amenities](../../user-documentation/content-types/branch/#layout-builder-blocks)
+
+Banner
+Small Banner
+: [Banner](../../user-documentation/layout-builder/banner)
+
+Blog Posts Listing
+Featured Blog Posts
+Featured News Posts
+Latest Blog Posts
+Latest News Posts
+News Posts Listing
+: [Articles Filter, Articles Listing, Featured Articles](../../user-documentation/layout-builder/article-views)
+
+Camp Menu
+: [Camp Menu](../../user-documentation/content-types/camp/#camp-menus)
+
+Categories Listing
+: TBD
+
+Code
+: [Code](../../user-documentation/layout-builder/code)
+
+Date Block
+: None
+
+Embedded GroupEx Pro Schedule
+: Due to changes in the GroupEx Pro embed functionality, we recommend moving to a [Code](../../user-documentation/layout-builder/code) block.
+
+FAQ
+: [Accordion](../../user-documentation/layout-builder/accordion)
+
+Featured Content
+Story Card
+: [Cards](../../user-documentation/layout-builder/cards) or [Grid CTA](../../user-documentation/layout-builder/grid-cta)
+
+Gallery
+: [Carousel](../../user-documentation/layout-builder/carousel)
+
+Grid Content
+: [Grid CTA](../../user-documentation/layout-builder/grid-cta)
+
+Limited Time Offer
+: None (or Alert?)
+
+Membership Calculator Paragraph
+: [Membership Calculator](../../user-documentation/membership)
+
+Promo Card
+: [Promo Card](../../user-documentation/layout-builder/promo-card)
+
+Simple Content
+: [Table](../../user-documentation/layout-builder/table)
+
+Social Share Icons
+: [Deprecated](../../user-documentation/paragraphs/social-share-icons)
+
+Teaser
+: [Ping-pong](../../user-documentation/layout-builder/ping-pong)
+
+Webform
+: [Webform](../../user-documentation/layout-builder/webform)
