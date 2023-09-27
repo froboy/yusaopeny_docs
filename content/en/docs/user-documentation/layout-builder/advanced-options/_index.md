@@ -12,7 +12,7 @@ These options provide customizations of Layout Builder-enabled pages at the Cont
 
 ### Content Type styles
 
-**Note:** This configuration may not be accessible to all content editors. Ask an administrator for assistance if necessary.
+> **Note:** This configuration may not be accessible to all content editors. Ask an administrator for assistance if necessary.
 
 <details><summary>The default values for page-level Y Styles options are set in the Content Type display options.</summary>
 
@@ -27,18 +27,59 @@ To access them:
 
 ### Page styles
 
-Every Layout Builder-enabled page that you create will allow you to override the default settings. 
+Every Layout Builder-enabled page that you create will allow you to override the default settings. All of these settings will affect all items on a page, unless they are overridden at the component level.
 
-![A screenshot displayinf the "Y Styles" configuration section.](lb--advanced--y-styles.png)
- 
+![A screenshot displaying the "Y Styles" configuration section.](lb--advanced--y-styles.png)
+
 - Edit the **Layout** on a page
 - Expand the **Y Styles** section
 - Choose your configuration options.
+  - **Color scheme**: ![The color scheme options](lb-advanced--color.png) The color scheme of all components on the page. Choose from four brand-compliant and accessible options:
+    - Blue/Purple
+    - Green/Blue
+    - Purple/Red
+    - Red/Orange
+  - **Border radius**: ![The border radius options](lb-advanced--border-radius.png) The curvature of container corners.
+    - 0px (square)
+    - 10px (small curve)
+    - 20px (larger curve)
+  - **Border style**: ![The border style options](lb-advanced--border-style.png) The style of container borders.
+    - No border
+    - 1px border
+    - Drop shadow
+  - **Text/Button alignment**: ![The text/button alignment options](lb-advanced--button-alignment.png) The vertical place!ment of elements in containers.
+    - Left
+    - Center
+  - **Button position**: ![The button position options](lb-advanced--button-position.png) Where buttons sit in containers.
+    - Inside container
+    - Overlapping container
+  - **Button fill**: ![The button fill options](lb-advanced--button-fill.png) How buttons are colored.
+    - Filled by default, outlined on hover
+    - Outlined by default, filled on hover
 - Click **Save layout**
 
 ### Y Block styles
 
 Some blocks have additional styles that can be configured per-block. For these blocks (e.g. Banner, Cards), look for the **Y Styles** section in the [block styles section](#block-styles) and set the options accordingly.
+
+- Banner
+  - **Variant**: ![The Banner variants](lb-advanced--banner-variants.png) Choose from five designs.
+    - Standard
+    - Overlay
+    - Chevron
+    - Frame
+    - Small - This variant hides all but the title and description and does not use an image background.
+  - **Button fill**: Override the page-level styles.
+- Card
+  - **Variant**: ![The card variants](lb-advanced--card-variants.png) Choose from four designs.
+    - Standard
+    - Overlay
+    - Chevron
+    - Color
+  - **Border style**: Override the page-level styles.
+  - **Text/Button alignment**: Override the page-level styles.
+  - **Button position**: Override the page-level styles.
+  - **Button fill**: Override the page-level styles.
 
 ## Section styles
 
