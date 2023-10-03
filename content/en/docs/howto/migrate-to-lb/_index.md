@@ -102,7 +102,7 @@ Grid Content
 : [Grid CTA](../../user-documentation/layout-builder/grid-cta) or [Icon Grid](../../user-documentation/layout-builder/icon-grid)
 
 Limited Time Offer
-: None (or Alert?)
+: Banner (small variant) or Alert
 
 Membership Calculator Paragraph
 : [Membership Calculator](../../user-documentation/membership)
