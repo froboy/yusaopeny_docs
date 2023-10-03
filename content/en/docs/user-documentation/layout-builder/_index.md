@@ -5,8 +5,8 @@ weight: 3
 
 Layout Builder is a powerful new page-building addition to your YMCA website.
 
-> Drupal's Layout Builder allows content editors and site builders to easily and quickly create visual layouts for displaying content. Users can customize how content is arranged on a single page, across types of content, or even create custom landing pages with an easy-to-use drag-and-drop interface. 
-> 
+> Drupal's Layout Builder allows content editors and site builders to easily and quickly create visual layouts for displaying content. Users can customize how content is arranged on a single page, across types of content, or even create custom landing pages with an easy-to-use drag-and-drop interface.
+>
 > \- [Layout Builder on Drupal.org](https://www.drupal.org/docs/8/core/modules/layout-builder)
 
 ## Getting Started with Layout Builder
@@ -19,15 +19,10 @@ YMCA Website Services 9.2.12 introduces a new Content Type: **Landing Page (Layo
 
 To use Layout Builder, you'll first have to create a new page:
 
-- Go to **Content** > **Add Content** > **Landing Page (Layout Builder)**.
+- Choose any Layout Builder-enabled content type, or start with a basic [Landing Page](../content-types/lb-landing-page)
+- Go to **Content** > **Add Content** > **The Content Type**.
 
-This creation page will look different from others—there are no fields!
-
-- Set a page **Title** and configure any **Menu settings** or **URL alias** that you'd like.
-- Ensure that **Published** is unchecked.
-- Then **Save** the page.
-
-Once you've saved, you will see an empty page. Click the **Layout** tab to enter Layout Builder.
+Once you've saved, you will see an empty page. Click the **Layout** tab to enter Layout Builder or go directly there with **Save and edit layout**.
 
 ![Drupal admin tabs with an arrow pointing to "Layout"](lb_layout_tab.png)
 
@@ -43,9 +38,10 @@ Changes to the page are not displayed to site viewers until you **Save Layout** 
 
 When in the **Layout** editor, you will have these options at the top of the page:
 
-- **Save Layout**
+- **Save Layout** will save your changes and return you to the main page view.
+- **Save and edit layout** will save your changes and keep you in Layout Builder.
 - **Discard Changes**
-- **Revert to Defaults** will reset your page to an empty Header and Body section.
+- **Revert to Defaults** will reset your page to the default empty layout.
 
 After saving your changes, be sure your page is published:
 
@@ -55,7 +51,7 @@ After saving your changes, be sure your page is published:
 
 ## Fundamentals
 
-In Layout Builder, you will see the page divided up into Sections and Blocks. Your page may already be populated with a **Header** and **Body** section to get you started building, and you can change or edit those to fit your page.
+In Layout Builder, you will see the page divided up into Sections and Blocks. Your page may already be populated with some sections to get you started building, and you can change or edit those to fit your page.
 
 ### Sections
 
