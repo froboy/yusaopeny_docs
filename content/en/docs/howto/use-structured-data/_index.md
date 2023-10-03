@@ -49,4 +49,4 @@ Tips for writing good FAQ content:
 
 ### Customizing FAQs
 
-Due to the complexity of the FAQ data, the structured data is [managed entirely in code](https://git.drupalcode.org/project/lb_accordion/-/blob/1.0.x/lb_accordion.module?ref_type=heads#L40) and is not customizable via the Drupal admin.
+Due to the complexity of the FAQ data, the structured data is [managed entirely in code](https://git.drupalcode.org/project/lb_accordion/-/blob/1.0.x/lb_accordion.module?ref_type=heads#L40) and is not customizable via the Drupal admin. If you need specific customizations, please post your ideas in Slack or suggest them on [the Roadmap](/roadmap) for the core team to discuss and implement.
