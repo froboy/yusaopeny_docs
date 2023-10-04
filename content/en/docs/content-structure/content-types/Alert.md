@@ -14,7 +14,7 @@ Alert content type is used for adding alerts on the site.
 | Placement | field\_alert_place | Yes | Select list field (singular) for choosing place: <ul><li>Header</li><li>Footer</li></ul> |
 | Description | field\_alert_description | Yes | Textarea for the description/body with WYSIWYG, without summary. |
 | Link | field\_alert_link | No | Internal or external link. |
-| Reference | field\_alert_belongs | No | Entityreference with autocomplete to any node. Description for field: "Reference to node (branch, camp, landing page and etc.), where local alert will be displayed." |
+| Reference | field\_alert_belongs | No | Entity reference with autocomplete to any node. Description for field: "Reference to node (branch, camp, landing page and etc.), where local alert will be displayed." |
 
 ### URL pattern
 Content type is using following pattern:
