@@ -1,4 +1,15 @@
 [build]
-[build.environment]
-HUGO_VERSION = "0.96.0"
-GO_VERSION = "1.18"
+  publish = "public"
+  command = "hugo --gc --minify -e development"
+
+  [build.environment]
+    HUGO_VERSION = "0.113.0"
+    HUGO_ENABLEGITINFO = "true"
+    GO_VERSION = "1.18"
+    GOFLAGS="-mod=readonly"
+
+[context.deploy-preview]
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL -e development"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL -e development"

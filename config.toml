@@ -124,8 +124,10 @@ github_branch= "main"
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "d72aa9b2712488cc3"
 
-# Enable Algolia DocSearch
-algolia_docsearch = true
+[params.search.algolia]
+appId = "IKYHW432S0"
+apiKey = "daf6dd319fdc9982386b73a0d53d9f89"
+indexName = "ds-y"
 
 # Enable Lunr.js offline search
 offlineSearch = false
@@ -147,7 +149,7 @@ navbar_translucent_over_cover_disable = false
 sidebar_menu_compact = true
 sidebar_menu_foldable = true
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-sidebar_search_disable = true
+sidebar_search_disable = false
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
