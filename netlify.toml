@@ -1,14 +1,20 @@
 [build]
   publish = "public"
+  # We tell every envinroment to build in "dev" mode because we're only using this for previews
+  # and it should not be indexed. Production deploys are done with GitHub actions for now.
   command = "hugo --gc --minify -e development"
 
   [build.environment]
     HUGO_VERSION = "0.113.0"
+    # We use gitinfo for diffs on pages so it should always be on.
     HUGO_ENABLEGITINFO = "true"
     GO_VERSION = "1.18"
+    # Go doesn't like coexisting with composer due to them both wanting to use `/vendor`
+    # This tells go to ignore the vendor directory and only read from go.mod
     GOFLAGS="-mod=readonly"
 
 [context.deploy-preview]
+  # buildFuture will render future posts, so we can preview release notes and such.
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL -e development"
 
 [context.branch-deploy]
