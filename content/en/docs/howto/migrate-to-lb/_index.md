@@ -11,6 +11,20 @@ Before you start your migration, we recommend you:
 - watch our [comparison of Paragraphs and Layout Builder](https://youtu.be/YdYaYE0bd6w?t=794&si=xPvRoLM0O-VxABDZ), and
 - see a side-by-side demo of the [old vs. new page building experiences](https://youtu.be/jrRY3q2lP4s).
 
+## How long do I have?
+
+Layout Builder components for YMCA Website Services were developed and released throughout 2023. The plan at the outset was that Paragraphs-based components would be supported for one year from the time of the Layout Builder components' completion, then would cease being supported. Site owners can begin migrating their content at any time. Upon the deprecation of Paragraphs components, they will not "disappear", but they will no longer be supported by the YMCA Website Services core team.
+
+As of October 2023, the timeline is:
+
+- **December 2023** -  Layout Builder components are considered "feature complete"
+- **2024** - refinement and bug fixing of Layout Builder components, basic bug fixing only for Paragraphs components.
+- **December 2024** - end of support for Paragraphs components.
+
+Site owners are encouraged to plan a migration of their content to Layout Builder in 2024, after which point they will be responsible for maintaining Paragraphs components.
+
+(Timeline is subject to change based on community feedback and priorities.)
+
 ## Plan your migration
 
 The migration from Paragraphs to Layout Builder is not a small one, but it can be done in bite-sized pieces and spread out over some time if necessary. We recommend working with a [partner agency](https://ds.ymca.org/partners) to assist you through the process.
