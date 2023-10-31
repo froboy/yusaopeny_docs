@@ -2,14 +2,10 @@
 YMCA Website Services style overrides.
 */
 
-// Remove the site title
-a.navbar-brand span + span {
-  display: none;
-}
-
 // Underline links by default
 // @todo Remove when https://github.com/google/docsy/pull/1684 is committed.
-main a:not(.btn) {
+main a:not(.btn),
+.td-footer a {
   text-decoration: underline;
 }
 
