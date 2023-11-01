@@ -36,6 +36,7 @@ Welcome to the development corner of the YMCA Website Services distribution.
 
 - [Participant Agreement]({{< relref "WS-Participant-Agreement" >}})
 - [Terms of Use]({{< relref "WS-Terms-of-Use" >}})
+- [Terms and Conditions]({{< relref "ws-terms-conditions" >}})
 
 ## Getting Started with YMCA Website Services Development
 
