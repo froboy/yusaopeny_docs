@@ -52,31 +52,31 @@ Display of all amenities available at a branch location.
 
 - **Machine name:** `lb_cards`
 - **Project:** [lb_cards](https://www.drupal.org/project/lb_cards)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Cards Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Cards Desktop.png>)
+- **[User Docs & Designs](../../user-documentation/layout-builder/cards)**
 
 Flexible card-style components that allow up to 4 cards to display across a page depending on the chosen layout.
 
-| Label            | Machine Name  | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
-|------------------|---------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section heading    | (inherit)     |  |  |  |  |  | H2 |
-| Section subheading | (inherit)     |  |  |  |  |  | H3 |
-| Section link | field_section_link     | Link                       | no       | 1           |
-| # of columns     | field_section_columns | List (text)                | yes      | 1           |           |
-| Card items            | field_card_items   | Entity reference revisions | no       | 4           |           | Bundle: lb_card_item  |
+| Label              | Machine Name     | Type             | Required | Cardinality | Help text | Field Settings    | Notes |
+|--------------------|------------------|------------------|----------|-------------|-----------|-------------------|-------|
+| Section heading    | (inherit)        |                  |          |             |           |                   | H2    |
+| Section subheading | (inherit)        |                  |          |             |           |                   | H3    |
+| Section link       | field_cta        | Link             | no       | 1           |
+| # of columns       | field_columns    | List (text)      | yes      | 1           |           |
+| Card items         | field_block_item | Entity reference | no       | 4           |           | Bundle: card_item |
 
 ### Card Item
 
-**Machine name:** `lb_card_item`
+**Machine name:** `card_item`
 
-The Card paragraph is referenced by the Cards block.
+The Card item block is referenced by the Cards block.
 
-| Label       | Machine Name           | Type               | Required | Cardinality | Help text | Field Settings | Notes                   |
-|-------------|------------------------|--------------------|----------|-------------|-----------|----------------|-------------------------|
-| Heading       | field_item_heading       | Text (plain)       | yes      | 1           |  |  | H4 |
-| Image       | field_item_image       | Entity reference   | no       | 1           |
-| Topic tag   | field_item_topic_tag   | Entity reference       | no       | 1           |           | Bundle: blog_category, news_category |  |
-| Description | field_item_description | Text (plain, long) | no       | 1           |
-| Link    | field_item_link         | Link               | no       | 1           |
+| Label       | Machine Name    | Type               | Required | Cardinality | Help text | Field Settings                       | Notes |
+|-------------|-----------------|--------------------|----------|-------------|-----------|--------------------------------------|-------|
+| Heading     | field_title     | Text (plain)       | yes      | 1           |           |                                      | H4    |
+| Image       | field_media     | Entity reference   | no       | 1           |
+| Topic tag   | field_topic_tag | Entity reference   | no       | 1           |           | Bundle: blog_category, news_category |       |
+| Description | field_body      | Text (plain, long) | no       | 1           |
+| Link        | field_cta       | Link               | no       | 1           |
 
 ## Carousel
 
