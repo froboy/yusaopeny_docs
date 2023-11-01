@@ -23,11 +23,11 @@ description: Infographic-like display that highlights relevant statistics to use
 Fill in the content fields:
 
 - **Title** (required): Never displayed, even if "Display Title" is checked. For administrative use only.
-- **Section title**: Displayed as a heading above the item.
-- **Section subtitle**: Displayed below the heading.
+- **Section heading**: Displayed as a heading above the item.
+- **Section subheading**: Displayed below the heading.
 - **Media**: Chose from the library or add a new image to be displayed to the left of the statistics.
-- **Section CTA/Link**: Add a link below the statistics items.
-- **Statistics Items**: Add as many items as you like using the **Add Statistics Item** button. Each item contains:
+- **Section link**: Add a link below the statistics items.
+- **Statistics items**: Add as many items as you like using the **Add Statistics Item** or **Add new custom block** button. When you are finished adding or editing each item, be sure to click **Create/Update tab** or **Create/Update custom block** to finalize the item. Each item contains:
   - **Number value**: The number value for the statistic. Can include a prefix ("$100") and/or suffix ("$100M").
   - **Description**: A description of the statistic.
 

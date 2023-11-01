@@ -298,26 +298,26 @@ Displays simple staff member info cards with image, name, title, email
 
 - **Machine name:** `lb_statistics`
 - **Project:** [lb_statistics](https://www.drupal.org/project/lb_statistics)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Statistics Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Statistics Desktop.png>)
+- **[User Docs & Designs](../../user-documentation/layout-builder/statistics)**
 
 Infographic-like display that highlights relevant statistics to users.
 
-| Label              | Machine Name            | Type                       | Required | Cardinality | Help text | Field Settings             | Notes |
-|--------------------|-------------------------|----------------------------|----------|-------------|-----------|----------------------------|-------|
-| Section heading    | (inherit)               |                            |          |             |           |                            | H2    |
-| Section subheading | (inherit)               |                            |          |             |           |                            | H3    |
-| # of columns       | field_columns           | List (text)                | yes      | 1           |           |                            |       |
-| Section link       | field_link              | Link                       | no       | 1           |           |                            |       |
-| Statistics items   | field_statistics_ items | Entity reference revisions | no       | unlimited   |           | Bundle: lb_statistics_item |       |
+| Label             | Machine Name     | Type                      | Required | Cardinality | Help text | Field Settings          | Notes |
+|-------------------|------------------|---------------------------|----------|-------------|-----------|-------------------------|-------|
+| Section heading   | (inherit)        |                           |          |             |           |                         | H2    |
+| Section subheading | (inherit)        |                           |          |             |           |                         | H3    |
+| # of columns      | field_columns    | List (text)               | yes      | 1           |           |                         |       |
+| Section link      | field_cta        | Link                      | no       | 1           |           |                         |       |
+| Statistics item   | field_block_item | Entity reference | no       | unlimited   |           | Bundle: statistics_item |       |
 
 ### Statistics Item
 
-**Machine name:** `lb_statistics_item`
+**Machine name:** `statistics_item`
 
 | Label        | Machine Name      | Type         | Required | Cardinality | Help text | Field Settings | Notes |
 |--------------|-------------------|--------------|----------|-------------|-----------|----------------|-------|
-| Number value | field_item_number      | Text (plain) | yes      | 1           |
-| Description  | field_item_description | Text (plain) | no       | 1           |
+| Number value | field_subtitle    | Text (plain) | yes      | 1           |
+| Description  | field_description | Text (plain) | no       | 1           |
 
 ## Tabs
 
