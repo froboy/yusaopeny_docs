@@ -17,22 +17,23 @@ These fields are reused across many of the below components.
 
 - **Machine name:** `lb_accordion`
 - **Project:** [lb_accordion](https://www.drupal.org/project/lb_accordion)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Accordion Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Accordion Desktop.png>)
+- **[User Docs & Designs](../../user-documentation/layout-builder/accordion)**
 
 Expandable pairs of question/answer or header/section fields.
 
-| Label          | Machine Name                     | Type                       | Required | Cardinality | Help text | Field Settings         | Notes |
-|----------------|----------------------------------|----------------------------|----------|-------------|-----------|------------------------|-------|
-| Accordion item | field_entity_reference_paragraph | Entity reference revisions | no       | unlimited   |           | Bundle: lb_accordion_item |
+| Label          | Machine Name     | Type             | Required | Cardinality | Help text                                                                                                  | Field Settings         | Notes |
+|----------------|------------------|------------------|----------|-------------|------------------------------------------------------------------------------------------------------------|------------------------|-------|
+| Accordion item | field_block_item | Entity reference | no       | unlimited   |                                                                                                            | Bundle: accordion_item |
+| FAQ?           | field_is_faq     | Boolean          | no       |             | If this section contains Frequently Asked Questions, check this box to output them as "structured data"... |
 
 ### Accordion Item
 
-- **Machine name:** `lb_accordion_item`
+- **Machine name:** `accordion_item`
 
-| Label | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
-|-------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Heading  | field_heading  | Text (plain)                         | yes      | 1           |  |  | H4 |
-| Body  | body   | Text (formatted, long, with summary) | no       | 1           |  |  | WYSIWYG |
+| Label   | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes   |
+|---------|--------------|--------------------------------------|----------|-------------|-----------|----------------|---------|
+| Heading | field_title  | Text (plain)                         | yes      | 1           |           |                | H4      |
+| Body    | body         | Text (formatted, long, with summary) | yes      | 1           |           |                | WYSIWYG |
 
 ## Branch Amenities
 
