@@ -323,27 +323,27 @@ Infographic-like display that highlights relevant statistics to users.
 
 - **Machine name:** `lb_tabs`
 - **Project:** [ws_lb_tabs](https://www.drupal.org/project/ws_lb_tabs)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Tabs Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Tabs Desktop.png>)
+- **[User Docs & Designs](../../user-documentation/layout-builder/tabs)**
 
 Gives users the ability to switch page views by selecting tabs across the top of the page instead of having to navigate to a new page.
 
-| Label            | Machine Name | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
-|------------------|--------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section heading   | (inherit)    |  |  |  |  |  | H2 |
-| Section subheading | (inherit)    |  |  |  |  |  | H3 |
-| Tab items             | field_tab_items   | Entity reference revisions | no       | unlimited   |           | Bundle: lb_tab_item    |
+| Label              | Machine Name      | Type             | Required | Cardinality | Help text | Field Settings   | Notes |
+|--------------------|-------------------|------------------|----------|-------------|-----------|------------------|-------|
+| Section heading    | (inherit)         |                  |          |             |           |                  | H2    |
+| Section subheading | (inherit)         |                  |          |             |           |                  | H3    |
+| Tab item           | 	field_block_item | Entity reference | no       | unlimited   |           | Bundle: tab_item |
 
 ### Tab Item
 
-**Machine name:** `lb_tab_item`
+**Machine name:** `tab_item`
 
-The Tab paragraph is referenced by the Tabs block.
+The Tab Item block is referenced by the Tabs block.
 
-| Label | Machine Name | Type                                 | Required | Cardinality | Help text | Field Settings | Notes |
-|-------|--------------|--------------------------------------|----------|-------------|-----------|----------------|-------|
-| Heading | field_heading  | Text (plain)                         | yes      | 1           |  |  | H4 |
-| Body  | body   | Text (formatted, long, with summary) | no       | 1           |  |  | WYSIWYG |
- 
+| Label   | Machine Name      | Type                   | Required | Cardinality | Help text | Field Settings | Notes   |
+|---------|-------------------|------------------------|----------|-------------|-----------|----------------|---------|
+| Heading | field_heading     | Text (plain)           | yes      | 1           |           |                | H4      |
+| Body    | field_description | Text (formatted, long) | no       | 1           |           |                | WYSIWYG |
+
 
 ## Testimonials
 
