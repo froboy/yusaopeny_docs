@@ -24,13 +24,17 @@ Facilities share their design with the [Branch](../branch) content type.
 
 ### Contact Info
 
-- **Address** (required): The physical address of your location. Be sure to include all address fields.
+- **Address**: The physical address of your location. Be sure to include all address fields.
+  - If you do not set an address (or clear the address by resetting **Country** to "- None -") then the facility will display the address of its associated **Branch**. (Added in version `10.3.1`, December 2023.)
 - **Facility coordinates** (required): This field pins your facility on the locations map.
   - See [Branch](../branch/#contact-info) for details on how to find your facility coordinates.
 - **Phone** (required): The main phone line for your facility. Will be displayed as it is entered and linked to allow mobile users to tap to call.
 - **Fax**: Optional.
 - **Email**: We recommend you use a main contact email, such as `info@example.com`, rather than the email for an individual staff member.
 - **Directions**: By default, a link with directions is auto-generated using the Address field. Use this field to substitute your own directions link.
+- **Facility Hours**: Set the hours for the Facility. (Added in version `10.3.1`, December 2023.)
+  - This field follows the same rules as **Address** - if it is empty, the associated **Branch** hours will be displayed.
+  - See [Branch Hours](../branch/#branch-hours) for details on how to set the Facility Hours.
 
 ### Sidebar area
 
