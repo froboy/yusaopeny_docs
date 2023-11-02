@@ -37,7 +37,7 @@ Fill in the content fields:
   <details><summary>To get your branch's coordinates:</summary>
 
   ([with Google Maps](https://support.google.com/maps/answer/18539?hl=en&co=GENIE.Platform%3DDesktop))
-  
+
   - [Search](https://www.google.com/maps) for your Y location
   - Right-click the location in the map ![Screenshot of Google Maps showing the right-click menu with the latitude/longitude item selected.](branch-lat-long-copy.png)
   - To copy the coordinates, left-click on the latitude and longitude.
@@ -55,7 +55,9 @@ Fill in the content fields:
 Add the main hours for your facility. These are displayed in the header and on the Locations page.
 
 - **Custom hours label**: The title displayed in the "All hours" dropdown. Clearing this field will hide the section from the Branch page.
-- **Mon, Tue, ...**: Add the hours for each day of the current week. Use the format `7am-5pm` to save space.
+- **Mon, Tue, ...**: Add the hours for each day of the current week.
+  - Most formatting like `<open time> <separator> <end time>` should work, but we recommend something like `7am-5pm`
+  - Leaving a day empty will show the hours as "Closed" but you can enter any other text as well, like "Wednesday: 'Temporarily closed'"
 - **Branch Holiday Hours**: Add special hours for any upcoming holidays. These will be displayed on the site when the holiday is less than two weeks away. Add as many holiday entries as you like.
   - **Holiday Title**: The displayed title of the holiday.
   - **Holiday Hours**: The displayed hours for the holiday.
