@@ -49,7 +49,7 @@ Go to **Admin** > **Content** > **Add Content** > **Alert** (`/node/add/alert`).
 
 ## Rearranging alerts
 
-Alerts can be rearranged to control the order in which they display if multiple appear on a page. The **Alerts Rearrange** page can be accessed via its link on the **Content** page or at `/admin/content/alerts-rearrange`. It might not appear in the Admin menu.
+Alerts can be rearranged to control the order in which they display if multiple appear on a page. The **Alerts Rearrange** page can be accessed via its link on the **Content** page or at **Admin** > **Content** > **Alerts Rearrange** (`/admin/content/alerts-rearrange`). The link might not appear in the Admin menu prior to version `10.3.1`.
 
 ![A screenshot of the Rearrange Alerts display with labels corresponding to the below steps](alerts--rearrange.png)
 
