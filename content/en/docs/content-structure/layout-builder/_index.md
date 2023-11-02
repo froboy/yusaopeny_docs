@@ -83,26 +83,26 @@ The Card item block is referenced by the Cards block.
 
 - **Machine name:** `lb_carousel`
 - **Project:** [lb_carousel](https://www.drupal.org/project/lb_carousel)
-- **Designs:** [Mobile](<../../../../../assets/img/designs/lb/Carousels Mobile.png>) | [Desktop](<../../../../../assets/img/designs/lb/Carousels Desktop.png>)
+- **[User Docs & Designs](../../user-documentation/layout-builder/carousel)**
 
 A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
 
-| Label             | Machine Name         | Type                       | Required | Cardinality | Help text | Field Settings | Notes |
-|-------------------|----------------------|----------------------------|----------|-------------|-----------|----------------|-------|
-| Section heading     | (inherit)  |                |        |            |  |  | H2 |
-| Section subheading | (inherit)       |                |        |            |  |  | H3 |
-| Carousel items    | field_carousel_items | Entity reference revisions | no       | 6   |  | Bundle: lb_carousel_item |
+| Label              | Machine Name     | Type             | Required | Cardinality | Help text | Field Settings        | Notes |
+|--------------------|------------------|------------------|----------|-------------|-----------|-----------------------|-------|
+| Section heading    | (inherit)        |                  |          |             |           |                       | H2    |
+| Section subheading | (inherit)        |                  |          |             |           |                       | H3    |
+| Carousel items     | field_block_item | Entity reference | no       | 6           |           | Bundle: carousel_item |
 
 ### Carousel Item
 
-**Machine name:** `lb_carousel_item`
+**Machine name:** `carousel_item`
 
-| Label       | Machine Name               | Type                   | Required | Cardinality | Help text | Field Settings | Notes |
-|-------------|----------------------------|------------------------|----------|-------------|-----------|----------------|-------|
-| Heading       | field_item_heading                | Text (plain)           | no       | 1           |  |  | H4 |
-| Image       | field_item_image       | Entity reference       | no       | 1           |
-| Description | field_item_description | Text (formatted, long) | no       | 1           |
-| Link  | field_item_link         | Link                   | no       | 1           |
+| Label       | Machine Name      | Type                   | Required | Cardinality | Help text | Field Settings | Notes |
+|-------------|-------------------|------------------------|----------|-------------|-----------|----------------|-------|
+| Heading     | field_title       | Text (plain)           | no       | 1           |           |                | H4    |
+| Image       | field_media       | Entity reference       | yes      | 1           |
+| Description | field_description | Text (formatted, long) | no       | 1           |
+| Link        | field_cta         | Link                   | no       | 1           |
 
 ## Code
 

@@ -1,6 +1,6 @@
 ---
 title: Carousel
-description: A full-width display with multiple sets of a header, description, and call to action overlaid on top of an image.
+description: A full-width gallery with multiple sets of a header, description, and call to action overlaid on top of an image.
 ---
 
 {{< tabpane text=true >}}
@@ -23,12 +23,12 @@ description: A full-width display with multiple sets of a header, description, a
 Fill in the content fields:
 
 - **Title** (required): Never displayed, even if "Display Title" is checked. For administrative use only.
-- **Carousel title**: Displayed as a heading above the carousel.
-- **Carousel subtitle**: Displayed below the heading.
-- **Carousel Item**: Add as many items as you like using the **Add Carousel Item** button. Each item contains:
-  - **Title**
+- **Carousel heading**: Displayed as a heading above the carousel.
+- **Carousel subheading**: Displayed below the heading.
+- **Carousel Item**: Add as many items as you like using the **Add Carousel Item** or **Add new custom block** button. When you are finished adding or editing each item, be sure to click **Create/Update tab** or **Create/Update custom block** to finalize the item. Each item contains:
+  - **Heading**
   - **Image**: Chose from the library or add a new image.
   - **Description**
-  - **CTA**: A link at the bottom of the carousel item.
+  - **Link**: A link at the bottom of the carousel item.
 
 {{< readfile "../lb-save-block.partial" >}}
