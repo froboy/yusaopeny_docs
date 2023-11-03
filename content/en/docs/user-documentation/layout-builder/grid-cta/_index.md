@@ -25,14 +25,14 @@ The Grid CTA block is similar to the [Cards](../cards) block, but allows for mor
 Fill in the content fields:
 
 - **Title** (required): Never displayed, even if "Display Title" is checked. For administrative use only.
-- **Section title**: Displayed as a heading above the cards.
-- **Section subtitle**: Displayed below the heading.
-- **Grid section CTA/link**: A link button displayed below the list of items.
+- **Section heading**: Displayed as a heading above the cards.
+- **Section subheading**: Displayed below the heading.
+- **Grid CTA section link**: A link button displayed below the list of items.
 - **# of columns**: Allows 2- to 4-columns of items.
-- **Grid Items**: Add up to 4. Each item has:
-  - **Grid item title** (required)
-  - **Grid item description**: A full text editor to add item content.
-  - **Grid item media**: Chose from the library or add a new image or icon to be displayed above the item text.
-  - **Grid item CTA**: A link at the bottom of the item.
+- **Grid Item**: Add up to 4. When you are finished adding or editing each item, be sure to click **Create/Update tab** or **Create/Update custom block** to finalize the item. Each item has:
+  - **Heading** (required)
+  - **Description**: A full text editor to add item content.
+  - **Media**: Chose from the library or add a new image or icon to be displayed above the item text.
+  - **Link**: A link at the bottom of the item.
 
 {{< readfile "../lb-save-block.partial" >}}
