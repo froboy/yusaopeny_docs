@@ -145,7 +145,7 @@ In addition to using many of the standard Layout Builder components, Branch page
 
 One additional component is available that requires additional information:
 
-#### Branch Social Links
+### Branch Social Links
 
 **Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Branch Social Links Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Social Links Desktop.png>)
 
@@ -156,6 +156,50 @@ This component allows you to place up to 6 social media links on a branch page.
   - Currently supported platforms include: Facebook, Instagram, Linkedin, Twitter, and YouTube. [Request a new platform](https://www.drupal.org/node/add/project-issue/lb_branch_social_links_blocks) if you need.
 - After adding or updating the block, be sure to [save and publish your branch](../../layout-builder#saving-and-publishing).
 
+### Home Branch Selector
+
+- [Designs](<../../../../../../assets/img/designs/lb-ui-kit/Branch Preferred Branch.jpg>)
+
+This feature allows users to select a single branch location as their home / preferred branch so that they can easily access branch-specific content across the site.
+
+![A screenshot of the Home Branch selector with a label and a n arrow pointing to a downward-pointing chevron with the label "Link to bring back the popup"](branch--home-branch-selector.png)
+
+The Home Branch selector popup will appear to users who arrive at the site and:
+
+- are new to the site,
+- have not selected a Home Branch, and
+- have not checked the "Do not ask me again" checkbox in the modal.
+
+Users can select a Home Branch by:
+
+- choosing a branch from the modal popup,
+- using the "Set Preferred Branch" link in the Utility menu,
+- choosing "My preferred branch" on a Branch page or in [Location Finder](../../layout-builder/location-finder).
+
+Users can remove a Home Branch by:
+
+- summoning the popup with the down arrow next to the set branch in the Utility menu, or
+- unchecking "My preferred branch" on a Branch page or in Location Finder.
+
+Selecting a home branch will:
+
+- add a link to the Branch’s home page to the user's utility menu,
+- show the Branch as the Home Branch on Branch Pages and Location Finder, and
+- populate Branch options in other sections of the site like the [Membership Apps](../../membership) and [Schedules](../../schedules) (coming soon).
+
+#### Disabling the Home Branch Selector
+
+If you want to completely remove the Home Branch selector from your site:
+
+- Go to **Admin** > **Extend** > **Uninstall module** (`/admin/modules/uninstall`)
+- Disable **WS Home Branch**, then disable **Open Y Home Branch**
+
+Alternatively, developers can run:
+
+``` shell
+drush pmu ws_home_branch openy_home_branch
+```
+
 ### Migrating to Layout Builder
 
 Migrating Branches to Layout builder involves recreating some content on the page. The process is similar to [building a new Landing Page with Layout Builder](../../layout-builder#creating-a-new-page), but with a lot of the work done for you!
@@ -164,11 +208,11 @@ Once you are ready to migrate a Branch:
 
 1. Either clone the page or open it in a separate tab so that it's easier to compare content.
 2. Prepare the Branch for Layout Builder:
-    - **Edit** the Branch,
-    - Add links in the **Menu** section if you'd like,
-    - click **Use Layout Builder**,
-    - if you'd like, **uncheck Published** while you do the migration to temporarily hide the page, then
-    - **Save**. ![Screenshot of the Branch edit screen.](branch-migrate-use-lb.png)
+  - **Edit** the Branch,
+  - Add links in the **Menu** section if you'd like,
+  - click **Use Layout Builder**,
+  - if you'd like, **uncheck Published** while you do the migration to temporarily hide the page, then
+  - **Save**. ![Screenshot of the Branch edit screen.](branch-migrate-use-lb.png)
 3. Your Branch will now display a set of default blocks: Hours (and header), Menu, Social Links, and Amenities.
 4. From here, you can [use Layout Builder](../../layout-builder#updating-an-existing-page) to move your old content from Paragraphs into Blocks. Review the [full list of designs](../../layout-builder/designs) or the [list of components]({{% relref "lb-2023-roadmap.md" %}}) if you need help deciding how to place things. Your old content will still be available to reference in the **Edit** tab in the old Header/Content/Footer sections.
 5. When you're finished, **Save** the layout and **Publish** the Branch!
