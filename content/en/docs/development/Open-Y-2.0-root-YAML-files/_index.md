@@ -114,7 +114,7 @@ blog:
   description: "Blog package provides a set of modules to maintain and create different blog post listings."
   help: '<p>Using Blog package you can create and maintain blog posts and create flexible listings of blog posts. Watch a video below to learn more about blog anatomy.</p>
   <iframe width="560" height="315"
-               src="https://www.youtube.com/embed/PTZkgOb8CFE"
+               src="https://www.youtube.com/embed/Vg1fy29DhdQ"
                frameborder="0" allow="autoplay; encrypted-media"
                allowfullscreen></iframe>'
   modules:

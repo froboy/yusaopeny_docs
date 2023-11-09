@@ -58,7 +58,7 @@ $ sh runtests.sh --tags run_selenium
 $ bin/behat
 ```
 
-[![Debugging JavaScript Behat tests](https://img.youtube.com/vi/RSsQLVVhldc/0.jpg)](https://youtu.be/RSsQLVVhldc)
+[![Debugging JavaScript Behat tests](https://img.youtube.com/vi/__ZJlWOK2JM/0.jpg)](https://youtu.be/__ZJlWOK2JM)
 
 
 ### Custom Behat functionality

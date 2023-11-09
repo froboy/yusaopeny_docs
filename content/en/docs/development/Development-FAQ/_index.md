@@ -12,7 +12,7 @@ aliases:
 
 To start developing you need to obtain the latest YMCA Website Services codebase. See the [`openy-project` repository](https://github.com/YCloudYUSA/yusaopeny-project#latest-development-version-drupal-9-2x) for the full process.
 
-[This video tutorial](https://www.youtube.com/watch?v=jRlinjpTl0c) will walk you through how to initiate a local development environment.
+[This video tutorial](https://www.youtube.com/watch?v=0XbqXlDyDCY) will walk you through how to initiate a local development environment.
 
 The YMCA Website Services team has pre-built environments and walkthroughs using either [Vagrant and VirtualBox](https://github.com/YCloudYUSA/yusaopeny-cibox-vm#drupal-vagrant-dev-box-for-openy-support) or [Docker and Docksal](https://github.com/YCloudYUSA/yusaopeny-docksal#get-started). Choose the method that you're most comfortable with and get started!
 
