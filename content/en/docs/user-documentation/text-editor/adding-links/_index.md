@@ -37,6 +37,34 @@ In the Advanced options of the link dialog, you can add attributes to links, inc
 {{% /tab %}}
 {{< /tabpane >}}
 
+### Using button classes
+
+The [Button editor](../building-buttons) that existed in the prior version of the text editor (CKEditor 4) has [not yet been ported to CKEditor 5 and Drupal 10](https://www.drupal.org/project/ckeditor_bootstrap_buttons/issues/3308035). Until that work is complete, content editors can add button classes in the Advanced Link Options.
+
+Create a button by adding [Bootstrap classes](https://getbootstrap.com/docs/4.6/components/buttons/) to a link:
+
+- Create a regular link in a Layout Builder block.
+  - We recommend only using custom buttons in large text blocks, like the [Table](../../layout-builder/table) or [Code](../../layout-builder/code) blocks.
+- Open the Advanced Options.
+- Add `btn` plus a class from the list below to the **CSS classes** field. ![The advanced link options dialog with the CSS classes field outlined. In the field is the text "btn btn-primary"](adding-links--button-classes.png)
+  - Button styles in the editor may not match the displayed styles.
+- Save the block.
+
+#### Button classes
+
+The distribution combines the default [Boostrap button component](https://getbootstrap.com/docs/4.6/components/buttons/) with some custom styles as demonstrated at [YMCA Lincoln, NE](https://www.ymcalincoln.org/buttons).
+
+![An example of button styles with five buttons using the primary, success, info, warning, and danger styles.](adding-links--button-example.png)
+
+- Any time you are making a button, your **CSS classes** should begin with `btn `. That sets up the default button styles.
+- Then, choose a button style, like `btn-primary` or `btn-light`.
+  - Button styles should generally not be combined.
+  - Some Bootstrap styles may be overridden by our theme.
+  - The `btn-primary` style will use the selected colorway for its color, but all other options may use other colors that are not brand compliant.
+- The **CSS classes** field should have at least two space-separated items when you're finished, like `btn btn-primary`.
+
+It's best to experiment with styles and make sure to check that your button displays as expected before saving the page.
+
 ## Anchor links
 
 If you're building a long landing page, you may want to be able to link users directly to a specific section of the page. We do this using an "anchor" link or "in-page" [URI fragment](https://en.wikipedia.org/wiki/URI_fragment).

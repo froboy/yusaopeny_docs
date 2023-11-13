@@ -3,6 +3,8 @@ title: 'Building Buttons'
 weight: 1
 ---
 
+> **Note:** The Button editor for CKEditor 5 in Drupal 10 is not yet complete. We have documented [an alternative process](../adding-links#using-button-classes).
+
 {{< youtube id=lJmhRo99uuM >}}
 
 -----
@@ -10,6 +12,7 @@ weight: 1
 [As an alternate to using the link tool](../adding-links), you can easily create buttons with YMCA Website Services using the button editor. When you click on the button icon, it will open a pop-up.
 
 ![WYSIWYG Editor options with the button tab highlighted in green.](buttons--toolbar.png)
+
 >You can also edit a button you've created previously by clicking on the link in the text editor.
 
 ![blog-description__text-editor-edit-button|640x295,75%](buttons--popup.gif)

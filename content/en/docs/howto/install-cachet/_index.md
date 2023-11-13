@@ -22,7 +22,7 @@ YMCA development partners can take advantage of a custom module which allows for
 
 ## For site builders
 
-Once you've downloaded the WOFF files, you'll need to add them to your site. These instructions mirror the [walkthrough in this video](https://www.youtube.com/watch?v=Kl1lwYSg3ww&feature=youtu.be).
+Once you've downloaded the WOFF files, you'll need to add them to your site. These instructions mirror the [walkthrough in this video](https://www.youtube.com/watch?v=AGlOmmy_GUw).
 
 - Visit **Admin** > **Extend** and ensure the "@fontyourface" and "@fontyourface - Local Fonts" modules are enabled.
 - Visit **Admin** > **Appearance** > **@font-your-face** > **Custom Fonts**
