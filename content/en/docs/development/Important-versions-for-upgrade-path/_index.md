@@ -40,6 +40,8 @@ These supplemental documents elaborate on a few specific cases:
   5. Upgrade all contrib modules on the Drupal 10 site to their latest versions (`composer update`).
 
 See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
+- `10.3.0.1` - Drupal 10|9 release, before New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience
+- `10.3.1` - Drupal 10|9 release, New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience. In this release we bumped a lot of dependencies to become up to date
 
 ## Known issues
 
