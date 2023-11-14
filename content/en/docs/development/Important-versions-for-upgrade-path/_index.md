@@ -38,7 +38,10 @@ These supplemental documents elaborate on a few specific cases:
   3. Use [drupal-rector](https://github.com/palantirnet/drupal-rector), [drupal-check](https://github.com/mglaman/drupal-check), and PHPCS to prepare custom modules and themes for Drupal 10.
   4. Upgrade to Drupal 10 and run regression testing to search for hard-to-find bugs (update `drupal/core-*` projects in composer.json, then run `compuser update`).
   5. Upgrade all contrib modules on the Drupal 10 site to their latest versions (`composer update`).
+- `10.3.0.1` - Drupal 10|9 release, before New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience
+- `10.3.1` - Drupal 10|9 release, New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience. In this release we bumped a lot of dependencies to become up to date
 
+See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 - `10.3.0.1` - Drupal 10|9 release, before New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience
 - `10.3.1` - Drupal 10|9 release, New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience. In this release we bumped a lot of dependencies to become up to date
