@@ -8,6 +8,8 @@ The distribution has shipped with two versions of Layout Builder component desig
 
 ## Design System
 
+Discover our Design System in our [interactive UI kit](/ui-kit).
+
 ### Colorways
 
 Based on the YMCA Brand Guide, the distribution contains four "colorways" that allow content editors to apply accessible, brand-compliant styles to all components on a Layout Builder-based page.
