@@ -19,7 +19,7 @@ Before upgrading, please review these [required version steps for your upgrade p
 - [Backup current state of the updated site](#backup-current-state-of-the-updated-site)
 - [Proceed with an update to next version until succeeded (Start from item 1)](#proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1)
 
-## Upgrade to Y USA Website Services 9.2.11.4 from Open Y 9.2.11.3
+## Upgrade steps
 
 ### Prepare dedicated environment for upgrade testing
 
@@ -29,7 +29,7 @@ Ensure you have a working computer or virtual machine with:
 - MySQL 5.7+ (8+ is preferred because of the performance improvements)
 - Apache 2.4 (or Nginx + php-fpm in case if you are fine with htaccess issues down the road)
 - PHP 8.1 (pre 8.1 could be an issue with some contrib modules)
-- Drush 10 || 11 
+- Drush 12 || 10 || 11
 
 The YMCA Website Services team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get a working virtual environment.
 
@@ -46,7 +46,7 @@ For that:
 - **Ensure you have not manually removed Drupal modules in your database without the uninstallation step being executed!** In this case you'll need to return the module back to the codebase and uninstall it via Drupal Extend UI or Drush before running the next steps to upgrade YMCA Website Services.
 - **Upgrade your site to latest Open Y - 9.2.11.3** See [respective docs from Open Y documentation](https://github.com/open-y-subprojects/openy_docs/blob/main/content/en/docs/wiki/OpenY-upgrade-how-to-for-Developers.md)
 
-### Run command 
+### Run command
 
 In the same folder where your `docroot` is, run:
 
@@ -68,14 +68,14 @@ Go to the `docroot` folder of your codebase and run:
 drush updatedb
 ```
 
-#### If updatedb fails... 
+#### If updatedb fails...
 you can use Drupal's `hook_update_dependencies` API to change the order of running updates to eliminate issues. [See this example](https://github.com/YCloudYUSA/yusaopeny/pull/1560/files).
 
 Ensure commands above have finished with no error messages. The best way to check it is to run them one more time. If the next run shows:
 
 ```sh
 $ drush updatedb
-No database updates required                                                                                    [success]                               
+No database updates required                                                                                    [success]
 ```
 
 You have almost 100% proven updates were executed correctly.
@@ -83,7 +83,7 @@ You have almost 100% proven updates were executed correctly.
 #### If loading the site fails...
 you may receive an error like this:
 
-> Error: Class ... not found in ... 
+> Error: Class ... not found in ...
 
 This happens due to Drupal not finding the renamed modules. To resolve this, manually clear the Drupal caches:
 

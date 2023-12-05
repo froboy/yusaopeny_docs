@@ -90,8 +90,9 @@ The main navigation also supports an optional [nested CTA block](#main-menu-cta-
 
 - Menu items can be managed under **Structure** > **Menus** > **Main navigation**.
 
-{{< alert color="warning" title="Tip" >}}
-Refer to the Drupal User Guide for more information about [managing menus](https://www.drupal.org/docs/user_guide/en/menu-concept.html).
+{{< alert color="warning" title="Tips" >}}
+- Refer to the Drupal User Guide for more information about [managing menus](https://www.drupal.org/docs/user_guide/en/menu-concept.html).
+- We recommend you **limit the main menu to 6 items or fewer** when using Layout Builder, as additional items can cause the menu to be wider than the supported area. Additional menu items can be added to the footer, if needed.
 {{< /alert >}}
 
 ### Search Bar Block

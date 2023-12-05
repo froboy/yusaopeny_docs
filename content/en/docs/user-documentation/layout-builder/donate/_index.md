@@ -3,6 +3,12 @@ title: Donate
 description: A call to action with donation buttons linking to an embedded form.
 ---
 
+> NOTE: This module requires per-provider configuration. Currently, support is provided for donation forms from:
+> - **Blackbaud Online Express**, and
+> - **Convio Luminate**.
+>
+> Please [submit a feature request](/roadmap) for additional provider support.
+
 {{< tabpane text=true >}}
   {{< tab header="Video" lang="vid" >}}
     {{< youtube wPHimaZOprw >}}
@@ -18,7 +24,7 @@ The **Y Layout Builder - Donate** (`lb_donate`) and **YMCA Website Services Dona
 
 ## Embedded form
 
-The module works with donation forms from Blackbaud Online Express and Convio Luminate. To get started: 
+To get started:
 
 1. Enable the **YMCA Website Services Donation Embed Form** (`y_donate`) module at **Administration** > **Extend**.
 2. Select the **Layout** Tab of a Layout Builder-enabled page.
@@ -47,7 +53,7 @@ Fill in the content fields:
   - **Form Element ID**: Usually a 4-digit number found on the donation backend. You may need to find this on the donation platform side or in the browser inspector.
 - **Donation page link**: A link to be displayed below the buttons.
   - **URL**: In order for the buttons to work properly, this must link to the page where the embedded donation form is embedded.
-  - **Link text**: The text to be displayed. 
+  - **Link text**: The text to be displayed.
 - **Background image**: Chose from the library or add a new image to be displayed behind the text.
 
 {{< readfile "../lb-save-block.partial" >}}
