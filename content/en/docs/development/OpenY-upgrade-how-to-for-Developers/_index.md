@@ -29,7 +29,7 @@ Ensure you have a working computer or virtual machine with:
 - MySQL 5.7+ (8+ is preferred because of the performance improvements)
 - Apache 2.4 (or Nginx + php-fpm in case if you are fine with htaccess issues down the road)
 - PHP 8.1 (pre 8.1 could be an issue with some contrib modules)
-- Drush 10 || 11
+- Drush 12 || 10 || 11
 
 The YMCA Website Services team maintains [Vagrant preconfigured Virtualbox based virtual machine with OpenY](https://github.com/YCloudYUSA/yusaopeny-cibox-vm). Feel free to use it to get a working virtual environment.
 
