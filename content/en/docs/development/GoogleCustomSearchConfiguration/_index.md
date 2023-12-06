@@ -8,8 +8,7 @@ The YMCA Website Services release **8.2.4** introduces Google Custom Search for 
 
 ### Fresh installations
 
-The search feature is included in the `Extended` installation type.
-For `Standard` see the <a href="#existing-websites">Existing websites</a> section.
+The search feature is included in the `Extended` installation type. For `Standard` see the <a href="#existing-websites">Existing websites</a> section.
 
 If you are installing a fresh YMCA Website Services website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site's search feature is up.
 
@@ -58,6 +57,37 @@ If you are already registered as a Non-profit in Google:
 1. From the [CSE Control Panel](https://cse.google.com), select the search engine you want to change.
 1. Click **Setup** then **Make Money**
 1. Toggle the **Show Ads** option to off.
+
+### Layout Builder
+
+The Google Custom Search Engine can also be used with Layout Builder:
+
+1. If you have an existing site, disable the old search page:
+    - Go to `/search`.
+    - Remove the URL alias by unchecking **Generate automatic URL alias** in the sidebar then deleting `/search`.
+    - Uncheck **Published** and **Save** to un-publish the page.
+1. Create a new **Landing Page (Layout Builder)** (`node/add/landing_page_lb`):
+    - Set the **Title** to "Search".
+    - Ensure **Generate automatic URL alias** is checked in the sidebar.
+    - Check **Published** then **Save and edit layout**.
+1. Add a [Small Banner](../../user-documentation/layout-builder/banner) to the header with a title for the page, like "Search".
+1. Add the search results code to the page:
+    - In the **Body** section, **Add block** and choose **Code Block**
+    - In **Code**, add the embed code from the CSE configuration. You may need to add an outer div to fit your page layout, for example:
+      ```html
+      <div class="paragraph paragraph--type--google-search py-4">
+        <script async src="https://cse.google.com/cse.js?cx=[id]"></script>
+        <div class="gcse-search"></div>
+      </div>
+      ```
+    - **Save layout** and check your page
+1. Change the Google Search config to use your new page:
+    - Go to **Admin** > **YMCA Website Services** > **Settings** > **Google Search settings** (`/admin/openy/settings/google-search`) and set the **Search page id** to the node id of your new page.
+    - Or, change the config with drush:
+      ```
+      drush cset openy_google_search.settings search_page_id <nid>
+      ```
+1. Test the search box in the Layout Builder page header to ensure the new configuration works as expected.
 
 ## Advanced setup
 
