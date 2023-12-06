@@ -14,27 +14,27 @@ YMCA Website Services leverages [Apache Solr](https://solr.apache.org/) for a fe
 - Log in as admin.
 - Go to `admin/modules` and enable the YMCA Website Services Search API module.
 
-![image](https://user-images.githubusercontent.com/563412/142628630-b412aa4b-8f2b-42f6-ba06-c5bb6a78469c.png)
+  ![image](https://user-images.githubusercontent.com/563412/142628630-b412aa4b-8f2b-42f6-ba06-c5bb6a78469c.png)
 
 - Approve the next step for enabling Database Search.
 
-![image](https://user-images.githubusercontent.com/563412/142628735-6aa409bd-5ff5-4305-a0f0-7f6bc96d0740.png)
+  ![image](https://user-images.githubusercontent.com/563412/142628735-6aa409bd-5ff5-4305-a0f0-7f6bc96d0740.png)
 
 - Go to the Search API configuration page `admin/config/search/search-api`.
 - Verify that the "OpenY Database Search" server is enabled.
 - Visit "Search content" index.
 
-![image](https://user-images.githubusercontent.com/563412/142629065-e13c8bb4-cad8-436f-93c6-30fa6ac6fdf7.png)
+  ![image](https://user-images.githubusercontent.com/563412/142629065-e13c8bb4-cad8-436f-93c6-30fa6ac6fdf7.png)
 
-tip: Admins can enable and the Solr search and switch the index between servers.
+> TIP: Admins can enable and the Solr search and switch the index between servers.
 
 - Index content by clicking "Index now".
 
-![image](https://user-images.githubusercontent.com/563412/142629227-8607eeca-4022-47c4-b5fd-6e38ccfb7bab.png)
+  ![image](https://user-images.githubusercontent.com/563412/142629227-8607eeca-4022-47c4-b5fd-6e38ccfb7bab.png)
 
 - Go to the homepage and search for any keyword.
 
-![image](https://user-images.githubusercontent.com/563412/142629467-e275b536-2505-4ddf-8d78-7c6f4ae0e716.png)
+  ![image](https://user-images.githubusercontent.com/563412/142629467-e275b536-2505-4ddf-8d78-7c6f4ae0e716.png)
 
 - Verify search results are displayed correctly.
 
@@ -64,10 +64,36 @@ Watch a [video tutorial](https://youtu.be/-Sq3uZb5K_U) on how to switch an exist
 - Edit the "Search content" index and change the "Server" field to the newly configured "Solr Search" index.
 - Visit the "Search content" index and click "Index now" to re-index the content.
 
+## Layout Builder and Solr search
+
+Solr search can be used with [Layout Builder](../../user-documentation/layout-builder), and requires a few extra steps:
+
+1. If you have an existing site, disable the old search page:
+   - Go to `/search`.
+   - Remove the URL alias by unchecking **Generate automatic URL alias** in the sidebar then deleting `/search`.
+   - Uncheck **Published** and **Save** to un-publish the page.
+2. Create a new **Landing Page (Layout Builder)** (`node/add/landing_page_lb`):
+   - Set the **Title** to "Search".
+   - Ensure **Generate automatic URL alias** is unchecked in the sidebar and set the alias to `/search`.
+     - If that alias results in an error, you can remove the old one at **Admin** > **Configuration** > **Search and metadata** > **URL aliases**
+   - Check **Published** then **Save and edit layout**.
+3. Add a [Small Banner](../../user-documentation/layout-builder/banner) to the header with a title for the page, like "Search".
+4. Add the search results block to the page:
+   - In the **Body** section, **Add block**, then expand **All system block** and choose **Content search block** from the Paragraph Blocks section.
+   - Optionally, choose to hide the title or change the number of items to display.
+   - **Save layout** and check your page.
+5. Change the Search API config to use your new page:
+   - Go to **Admin** > **YMCA Website Services** > **Settings** > **Search API settings** (`/admin/openy/settings/search-api`) and set the **Search page id** to the node id of your new page.
+   - Or, change the config with drush:
+     ```
+     drush cset openy_search_api.settings search_page_id <nid>
+     ```
+6. Test the search box in the Layout Builder page header to ensure the new configuration works as expected.
+
 ## Legacy Solr Support
 
-The contrib [Search API Solr](https://www.drupal.org/project/search_api_solr) module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling YMCA Website Services Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.
+The contrib [Search API Solr](https://www.drupal.org/project/search_api_solr) module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling YMCA Website Services Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md). As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.
 
-The error message may look something like this:
+The error message when using an old version of Solr may look something like this:
 
 > Notice: Undefined index: 4.x in Drupal\search_api_solr\Controller\SolrConfigSetController->getConfigFiles()

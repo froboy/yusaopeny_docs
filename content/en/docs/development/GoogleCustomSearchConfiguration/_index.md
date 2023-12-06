@@ -56,20 +56,21 @@ If you are already registered as a Non-profit in Google:
 1. Click **Overview** then **Ads**
 1. Toggle the **Show Ads** option to off.
 
-### Layout Builder
+### Layout Builder and Google Search
 
-The Google Custom Search Engine can also be used with Layout Builder:
+The Google Custom Search Engine can also be used with [Layout Builder](../../user-documentation/layout-builder):
 
 1. If you have an existing site, disable the old search page:
    - Go to `/search`.
    - Remove the URL alias by unchecking **Generate automatic URL alias** in the sidebar then deleting `/search`.
    - Uncheck **Published** and **Save** to un-publish the page.
-1. Create a new **Landing Page (Layout Builder)** (`node/add/landing_page_lb`):
+2. Create a new **Landing Page (Layout Builder)** (`node/add/landing_page_lb`):
    - Set the **Title** to "Search".
-   - Ensure **Generate automatic URL alias** is checked in the sidebar.
+   - Ensure **Generate automatic URL alias** is unchecked in the sidebar and set the alias to `/search`.
+     - If that alias results in an error, you can remove the old one at **Admin** > **Configuration** > **Search and metadata** > **URL aliases**
    - Check **Published** then **Save and edit layout**.
-1. Add a [Small Banner](../../user-documentation/layout-builder/banner) to the header with a title for the page, like "Search".
-1. Add the search results code to the page:
+3. Add a [Small Banner](../../user-documentation/layout-builder/banner) to the header with a title for the page, like "Search".
+4. Add the search results code to the page:
    - In the **Body** section, **Add block** and choose **Code Block**
    - In **Code**, add the embed code from the CSE configuration. You may need to add an outer div to fit your page layout, for example:
      ```html
@@ -79,13 +80,13 @@ The Google Custom Search Engine can also be used with Layout Builder:
      </div>
      ```
    - **Save layout** and check your page
-1. Change the Google Search config to use your new page:
+5. Change the Google Search config to use your new page:
    - Go to **Admin** > **YMCA Website Services** > **Settings** > **Google Search settings** (`/admin/openy/settings/google-search`) and set the **Search page id** to the node id of your new page.
    - Or, change the config with drush:
      ```
      drush cset openy_google_search.settings search_page_id <nid>
      ```
-1. Test the search box in the Layout Builder page header to ensure the new configuration works as expected.
+6. Test the search box in the Layout Builder page header to ensure the new configuration works as expected.
 
 ## Advanced setup
 
