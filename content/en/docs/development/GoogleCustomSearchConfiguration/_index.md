@@ -2,7 +2,7 @@
 title: Google Custom Search Configuration
 ---
 
-The YMCA Website Services release **8.2.4** introduces Google Custom Search for the website out of the box.
+The YMCA Website Services release **8.2.4** introduces Google Custom Search (aka Google Programmable Search Engine) for the website out of the box.
 
 ## Enabling the module
 
@@ -10,20 +10,19 @@ The YMCA Website Services release **8.2.4** introduces Google Custom Search for 
 
 The search feature is included in the `Extended` installation type. For `Standard` see the <a href="#existing-websites">Existing websites</a> section.
 
-If you are installing a fresh YMCA Website Services website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site's search feature is up.
+If you are installing a fresh YMCA Website Services website and going through the installation process via the web interface, on the third-party integration step, you can specify a Google Search ID. If you specify the Google Search ID in this form, your site's search feature will be up and running.
 
 ### Existing websites
 
-The search feature is not automatically enabled after upgrading an YMCA Website Services website. You have to manually enable it.
+The search feature is not automatically enabled after upgrading a YMCA Website Services website. You have to manually enable it.
 
-In order to do that:
+To do that:
 
 1. Log in as an admin (or a user with the `administrator` role).
 1. Go to the YMCA Website Services package install page (Admin menu > YMCA Website Services > Extend > Install, or `/admin/openy/extend/list`)
-1. Find the `SEARCH` package there, tick the checkbox and submit the form.
+1. Find the `Search` package there, tick the checkbox, and submit the form.
 
-Now the search modules are enabled and the header of the website should have a search field.
-Upon installation, the modules create a Landing page for search results and point the header search form to the page.
+Now, the search modules are enabled, and the website header should have a search field. Upon installation, the modules create a Landing page for search results and point the header search form to the page.
 
 ## Configuring the Google Search modules
 
@@ -32,8 +31,8 @@ Upon installation, the modules create a Landing page for search results and poin
 
 ### Obtaining Search Engine ID
 
-1. Go to https://cse.google.com/, register if you haven't yet, log in if you aren't logged in.
-1. Create the Search Engine (this process is explained in Google documentation https://support.google.com/customsearch/answer/4513882?hl=en&ref_topic=4513742):
+1. Go to https://cse.google.com/, register if you haven't yet, and log in if you aren't logged in.
+1. Create the Search Engine (this process is explained in [Google's documentation](https://support.google.com/programmable-search/answer/11082370?hl=en&ref_topic=4513742&sjid=719872083080201556-NC):
    1. Click "New Search Engine".
    1. Specify the domain of your website (e.g. `www.example.com`).
    1. Specify the name of the Search Engine (e.g. `example.com`).
@@ -42,20 +41,19 @@ Upon installation, the modules create a Landing page for search results and poin
 
 ## Configuring the Search Engine look and feel
 
-1. Go to `Look and feel` section of the Search Engine
-1. In the `Layout` tab, select `Full width` option and click `Save`
+1. Go to the `Look and feel` section of the Search Engine
+1. In the `Layout` tab, select the `Full width` option and click `Save`
 
-If this change hasn't made, the search results on the website are shown in a popup window.
+If this change hasn't been made, the search results on the website are shown in a popup window.
 
 ### Dealing with ads
 
-By default, newly created Search engines use Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to switch to Non-profit Edition of the CSE, where it is possible to disable ads.
-
-Take a look here https://support.google.com/customsearch/answer/4542102?hl=en&ctx=topic
+By default, newly created Search engines use the Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to [switch to Non-profit Edition](https://support.google.com/programmable-search/answer/11082370?hl=en&ref_topic=4513742&sjid=719872083080201556-NC) of the CSE, where it is possible to disable ads.
 
 If you are already registered as a Non-profit in Google:
+
 1. From the [CSE Control Panel](https://cse.google.com), select the search engine you want to change.
-1. Click **Setup** then **Make Money**
+1. Click **Overview** then **Ads**
 1. Toggle the **Show Ads** option to off.
 
 ### Layout Builder
@@ -63,60 +61,60 @@ If you are already registered as a Non-profit in Google:
 The Google Custom Search Engine can also be used with Layout Builder:
 
 1. If you have an existing site, disable the old search page:
-    - Go to `/search`.
-    - Remove the URL alias by unchecking **Generate automatic URL alias** in the sidebar then deleting `/search`.
-    - Uncheck **Published** and **Save** to un-publish the page.
+   - Go to `/search`.
+   - Remove the URL alias by unchecking **Generate automatic URL alias** in the sidebar then deleting `/search`.
+   - Uncheck **Published** and **Save** to un-publish the page.
 1. Create a new **Landing Page (Layout Builder)** (`node/add/landing_page_lb`):
-    - Set the **Title** to "Search".
-    - Ensure **Generate automatic URL alias** is checked in the sidebar.
-    - Check **Published** then **Save and edit layout**.
+   - Set the **Title** to "Search".
+   - Ensure **Generate automatic URL alias** is checked in the sidebar.
+   - Check **Published** then **Save and edit layout**.
 1. Add a [Small Banner](../../user-documentation/layout-builder/banner) to the header with a title for the page, like "Search".
 1. Add the search results code to the page:
-    - In the **Body** section, **Add block** and choose **Code Block**
-    - In **Code**, add the embed code from the CSE configuration. You may need to add an outer div to fit your page layout, for example:
-      ```html
-      <div class="paragraph paragraph--type--google-search py-4">
-        <script async src="https://cse.google.com/cse.js?cx=[id]"></script>
-        <div class="gcse-search"></div>
-      </div>
-      ```
-    - **Save layout** and check your page
+   - In the **Body** section, **Add block** and choose **Code Block**
+   - In **Code**, add the embed code from the CSE configuration. You may need to add an outer div to fit your page layout, for example:
+     ```html
+     <div class="paragraph paragraph--type--google-search py-4">
+       <script async src="https://cse.google.com/cse.js?cx=[id]"></script>
+       <div class="gcse-search"></div>
+     </div>
+     ```
+   - **Save layout** and check your page
 1. Change the Google Search config to use your new page:
-    - Go to **Admin** > **YMCA Website Services** > **Settings** > **Google Search settings** (`/admin/openy/settings/google-search`) and set the **Search page id** to the node id of your new page.
-    - Or, change the config with drush:
-      ```
-      drush cset openy_google_search.settings search_page_id <nid>
-      ```
+   - Go to **Admin** > **YMCA Website Services** > **Settings** > **Google Search settings** (`/admin/openy/settings/google-search`) and set the **Search page id** to the node id of your new page.
+   - Or, change the config with drush:
+     ```
+     drush cset openy_google_search.settings search_page_id <nid>
+     ```
 1. Test the search box in the Layout Builder page header to ensure the new configuration works as expected.
 
 ## Advanced setup
 
-Official Google documentation https://support.google.com/customsearch/topic/4542213?hl=en&ref_topic=4513868
+Google maintains documentation on [how to configure advanced search features](https://support.google.com/customsearch/topic/4542213?hl=en&ref_topic=4513868)
 
 ### Mutli-site search
 
-You can add not only your website's domain but other domains as well if you have other websites dedicated to your Association but split from the main website.
+You can add multiple domains to the custom search engine if your association maintains multiple websites, for example, if your camps run at different website domains
 
-You can also add not only the whole websites but their parts by specifying patterns like `example.com/blog/*`.
+You can also add not only the whole website but its parts by specifying patterns like `example.com/blog/*`. See [Update sites in your search engine](https://support.google.com/programmable-search/answer/12397162?hl=en&ref_topic=4513742&sjid=719872083080201556-NC) for details.
 
 ### Refinements and facets
 
-https://support.google.com/customsearch/answer/4542637?hl=en&ctx=topic&topic=2642564&visit_id=637166170019174137-3540762397&rd=1
+[Use Refinements to narrow the scope of search](https://support.google.com/programmable-search/answer/12425418?hl=en&ref_topic=4542213&sjid=719872083080201556-NC)
 
-Refinements let users filter results according to categories you provide.
+Refinements let users filter results according to the categories you provide.
 
-Refinements appear in the search results page as tabs. The content of each tab is configured in Search features > Refinement section of the Custom Search Control panel.
+Refinements appear in the search results page as tabs. The content of each tab is configured in the Search features > Refinement section of the Custom Search Control panel.
 
 To set up a dedicated tab in search results for Blog posts do the following:
 
-1. In Control panel, go to `Search features` > `Refinements`
+1. In the Control panel, go to `Search features` > `Refinements`
 1. Click `Add`
    1. Set the name of the refinement to `Blog`
    1. Select `Search only the sites with this label` for `How to search sites with this label?`
    1. Click `Ok`
 1. Go to `Setup`
 1. Find `Sites to search`, click `Add`
-   1. Add the `yourymcadomain.org/blog/*` in the text field
+   1. Add the `example.org/blog/*` in the text field
    1. Select `Blog` in the Label dropdown
    1. Select `Include just this specific page or URL pattern I have entered`
    1. Click `Save`
@@ -125,7 +123,7 @@ The search results page now shows the `Blog` tab that only shows blog entries re
 
 ### Promotions
 
-Official Google documentation https://support.google.com/customsearch/answer/4542640?hl=en&ref_topic=4542213
+[Use Promotions to highlight a page in searches](https://support.google.com/programmable-search/answer/13280560?hl=en&ref_topic=4542213&sjid=719872083080201556-NC)
 
 ## Information for developers
 
@@ -134,6 +132,7 @@ Official Google documentation https://support.google.com/customsearch/answer/454
 ### Enabling via Drush
 
 Use the following snippet to enable the package on existing websites:
+
 ```
 drush en openy_google_search
 ```
@@ -141,6 +140,7 @@ drush en openy_google_search
 ### Configuring the module via Drush
 
 Use the following snippet when you install YMCA Website Services via Drush to set the Search Engine ID:
+
 ```
 drush site-install openy \
    --account-pass=password \
