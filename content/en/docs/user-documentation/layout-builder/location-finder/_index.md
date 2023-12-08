@@ -43,7 +43,11 @@ To nest terms:
 - **Add term** to create new parent terms if necessary.
 - Use the drag handle [✥] to arrange terms into nested groups.
 
-**Note:** Any terms more than two levels deep will be ignored. (That is, parents and children will be displayed, grandchildren will not.)
+> **NOTE:**
+> - Any terms more than two levels deep will be ignored. (That is, parents and children will be displayed, grandchildren will not.)
+> - When nesting is enabled, any amenities that are not grouped will be hidden from the filter list.
+>
+> ![A screenshot showing amenities in a hierarchy with labels. Amenities greater than two levels deep are marked as hidden, amenities that do not have children are marked as hidden. All others are marked as shown.](lb-location-finder--hidden-amenities.png)
 
 ## Using Location Finder
 
