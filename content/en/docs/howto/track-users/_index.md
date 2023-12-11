@@ -1,7 +1,7 @@
 ---
 title: How to track & analyze user actions
 linkTitle: "track users"
-aliases: 
+aliases:
   - /docs/development/datalayer/
   - /docs/development/google_analytics/
   - /docs/development/google_analytics_search/
@@ -123,3 +123,29 @@ function my_module_datalayer_alter(&$data_layer) {
   }
 }
 ```
+
+## Cross-domain Tracking
+
+This configuration enables cross-domain tracking (also known as "cross-domain measurement") to work through internal redirects like those in [Membership Calculator](../../user-documentation/membership/calculator) (that use `TrustedRedirectResponse`).
+
+When enabled, cookies matching any configured tag will be added to any redirect destination matching a configured domain. For example, a redirect to `https://example.com` will be transformed to `https://example.com/?_gl=....`.
+
+This process is illustrated well by [Analytics Mania](https://web.archive.org/web/20231204093006/https://www.analyticsmania.com/post/cross-domain-tracking-in-google-analytics-4/#how-does-it-work):
+
+![A diagram illustrating the successful user flow of a cookie from one domain to another, via analyticsmania.com](https://web.archive.org/web/20231204093006im_/https://www.analyticsmania.com/wp-content/uploads/2021/03/cross-domain-ga4-2.jpg)
+
+Analytics provides code that does this automatically with standard `<a>` links, but this module is required to enable similar functionality with "server-side" links/redirects.
+
+> NOTE: Configuration and testing of analytics is required outside the scope of this module, refer to [[GA4] Set up cross-domain measurement](https://support.google.com/analytics/answer/10071811?hl=en) for more information.
+>
+> Successful cross-domain tracking also requires the destination application to retain the passed query strings and load them into the corresponding tracking property.
+
+### Configuration
+
+1. Enable the "YMCA Website Services Cross-domain Tracking (XDT)" module at **Administration** > **Extend**, or via drush:
+    ```shell
+    drush en openy_xdt
+    ```
+2. Configure the module at **Administration** > **YMCA Website Services** > **Settings** > **Cross-domain Tracking Settings** (`/admin/openy/settings/xdt`)
+    - The cookie defaults to the standard for GA4, but can be modified for use with different systems.
+    - The module will not have any effect until a domain is configured. Add the domains of any external sites where you would like to enable tracking.
