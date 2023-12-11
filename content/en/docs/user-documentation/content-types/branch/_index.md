@@ -132,7 +132,7 @@ The Branch Menu is a single-level sub-menu that displays within a branch page (a
 
 Beginning in [Website Services 9.2.13]({{% relref "release-ds-9.2.13.md" %}}) content editors have the option of customizing the Branch page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a branch-by-branch basis to ease the transition.
 
-The **Use Layout Builder** checkbox on the Branch edit page non-destructively switches between Paragraphs and Layout Builder.
+The **Use Layout Builder** checkbox on the Branch edit page non-destructively switches between Paragraphs and Layout Builder. If the checkbox does not appear, ensure the **Y Branch** (`y_branch`) module is installed at **Admin** > **Extend** (`/admin/modules`).
 
 ### Layout Builder Blocks
 

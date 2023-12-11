@@ -53,6 +53,6 @@ Use [Paragraphs](../../paragraphs) to add content to your Facility page.
 
 Beginning in [Website Services 10.3.0]({{% relref "release-ds-10.3.0.md" %}}) content editors have the option of customizing the Facility page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a facility-by-facility basis in order to ease the transition.
 
-The **Use Layout Builder** checkbox on the Facility edit page non-destructively switches between Paragraphs and Layout Builder.
+The **Use Layout Builder** checkbox on the Facility edit page non-destructively switches between Paragraphs and Layout Builder. If the checkbox does not appear, ensure the **Y Facility** (`y_facility`) module is installed at **Admin** > **Extend** (`/admin/modules`).
 
 The migration process is identical to [Migrating Branches to Layout Builder](../branch/#migrating-to-layout-builder).
