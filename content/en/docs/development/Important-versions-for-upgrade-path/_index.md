@@ -25,12 +25,12 @@ These supplemental documents elaborate on a few specific cases:
 
 - `8.1.13.1` - Optional, when you have a lot of customized code and 8.2.2.1 is failing in most places.
 - `8.2.2.1` - This is a very important step everyone should have. After this version, `drush entup` stops working. In this version, we finally migrated to the core media subsystem, and before going further it is important to upgrade media by upgrading your site to this version first.
-- `8.2.7.3` - This is a very stable Drupal 8 based YMCA Website Services with a bunch of contrib module updates. This is one of the last Drupal 8 based YMCA Website Services versions before the upgrade to Drupal 9 core. Also, in 8.2.7.0 and 8.2.7.1 we started to introduce multiple version constraints in `composer.json` to allow developers to choose between the minimum or latest dependency versions. This is for securing the upgrade path as well as adding flexibility for version selection if needed.
+- **`8.2.7.3`** - This is a very stable Drupal 8 based YMCA Website Services with a bunch of contrib module updates. This is one of the last Drupal 8 based YMCA Website Services versions before the upgrade to Drupal 9 core. Also, in 8.2.7.0 and 8.2.7.1 we started to introduce multiple version constraints in `composer.json` to allow developers to choose between the minimum or latest dependency versions. This is for securing the upgrade path as well as adding flexibility for version selection if needed.
 - `9.2.8.0` - Drupal 9 version which must be used in the upgrade path before going to 9.2.8.1+. This version added 9.0-9.1 Drupal Core and disabled deprecated components.
 - `9.2.10.0` - Removed a bunch of unused modules from distribution.
-- `9.2.11.3` - Last Open Y Drupal core 9.3.* release
+- **`9.2.11.3`** - Last Open Y Drupal core 9.3.* release
 - `9.2.11.4` - Technical release of YMCA Website Services ( no diff with 9.2.11.3 )
-- `9.2.13.0` - Pre Drupal 10 release, latest Drupal 9 release. Before going into Layout Builder era it is recommended to uninstall `geysir`, `openy_inline_editing`, `quickedit`, `rdf` modules.
+- **`9.2.13.0`** - Pre Drupal 10 release, latest Drupal 9 release. Before going into Layout Builder era it is recommended to uninstall `geysir`, `openy_inline_editing`, `quickedit`, `rdf` modules.
 - `10.2.14` - Drupal 10|9 release, where you may follow the recommendations below:
 
   1. Upgrade to the latest Drupal 9 core (using [version 10.2.14](https://github.com/YCloudYUSA/yusaopeny/releases/tag/10.2.14) of the distribution, released in June 2023).
@@ -40,7 +40,7 @@ These supplemental documents elaborate on a few specific cases:
   5. Upgrade all contrib modules on the Drupal 10 site to their latest versions (`composer update`).
 
 - `10.3.0.1` - Drupal 10|9 release, before New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience
-- `10.3.1` - Drupal 10|9 release, New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience. In this release we bumped a lot of dependencies to become up to date
+- **`10.3.1`** - Drupal 10|9 release, New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience. In this release we bumped a lot of dependencies to become up to date
 
 See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 
