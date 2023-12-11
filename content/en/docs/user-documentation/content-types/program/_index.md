@@ -71,3 +71,28 @@ For aside pieces of content, such as side navigations, promotional cards and con
 
 * The *Description* field always displays above the paragraphs you enter.
 * There is no bottom area for you to add an anchoring element.
+
+## Customizing with Layout Builder
+
+Beginning in [Website Services 10.3.1.1]({{% relref "release-ds-10.3.1.1.md" %}}) content editors have the option of customizing the Program page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a program-by-program basis to ease the transition.
+
+The **Use Layout Builder** checkbox on the Program edit page non-destructively switches between Paragraphs and Layout Builder. If the checkbox does not appear, ensure the **Y Program** (`y_program`) module is installed at **Admin** > **Extend** (`/admin/modules`).
+
+### Layout Builder Blocks
+
+Program pages can take advantage of the [Categories Listing](../../paragraphs/categories-listing) block to list child Program Subcategory pages. To add the block:
+
+- Click the **Layout** tab at the top of your page.
+- Scroll to the location on the page where you want to add the block (usually the **Body** section).
+- Click **Add block**.
+- In the sidebar, expand **All system blocks**.
+- Search for "Categories Listing" or scroll to **Lists (Views)** > **Categories Listing**.
+- Click on **Categories Listing**.
+- Check **Override title** to add a title to the block.
+- Click **Add block**.
+
+> NOTE: As of version 10.3.1.1 (December 2023) the **Categories Listing** block styles have not been updated to be in line with the [Design System](../../layout-builder/designs/#design-system). They will be updated as of the March 2024 release. Keep an eye on [y_program releases](https://www.drupal.org/project/y_program/releases) for details.
+
+### Migrating to Layout Builder
+
+Migrating Program pages to Layout Builder uses the same process as [building a new Landing Page](../../layout-builder/#creating-a-new-page). See [How to migrate to Layout Builder](../../../howto/migrate-to-lb/#prepare-your-content) for information about preparing for the migration.

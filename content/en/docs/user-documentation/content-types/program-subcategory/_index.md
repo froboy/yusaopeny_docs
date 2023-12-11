@@ -71,3 +71,17 @@ The Sidebar Area will change the layout of the page into two columns once you en
 ### Bottom Area
 
 Use the Bottom Area for anchoring elements, such as [small banners](../../paragraphs/small-banner) and [webforms](../../paragraphs/webform).
+
+## Customizing with Layout Builder
+
+Beginning in [Website Services 10.3.1.1]({{% relref "release-ds-10.3.1.1.md" %}}) content editors have the option of customizing the Program Subcategory page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a program-by-program basis to ease the transition.
+
+The **Use Layout Builder** checkbox on the Program Subcategory edit page non-destructively switches between Paragraphs and Layout Builder. If the checkbox does not appear, ensure the **Y Program Subcategory** (`y_program_subcategory`) module is installed at **Admin** > **Extend** (`/admin/modules`).
+
+### Layout Builder Blocks
+
+Program Subcategory pages do not utilize any specialized blocks. See [Layout Builder](../../layout-builder) for the list of all components.
+
+### Migrating to Layout Builder
+
+Migrating Program pages to Layout Builder uses the same process as [building a new Landing Page](../../layout-builder/#creating-a-new-page). See [How to migrate to Layout Builder](../../../howto/migrate-to-lb/#prepare-your-content) for information about preparing for the migration.
