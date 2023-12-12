@@ -82,7 +82,7 @@ Continuing general cleanup, updated documentation, and improvements to the conte
 * Added [header menu length recommendations](https://ds-docs.y.org/docs/user-documentation/layout-builder/header-footer/#main-navigation). (#1239)
 * Included documentation for [installing Solr site search](https://ds-docs.y.org/docs/development/googlecustomsearchconfiguration/#layout-builder-and-google-search) and [Google Search Configuration](https://ds-docs.y.org/docs/development/googlecustomsearchconfiguration/#layout-builder-and-google-search) in Layout Builder. (#1198)
 * Updated documentation for how to set up a [Layout Builder site from scratch](https://ds-docs.y.org/docs/howto/set-up-lb/). (#1241)
-* Added documentation for how to [display amenities in the filter](https://deploy-preview-71--sparkling-souffle-4f78b0.netlify.app/docs/user-documentation/layout-builder/location-finder/#hierarchical-parentchild-amenities) on the LB Location Finder page. (#1252)
+* Added documentation for how to [display amenities in the filter](https://ds-docs.y.org/docs/user-documentation/layout-builder/location-finder/#hierarchical-parentchild-amenities) on the LB Location Finder page. (#1252)
 
 ## Bug Fixes
 
