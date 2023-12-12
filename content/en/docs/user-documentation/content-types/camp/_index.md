@@ -86,7 +86,7 @@ Use the bottom area for anchoring elements on your page. The following paragraph
 
 Beginning in Website Services 9.3, content editors have the option of customizing the Camp page with [Layout Builder](../../layout-builder). You can migrate from using Paragraphs to using Layout Builder on a camp-by-camp basis in order to ease the transition.
 
-The **Use Layout Builder** checkbox on the Camp edit page non-destructively switches between Paragraphs and Layout Builder.
+The **Use Layout Builder** checkbox on the Camp edit page non-destructively switches between Paragraphs and Layout Builder. If the checkbox does not appear, ensure the **Y Camp** (`y_camp`) module is installed at **Admin** > **Extend** (`/admin/modules`).
 
 ### Camp Menus
 
