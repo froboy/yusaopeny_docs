@@ -7,7 +7,7 @@ aliases:
 YMCA Website Services leverages [Apache Solr](https://solr.apache.org/) for a few features:
 
 - [Activity Finder](https://github.com/YCloudYUSA/yusaopeny_activity_finder/wiki) requires Solr
-- Site search can _optionally_ use Solr as per [this Pull Request](https://github.com/YCloudYUSA/yusaopeny/pull/1967)
+- Site search can _optionally_ use Solr as per [this Pull Request](https://github.com/ymcatwincities/openy/pull/1967)
 
 ## Quick Start / Upgrade path
 
