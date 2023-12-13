@@ -74,4 +74,8 @@ Then require and enable [`yusaopeny_activity_finder`](https://github.com/YCloudY
 
 ## Canadian YMCAs
 
-For Canadian YMCA sites, enable [`ws_colorway_canada`](https://www.drupal.org/project/ws_colorway_canada). This module contains [colorways and logos](../../user-documentation/layout-builder/designs/#canadian-colourways) approved by their local Y authorities.
+For Canadian YMCA sites, enable [`ws_colorway_canada`](https://www.drupal.org/project/ws_colorway_canada) and its submodule `lb_hero_canada`. These modules contain [colorways, logos, and banner styles](../../user-documentation/layout-builder/designs/#canadian-colourways) approved by their local Y authorities.
+
+- After enabling the new colorway, be sure to set the [default layout styles](#configure-layouts--listings) to use the Canadian colorway of your choice.
+- Enabling `ws_colorway_canada` will immediately change the site logo from the Y-USA logo to the Y Canada logo, so this should be done on a development environment first.
+
