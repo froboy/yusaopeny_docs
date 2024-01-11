@@ -11,58 +11,60 @@ We start by defining a base set of colors based on the "Y Color Wheel and Neighb
 
 ![A color wheel with labels corresponding to the official YMCA colors.](colorways--colorwheel.png)
 
+> **Note:** RGB variable values are not complete color definitions and must be wrapped in `rgb{a}()`, like `background-color: rgb(var(--ylb-color-rgb-red-dark), 0.5);`.
+
 ```scss
 :root {
     --ylb-color-red-dark: {{< color "#a92b31" >}};
-    --ylb-color-rgb-red-dark: 169, 43, 49;
-    --ylb-color-red: #ed1c24;
-    --ylb-color-rgb-red: 237, 28, 36;
-    --ylb-color-red-light: #f15922;
-    --ylb-color-rgb-red-light: 241, 89, 34;
-    --ylb-color-orange-dark: #dd5828;
-    --ylb-color-rgb-orange-dark: 221, 88, 40;
-    --ylb-color-orange: #f47920;
-    --ylb-color-rgb-orange: 244, 121, 32;
-    --ylb-color-orange-light: #fcaf17;
-    --ylb-color-rgb-orange-light: 252, 175, 23;
-    --ylb-color-green-dark: #006b6b;
-    --ylb-color-rgb-green-dark: 0, 107, 107;
-    --ylb-color-green: #01a490;
-    --ylb-color-rgb-green: 1, 164, 144;
-    --ylb-color-green-light: #20bdbe;
-    --ylb-color-rgb-green-light: 32, 189, 190;
-    --ylb-color-blue-dark: #0060af;
-    --ylb-color-rgb-blue-dark: 0, 96, 175;
-    --ylb-color-blue: #0089d0;
-    --ylb-color-rgb-blue: 0, 137, 208;
-    --ylb-color-blue-light: #00aeef;
-    --ylb-color-rgb-blue-light: 0, 174, 239;
-    --ylb-color-purple-dark: #5c2e91;
-    --ylb-color-rgb-purple-dark: 92, 46, 145;
-    --ylb-color-purple: #92278f;
-    --ylb-color-rgb-purple: 146, 39, 143;
-    --ylb-color-purple-light: #c6168d;
-    --ylb-color-rgb-purple-light: 198, 22, 141;
-    --ylb-color-white: #FFFFFF;
-    --ylb-color-rgb-white: 255, 255, 255;
-    --ylb-color-light-grey-1: #f2f2f2;
-    --ylb-color-rgb-light-grey-1: 242, 242, 242;
-    --ylb-color-light-grey-2: #e7e7e7;
-    --ylb-color-rgb-light-grey-2: 231, 231, 231;
-    --ylb-color-light-grey-3: #cccccc;
-    --ylb-color-rgb-light-grey-3: 204, 204, 204;
-    --ylb-color-grey-1: #636466;
-    --ylb-color-rgb-grey-1: 99, 100, 102;
-    --ylb-color-grey-2: #4F4F4F;
-    --ylb-color-rgb-grey-2: 79, 79, 79;
-    --ylb-color-grey-3: #3F4042;
-    --ylb-color-rgb-grey-3: 63, 64, 66;
-    --ylb-color-dark-grey-1: #2F2F2F;
-    --ylb-color-rgb-dark-grey-1: 47, 47, 47;
-    --ylb-color-dark-grey-2: #231F20;
-    --ylb-color-rgb-dark-grey-2: 35, 31, 32;
-    --ylb-color-black: #000000;
-    --ylb-color-rgb-black: 0, 0, 0;
+    --ylb-color-rgb-red-dark: {{< color 169 43 49 >}};
+    --ylb-color-red: {{< color "#ed1c24" >}};
+    --ylb-color-rgb-red: {{< color 237 28 36 >}};
+    --ylb-color-red-light: {{< color "#f15922" >}};
+    --ylb-color-rgb-red-light: {{< color 241 89 34 >}};
+    --ylb-color-orange-dark: {{< color "#dd5828" >}};
+    --ylb-color-rgb-orange-dark: {{< color 221 88 40 >}};
+    --ylb-color-orange: {{< color "#f47920" >}};
+    --ylb-color-rgb-orange: {{< color 244 121 32 >}};
+    --ylb-color-orange-light: {{< color "#fcaf17" >}};
+    --ylb-color-rgb-orange-light: {{< color 252 175 23 >}};
+    --ylb-color-green-dark: {{< color "#006b6b" >}};
+    --ylb-color-rgb-green-dark: {{< color 0 107 107 >}};
+    --ylb-color-green: {{< color "#01a490" >}};
+    --ylb-color-rgb-green: {{< color 1 164 144 >}};
+    --ylb-color-green-light: {{< color "#20bdbe" >}};
+    --ylb-color-rgb-green-light: {{< color 32 189 190 >}};
+    --ylb-color-blue-dark: {{< color "#0060af" >}};
+    --ylb-color-rgb-blue-dark: {{< color 0 96 175 >}};
+    --ylb-color-blue: {{< color "#0089d0" >}};
+    --ylb-color-rgb-blue: {{< color 0 137 208 >}};
+    --ylb-color-blue-light: {{< color "#00aeef" >}};
+    --ylb-color-rgb-blue-light: {{< color 0 174 239 >}};
+    --ylb-color-purple-dark: {{< color "#5c2e91" >}};
+    --ylb-color-rgb-purple-dark: {{< color 92 46 145 >}};
+    --ylb-color-purple: {{< color "#92278f" >}};
+    --ylb-color-rgb-purple: {{< color 146 39 143 >}};
+    --ylb-color-purple-light: {{< color "#c6168d" >}};
+    --ylb-color-rgb-purple-light: {{< color 198 22 141 >}};
+    --ylb-color-white: {{< color "#FFFFFF" >}};
+    --ylb-color-rgb-white: {{< color 255 255 255 >}};
+    --ylb-color-light-grey-1: {{< color "#f2f2f2" >}};
+    --ylb-color-rgb-light-grey-1: {{< color 242 242 242 >}};
+    --ylb-color-light-grey-2: {{< color "#e7e7e7" >}};
+    --ylb-color-rgb-light-grey-2: {{< color 231 231 231 >}};
+    --ylb-color-light-grey-3: {{< color "#cccccc" >}};
+    --ylb-color-rgb-light-grey-3: {{< color 204 204 204 >}};
+    --ylb-color-grey-1: {{< color "#636466" >}};
+    --ylb-color-rgb-grey-1: {{< color 99 100 102 >}};
+    --ylb-color-grey-2: {{< color "#4F4F4F" >}};
+    --ylb-color-rgb-grey-2: {{< color 79 79 79 >}};
+    --ylb-color-grey-3: {{< color "#3F4042" >}};
+    --ylb-color-rgb-grey-3: {{< color 63 64 66 >}};
+    --ylb-color-dark-grey-1: {{< color "#2F2F2F" >}};
+    --ylb-color-rgb-dark-grey-1: {{< color 47 47 47 >}};
+    --ylb-color-dark-grey-2: {{< color "#231F20" >}};
+    --ylb-color-rgb-dark-grey-2: {{< color 35 31 32 >}};
+    --ylb-color-black: {{< color "#000000" >}};
+    --ylb-color-rgb-black: {{< color 0 0 0 >}};
 }
 ```
 
