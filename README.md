@@ -1,5 +1,7 @@
 # YMCA Website Services Docs
 
+This repository stores documentation of the YMCA Website Services ecosystem that could be [read here](https://ds-docs.y.org/)
+
 [Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **YMCA Website Services Docs Project** uses the
 Docsy theme to serve documentation for the [YMCA Website Services](https://ds.ymca.org/) distribution.
