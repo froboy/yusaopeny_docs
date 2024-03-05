@@ -41,6 +41,7 @@ These supplemental documents elaborate on a few specific cases:
 
 - `10.3.0.1` - Drupal 10|9 release, before New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience
 - **`10.3.1`** - Drupal 10|9 release, New Demo Content and Initial Replacement Paragraphs to Blocks for Native Layout Builder Experience. In this release we bumped a lot of dependencies to become up to date
+- 10.3.2 - Introduced new modules for date handling in Event CT which could cause some issues in upgrade path. If possible - update to this version during upgrading futher up.
 
 See [Version Constraints practices for YMCA Website Services]({{< relref "Composer-version-constraints-for-Open-Y" >}})
 
