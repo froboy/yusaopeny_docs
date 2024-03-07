@@ -153,6 +153,4 @@ The "chevron" and "triangle" components are composed of `radialGradient` element
 
 ## Y Styles
 
-### Options Form
-
-### What happens next
+Each "Y Styles" option enables a different library, as seen in [y_lb.ws_style_option.yml](https://github.com/YCloudYUSA/y_lb/blob/main/y_lb.ws_style_option.yml). Those libraries [can be overridden by a custom theme](https://www.drupal.org/node/2497313) if necessary.
