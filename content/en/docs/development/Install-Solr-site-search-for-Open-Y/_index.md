@@ -66,7 +66,39 @@ Watch a [video tutorial](https://youtu.be/-Sq3uZb5K_U) on how to switch an exist
 
 ## Layout Builder and Solr search
 
-Solr search can be used with [Layout Builder](../../user-documentation/layout-builder), and requires a few extra steps:
+Solr search can be used with [Layout Builder](../../user-documentation/layout-builder), and requires a few extra steps.
+
+### Configure Solr to index the new content types
+
+In order for Solr to index the new content types, they need to be added to the index.
+
+1. Enable the YMCA Website Services Search API (`openy_search_api`) module if not already enabled.
+2. Go to **Admin** > **Configuration** > **Search and metadata** > **Search API**, then **Edit** the **Search content** index. (`/admin/config/search/search-api/index/search_content/edit`)
+3. Configure Solr to index the Layout Builder content types:
+    - Scroll down, expand **Configure the _Content_ datasource**, and check the content types that should be indexed for search. !["Configure the content datasource" options](solr--choose-content-types.png)
+    - Save the form.
+4. Configure how Solr indexes the Layout Builder content types:
+    - From the **Search API** configuration, open the dropdown for the **Search content** index and choose **Fields**. ![The "fields" option in the options dropdown of the Search API configuration](solr--edit-fields.png)
+    - To the right of the **Rendered HTML output** field options, choose **Edit**.
+    - For each newly added content type, switch "Don't include the rendered item" to the right view mode.  ![Choose the view mode for each content type.](solr--view-modes.png)
+        - In general, new Layout Builder specific content types will use the "Default" view mode, while older Layout Builder-compatible content types should use the "Full content" view mode.
+
+          | Content type        | View mode |
+          |---------------------|-----------|
+          | Article (LB)        | Default   |
+          | Branch              | Full      |
+          | Event (LB)          | Default   |
+          | Camp                | Full      |
+          | Camp Subpage        | Full      |
+          | Facility            | Full      |
+          | Landing Page (LB)   | Default   |
+          | Program             | Full      |
+          | Program Subcategory | Full      |
+
+        - Save the page.
+5. Once your changes have been saved, re-index the content to see the changes reflected in search results.
+
+### Set up a Layout Builder search page
 
 1. If you have an existing site, disable the old search page:
    - Go to `/search`.
