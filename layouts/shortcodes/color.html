@@ -1,0 +1,6 @@
+{{- if gt (.Params | len) 1 -}} <!-- if more than one input, assume rgb() -->
+  {{- delimit .Params ", " }}<span class="px-2 ms-1" style="background-color:rgb({{ delimit .Params ", " }});"></span>{{- "" -}}
+{{- else -}} <!-- otherwise it's a hex -->
+  {{- .Get 0 }}<span class="px-2 ms-1" style="background-color:{{ .Get 0 -}};"></span>{{- "" -}}
+{{ end }}{{- "" -}}
+
