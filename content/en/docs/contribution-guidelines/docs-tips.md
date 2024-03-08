@@ -41,8 +41,6 @@ Image files should be placed in the `/assets/img` directory at the root of the p
 
 Image processing is brought to you by [Hugo Markdown Render Hooks](https://gohugo.io/templates/render-hooks/), editable in `layouts/_default/_markup`.
 
-
-
 ## Video Embeds
 
 Videos can be embedded using [Hugo's youtube or vimeo shortcodes](https://gohugo.io/content-management/shortcodes/#youtube). These take the form:
@@ -72,3 +70,29 @@ This is a warning.
 {{% alert title="Warning" %}}
 This is a warning.
 {{% /alert %}}
+
+Although blockquotes sometimes work just as well:
+
+```go-html-template
+> **Warning:** This is a warning.
+```
+
+> **Warning:** This is a warning.
+
+## Color swatches
+
+The `color` shortcode can be used to display a small color swatch after a hex or RGB color value. Pass one quoted value for hex, or three numeric values for RGB.
+
+When using this shortcode in code fences, use `<>` instead of `%%` as the shortcode delimiter so that the code is [not further rendered](https://gohugo.io/content-management/shortcodes/#shortcodes-without-markdown).
+
+````txt
+```scss
+color: {{</* color "#a92b31" */>}}
+color: {{</* color 169 43 49 */>}}
+```
+````
+
+```scss
+color: {{< color "#a92b31" >}}
+color: {{< color 169 43 49 >}}
+```

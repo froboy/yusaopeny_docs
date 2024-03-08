@@ -154,18 +154,18 @@ Once you have completed the process you will see your Quick Links menu displayed
 
 ### Camp Landing Pages
 
-The **Camp Landing Page** content type allows you to create internal pages for your camp section or microsite. Once you've created the parent **Camp** page, you are ready to creat additional **Camp Landing Page** pages.
+The **Camp Subpage** (formerly "Camp Landing Page") content type allows you to create internal pages for your camp section or microsite. Once you've created the parent **Camp** page, you are ready to creat additional **Camp Subpage** pages.
 
-- Go to **Content** > **Add Content** > **Camp Landing Page**
+- Go to **Content** > **Add Content** > **Camp Subpage**
 - Set the **Title**
-- In the **Camp** field, begin typing the name of the **Camp** page that will be the parent page, then select the item from the autocomplete dropdown. ![The Camp Landing Page admin fields](camp--lp-select.png)
+- In the **Camp** field, begin typing the name of the **Camp** page that will be the parent page, then select the item from the autocomplete dropdown. ![The Camp Subpage admin fields](camp--lp-select.png)
 - Click **Save and edit layout**.
-- You will now see the Layout Builder editor with the menus from your **Camp** page pre-populated in the layout. ![The Camp Landing Page layout builder interface](camp--lp-menus.png)
+- You will now see the Layout Builder editor with the menus from your **Camp** page pre-populated in the layout. ![The Camp Subpage layout builder interface](camp--lp-menus.png)
 - Add additional content using [Layout Builder](../../layout-builder), then click **Save layout**
 
-> **Note:** The menu references on Camp Landing Pages are copied to the header when the page is created. Any updates to those menus (new items, reordering) will be reflected on all subpages, but later changes to the blocks (removing the menu altogether, changing the linked menu) will need to be made on both **Camp** and **Camp Landing Page** pages separately.
+> **Note:** The menu references on Camp Subpages are copied to the header when the page is created. Any updates to those menus (new items, reordering) will be reflected on all subpages, but later changes to the blocks (removing the menu altogether, changing the linked menu) will need to be made on both **Camp** and **Camp Landing Page** pages separately.
 
-Camp Landing Pages are not automatically added to the Camp Menu of their corresponding **Camp**. Be sure to add the newly created **Camp Landing Page** to the **Camp Menu** so that it's properly linked.
+Camp Subpage are not automatically added to the Camp Menu of their corresponding **Camp**. Be sure to add the newly created **Camp Subpage** to the **Camp Menu** so that it's properly linked.
 
 ### Layout Builder Blocks
 
