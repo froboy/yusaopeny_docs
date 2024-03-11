@@ -140,6 +140,18 @@ Analytics provides code that does this automatically with standard `<a>` links, 
 >
 > Successful cross-domain tracking also requires the destination application to retain the passed query strings and load them into the corresponding tracking property.
 
+### Requesting cross-domain tracking support
+
+Many Customer Relation Management (CRM) systems and Member Management Systems integrate with YMCA websites. Those systems often need guidance on hwo to maintain cross-domain tracking support.
+
+Entrance to the CRM/MMS often involves multiple redirects which may drop the required query strings.
+
+When discussing cross-domain support with your vendor, we recommend requesting:
+
+> Please support passing query strings/parameters through redirects, specifically maintaining the `_gl` parameter.
+
+You may also need to request that your GTM/GA code be added to the CRM/MMS to report back these parameters.
+
 ### Configuration
 
 1. Enable the "YMCA Website Services Cross-domain Tracking (XDT)" module at **Administration** > **Extend**, or via drush:
