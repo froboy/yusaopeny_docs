@@ -12,3 +12,4 @@ More documentation:
 
 - [GroupEx Pro (Daxko) Integration](https://www.drupal.org/project/groupexpro)
 - [PEF (Program Event Framework) GXP (GroupEx Pro) Sync](https://github.com/ynorth-projects/openy_pef_gxp_sync)
+- [YMCA 360 (Y360) Integration](https://www.drupal.org/project/yusaopeny_ymca360)
