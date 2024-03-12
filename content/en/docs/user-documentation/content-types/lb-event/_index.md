@@ -21,6 +21,7 @@ Fill in the content fields:
   - **Address**: If your event does not happen at an existing location, you can add the address directly. Any content in this field will cause the **Event Location** to be overridden. To clear out the field, reset **Country** to "- None -".
   - **Directions**: By default, a link with directions is auto-generated using the address field of either the Event Location or Address. Use this field to substitute your own directions link.
 - **Event Date(s)**: Add a start and end date and time for the event. If the event does not have an end time, choose the start time for both the start and end.
+  - As of March 2023, this field supports recurring events.
 - **Header image**: This image is displayed on the Article page and in listing views.
 - **Tags**: References terms in the Tags vocabulary. See [Taxonomy](../../taxonomy) for more information on tags.
 - **Body** (required): Add text with the [WYSIWYG editor](../../text-editor)

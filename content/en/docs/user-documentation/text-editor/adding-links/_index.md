@@ -39,14 +39,14 @@ In the Advanced options of the link dialog, you can add attributes to links, inc
 
 ### Using button classes
 
-The [Button editor](../building-buttons) that existed in the prior version of the text editor (CKEditor 4) has [not yet been ported to CKEditor 5 and Drupal 10](https://www.drupal.org/project/ckeditor_bootstrap_buttons/issues/3308035). Until that work is complete, content editors can add button classes in the Advanced Link Options.
+The [Button editor](../building-buttons) that existed in the prior version of the text editor (CKEditor 4) has [changed with CKEditor 5 and Drupal 10](https://www.drupal.org/project/editor_advanced_link/issues/3423208). Content editors can now add button classes alongside the Advanced Link Options.
 
 Create a button by adding [Bootstrap classes](https://getbootstrap.com/docs/4.6/components/buttons/) to a link:
 
 - Create a regular link in a Layout Builder block.
   - We recommend only using custom buttons in large text blocks, like the [Table](../../layout-builder/table) or [Code](../../layout-builder/code) blocks.
-- Open the Advanced Options.
-- Add `btn` plus a class from the list below to the **CSS classes** field. ![The advanced link options dialog with the CSS classes field outlined. In the field is the text "btn btn-primary"](adding-links--button-classes.png)
+- Open the Bootstrap Button Options.
+- Add the button classes for Color, Size, and Style (see [Button Classes](#button-classes)). Do not use the `btn` prefix when entering options in the Bootstrap Button fields, those will be added for you. ![The bootstrap button options dialog. In the "Color" field is the text "primary"](adding-links--bootstrap-button-options.png)
   - Button styles in the editor may not match the displayed styles.
 - Save the block.
 
