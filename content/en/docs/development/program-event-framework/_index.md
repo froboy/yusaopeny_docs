@@ -28,7 +28,7 @@ These provide integrations to pull content from external systems into the conten
 - [PEF (Program Event Framework) GXP (GroupEx Pro) Sync (`ynorth-projects/openy_pef_gxp_sync`)](https://github.com/ynorth-projects/openy_pef_gxp_sync)
 - [YMCA 360 (Y360) Integration (`drupal/yusaopeny_ymca360`)](https://www.drupal.org/project/yusaopeny_ymca360)
 - [Traction Rec Integration (`ycloudyusa/openy_traction_rec`)](https://github.com/YCloudYUSA/openy_traction_rec)
-  - [How to configure the Traction Rec integration](https://github.com/YCloudYUSA/openy_traction_rec?tab=readme-ov-file#configuration)
+  - [How to configure the Traction Rec integration](https://github.com/YCloudYUSA/openy_traction_rec?tab=readme-ov-file#ymca-website-services-traction-rec-integration)
   - [How to import data from Traction Rec](https://github.com/YCloudYUSA/openy_traction_rec/blob/main/modules/openy_traction_rec_import/README.md#ymca-website-services-traction-rec-pef-integration)
 
 ## Displays
