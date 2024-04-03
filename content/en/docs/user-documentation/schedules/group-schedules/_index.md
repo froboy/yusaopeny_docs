@@ -6,10 +6,4 @@ tags:
   - "Group Schedules"
 ---
 
-More documentation:
-
-## Related modules
-
-- [GroupEx Pro (Daxko) Integration](https://www.drupal.org/project/groupexpro)
-- [PEF (Program Event Framework) GXP (GroupEx Pro) Sync](https://github.com/ynorth-projects/openy_pef_gxp_sync)
-- [YMCA 360 (Y360) Integration](https://www.drupal.org/project/yusaopeny_ymca360)
+More documentation: see [Program Event Framework](../../../development/program-event-framework)
