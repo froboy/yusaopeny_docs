@@ -5,32 +5,32 @@ tags:
   - "Activity Finder"
 ---
 
-**Areas It Should Be Used**
+![A screenshot of the Activity Finder block.](activity-finder--example.png "A screenshot showing the Activity Finder block and a detail popup.")
 
-* Content Area
-* Bottom Area
+See a live example of Activity Finder in [our sandbox site](https://sandbox-carnation-cus-d9.y.org/activity-finder-v4).
 
 ## How it Works
 
-This paragraph type requires an integration into a CRM. Out-of-the-box, YMCA Website Services’s Activity Finder integrates with Daxko, ActiveNet, and Personify. Any other CRM will require custom developer work.
+This paragraph type requires an integration into a CRM. See [Program Activity Framework](../../../development/program-event-framework) for a list of existing integrations. Any other CRM will require custom developer work.
 
 How you use these paragraphs will depend on how your Association has structured its program data on the CRM and on how you decide to get people to program results.
 
-There are three primary approaches to setting this up: a standard approach, a results-only approach, and a targeted approach.
+To start, add the **Activity Finder** Paragraph or Block to a page.
 
-### Standard Approach
+## Block configuration
 
-* Create two Landing Pages. Title one “Find a Program” and the other “Program Search.”
-* On the “Find a Program” page, add the “Activity Finder” paragraph. Type in “Program Search” and select your Program Search in the “Activity Finder Search Results Page Reference” field.
-* At the bottom, you will see a field called “Title” Change the title to “Find a Program” Save the page.
-* Next, on the “Program Search” page, add the “Activity Finder Search Results” paragraph into the Content Area. Type in “Find a Program” on the “Activity Finder Page Reference” page.
+When you add the Activity Finder block to a page, you have a number of options. These are in addition to the configuration at **Admin** > **YMCA Website Services** > **Settings** > **Activity Finder Settings** (`/admin/openy/settings/activity-finder`). See [the Activity Finder module README](https://github.com/YCloudYUSA/yusaopeny_activity_finder?tab=readme-ov-file#open-y-activity-finder) for more information.
 
-### Results-Only Approach
+- **Exclude by location** - Remove specific locations from the results.
+- **Limit by category** - Only show specific categories in the results.
+- **Exclude by category** - Remove specific categories from the results.
+- **Legacy mode** - Shows some data as it was in the previous version of Activity Finder (v3):
+  - Disables bookmark functionality on the results screen.
+  - Doesn't display the age indicator in the result card of activities.
+  - Changes the days + times wizard step. Displays only days of week, but not times of each day (doesn't support DaysTimes filter)
+- **Weeks filter** - Changes the Day/Time filter to use custom defined Week filters.
+  - This requires setting the **Weeks** configuration on `/admin/openy/settings/activity-finder`.![Activity Finder Weeks configuration.](activity-finder--weeks.png)
+- **Hide Home Branch info block** - Disables functionality related to the user's selected home branch.
+- **Background image** - An image that's displayed in the background of the banner above Activity Finder.
 
-If you plan on using deep-linking or want to forgo the guided search experience, you can use the “Activity Finder Search Results.” Create a Landing Page called “Program Search” using the One Column (Full Width) layout.
-
-* Add the “Activity Finder Search Results” paragraph into your content area and leave the “Activity Finder Page Reference” field blank. Save your page.
-
-### Targeted Approach
-
-Activity Finder can also be used on multiple pages on your site, specifically on your Program Subcategory pages.
+![The Activity Finder block configuration.](activity-finder--paragraph.png)
