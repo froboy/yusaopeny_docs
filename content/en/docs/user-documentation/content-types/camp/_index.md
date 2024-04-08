@@ -12,6 +12,8 @@ While [YMCA Branches](../branch) may offer some form of summer day camp, they di
 - [Camp Video Banner](<../../../../../../assets/img/designs/lb-ui-kit/Camp Video Banner.jpg>)
 - [Legacy Carnation paragraphs-based layout](camp--example.jpeg)
 
+{{% youtube UTIIs0zj6fg %}}
+
 ## When Should I Use Camp?
 
 If you are an independent YMCA camp or you're an Association with one or more locations dedicated to outdoor camp, the Camp Content Type serves well as a landing page for those locations.

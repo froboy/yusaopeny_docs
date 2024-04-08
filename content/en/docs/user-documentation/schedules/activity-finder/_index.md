@@ -10,13 +10,7 @@ Activity Finder combines data from [the Activity, Class, and Session](../../cont
 
 Out-of-the-box, YMCA Website Services’s Activity Finder integrates with [Daxko](https://www.daxko.com/), [ActiveNet](https://www.activenetwork.com/activenet), and [Personify](https://personifycorp.com/solutions/ymcas-and-jccs/). Configuring these integrations is mostly user-friendly, but often is supported by a partner development team. Any other CRM will require custom developer work.
 
-## Related modules
-
-- [Activity Finder](https://github.com/YCloudYUSA/yusaopeny_activity_finder) - this repo contains in-depth developer documentation. 
-- [Extended Daxko API Integration](https://www.drupal.org/project/openy_daxko2)
-- [Simple Daxko Integration (deprecated)](https://www.drupal.org/project/daxko)
-- [ActiveNet Integration](https://www.drupal.org/project/activenet)
-- [Personify Integration](https://www.drupal.org/project/personify)
+See the [Program Event Framework developer docs](../../../development/program-event-framework) for a full list of integrations.
 
 ## Additional topics
 
@@ -28,7 +22,7 @@ Activity Finder begins with a number of preset arguments, and those can be modif
 
 ![A screenshot of the Activity Finder settings, focused on the "Allowed Query Arguments" field](activity-finder--utm-codes.png)
 
-Once those settings are saved, you can visit an Activity Finder page with UTM codes attached, for example: 
+Once those settings are saved, you can visit an Activity Finder page with UTM codes attached, for example:
 
 `https://example.com/activity_finder?step=results&selectedAges=24&selectedLocations=1541437&selectedActivities=2786027,2786083&utm_source=promotional_member&utm_medium=email&utm_content=button_register_now&utm_campaign=fall_group_swim_lessons_2021`
 

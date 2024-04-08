@@ -4,7 +4,9 @@ description: Updated Event content type that allows for Layout Builder component
 weight: -1
 ---
 
-**Designs:** [Mobile](<../../../../../../assets/img/designs/lb/Event Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Event Desktop.png>)
+**Designs:**
+- [Mobile](<../../../../../../assets/img/designs/lb/Event_Mobile_Recurring.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Event_Desktop_Recurring.png>)
+- (before March 2024) [Mobile](<../../../../../../assets/img/designs/lb/Events Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Event Desktop.png>)
 
 {{% youtube cxRxuYkWy-4 %}}
 
@@ -22,6 +24,13 @@ Fill in the content fields:
   - **Directions**: By default, a link with directions is auto-generated using the address field of either the Event Location or Address. Use this field to substitute your own directions link.
 - **Event Date(s)**: Add a start and end date and time for the event. If the event does not have an end time, choose the start time for both the start and end.
   - As of March 2023, this field supports recurring events.
+  - To create a recurring event:
+    - set the **Repeats** option,
+    - choose the **Number** of recurrences and when to **End**, then
+    - expand the **Advanced** options to select specific days.
+    ![The event recurrence configuration.](lb-event--recurring.png)
+  - Once you save the event, **Manage Instance** will allow you to customize or remove individual instances.
+  - To select multiple dates for your event that do not fit a regular rule, use **Add another item** below the date selector.
 - **Header image**: This image is displayed on the Article page and in listing views.
 - **Tags**: References terms in the Tags vocabulary. See [Taxonomy](../../taxonomy) for more information on tags.
 - **Body** (required): Add text with the [WYSIWYG editor](../../text-editor)
