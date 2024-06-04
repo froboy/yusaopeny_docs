@@ -30,6 +30,7 @@ When you add the Activity Finder block to a page, you have a number of options. 
   - Changes the days + times wizard step. Displays only days of week, but not times of each day (doesn't support DaysTimes filter)
 - **Weeks filter** - Changes the Day/Time filter to use custom defined Week filters.
   - This requires setting the **Weeks** configuration on `/admin/openy/settings/activity-finder`.![Activity Finder Weeks configuration.](activity-finder--weeks.png)
+  - Note: Only sessions that have "Camp" in the title or room fields will return for this filter.
 - **Hide Home Branch info block** - Disables functionality related to the user's selected home branch.
 - **Background image** - An image that's displayed in the background of the banner above Activity Finder.
 
