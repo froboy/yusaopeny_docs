@@ -96,3 +96,13 @@ color: {{</* color 169 43 49 */>}}
 color: {{< color "#a92b31" >}}
 color: {{< color 169 43 49 >}}
 ```
+
+## Remote Markdown files
+
+The `include-remote-md` shortcode fetches a remote markdown file and includes it in the page. This happens only when your Docsy project is built, so future changes of the remote markdown file are only included when you rebuild your project. See [docsy#1739](https://github.com/google/docsy/pull/1739)
+
+If the file has a H1 (`# ....`) instead of frontmatter, you can put the title line in as the second parameter and it will be removed instead. For example:
+
+```go-html-template
+{{</* include-remote-md "https://raw.githubusercontent.com/google/docsy/main/README.md" "# Docsy" */>}}
+```
