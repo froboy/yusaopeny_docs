@@ -25,7 +25,9 @@ Fill in the content fields:
 - **Title** (required): Never displayed, even if "Display Title" is checked. For administrative use only.
 - **Card title**: The displayed title of the promo card.
 - **Body**: A full text editor to add card content.
-- **Icon/Image**: Chose from the library or add a new icon or image to be displayed above the card text.
+- **Icon/Image**: Chose from the library or add a new icon or image to be displayed above the card text. **Images will be treated differently depending on their type**. If using an icon, we recommend uploading it in SVG format:
+  - **JPG/PNG** images will be cropped to a roughly 3:2 proportion rectangle
+  - **SVG** images will not be cropped
 - **CTA**: A link at the bottom of the card.
 
 {{< readfile "../lb-save-block.partial" >}}
