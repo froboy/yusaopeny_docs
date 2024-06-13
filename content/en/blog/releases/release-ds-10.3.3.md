@@ -8,6 +8,8 @@ date: 2024-06-12
 
 ### Drupal Updates
 
+Learn more about the improvements in [Drupal 10.1](https://www.drupal.org/blog/drupal-10-1-0) and [Drupal 10.2](https://www.drupal.org/blog/drupal-10-2-0).
+
 For users who wish to apply all the updates below _without_ Drupal 10.2, we've released [YMCA Website Services 10.3.2.4](https://github.com/YCloudYUSA/yusaopeny/releases/tag/10.3.2.4). This can be applied as a stepping stone to Drupal 10.2, but we recommend moving to 10.2 as community security support for Drupal 10.0 [ended in December 2023](https://endoflife.date/drupal).
 
 * Updated to Drupal core version 10.2. (#758)
