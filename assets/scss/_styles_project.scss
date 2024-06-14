@@ -2,17 +2,8 @@
 YMCA Website Services style overrides.
 */
 
-// Underline links by default
-// @todo Remove when https://github.com/google/docsy/pull/1684 is committed.
-main a:not(.btn),
-.td-footer a {
-  text-decoration: underline;
-}
-
-.td-box--dark p > a:hover {
-  color: #d9e5f8;
-  text-decoration: none;
-}
+// Add dark-mode support to code highlighting. See https://www.docsy.dev/docs/adding-content/lookandfeel/#lightdark-color-themes
+@import 'td/code-dark';
 
 // Swap the sidebar nav and utility position
 aside.d-xl-block {
@@ -30,11 +21,6 @@ aside.d-xl-block {
   }
 }
 
-// Increase contrast for ToC links.
-.td-toc #TableOfContents a {
-    color: #5a5858;
-}
-
 figcaption {
   font-style: italic;
   font-size: 0.9rem;
@@ -49,15 +35,6 @@ figcaption, iframe {
 // Reset the reset for definition list description.
 dd {
   margin-left: revert;
-}
-
-@media (min-width: 768px) {
-  @supports (position: sticky) {
-    .td-sidebar-nav {
-      max-height: calc(100vh - 4rem);
-      padding-top: 15px;
-    }
-  }
 }
 
 // Override Bootstrap's kbd styles
@@ -81,20 +58,7 @@ kbd {
   overflow-y: hidden;
 }
 
-footer .text-center .ml-1 a {
-  color: white;
-}
-
 // Hide the sidebar taxonomy cloud because `taxonomyCloud = []` stopped working
 aside .taxonomy-terms-cloud {
   display: none;
-}
-
-// Fix links in dark sections
-.td-box--dark a {
-  color: #dddddd;
-
-  &:hover {
-    color: darken(#dddddd,10);
-  }
 }

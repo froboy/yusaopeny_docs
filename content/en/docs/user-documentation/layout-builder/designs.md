@@ -20,13 +20,7 @@ Based on the YMCA Brand Guide, the distribution contains four "colorways" that a
 
 ### Canadian Colourways
 
-YMCA of the USA has partnered with [YMCA Canada](https://www.ymca.ca/) to create a brand-compliant and accessible colourway for use by Canadian YMCAs.
-
-The colourway is packaged as the [Canada Layout Builder Colorway](https://www.drupal.org/project/ws_colorway_canada) on Drupal.org and is included with the full [YMCA Layout Builder](https://github.com/YCloudYUSA/y_lb) package.
-
-- [YMCA Canada UI Kit](https://www.figma.com/proto/nQ8GfYR5CXkkaOxYAlITeC/YMCA-Canada-Design-System?type=design&node-id=614-11498&t=aGKtr2E2dDMfsYsF-1&scaling=min-zoom&page-id=614%3A11497&mode=design)
-- [YMCA Canada Components](https://www.figma.com/proto/nQ8GfYR5CXkkaOxYAlITeC/YMCA-Canada-Design-System?type=design&node-id=1640-14094&t=H3ljPnNvxOWrGqhd-0&scaling=scale-down&page-id=1640%3A10978&starting-point-node-id=1640%3A14094)
-- [YMCA Canada Demo Pages](https://www.figma.com/proto/nQ8GfYR5CXkkaOxYAlITeC/YMCA-Canada-Design-System?type=design&node-id=2201-21973&t=feeJM61aY5EhpgKl-1&scaling=min-zoom&page-id=2201%3A20920&mode=design)
+See [How to use the Canadian Colorway for Layout Builder](../../howto/canada).
 
 ### Content Types
 

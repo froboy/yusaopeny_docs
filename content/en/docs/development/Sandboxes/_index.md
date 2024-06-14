@@ -42,7 +42,7 @@ And there are multiple sandbox environments:
 
 [sandboxes.y.org](https://sandboxes.y.org/)
 
-These sandboxes are based on the latest [stable release](https://github.com/YCloudYUSA/yusaopeny/releases) of YMCA Website Services. They are set to rebuild completely overnight and clear their database and files every 2 hours. 
+These sandboxes are based on the latest [stable release](https://github.com/YCloudYUSA/yusaopeny/releases) of YMCA Website Services. They are set to rebuild completely overnight and clear their database and files every 2 hours.
 
 <details>
     <summary>These sandboxes are built on CI by running:</summary>
@@ -76,7 +76,7 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory5068801741271597001.ini 
 
 ## Feature-based sandboxes
 
-We also maintain sandboxes with specific features enabled. Each of these builds 
+We also maintain sandboxes with specific features enabled. Each of these builds
 
 ### Virtual Y Sandboxes
 
@@ -106,10 +106,11 @@ ansible-playbook docroot/reinstall.yml -i /tmp/inventory13097841656330601319.ini
 
 ### Activity Finder Sandboxes
 
-| Theme | Link | YMCA Website Services | Profile | Activity Finder | Theme | Bootstrap |
+| Theme | Link | WS Profile | Activity Finder | Theme | Bootstrap |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Carnation | https://sandbox-carnation-cus-d9.y.org/activity-finder-v4 | stable | Custom | v4 dev | v4 |
-| Rose | https://sandbox-rose-cus-d9.y.org/activity-finder-v4 | stable |  Custom | v4 dev | v3 |
+| Carnation (with TractionRec importer) | https://traction-ws.y.org/ | stable | Custom | v4 dev | v4 |
+| Rose | https://sandbox-rose-cus-d9.y.org/activity-finder-v4 | stable | Custom | v4 dev | v3 |
 | Lily | https://sandbox-lily-cus-d9.y.org/activity-finder-v4 | stable | Custom | v4 dev | v3 |
 
 <details>
