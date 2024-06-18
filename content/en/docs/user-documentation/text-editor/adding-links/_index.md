@@ -114,7 +114,7 @@ Now, your internal link should take users to the exact location in the page that
 * For links on your website, don’t use the full URL. Delete everything beginning with the `/` after your `.com`, `.org`, etc.
   * For example, for ymca.org/about, you would choose /about. This is called the relative path, and it will help your analytics tracking.
 * For links on other websites, grab the full URL, including the `https://`.
-  * For example, for example.org/about, you would choose https://example.org/about.
+  * For example, for example.org/about, you would choose `https://example.org/about`.
 * For email links, add `"mailto:example@example.org."`
 
 To update/change a link, click on the link text then click the link icon or use the popup options (in CKEditor 5).

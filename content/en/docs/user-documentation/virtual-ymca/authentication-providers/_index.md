@@ -24,7 +24,7 @@ Note, Daxko API access is required.  Daxko charges an API usage fee.
 
 You may require members to enter their bar code before accessing the site.  Virtual Y will validate the barcode with Daxko prior to granting access.
 
-[Set up Daxko Barcode Validation](./daxko-barcode.md).
+[Set up Daxko Barcode Validation](./daxko-barcode).
 
 ## ReClique
 

@@ -5,15 +5,15 @@ title: Content Editing Basics
 {{< youtube CHFXTW5B93Y >}}
 
 ## Adding New Content
-To add a new piece of content, select the content tab in the administration toolbar at the top left. 
+To add a new piece of content, select the content tab in the administration toolbar at the top left.
 
-![The content link in the admin menu](./basics-content.png) 
+![The content link in the admin menu](./basics-content.png)
 
 Click the blue button that says “Add New Content.”
 
 On the next page, select the type of content you want to add. **[Learn About Content Types ⇒](../content-types/)**
 
-The fields on the next page marked with a red asterisk are required. To save your new piece of content, you must fill out the required fields. 
+The fields on the next page marked with a red asterisk are required. To save your new piece of content, you must fill out the required fields.
 
 If this is a page that you do not want to be published, deselect the checkbox at the bottom left titled “Published.” This will mark it as a draft.
 
@@ -32,16 +32,16 @@ If you’re navigating your site and you’re logged in, you will see the follow
 * Revisions
 * Delete
 
-![In-page Edit tab](./basics-tabs.png) 
+![In-page Edit tab](./basics-tabs.png)
 
 You can edit a piece of content by clicking the “Edit” tab on that page.
 
 To use the administration page, go to the top left button in your administration toolbar and select “Content.” This will take you to a page where you can search for content (particularly useful if you’re not sure where it is).
-![Content type filtering](./basics-content-type.jpg) 
+![Content type filtering](./basics-content-type.jpg)
 
 The text field on the left is a search field. Type in your content’s title to search.
 
-If you’d like to narrow down the results, you can filter the results by 
+If you’d like to narrow down the results, you can filter the results by
 
 * Content type
 * Published Status
@@ -59,7 +59,7 @@ You can delete a content three ways:
 * By selecting the Delete tab when you’re editing any page.
 * By choosing Delete from the Dropdown on the results page.
 
-You can also delete “in bulk” by ticking the checkmarks next to multiple rows of content on the content results page, selecting “Delete content” from the dropdown above the results table, and then clicking the “Apply to Selected” items. 
+You can also delete “in bulk” by ticking the checkmarks next to multiple rows of content on the content results page, selecting “Delete content” from the dropdown above the results table, and then clicking the “Apply to Selected” items.
 
 This should only be done if you’re sure of which content you’re selecting to delete.
 
@@ -71,7 +71,7 @@ Each content type will have different fields based on the information you need t
 
 These are one-line text boxes, such as page titles. Simply enter text into the box.
 
-![Title field](./basics-title.png) 
+![Title field](./basics-title.png)
 
 ### Unformatted Textbox
 
@@ -83,7 +83,7 @@ Select one of the options provided. Occasionally, you’ll have to click a butto
 
 ### Multiselect Fields
 
-![Locations field](./basics-location.png) 
+![Locations field](./basics-location.png)
 
 Like a dropdown, but you can select multiple options by holding Control (Windows) or Command (Mac) and clicking on two or more selections.
 
@@ -91,7 +91,7 @@ Like a dropdown, but you can select multiple options by holding Control (Windows
 
 {{< youtube yyCsOP3GpQc >}}
 
-A textbox that styles your text visually and allows you add links and embed different types of media. 
+A textbox that styles your text visually and allows you add links and embed different types of media.
 
 [More on the Text Editor ⇒](../text-editor/)
 
@@ -101,15 +101,15 @@ Appears like a text field, but with a little circle off the right. Used for sear
 
 Type in what you wish to enter, and then select from one of the optional results that appear below. Results will narrow as you type.
 
-![Category field](./basics-category.gif) 
+![Category field](./basics-category.gif)
 
 ### Links/Button Fields
 
 These will typically appear as a single box with two fields inside. They add a link onto a page, often as a button. The URL field is your link, which the Link Text is your call to action.’
 
-![Link field](./basics-link.gif) 
+![Link field](./basics-link.gif)
 
-The URL field supports both relative URLs for links on your site (e.g., /join for http://myymca.org/join) and full URLs for links on other sites (e.g., http://someotherymca.org/join).
+The URL field supports both relative URLs for links on your site (e.g., /join for http://myymca.org/join) and full URLs for links on other sites (e.g., `http://someotherymca.org/join`).
 
 You can also search for the title of a piece of content on your website and select a piece of content like in any other autocomplete field.
 
@@ -119,13 +119,13 @@ You can also search for the title of a piece of content on your website and sele
 
 You can add, edit and upload images any time you see a tab with Image in the title. To use the media browser, click the button in the image field.
 
-[More on Using the Image Library ⇒](../text-editor/adding-images.md)
+[More on Using the Image Library ⇒](../text-editor/adding-images)
 
 ## Cloning Content
 
 You can clone content using the "Clone" button on many pages... ![](./basics-clone-tabs.png)
 
-or on the Content list in the site administration. 
+or on the Content list in the site administration.
 
 ![](./basics-clone-content.png)
 

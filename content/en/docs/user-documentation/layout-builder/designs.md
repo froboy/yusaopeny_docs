@@ -20,14 +20,14 @@ Based on the YMCA Brand Guide, the distribution contains four "colorways" that a
 
 ### Canadian Colourways
 
-See [How to use the Canadian Colorway for Layout Builder](../../howto/canada).
+See [How to use the Canadian Colorway for Layout Builder](../../../howto/canada).
 
 ### Content Types
 
 The distribution provides new [Content Types](../../content-types) for use with Layout Builder components.
 
-| [Article](../../content-types/lb-article)                                                    | [Branch](../../content-types/lb-branch)                                                    | [Camp](../../content-types/lb-branch)                                                   | [Event](../../content-types/lb-event)                                                  |
-|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [Article](../../content-types/lb-article)                                                    | [Branch](../../content-types/branch)                                                    | [Camp](../../content-types/camp)                                                       | [Event](../../content-types/lb-event)                                                  |
+|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | ![Article Content Type Design](<../../../../../assets/img/designs/lb-ui-kit/Article CT.jpg>) | ![Branch Content Type Design](<../../../../../assets/img/designs/lb-ui-kit/Branch CT.jpg>) | ![Camp Content Type Design](<../../../../../assets/img/designs/lb-ui-kit/Camp CT.jpg>) | ![Event Design](<../../../../../assets/img/designs/lb-ui-kit/Event.jpg>) |
 
 ### Components

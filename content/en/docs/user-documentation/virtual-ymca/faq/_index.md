@@ -7,7 +7,7 @@ For up to the minute conversations and info on Virtual Y and its content, join u
 
 For even more Virtual Y FAQs, [check out Y-USA’s post.](https://ds.ymca.org/frequently-asked-questions)
 
-## Evaluating VY 
+## Evaluating VY
 
 * How do I learn the basics?
   * [Demo Recording](https://youtu.be/Ae_R6Q0ojqs)
@@ -25,7 +25,7 @@ For even more Virtual Y FAQs, [check out Y-USA’s post.](https://ds.ymca.org/fr
 * Can I see a live example?
   * Yes. Please [contact us](https://ds.ymca.org/get-more-information) and we can provide you with links and information.
 * Can I see a demo?
-  * Yes. In this [Recording of the 7/16 Virtual Y Meet-up](https://youtu.be/Ae_R6Q0ojqs), Paige and David demo Virtual Y. You can also test drive it yourself in the [Virtual Y Sandbox](../../wiki/sandboxes/#virtual-y-sandboxes)
+  * Yes. In this [Recording of the 7/16 Virtual Y Meet-up](https://youtu.be/Ae_R6Q0ojqs), Paige and David demo Virtual Y. You can also test drive it yourself in the [Virtual Y Sandbox](../../../development/sandboxes/#virtual-y-sandboxes)
 * How much will it cost?
   * The Virtual Y code is free, but using it is not. Your costs come with having a developer configure Virtual Y as well as from hosting. Time estimate: <30 hours if you stick close to the default implementation and don’t make customizations. The more you deviate, the higher the cost. Costs will include:
     * Implementation
@@ -53,7 +53,7 @@ For even more Virtual Y FAQs, [check out Y-USA’s post.](https://ds.ymca.org/fr
   * Slack [#virtual_ymca](https://yusaslackinstance.slack.com/archives/C03ENDNMNQH) channel
   * [YMCA Website Services monthly calls](https://ds.ymca.org/get-more-information)
 * Can I try it?
-  * Yes! You can use it yourself in the [Sandbox](../../wiki/sandboxes/#virtual-y-sandboxes)
+  * Yes! You can use it yourself in the [Sandbox](../../../development/sandboxes/#virtual-y-sandboxes)
   * The login is the same as for the standard YMCA Website Services sandboxes so [let us know ](https://ds.ymca.org/get-more-information)if you need that information.
 
 ### Committed to VY - Initial Technical Set-Up
@@ -105,7 +105,7 @@ For even more Virtual Y FAQs, [check out Y-USA’s post.](https://ds.ymca.org/fr
   * No. Due to restrictions/limitations enforced by Facebook, private videos or videos from a private group cannot be embedded on an external (non-Facebook) site. This means the only option would be to use publicly-facing Facebook Live video within Virtual Y, which can be seen by anyone on Facebook, not just your members. This weakens the case for paying for exclusive access to Virtual Y as a member, and YMCA associations were not interested in YMCA Website Services pursuing this type of Facebook integration.
 * Can I host Les Mills classes on our Y’s YouTube channel?
   * Unfortunately, Les Mills licensing does not cover recording the class for rebroadcasting.
-* Can we use Y360 videos? 
+* Can we use Y360 videos?
   * Y360 videos are owned exclusively by Y360 and then licensed by Ys. A Y would need to obtain explicit permission from them for usage within Virtual Y. Additionally,  YMCA Website Services would first have to build a new integration to accept those videos as on-demand content, because Y360 uses a video hosting service other than YouTube or Vimeo.
 * Music Licensing
   * How does music licensing work with this platform?
