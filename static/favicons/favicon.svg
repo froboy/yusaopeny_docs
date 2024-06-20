@@ -1,11 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="svg1" width="160" height="160" fill="currentColor" class="bi bi-file-earmark" version="1.1">
-    <style>
-    path { fill: #636466; }
+  <style>
+    #background { fill: #f2f2f2; }
+    #doc {fill: #636466;}
+    #logo path { fill: #636466; }
+
     @media (prefers-color-scheme: dark) {
-      path { fill: #F2F2F2; }
+      #background { fill: #636466; }
+      #doc {fill: #f2f2f2;}
+      #logo path { fill: #f2f2f2; }
     }
   </style>
-  <path id="doc" d="M140 45v95a20 20 0 0 1-20 20H40a20 20 0 0 1-20-20V20A20 20 0 0 1 40 0h55zm-30 0a15 15 0 0 1-15-15V10H40a10 10 0 0 0-10 10v120a10 10 0 0 0 10 10h80a10 10 0 0 0 10-10V45Z" style="stroke-width:10"/>
+  <path id="background" d="M40 0C28.954 0 20 8.954 20 20v120c0 11.046 8.954 20 20 20h80c11.046 0 20-8.954 20-20V45L95 0Z"/>
+  <path id="doc" d="M140 45v95a20 20 0 0 1-20 20H40a20 20 0 0 1-20-20V20A20 20 0 0 1 40 0h55zm-30 0a15 15 0 0 1-15-15V10H40a10 10 0 0 0-10 10v120a10 10 0 0 0 10 10h80a10 10 0 0 0 10-10V45Z"/>
   <g id="logo" transform="matrix(1.25862 0 0 1.25862 10.618 54.345)">
     <g id="ymca">
       <path id="path1-5" d="m55.335 62.485 1.604 2.684 1.52.862a.31.31 0 0 1 .133.476l-.172.314c-.136.229-.26.295-.505.157l-1.465-.834-3.327-.038a.537.537 0 0 1-.248-.047.277.277 0 0 1-.067-.401l.223-.376a.389.389 0 0 1 .407-.23l2.281.045-1.176-1.953a.378.378 0 0 1 0-.461l.178-.313a.265.265 0 0 1 .164-.158.27.27 0 0 1 .227.026.75.75 0 0 1 .223.247z"/>
