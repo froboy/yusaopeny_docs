@@ -45,7 +45,7 @@ Add the text for your link/button in the bottom left. Enter your link in the URL
 * For links on your website, don’t use the full URL. Highlight everything beginning with the `/` after your `.com`, `.org`, etc.
   * For example, for example.org/about, you would choose `/about`. This is called the relative path, and it will help your analytics tracking.
 * For links on other websites, grab the full URL, including the `https://`.
-  * For example, for example.org/about, you would choose `https://example.org/about`.
+  * For example, for example.org/about, you should choose `https://example.org/about`.
 * For email links, add `mailto:example@exampleymca.org.`
 
 [More on absolute vs relative links](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/).
