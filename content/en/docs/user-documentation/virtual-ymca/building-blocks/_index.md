@@ -15,7 +15,7 @@ Virtual YMCA comes with four content types behind the login that are exclusive t
 
 Bring the Y to your members when they’re away. Provide on-demand classes, activities for kids, and other video content. Great for health seekers, families and Active Older Adults.
 
-Add Virtual Y Videos [one-by-one](../add-video/_index.md) or with the separate [Virtual Y Video Automation](https://github.com/fivejars/vyva/wiki) application.
+Add Virtual Y Videos [one-by-one](../add-video) or with the separate [Virtual Y Video Automation](https://github.com/fivejars/vyva/wiki) application.
 
 _Integrates with:_ YouTube and Vimeo
 

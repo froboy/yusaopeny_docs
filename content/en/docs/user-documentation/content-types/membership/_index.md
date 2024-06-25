@@ -1,11 +1,11 @@
 ---
 title: Membership Content Type
-description: Membership items are the building blocks of the [Membership Calculator](../../membership/calculator) and are only displayed within the Membership Calculator Paragraph.
+description: Membership items are the building blocks of the Membership Calculator and are only displayed within the Membership Calculator Paragraph.
 tags:
 - "Membership Calculator"
 ---
 
-
+See [Membership Calculator](../../membership/calculator).
 
 ---
 

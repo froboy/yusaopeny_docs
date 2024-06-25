@@ -3,7 +3,7 @@ title: "Go-live Checklist"
 weight: 5
 ---
 
-Here are some things you should check before you go live with your Virtual Y site: 
+Here are some things you should check before you go live with your Virtual Y site:
 
 ## Review your content
 * [Disable any Virtual Y sections](https://github.com/ymcatwincities/openy_gated_content/releases/tag/1.4) that you’re not using.
@@ -21,4 +21,4 @@ Here are some things you should check before you go live with your Virtual Y sit
 ## Final clean-up
 * If you’re using it, ensure you’ve set up Google Analytics at **Configuration** > **System** > **Google Analytics**.
 * If you’re using any basic authentication to protect the site before it goes live (what Y Cloud calls “Site Lock”), ask your hosting partner to turn it off.
-* If you'd like to share content with other Ys, review [Shared Content // Virtual YMCA User Docs](./shared-content/) and initiate a connection to the Open Y Shared Content server
+* If you'd like to share content with other Ys, review [Shared Content](../shared-content/) and initiate a connection to the Open Y Shared Content server
