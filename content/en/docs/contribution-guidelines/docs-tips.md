@@ -85,7 +85,7 @@ The `color` shortcode can be used to display a small color swatch after a hex or
 
 When using this shortcode in code fences, use `<>` instead of `%%` as the shortcode delimiter so that the code is [not further rendered](https://gohugo.io/content-management/shortcodes/#shortcodes-without-markdown).
 
-````txt
+````markdown
 ```scss
 color: {{</* color "#a92b31" */>}}
 color: {{</* color 169 43 49 */>}}
@@ -104,5 +104,5 @@ The `include-remote-md` shortcode fetches a remote markdown file and includes it
 If the file has a H1 (`# ....`) instead of frontmatter, you can put the title line in as the second parameter and it will be removed instead. For example:
 
 ```go-html-template
-{{</* include-remote-md "https://raw.githubusercontent.com/google/docsy/main/README.md" "# Docsy" */>}}
+{{%/* include-remote-md "https://raw.githubusercontent.com/google/docsy/main/README.md" "# Docsy" */%}}
 ```
