@@ -16,21 +16,68 @@ See the [Program Event Framework developer docs](../../../development/program-ev
 
 When you add the Activity Finder block to a page, you have a number of options. These are in addition to the configuration at **Admin** > **YMCA Website Services** > **Settings** > **Activity Finder Settings** (`/admin/openy/settings/activity-finder`). See [the Activity Finder module README](https://github.com/YCloudYUSA/yusaopeny_activity_finder?tab=readme-ov-file#open-y-activity-finder) for more information.
 
-- **Limit by location** - Only show specific locations from the results.
-- **Exclude by location** - Remove specific locations from the results.
-- **Limit by category** - Only show specific categories in the results.
-- **Exclude by category** - Remove specific categories from the results.
+- **Location & Category Filters** - Restrict this block to show sessions from only certain Locations or Categories. 'Limit' will show only the specified options. 'Exclude' will remove the specified options. Generally you should choose either Exclude or Limit, not both.
+  - **Limit by location** - Only show specific locations from the results.
+  - **Exclude by location** - Remove specific locations from the results.
+  - **Limit by category** - Only show specific categories in the results.
+  - **Exclude by category** - Remove specific categories from the results.
 - **Legacy mode** - Shows some data as it was in the previous version of Activity Finder (v3):
     - Disables bookmark functionality on the results screen.
     - Doesn't display the age indicator in the result card of activities.
     - Changes the days + times wizard step. Displays only days of week, but not times of each day (doesn't support DaysTimes filter)
 - **Weeks filter** - Changes the Day/Time filter to use custom defined Week filters.
-    - This requires setting the **Weeks** configuration on `/admin/openy/settings/activity-finder`.![Activity Finder Weeks configuration.](activity-finder--weeks.png)
+    - This requires setting the **Weeks** configuration in the **Activity Finder settings** (`/admin/openy/settings/activity-finder`).![Activity Finder Weeks configuration.](activity-finder--weeks.png)
     - Note: Only sessions that have "Camp" in the title or room fields will return for this filter.
+- **Additional filters** - These filters are off by default, but can be enabled in the Block Configuration. ![Activity Finder additional filters](activity-finder--additional-filters.png)
+  - **Start Month** - Filters based on the month in the **Session Time** field.
+  - **In Membership** - Shows Sessions that have **In membership** checked.
+  - **Duration** - The length of the Session. This is configurable in the **Activity Finder settings** (`/admin/openy/settings/activity-finder`) and defaults to:
+    - Single day
+    - Multi-day (up to 5 days)
+    - Weekly (up to 3 weeks)
+    - Monthly (up to 5 weeks)
+    - Season (up to 12 weeks)
+    - School year (~9 months)
+    - Full year
 - **Hide Home Branch info block** - Disables functionality related to the user's selected home branch.
 - **Background image** - An image that's displayed in the background of the banner above Activity Finder.
 
 ![The Activity Finder block configuration.](activity-finder--paragraph.png)
+
+## Front-end
+
+Once the [Activity Finder Paragraph](../../paragraphs/activity-finder) or [Activity Finder Layout Builder Block](../../layout-builder/activity-finder) has been added to a page, users can see its content.
+
+![A set of screenshots illustrating the Activity Finder application with items labeled as per the following descriptions.](activity-finder--fields.png)
+
+### Filters
+
+- **Schedules** - Filters by a number of facets, which are configurable in the Block Configuration or Activity Finder settings.
+  - **Age(s)** - Filters based on the **Min Age** and **Max Age**. Age ranges are configurable in the **Activity Finder settings** (`/admin/openy/settings/activity-finder`).
+  - **Day(s) & Time(s)** - Filters by the time of date on specific days of the week. This filter has no configuration.
+  - **Weeks** - Replaces date/time filter when **Weeks filter** is selected in the Block Configuration. See configuration requirements above.
+- **Activities** - **Program Subcategory** filters grouped by **Program**.
+- **Locations** - **Location** filters grouped by **Content type**.
+
+See [Block Configuration](#block-configuration) for more detail on other available filters.
+
+### Results
+
+The filtered results in the Activity Finder app are a list of **Sessions** that meet the given filter criteria.
+
+Each row of results contains:
+
+- The Session **Title**.
+- The Session **Time**, which contains a date, days of the week, and times.
+- The Session **Location**
+- The Session **Min/Max Age**
+- The **Member Price** and **Non-member price**
+- An indication of the number of spots available, from the **Initial Availability** field.
+
+Clicking on the row will bring up a pop-up with further details:
+
+- The Session **Description**
+- A "Learn more" link and "Register" button which both go to the URL in the Session **Registration Link** field.
 
 ## Additional topics
 
