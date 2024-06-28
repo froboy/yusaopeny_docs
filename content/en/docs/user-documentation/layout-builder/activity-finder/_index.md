@@ -5,12 +5,12 @@ tags:
   - "Activity Finder"
 ---
 
-Activity Finder combines data from [the Activity, Class, and Session](/docs/user-documentation/content-types/activity-class-session/) content types into an interactive tool. Learn more about [Activity Finder](/docs/user-documentation/paragraphs/activity-finder/). 
+Activity Finder combines data from [the Activity, Class, and Session](/docs/user-documentation/content-types/activity-class-session/) content types into an interactive tool. Learn more about [Activity Finder](/docs/user-documentation/paragraphs/activity-finder/).
 
 {{< readfile "../lb-add-block.partial" >}}
 
-Fill in the content fields:
+Configure the options:
 
-- See [Activity Finder](../../paragraphs/activity-finder/) for field details.
+- See [Activity Finder Block Configuration](../../schedules/activity-finder#block-configuration) for field details.
 
 {{< readfile "../lb-save-block.partial" >}}

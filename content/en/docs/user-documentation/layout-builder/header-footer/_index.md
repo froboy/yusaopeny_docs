@@ -117,6 +117,7 @@ The main navigation also supports an optional [nested CTA block](#main-menu-cta-
 - Menu items can be managed under **Structure** > **Menus** > **User account**.
 - To show items with a button style, add the `highlighted` to the menu item under **Attributes** > **Class**.
   ![The menu item configuration with the highlighted class added. An overlay in the upper right corner shows the resulting link.](lb-header-footer--highlighted.png)
+  - On mobile devices, only `highlighted` items from this menu will display.
 
 ## Footer Section
 

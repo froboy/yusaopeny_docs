@@ -2,23 +2,25 @@
 {{ $url := .Get 0 }}
 {{ $marker := .Get 1 | default "---" }}
 
-{{/* Do not change the indentation of the following block */}}
+{{/* Do not change the indentation of the following block. */}}
 {{ with resources.GetRemote $url }}
 {{ with .Err }}
 {{ errorf "%s" . }}
 {{ else }}
-{{/*  Test for frontmatter */}}
+{{/*  Test for frontmatter. */}}
 {{ if hasPrefix .Content $marker }}
+
+{{/* Split the content at the first marker. */}}
 {{ $split := split .Content $marker }}
 
-{{ with strings.Contains .Content $marker }} {{- warnf "Remote snippet includes frontmatter marker, content is truncated: %s" $url -}}
-{{ end }}
+{{/* Rejoin the content after the first split, so we don't accidentally truncate tables or other content with similar strings. */}}
+{{ $content := delimit (after 1 $split) $marker }}
 
 {{/*  Output stuff after the frontmatter if a frontmatter was detected. */}}
-{{- delimit (last 1 $split) "" | $.Page.RenderString -}}
+{{- $content -}}
 {{ else }}
 {{/*  Output the content of the file if no frontmatter was detected. */}}
-{{- .Content | $.Page.RenderString -}}
+{{- .Content -}}
 {{ end }}
 {{ end }}
 {{ else }}
