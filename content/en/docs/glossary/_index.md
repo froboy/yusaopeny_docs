@@ -76,7 +76,7 @@ Paragraph
 : A Drupal data structure that allows content editors to create sections of content on a page using preset groups of fields. See [Paragraphs on Drupal.org](https://www.drupal.org/project/paragraphs) and [Paragraphs in the distribution](/docs/user-documentation/paragraphs/).
 
 PEF
-: The "[Program Event Framework](/docs/development/program-event-framework/)", also known as PEF, consists of a group of [content types](/docs/user-documentation/content-types/activity-class-session/) and [front-end displays](/docs/user-documentation/schedules/) that can be used to create related programs, activities, classes, and sessions.
+: The [Program Event Framework](/docs/development/program-event-framework/), also known as PEF, consists of a group of [content types](/docs/user-documentation/content-types/activity-class-session/) and [front-end displays](/docs/user-documentation/schedules/) that can be used to create related programs, activities, classes, and sessions.
 
 Personify
 : A service provider that offers member management systems and more. Integrates with a number of features of the distribution. [Personify](https://personifycorp.com/).
