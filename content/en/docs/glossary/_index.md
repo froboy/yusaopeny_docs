@@ -75,6 +75,9 @@ Open Y
 Paragraph
 : A Drupal data structure that allows content editors to create sections of content on a page using preset groups of fields. See [Paragraphs on Drupal.org](https://www.drupal.org/project/paragraphs) and [Paragraphs in the distribution](/docs/user-documentation/paragraphs/).
 
+PEF
+: The "Program Event Framework", also known as PEF, consists of a group of content types and view blocks that can be used to create and relate programs and events.
+
 Personify
 : A service provider that offers member management systems and more. Integrates with a number of features of the distribution. [Personify](https://personifycorp.com/).
 
