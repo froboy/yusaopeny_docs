@@ -8,10 +8,10 @@ In order to install Open Y and Activity Finder v4 you need to run command
 composer create-project ymcatwincities/openy-project build --no-interaction --prefer-dist
 ```
 
-Which will pull Open Y on Drupal 9 stable version with Activity Finder v4 latest stable version
+Which will pull Open Y on Drupal stable version with Activity Finder v4 latest stable version
 Then you should proceed with a regular installation with Demo content enabled as described in our tutorials. It’s better to setup Extended or Custom( only via drush ) in order to skip a bunch of manual steps
 
-When you have Open Y installed, list of the command you need to run in order to enable Activity Finder v4
+When you have YMCA Website Services (former Open Y) installed, list of the command you need to run in order to enable Activity Finder v4
 
 ```bash
 # Solr 8.8.1, Activity Finder v4
