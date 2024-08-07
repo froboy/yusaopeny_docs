@@ -17,10 +17,10 @@ See the [Program Event Framework developer docs](../../../development/program-ev
 When you add the Activity Finder block to a page, you have a number of options. These are in addition to the configuration at **Admin** > **YMCA Website Services** > **Settings** > **Activity Finder Settings** (`/admin/openy/settings/activity-finder`). See [the Activity Finder module README](https://github.com/YCloudYUSA/yusaopeny_activity_finder?tab=readme-ov-file#open-y-activity-finder) for more information.
 
 - **Location & Category Filters** - Restrict this block to show sessions from only certain Locations or Categories. 'Limit' will show only the specified options. 'Exclude' will remove the specified options. Generally you should choose either Exclude or Limit, not both.
-  - **Limit by location** - Only show specific locations from the results.
-  - **Exclude by location** - Remove specific locations from the results.
-  - **Limit by category** - Only show specific categories in the results.
-  - **Exclude by category** - Remove specific categories from the results.
+  - **Limit by location** - Only show sessions at specific locations in the results.
+  - **Exclude by location** - Remove sessions at specific locations from the results.
+  - **Limit by category** - Only show sessions related to specific Program Subcategories in the results.
+  - **Exclude by category** - Remove sessions related to specific Program Subcategories from the results.
 - **Legacy mode** - Shows some data as it was in the previous version of Activity Finder (v3):
     - Disables bookmark functionality on the results screen.
     - Doesn't display the age indicator in the result card of activities.
