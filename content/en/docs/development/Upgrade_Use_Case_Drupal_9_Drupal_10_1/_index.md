@@ -1,131 +1,135 @@
-**Use Case: Upgrading YMCA Website Services Drupal Distribution**
+---
+title: "Upgrading from 9.2.11.5 to 10.3"
+---
 
-**Scenario:** A YMCA website is currently running on Y USA Open Y (openy-9.x-2.11.5) using Drupal 9. They want to upgrade to the latest YMCA Website Services distribution (10.3) on Drupal 10.
+## Scenario
 
-**Upgrade Steps:**
+A YMCA website is currently running on Y USA Open Y (`openy-9.x-2.11.5`) using Drupal 9. They want to upgrade to the latest YMCA Website Services distribution (`10.3`) on Drupal 10.
+
+## Upgrade Steps
 
 1. **Prepare for Upgrade to WS**
 
-* Ensure your site is on the latest Y USA Open Y 9.x release
+   * Ensure your site is on the latest Y USA Open Y 9.x release
 
-   ```bash
-   composer require -W ycloudyusa/yusaopeny:9.2.13.0 drupal/core-project-message:^9.5  drupal/core-composer-scaffold:^9.5 drupal/core-recommended:^9.5
-   ```
+      ```bash
+      composer require -W ycloudyusa/yusaopeny:9.2.13.0 drupal/core-project-message:^9.5  drupal/core-composer-scaffold:^9.5 drupal/core-recommended:^9.5
+      ```
 
-* Run database updates
+   * Run database updates
 
-   ```bash
-   ../vendor/drush/drush/drush updatedb -l $SITE_URL
-   ```
+      ```bash
+      ../vendor/drush/drush/drush updatedb -l $SITE_URL
+      ```
 
 2. **Upgrade to WS 10.2**
 
-* Require the 10.2.14 release of Y USA Open Y and update Drupal core and dependencies
+   * Require the 10.2.14 release of Y USA Open Y and update Drupal core and dependencies
 
-   ```bash
-   composer require -W ycloudyusa/yusaopeny:10.2.14 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11 'drupal/smtp:^1.4' consolidation/robo:^4
-   ```
+      ```bash
+      composer require -W ycloudyusa/yusaopeny:10.2.14 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11 'drupal/smtp:^1.4' consolidation/robo:^4
+      ```
 
 3. **Address QuickEdit/RDF Dependency Issue**
 
-* Temporarily require QuickEdit and RDF
+   * Temporarily require QuickEdit and RDF
 
-   ```bash
-   composer require drupal/quickedit drupal/rdf
-   ```
+      ```bash
+      composer require drupal/quickedit drupal/rdf
+      ```
 
-* Run database updates
+   * Run database updates
 
-   ```bash
-   ../vendor/drush/drush/drush updatedb -l 
-   ```
+      ```bash
+      ../vendor/drush/drush/drush updatedb -l
+      ```
 
-* Remove and re-add QuickEdit to resolve dependency conflicts
+   * Remove and re-add QuickEdit to resolve dependency conflicts
 
-   ```bash
-   composer remove drupal/quickedit
-   composer require drupal/quickedit drupal/rdf
-   ```
+      ```bash
+      composer remove drupal/quickedit
+      composer require drupal/quickedit drupal/rdf
+      ```
 
 4. **Upgrade to WS 10.3.0.1**
 
-* Require the 10.3.0.1 release
+   * Require the 10.3.0.1 release
 
-   ```bash
-   composer require -W ycloudyusa/yusaopeny:10.3.0.1 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11
-   ```
+      ```bash
+      composer require -W ycloudyusa/yusaopeny:10.3.0.1 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11
+      ```
 
-* Run database updates
+   * Run database updates
 
-   ```bash
-   ../vendor/drush/drush/drush updatedb -l $SITE_URL
-   ```
+      ```bash
+      ../vendor/drush/drush/drush updatedb -l $SITE_URL
+      ```
 
 5. **Upgrade to WS 10.3.1**
 
-* Require the 10.3.1 release
+   * Require the 10.3.1 release
 
-   ```bash
-   composer require -W ycloudyusa/yusaopeny:10.3.1 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11
-   ```
+      ```bash
+      composer require -W ycloudyusa/yusaopeny:10.3.1 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11
+      ```
 
 6. **Add CKEditor5 Paste Filter**
 
-* Require the CKEditor5 Paste Filter module
+   * Require the CKEditor5 Paste Filter module
 
-   ```bash
-   composer require drupal/ckeditor5_paste_filter
-   ```
+      ```bash
+      composer require drupal/ckeditor5_paste_filter
+      ```
 
-* Run database updates
+   * Run database updates
 
-   ```bash
-   ../vendor/drush/drush/drush updatedb -l $SITE_URL
-   ```
+      ```bash
+      ../vendor/drush/drush/drush updatedb -l $SITE_URL
+      ```
 
 7. **Upgrade to WS 10.3.2**
 
-* Require the 10.3.2 release
+   * Require the 10.3.2 release
 
-   ```bash
-   composer require -W ycloudyusa/yusaopeny:10.3.2 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11
-   ```
+      ```bash
+      composer require -W ycloudyusa/yusaopeny:10.3.2 drupal/core-project-message:^10.0.11  drupal/core-composer-scaffold:^10.0.11 drupal/core-recommended:^10.0.11 drupal/core:^10.0.11
+      ```
 
 8. **Upgrade to WS 10.3.3.2**
 
-* Require the 10.3.3.2 release
+   * Require the 10.3.3.2 release
 
-   ```bash
-   composer require -W ycloudyusa/yusaopeny:10.3.3.2
-   ```
+      ```bash
+      composer require -W ycloudyusa/yusaopeny:10.3.3.2
+      ```
 
-* Run database updates
+   * Run database updates
 
-   ```bash
-   ../vendor/drush/drush/drush updatedb -l $SITE_URL
-   ```
+      ```bash
+      ../vendor/drush/drush/drush updatedb -l $SITE_URL
+      ```
 
 9. **Address CKEditor5 Font Issue**
 
-* Uninstall the existing CKEditor5 Font module
+   * Uninstall the existing CKEditor5 Font module
 
-   ```bash
-   uninstall ckeditor5_font 
-   ```
+      ```bash
+      uninstall ckeditor5_font
+      ```
 
-* Require the latest beta version of CKEditor5 Font
+   * Require the latest beta version of CKEditor5 Font
 
-   ```bash
-   composer require 'drupal/ckeditor5_font:^1.1@beta'
-   ```
+      ```bash
+      composer require 'drupal/ckeditor5_font:^1.1@beta'
+      ```
 
-* Enable the CKEditor5 Font module
+   * Enable the CKEditor5 Font module
 
-   ```bash
-   ../vendor/drush/drush/drush en ckeditor5_font
-   ```
+      ```bash
+      ../vendor/drush/drush/drush en ckeditor5_font
+      ```
 
-**Important Considerations:**
+## Important Considerations
 
 * **Backup:** Always back up your site and database before performing any major upgrades.
 * **Testing:** Thoroughly test your site after each upgrade step on a staging environment before deploying to production.
