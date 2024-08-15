@@ -90,5 +90,6 @@ When creating a session from the schedule, you'll see a simplified version of th
 
 Once content is added to the schedule, you have several options for showing it to users:
 
-1. All items added via the Simple Schedule will be shown in [Activity Finder](../activity-finder) or [Group Schedules](../group-schedules). Follow the directions on those pages to configure the respective components and add them to a page.
-2. Download the schedule PDF and upload it somewhere on your site.
+1. Place the [Simple Schedule block](../../layout-builder/simple-schedule) on any Layout Builder page.
+2. All items added via the Simple Schedule will be shown in [Activity Finder](../activity-finder) or [Group Schedules](../group-schedules). Follow the directions on those pages to configure the respective components and add them to a page.
+3. Download the schedule PDF and upload it somewhere on your site.
