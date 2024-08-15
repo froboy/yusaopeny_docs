@@ -1,12 +1,14 @@
 ---
 title: Membership Calculator
 description: This simple application provides an interactive "membership wizard" with location and pricing options to attract members. It is the default membership experience.
-tags: 
+tags:
 - "Decoupled Applications"
 - "Membership Calculator"
 ---
 
 The Membership Calculator is bundled with the distribution in the [`openy_calc` module](https://github.com/open-y-subprojects/openy_custom/tree/main/openy_calc).
+
+As of August 2024, the Membership Calculator has [an updated design](https://www.figma.com/design/wVbmVOI5zwOMDYRjI3GLEI/YUSA-Design-System?node-id=5095-21390&t=R5aJZuowJGTQIvNk-1) with improved functionality and user experience. The improved design will also respond to the selected [colorway and page styles](../../layout-builder/advanced-options/#page-styles).
 
 ## Configuring the Calculator
 
