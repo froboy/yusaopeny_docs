@@ -36,4 +36,8 @@ Fill in the content fields:
   - **Link**: A link at the bottom of the card.
   - **Topic Tag**: This is displayed at the top of the card and can be used to group cards visually.
 
+{{< readfile "../lb-styles.partial" >}}
+
+![Card variants](../advanced-options/lb-advanced--card-variants.png)
+
 {{< readfile "../lb-save-block.partial" >}}

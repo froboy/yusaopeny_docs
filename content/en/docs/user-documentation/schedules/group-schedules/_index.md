@@ -10,6 +10,8 @@ Sometimes called "Group Exercise" or "Group Schedules", the **Repeat Schedules**
 
 Developers can find more information in [`ynorth-project/openy_repeat`](https://github.com/ynorth-projects/openy_repeat) and [Program Event Framework](../../../development/program-event-framework).
 
+As of August 2024, the Schedules have [an updated design](https://www.figma.com/design/wVbmVOI5zwOMDYRjI3GLEI/YUSA-Design-System?node-id=4980%3A17269&t=GBUj9iIBpCBJw6yW-1) with improved functionality and user experience. The improved design will also respond to the selected [colorway and page styles](../../layout-builder/advanced-options/#page-styles).
+
 ## Using Group Schedules
 
 - [Repeat Schedules Paragraph](../../paragraphs/repeat-schedules)

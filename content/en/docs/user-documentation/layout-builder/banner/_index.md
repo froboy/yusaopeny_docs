@@ -28,4 +28,8 @@ Fill in the content fields:
 - **Media**: Chose from the library or add a new image or icon to be displayed behind the banner text.
 - **CTA/Link**: A link at the bottom of the banner text.
 
+{{< readfile "../lb-styles.partial" >}}
+
+![Banner variants](../advanced-options/lb-advanced--banner-variants.png)
+
 {{< readfile "../lb-save-block.partial" >}}
