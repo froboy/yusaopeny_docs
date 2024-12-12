@@ -1,7 +1,7 @@
 ---
 title: "How to set up a site with the Small Y template"
 linkTitle: "set up a Small Y site"
-description: The Small Y template is a set of modules and themes tailored to tne needs of Small YMCAs.
+description: The Small Y template is a set of modules and themes tailored to the needs of Small YMCAs.
 ---
 
 ## What is the Small Y template?
