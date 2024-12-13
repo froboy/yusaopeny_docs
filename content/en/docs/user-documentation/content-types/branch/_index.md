@@ -208,12 +208,7 @@ Selecting a home branch will:
 
 #### Disabling the Home Branch Selector
 
-If you want to completely remove the Home Branch selector from your site:
-
-- Go to **Admin** > **Extend** > **Uninstall module** (`/admin/modules/uninstall`)
-- Disable **WS Home Branch**, then disable **Open Y Home Branch**
-
-Alternatively, developers can run:
+If you want to completely remove the Home Branch selector from your site you will need to disable it via the command line. **DO NOT** disable the module via the admin UI as this will result in an error.
 
 ``` shell
 drush pmu ws_home_branch openy_home_branch
