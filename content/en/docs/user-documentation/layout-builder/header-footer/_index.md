@@ -72,6 +72,15 @@ Each block has some specific configuration recommendations:
   - **Theme logo** uses the logo defined by the active theme, in the **Appearance** > **Settings** > **(The active theme)**.
   - **Colorway logo** uses a dynamic SVG that responds to the configured YMCA colorway. This option is recommended for the Header.
   - **White logo** uses a flat white logo. This option is recommended for the Footer.
+- **Hide tagline in WS logo:** (Added in the December 2024 release.) Check to hide the tagline (areas of impact) in the logo.
+
+{{< alert color="info" title="Areas of impact usage" >}}
+As per the [Brand Graphics Guide (requires Y login)](https://theybrand.org/wordpress/brand-graphics-areas-of-impact-usage-on-websites):
+
+> The areas of impact must appear on a website, but it is at the YMCA’s discretion whether to include them as the trademarked graphic paired with the logo or as a way of telling the story of our positive impact.
+
+If you choose to hide the Areas of Impact in the logo, we recommend you include them elsewhere on the page.
+{{< /alert >}}
 
 ### Main navigation
 
