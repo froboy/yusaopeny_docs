@@ -49,11 +49,13 @@ This block has no other options.
 
 ## Articles listing
 
-Displays articles in a teaser view, filtered by the **Articles filter** block, showing 6 at a time with a "Show more" button
+Displays articles in a teaser view, filtered by the **Articles filter** block, with a "Show more" button
 
 - **Title** (required): Displayed if **Display title** is checked, otherwise this is for administrative use.
-
-This block has no other options.
+- **Number of articles:** The number of articles to show in the listing on first load. Defaults to 3.
+  - Added in the December 2024 release.
+- **Article type:** Limit the articles to a specific type. Defaults to "All".
+  - Added in the December 2024 release.
 
 ---
 

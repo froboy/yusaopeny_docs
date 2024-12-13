@@ -18,7 +18,7 @@ description: Components to feature, filter, and list events using Layout Builder
 
 **Designs:** [Mobile & Desktop](<../../../../../../assets/img/designs/lb-ui-kit/Event List.jpg>)
 
-The distribution provides a few blocks to highlight events. 
+The distribution provides a few blocks to highlight events.
 
 - Featured Events
 - Events Filter
@@ -49,9 +49,11 @@ This block has no other options.
 
 ## Events listing
 
-Displays events in a teaser view, filtered by the **Events filter** block, showing 6 at a time with a "Show more" button
+Displays events in a teaser view, filtered by the **Events filter** block, with a "Show more" button
 
 - **Title** (required): Displayed if **Display title** is checked, otherwise this is for administrative use.
+- **Number of events:** The number of events to show in the listing on first load. Defaults to 3.
+    - Added in the December 2024 release.
 
 ---
 
