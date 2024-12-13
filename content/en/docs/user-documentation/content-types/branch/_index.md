@@ -138,7 +138,9 @@ The **Use Layout Builder** checkbox on the Branch edit page non-destructively sw
 
 Branch pages have several specialized components that utilize the structured data (fields) that already exist on your branch page in newly designed Layout Builder Blocks.
 
-In addition to using many of the standard Layout Builder components, Branch pages also use several components that display the fields described above:
+In addition to using many of the standard Layout Builder components, Branch pages also use several components that display the fields described above.
+
+These blocks are available via **All system blocks** in Layout Builder:
 
 - **Branch Hours**: Combines the branch title, contact information, hours, and more into a dynamic page header.
   - **Designs:**
@@ -154,6 +156,8 @@ In addition to using many of the standard Layout Builder components, Branch page
   - **Designs:**
     - [Design System](<../../../../../../assets/img/designs/lb-ui-kit/Branch Menu.jpg>)
     - Pre-release: [Mobile](<../../../../../../assets/img/designs/lb/Branch Menu Mobile.png>) | [Desktop](<../../../../../../assets/img/designs/lb/Branch Menu Desktop.png>)
+  - Can be placed on a Landing Page to show the Branch Menu for a specific branch. Choose a branch in the **Location** field. This can be useful if you are creating sub-pages for a branch.
+    - Added in the December 2024 release.
 
 One additional component is available that requires additional information:
 
