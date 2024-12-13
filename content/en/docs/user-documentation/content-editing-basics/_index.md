@@ -103,7 +103,7 @@ These will typically appear as a single box with two fields inside. They add a l
 
 ![Link field](./basics-link.gif)
 
-The URL field supports both relative URLs for links on your site (e.g., /join for http://myymca.org/join) and full URLs for links on other sites (e.g., `http://someotherymca.org/join`).
+The URL field supports both relative URLs for links on your site (e.g., /join for `http://myymca.org/join`) and full URLs for links on other sites (e.g., `http://someotherymca.org/join`).
 
 You can also search for the title of a piece of content on your website and select a piece of content like in any other autocomplete field.
 
@@ -113,7 +113,7 @@ Some link fields contain an additional **Attributes** section. You can add attri
 
 ![A screenshot depicting the Attributes section with ID, Target, and Class fields.](basics-link-attributes.png)
 
-- **ID** - This is used to identify the link in the page's HTML and can be targeted by anchor links. More on [jump links](https://sitesuserguide.stanford.edu/build/working-text-editor/create-links/jump-links-using-id-tags).
+- **ID** - This is used to identify the link in the page's HTML and can be targeted by anchor links. More on [anchor/jump links](../text-editor/adding-links/#anchor-links).
 - **Target** - This is used to determine how the link will open. You can choose from "New Window`_blank`" or "Same Window `_self`".
 - **Class** - This is used to apply a CSS class to the link. This can be used to style the link in a specific way.
 

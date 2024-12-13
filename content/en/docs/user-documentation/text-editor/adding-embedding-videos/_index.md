@@ -10,10 +10,6 @@ This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Medi
 # Adding/Embedding Videos with the YMCA Website Services Text Editor
 YMCA Website Services allows you to upload and embed images directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
 
-{{< youtube id=nC414txq3F8 >}}
-
----
-
 ## Adding Videos
 
 * To add an video, click on the video button in the text editor toolbar.

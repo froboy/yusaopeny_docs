@@ -3,10 +3,6 @@ title: 'Adding Links'
 weight: 1
 ---
 
-{{< youtube id=-AJLwiKC3oE >}}
-
------
-
 Links are simple in YMCA Website Services - just highlight your text and click the link icon (`🔗`) or type <kbd>Ctrl</kbd> / <kbd>Cmd</kbd> + <kbd>K</kbd>. Once the pop-up appears, type your URL into the field and click **Save**.
 
 *[Read more and demo this on CKEditor Site.](https://ckeditor.com/docs/ckeditor5/latest/features/link.html)*
@@ -45,8 +41,8 @@ Create a button by adding [Bootstrap classes](https://getbootstrap.com/docs/4.6/
 
 - Create a regular link in a Layout Builder block.
   - We recommend only using custom buttons in large text blocks, like the [Table](../../layout-builder/table) or [Code](../../layout-builder/code) blocks.
-- Open the Bootstrap Button Options.
-- Add the button classes for Color, Size, and Style (see [Button Classes](#button-classes)). Do not use the `btn` prefix when entering options in the Bootstrap Button fields, those will be added for you. ![The bootstrap button options dialog. In the "Color" field is the text "primary"](adding-links--bootstrap-button-options.png)
+- Open the Advanced Options.
+- Add the button classes for Color, Size, and Style (see [Button Classes](#button-classes)). Be sure to add the `btn` prefix. Your complete **CSS Classes** might be something like `btn btn-primary`. ![The advanced link options dialog. In the "CSS Classes" field is the text "btn btn-primary"](adding-links--bootstrap-button-options.png)
   - Button styles in the editor may not match the displayed styles.
 - Save the block.
 
