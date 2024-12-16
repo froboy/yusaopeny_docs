@@ -32,6 +32,7 @@ If a Header section does not already exist, add a new Section and choose the **W
     - **Website Name Block**
   - Right
     - **Open Y Google Translate Block**
+    - **Utility Menu**
 - Main Menu area
   - Left
     - **Site Logo Block**
@@ -62,6 +63,19 @@ Each block has some specific configuration recommendations:
 **Content**
 
 - The contents of this block are not configurable, but it may be omitted or removed if your site does not provide translation uses another translation method.
+
+### Utility Menu
+
+The option to add a Utility Menu was added in the December 2024 release. This menu is intended to give content editors an additional space for adding links in the top right of the header.
+
+**Configuration**
+
+- Uncheck **Display title**.
+- **Menu levels** controls which and how many levels of menu are displayed. The Utility menu styles are designed for a single level of links.
+
+**Content**
+
+- Menu items can be managed under **Structure** > **Menus** > **Utility Menu**.
 
 ### Site Logo Block
 
