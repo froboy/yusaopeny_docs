@@ -2,8 +2,6 @@
 title: Content Editing Basics
 ---
 
-{{< youtube CHFXTW5B93Y >}}
-
 ## Adding New Content
 To add a new piece of content, select the content tab in the administration toolbar at the top left.
 
@@ -20,8 +18,6 @@ If this is a page that you do not want to be published, deselect the checkbox at
 To save your new content, click the blue “Save” button at the bottom of the page.
 
 ## Search for a Piece of Content
-
-{{< youtube YcXGfWfRTv8 >}}
 
 You can find a piece of content you want to edit two ways: using the front-end (what your user sees) or using the “Content” administration page.
 
@@ -89,8 +85,6 @@ Like a dropdown, but you can select multiple options by holding Control (Windows
 
 ### WYSIWYG/Formatted Text Editor
 
-{{< youtube yyCsOP3GpQc >}}
-
 A textbox that styles your text visually and allows you add links and embed different types of media.
 
 [More on the Text Editor ⇒](../text-editor/)
@@ -109,13 +103,21 @@ These will typically appear as a single box with two fields inside. They add a l
 
 ![Link field](./basics-link.gif)
 
-The URL field supports both relative URLs for links on your site (e.g., /join for http://myymca.org/join) and full URLs for links on other sites (e.g., `http://someotherymca.org/join`).
+The URL field supports both relative URLs for links on your site (e.g., /join for `http://myymca.org/join`) and full URLs for links on other sites (e.g., `http://someotherymca.org/join`).
 
 You can also search for the title of a piece of content on your website and select a piece of content like in any other autocomplete field.
 
-### Image Fields/Image Library
+#### Link Attributes
 
-{{< youtube 4IC2h1hASF4 >}}
+Some link fields contain an additional **Attributes** section. You can add attributes to your link by expanding the **Attributes** section. This will allow you to add a ID, Target, or Class to your link.
+
+![A screenshot depicting the Attributes section with ID, Target, and Class fields.](basics-link-attributes.png)
+
+- **ID** - This is used to identify the link in the page's HTML and can be targeted by anchor links. More on [anchor/jump links](../text-editor/adding-links/#anchor-links).
+- **Target** - This is used to determine how the link will open. You can choose from "New Window`_blank`" or "Same Window `_self`".
+- **Class** - This is used to apply a CSS class to the link. This can be used to style the link in a specific way.
+
+### Image Fields/Image Library
 
 You can add, edit and upload images any time you see a tab with Image in the title. To use the media browser, click the button in the image field.
 

@@ -28,7 +28,8 @@ Fill in the content fields:
 - **Item title**: Displayed at the top of the ping-pong block.
 - **Item description**: Displayed below the title.
 - **Item image**: Chose from the library or add a new image to be displayed opposite the text.
-- **Item image position**: Places the image on the left/right side of the page in full-width (desktop) displays. 
+- **Item image position**: Places the image on the left/right side of the page in full-width (desktop) displays.
 - **Item CTA/Link**: Add up to two links. The first will be displayed with "primary" (solid) styling, the second will be "secondary" (outline) styling.
+  - As of the December 2024 release, Ping-Pong links can use [link attributes](../../content-editing-basics#link-attributes).
 
 {{< readfile "../lb-save-block.partial" >}}

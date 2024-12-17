@@ -21,6 +21,9 @@ Go to **Admin** > **Content** > **Add Content** > **Alert** (`/node/add/alert`).
 * **Title**: Displays as the headline for your alert.
 * **Description**: The main body of your alert. Sentences should be short and minimally styled in this section. Uses [the Text Editor](../../text-editor).
   - Alert descriptions over 150 characters will be collapsed on mobile devices as of [version 10.3.0 (September 2023)](https://github.com/YCloudYUSA/yusaopeny/releases/tag/10.3.0). ![An animation of an alert being expanded and collapsed](alert--expand-mobile.gif)
+* **Alert Style**: Choose from the **Classic** Alert style which enables the **Color Fields** below or a set of styles that are pre-configured for you to match the YMCA colorways.
+  * **Urgent** options use a colored background with dark or light text.
+  * **Info** options use a grey background with colored text. ![Screenshot depicting 8 different style options.](alert--styles.png)
 * **Color Fields**: These three dropdown fields control different aspects of color in your alert. All three dropdowns reference the [color vocabulary](../../taxonomy/#color).
   * ***Background Color***: The color of your alert.
   * ***Text Color***: Stick to using either black or white for accessibility.

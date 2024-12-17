@@ -32,6 +32,7 @@ If a Header section does not already exist, add a new Section and choose the **W
     - **Website Name Block**
   - Right
     - **Open Y Google Translate Block**
+    - **Utility Menu**
 - Main Menu area
   - Left
     - **Site Logo Block**
@@ -63,6 +64,19 @@ Each block has some specific configuration recommendations:
 
 - The contents of this block are not configurable, but it may be omitted or removed if your site does not provide translation uses another translation method.
 
+### Utility Menu
+
+The option to add a Utility Menu was added in the December 2024 release. This menu is intended to give content editors an additional space for adding links in the top right of the header.
+
+**Configuration**
+
+- Uncheck **Display title**.
+- **Menu levels** controls which and how many levels of menu are displayed. The Utility menu styles are designed for a single level of links.
+
+**Content**
+
+- Menu items can be managed under **Structure** > **Menus** > **Utility Menu**.
+
 ### Site Logo Block
 
 **Configuration**
@@ -72,6 +86,15 @@ Each block has some specific configuration recommendations:
   - **Theme logo** uses the logo defined by the active theme, in the **Appearance** > **Settings** > **(The active theme)**.
   - **Colorway logo** uses a dynamic SVG that responds to the configured YMCA colorway. This option is recommended for the Header.
   - **White logo** uses a flat white logo. This option is recommended for the Footer.
+- **Hide tagline in WS logo:** (Added in the December 2024 release.) Check to hide the tagline (areas of impact) in the logo.
+
+{{< alert color="info" title="Areas of impact usage" >}}
+As per the [Brand Graphics Guide (requires Y login)](https://theybrand.org/wordpress/brand-graphics-areas-of-impact-usage-on-websites):
+
+> The areas of impact must appear on a website, but it is at the YMCA’s discretion whether to include them as the trademarked graphic paired with the logo or as a way of telling the story of our positive impact.
+
+If you choose to hide the Areas of Impact in the logo, we recommend you include them elsewhere on the page.
+{{< /alert >}}
 
 ### Main navigation
 

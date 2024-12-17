@@ -8,16 +8,10 @@ weight: 1
 
 The table editor has been drastically improved in CKEditor 5 and is described in detail [in their documentation](https://ckeditor.com/docs/ckeditor5/latest/features/tables/tables.html).
 
-## Tables in CKEditor 4
-
-{{< youtube id=eUNj3ipaF58 >}}
-
----
-
 ### Adding a New Table
 To add a table, click on the table icon. A popup will appear with your initial setup options:
 
-![The table icon in the CKEditor 4 toolbar.](tables--cke4-toolbar.png)    
+![The table icon in the CKEditor 4 toolbar.](tables--cke4-toolbar.png)
 ![The table properties dialog.](tables--cke4-properties.gif)
 
 * Set the number of rows and columns by typing numbers into those fields

@@ -34,6 +34,7 @@ Fill in the content fields:
   - **Image**: Chose from the library or add a new image to be displayed behind the card text.
   - **Description**: A full text editor to add card content.
   - **Link**: A link at the bottom of the card.
+    - As of the December 2024 release, Card links can use [link attributes](../../content-editing-basics#link-attributes).
   - **Topic Tag**: This is displayed at the top of the card and can be used to group cards visually.
 
 {{< readfile "../lb-styles.partial" >}}

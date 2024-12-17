@@ -5,10 +5,10 @@
   command = "hugo --gc --minify -e development"
 
   [build.environment]
-    HUGO_VERSION = "0.113.0"
+    HUGO_VERSION = "0.139.4"
     # We use gitinfo for diffs on pages so it should always be on.
     HUGO_ENABLEGITINFO = "true"
-    GO_VERSION = "1.18"
+    GO_VERSION = "1.22.3"
     # Go doesn't like coexisting with composer due to them both wanting to use `/vendor`
     # This tells go to ignore the vendor directory and only read from go.mod
     GOFLAGS="-mod=readonly"

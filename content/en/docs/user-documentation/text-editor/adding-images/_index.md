@@ -7,17 +7,9 @@ weight: 99
 This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Media](../adding-media/) for updated instructions.
 {{< /alert >}}
 
-### NOTE TO USERS OF YMCA Website Services 2.4+
-
-> This documentation is not up-to-date if you are using [YMCA Website Services 2.4](https://github.com/ymcatwincities/openy/releases/tag/8.2.4.0) and later.
->
-> [View video tutorial  for Open 2.4 and later ⇒](https://www.youtube.com/watch?v=gcaBlhyPZEY)
-
 # Adding Images with the YMCA Website Services Text Editor
 
 YMCA Website Services allows you to upload and embed images directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
-
-{{< youtube id=xogdtPEYxgg >}}
 
 ## Uploading Images
 

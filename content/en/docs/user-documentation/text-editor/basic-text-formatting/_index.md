@@ -3,10 +3,6 @@ title: 'Basic Text Formatting'
 weight: 1
 ---
 
-{{< youtube id=bmqFQYLAa1c >}}
-
------
-
 Choose any of the options for your text below by clicking on the icon/performing the keyboard shortcut indicated. To format text you’ve previously typed, highlight the text and then click on the button in the editor. Many formatting options also have [keyboard shortcuts](https://ckeditor.com/docs/ckeditor5/latest/features/keyboard-support.html).
 
 ## CKEditor 5 Toolbar

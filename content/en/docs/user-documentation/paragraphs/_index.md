@@ -36,8 +36,6 @@ If you've upgraded to YMCA Website Services 2.4 or later, you can add a paragrap
 
 > **Note:** Not all paragraphs are available for inline editing yet. More paragraphs will be added to the inline content editor in later releases
 
-{{< youtube ASqrD35-giY >}}
-
 ## Rearranging Paragraphs
 
 Sometimes you have one layout in your head and it doesn’t look as good when you add it to your page. You can easily move around your sections by clicking on the cross icon to the left of your paragraphs. Drag around your paragraphs to rearrange.

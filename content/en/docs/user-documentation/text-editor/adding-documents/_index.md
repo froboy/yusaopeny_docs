@@ -9,8 +9,6 @@ This document applies to the legacy WYSIWYG editor, CKEditor 4. See [Adding Medi
 
 YMCA Website Services allows you to upload and embed documents directly into a block of text, either from your computer or from the YMCA Website Services media library and browser.
 
-{{< youtube id=5w-_bpHtTLI >}}
-
 ## Adding Documents
 
 * To add a document, click on the document button in the text editor toolbar.

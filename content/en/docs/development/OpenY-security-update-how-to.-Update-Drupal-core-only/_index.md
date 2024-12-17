@@ -18,7 +18,7 @@ So consider to apply patch and plan OpenY upgrade later.
 ### Patching OpenY releases 8.0.1 - 8.1.0 (Drupal core 8.2.x)
 
 For patching your very old OpenY release it is highly recommended to upgrade OpenY to latest version or at least to one of the 8.1.1-8.1.6 (Drupal core 8.3.x) with Drupal core upgrade to 8.3.9 https://www.drupal.org/project/drupal/releases/8.3.9 . In case if it is not possible right now, follow steps below:
-* Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo - you should:
+* Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial - you should:
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
@@ -54,7 +54,7 @@ to store your patched core into your own repository.
 ### Patching OpenY releases 8.1.1 - 8.1.6 (Drupal core 8.3.x)
 
 For patching your relatively old OpenY release it is highly recommended to upgrade OpenY to latest version or at least to one of the 8.1.7-8.1.10 (Drupal core 8.4.x) with Drupal core upgrade to 8.4.6 https://www.drupal.org/project/drupal/releases/8.4.6 . In case if it is not possible right now, follow steps below:
-* Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo - you should:
+* Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial - you should:
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
@@ -90,7 +90,7 @@ to store your patched core into your own repository.
 ### Patching OpenY releases 8.1.7 - 8.1.9 (Drupal core 8.4.x)
 
 For patching your OpenY release it is highly recommended to upgrade OpenY to latest version (8.1.10 or never) or at least to one of the 8.1.10 (Drupal core 8.4.x) with Drupal core upgrade to 8.4.6 https://www.drupal.org/project/drupal/releases/8.4.6 . In case if it is not possible right now, follow steps below:
-* Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo - you should:
+* Login to your production server environment via SSH and find ```docroot``` folder of your site codebase. If you installed OpenY by following a tutorial - you should:
 ```sh
 ssh -l root YOUR_SERVER_DOMAIN_NAME
 cd /var/www/html
@@ -127,7 +127,7 @@ to store your patched core into your own repository.
 
 ### How to patch your Digitalocean OpenY install
 
-In case if you have followed tutorial https://www.youtube.com/watch?v=V3K4-RLjxQo you should have your OPenY installed on you DigitalOcean server(droplet) in a predictable for current document folder. That's why we prepared a short how to patch your OpenY site in a most simple way if you are not a Tech Guru, but just a user
+In case if you have followed tutorial you should have your OPenY installed on you DigitalOcean server(droplet) in a predictable for current document folder. That's why we prepared a short how to patch your OpenY site in a most simple way if you are not a Tech Guru, but just a user
 1. Log in as an admin user to your site admin UI by visiting ```/user/login``` URI page.
 2. Go to ```/admin/reports/status``` after login and search for Drupal Version string. It should be something like 8.2.x, 8.3.x or 8.4.x (x - some number too, like 8.4.2, for example). Based on your finding follow the steps below to your version
 3. Login to your ВigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY ![image](https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png)
