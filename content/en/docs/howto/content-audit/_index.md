@@ -21,3 +21,12 @@ Visit each page and review content.
 - Locate content that is outdated, duplicated, needs further review, consolidation etc.
 - Find content gaps - what might be missing?
 - Identify commonly used page components (i.e. Cards, Carousels, Accordions, Ping Pongs, etc.)
+
+## Additional Resources
+
+For more information on content audits, check out these resources:
+
+- [Content Audit: A Step-By-Step Guide (MightyBytes)](https://www.mightybytes.com/blog/how-to-run-a-content-audit/)
+- [Content Inventory and Auditing 101 (Nielsen Norman Group)](https://www.nngroup.com/articles/content-audits/)
+- [Time to Revamp Your Nonprofit Website’s Content Strategy? 5 Tips to Get Started (ImageX)](https://imagexmedia.com/blog/5-tips-non-profit-content-strategy)
+- [Best Website Audit Tools (Five Jars)](https://fivejars.com/blog/best-website-audit-tools)

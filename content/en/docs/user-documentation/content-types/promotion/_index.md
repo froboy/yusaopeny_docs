@@ -5,6 +5,8 @@ description: Flexible content that can be inserted into components as advertisem
 
 Promotions are timed pieces of content that allow content editors the flexibility to create a single item that can be placed in multiple locations on the site, without having to duplicate or manage content in multiple locations.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hrFHguHoDNE?si=WN-h6H3QuYRQYMgA&amp;start=218" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Version 1 of the Promotion functionality was released in [version 10.3.1.1]({{< relref "release-ds-10.3.1.1.md" >}}) (December 2023). This version supports swapping promos into:
 
 - Activity Finder
@@ -13,8 +15,6 @@ Version 1 of the Promotion functionality was released in [version 10.3.1.1]({{< 
   - by enabling the `ws_promotion_cards` module.
 - Modals
   - by enabling the `ws_promotion_modal` module.
-
-Version 2 is planned for March 2024 and will support more components with more granular placement criteria.
 
 ## Creating a Promo
 
