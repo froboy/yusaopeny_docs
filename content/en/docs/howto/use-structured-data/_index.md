@@ -50,3 +50,19 @@ Tips for writing good FAQ content:
 ### Customizing FAQs
 
 Due to the complexity of the FAQ data, the structured data is [managed entirely in code](https://git.drupalcode.org/project/lb_accordion/-/blob/1.0.x/lb_accordion.module?ref_type=heads#L40) and is not customizable via the Drupal admin. If you need specific customizations, please post your ideas in Slack or suggest them on [the Roadmap](/roadmap) for the core team to discuss and implement.
+
+## Other Metatags
+
+The distribution also includes metadata configuration for each content type, which can be found in the Metatag configuration (`/admin/config/search/metatag`).
+
+### Homepage Metatag Overrides
+
+On some sites, the homepage may have unique metadata requirements. The homepage metatags can be overridden in the "Front page" metatag configuration.
+
+For sites that use Layout Builder, it may be necessary to disable the **Front Page** metatag settings so that the **Landing Page (Layout Builder)** tags can be used instead.
+
+1. Go to `/admin/config/search/metatag/front`
+2. Scroll to the bottom of the form.
+3. Uncheck **Active** and Save the settings.
+
+Once you have changed the settings, check the metadata of the homepage with a tool like [Social Share Preview](https://socialsharepreview.com/) to ensure the correct data is being output.
